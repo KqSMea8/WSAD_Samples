@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions name="TimeSheet-AppLogic"
+    targetNamespace="http://timesheet-applogic/"
+    xmlns="http://schemas.xmlsoap.org/wsdl/" xmlns:tns="http://timesheet-applogic/"/>

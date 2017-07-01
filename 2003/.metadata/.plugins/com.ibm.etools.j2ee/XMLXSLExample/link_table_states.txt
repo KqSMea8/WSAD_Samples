@@ -1,0 +1,10 @@
+/XMLXSLExample/XMLSource/timesheet.xml
++
+/XMLXSLExample/WebContent/index.html
++
+/XMLXSLExample/WebContent/WEB-INF/classes/timesheet.xml
++
+/XMLXSLExample/WebContent/WEB-INF/web.xml
++1
+/XMLXSLExample/WebContent/WEB-INF/com.wsbook.xmlxsl.sample.TimeSheetXSLServlet
++3

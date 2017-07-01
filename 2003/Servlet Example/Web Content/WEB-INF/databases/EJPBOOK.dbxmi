@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RDBSchema:RDBDatabase xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:RDBSchema="RDBSchema.xmi" xmi:id="RDBDatabase_1038271507596" name="EJPBOOK">
+  <comments>Sample database for projects 'Servlet Example' and 'JSP Example'</comments>
+  <schemata href="WEB-INF/databases/EJPBOOK_JAMSDEN.schxmi#RDBSchema_1038271973496"/>
+  <tableGroup xmi:type="RDBSchema:RDBTable" href="WEB-INF/databases/EJPBOOK_JAMSDEN_EMPLOYEE.tblxmi#RDBTable_1038272178030"/>
+  <domain href="CLOUDSCAPE_V50_Domain.xmi#SQLVendor_1"/>
+</RDBSchema:RDBDatabase>

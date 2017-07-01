@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+   <resource factory-id="com.ibm.websphere.v51.server.base" path="/wasbookServers/defaultServer.wsi"/>
+   <resource factory-id="com.ibm.websphere.v51.configuration.base" path="/wasbookServers/defaultConfiguration.wsc"/>
+   <resource factory-id="com.ibm.websphere.v5.configuration.base" path="/MDBSampleServer/MDBSampleSvr.wsc"/>
+   <resource factory-id="com.ibm.websphere.v5.configuration.base" path="/wasbookServers/WAS5.wsc"/>
+</resources>

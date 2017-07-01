@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ejbrdbmapping:EJBComposer xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ejbrdbmapping="ejbrdbmapping.xmi" xmlns:java="java.xmi" xmlns:ecore="ecore.xmi" xmi:id="EJBComposer_1044591151888">
+  <targetClass href="java:/com.wsbook.casestudy.ejb#OfficeLocation"/>
+  <transformerClass href="java:/com.wsbook.casestudy.ejb#OfficeLocationComposer"/>
+  <attributes xmi:id="EAttribute_1044591151890" name="state"/>
+  <attributes xmi:id="EAttribute_1044591151891" name="city"/>
+  <attributes xmi:id="EAttribute_1044591151888" name="building"/>
+  <attributes xmi:id="EAttribute_1044591151889" name="office"/>
+</ejbrdbmapping:EJBComposer>

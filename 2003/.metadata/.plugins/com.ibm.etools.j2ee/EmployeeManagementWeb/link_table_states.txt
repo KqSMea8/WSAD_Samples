@@ -1,0 +1,42 @@
+/EmployeeManagementWeb/Web Content/WEB-INF/web.xml
++13+3+5+9
+/EmployeeManagementWeb/Web Content/images/banner.gif
++18
+/EmployeeManagementWeb/Web Content/index.html
++
+/EmployeeManagementWeb/Web Content/employeeDetails.jsp
++4
+/EmployeeManagementWeb/Web Content/browseEmployeesEJB.jsp
++
+/EmployeeManagementWeb/Web Content/browseEmployees.jsp
++
+/EmployeeManagementWeb/Web Content/WEB-INF/lib/application.jar
++0
+/EmployeeManagementWeb/Web Content/WEB-INF/com.wsbook.acme.management.BrowseEmployees
++0
+/EmployeeManagementWeb/Web Content/noSuchEmployee.jsp
++3
+/EmployeeManagementWeb/Web Content/browseEmployees.html
++2
+/EmployeeManagementWeb/Web Content/java.util.Collection
++5
+/EmployeeManagementWeb/Web Content/WEB-INF/com.wsbook.acme.management.UpdateEmployee
++0
+/EmployeeManagementWeb/Web Content/WEB-INF/lib/page.jar
++0
+/EmployeeManagementWeb/Web Content/newEmployee.jsp
++4+5
+/EmployeeManagementWeb/Web Content/com.wsbook.acme.Employee
++3
+/EmployeeManagementWeb/Web Content/WEB-INF/lib/response.jar
++0
+/EmployeeManagementWeb/Web Content/WEB-INF/lib/request.jar
++0
+/EmployeeManagementWeb/Web Content/WEB-INF/com.wsbook.acme.management.CreateEmployee
++0
+/EmployeeManagementWeb/Web Content/banner.html
++9
+-/EmployeeManagementWeb/Web Content/WEB-INF/com.wsbook.acme.management.ShowEmployeeDetail
++0
+/EmployeeManagementWeb/Web Content/WEB-INF/lib/session.jar
++0

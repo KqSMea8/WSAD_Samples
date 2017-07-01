@@ -1,0 +1,111 @@
+------Start of DE processing------ = [05.12.27 20:59:06:660 MSK] , key = com.ibm.ws.ejbpersistence.utilpm.PersistenceManagerException com.ibm.ws.ejbpersistence.beanextensions.ConcreteBeanInstanceExtensionImpl.executeQuery 380
+Exception = com.ibm.ws.ejbpersistence.utilpm.PersistenceManagerException
+Source = com.ibm.ws.ejbpersistence.beanextensions.ConcreteBeanInstanceExtensionImpl.executeQuery
+probeid = 380
+Stack Dump = com.ibm.ws.ejbpersistence.utilpm.PersistenceManagerException: PMGR6022E: Error using adapter to create or execute an Interaction. ???
+	at com.ibm.ws.ejbpersistence.dataaccess.DataAccessRequestImpl.execute(Unknown Source)
+	at com.ibm.ws.ejbpersistence.beanextensions.ConcreteBeanStatefulInstanceExtensionImpl.executeQuery(Unknown Source)
+	at com.ibm.ws.ejbpersistence.beanextensions.ConcreteBeanStatefulInstanceExtensionImpl.executeFind(Unknown Source)
+	at com.wsbook.casestudy.ejb.ConcreteEmployeeEJB_96c219b7.ejbFindAll_Local(ConcreteEmployeeEJB_96c219b7.java:114)
+	at com.wsbook.casestudy.ejb.EJSCMPEmployeeEJBHomeBean_96c219b7.findAll_Local(EJSCMPEmployeeEJBHomeBean_96c219b7.java:66)
+	at com.wsbook.casestudy.ejb.EJSLocalCMPEmployeeEJBHome_96c219b7.findAll(EJSLocalCMPEmployeeEJBHome_96c219b7.java:119)
+	at com.wsbook.casestudy.mapping.ejb.EmployeeMapper.findAllEJBs(EmployeeMapper.java:130)
+	at com.wsbook.casestudy.mapping.ejb.DomainEJBMapper.findAll(DomainEJBMapper.java:57)
+	at com.wsbook.casestudy.ejb.TimeSheetActionProcessorFacadeBean.findAllEmployees(TimeSheetActionProcessorFacadeBean.java:274)
+	at com.wsbook.casestudy.ejb.EJSRemoteStatelessTimeSheetActionProcessorFacade_7ee0ab51.findAllEmployees(EJSRemoteStatelessTimeSheetActionProcessorFacade_7ee0ab51.java:412)
+	at com.wsbook.casestudy.ejb._TimeSheetActionProcessorFacade_Stub.findAllEmployees(_TimeSheetActionProcessorFacade_Stub.java:1018)
+	at com.wsbook.casestudy.model.ejb.TimeSheetActionProcessorImpl.findAllEmployees(TimeSheetActionProcessorImpl.java:311)
+	at com.wsbook.casestudy.action.TimeAppAction.addEmployeesBean(TimeAppAction.java:40)
+	at com.wsbook.casestudy.action.TimeSheetSearchAction.perform(TimeSheetSearchAction.java:39)
+	at org.apache.struts.action.ActionServlet.processActionPerform(ActionServlet.java:1786)
+	at org.apache.struts.action.ActionServlet.process(ActionServlet.java:1585)
+	at org.apache.struts.action.ActionServlet.doGet(ActionServlet.java:491)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:740)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:853)
+	at com.ibm.ws.webcontainer.servlet.StrictServletInstance.doService(StrictServletInstance.java:110)
+	at com.ibm.ws.webcontainer.servlet.StrictLifecycleServlet._service(StrictLifecycleServlet.java:174)
+	at com.ibm.ws.webcontainer.servlet.IdleServletState.service(StrictLifecycleServlet.java:313)
+	at com.ibm.ws.webcontainer.servlet.StrictLifecycleServlet.service(StrictLifecycleServlet.java:116)
+	at com.ibm.ws.webcontainer.servlet.ServletInstance.service(ServletInstance.java:283)
+	at com.ibm.ws.webcontainer.servlet.ValidServletReferenceState.dispatch(ValidServletReferenceState.java:42)
+	at com.ibm.ws.webcontainer.servlet.ServletInstanceReference.dispatch(ServletInstanceReference.java:40)
+	at com.ibm.ws.webcontainer.webapp.WebAppRequestDispatcher.handleWebAppDispatch(WebAppRequestDispatcher.java:983)
+	at com.ibm.ws.webcontainer.webapp.WebAppRequestDispatcher.dispatch(WebAppRequestDispatcher.java:564)
+	at com.ibm.ws.webcontainer.webapp.WebAppRequestDispatcher.forward(WebAppRequestDispatcher.java:200)
+	at com.ibm.ws.webcontainer.srt.WebAppInvoker.doForward(WebAppInvoker.java:119)
+	at com.ibm.ws.webcontainer.srt.WebAppInvoker.handleInvocationHook(WebAppInvoker.java:276)
+	at com.ibm.ws.webcontainer.cache.invocation.CachedInvocation.handleInvocation(CachedInvocation.java:71)
+	at com.ibm.ws.webcontainer.srp.ServletRequestProcessor.dispatchByURI(ServletRequestProcessor.java:182)
+	at com.ibm.ws.webcontainer.oselistener.OSEListenerDispatcher.service(OSEListener.java:334)
+	at com.ibm.ws.webcontainer.http.HttpConnection.handleRequest(HttpConnection.java:56)
+	at com.ibm.ws.http.HttpConnection.readAndHandleRequest(HttpConnection.java:618)
+	at com.ibm.ws.http.HttpConnection.run(HttpConnection.java:443)
+	at com.ibm.ws.util.ThreadPool$Worker.run(ThreadPool.java:672)
+Caused by: java.lang.AbstractMethodError: COM/ibm/db2/jdbc/app/DB2Connection.prepareStatement
+	at com.ibm.ws.rsadapter.cci.WSRdbConnectionImpl.getPreparedStatement(WSRdbConnectionImpl.java:896)
+	at com.ibm.ws.rsadapter.cci.WSResourceAdapterBase.prepareStatement(WSResourceAdapterBase.java:423)
+	at com.wsbook.casestudy.ejb.websphere_deploy.DB2UDBNT_V8_1.EmployeeEJBBeanFunctionSet_96c219b7.FindAll(EmployeeEJBBeanFunctionSet_96c219b7.java:365)
+	at com.wsbook.casestudy.ejb.websphere_deploy.DB2UDBNT_V8_1.EmployeeEJBBeanFunctionSet_96c219b7.execute(EmployeeEJBBeanFunctionSet_96c219b7.java:544)
+	at com.ibm.ws.rsadapter.cci.WSInteractionImpl.execute(WSInteractionImpl.java:417)
+	at com.ibm.wsspi.ejbpersistence.WSEJBToRAAdapter.executeFinder(WSEJBToRAAdapter.java:149)
+	at com.ibm.ws.rsadapter.cci.WSRelationalRAAdapter.executeFinder(WSRelationalRAAdapter.java:181)
+	... 38 more
+---- Begin backtrace for nested exception
+java.lang.AbstractMethodError: COM/ibm/db2/jdbc/app/DB2Connection.prepareStatement
+	at com.ibm.ws.rsadapter.cci.WSRdbConnectionImpl.getPreparedStatement(WSRdbConnectionImpl.java:896)
+	at com.ibm.ws.rsadapter.cci.WSResourceAdapterBase.prepareStatement(WSResourceAdapterBase.java:423)
+	at com.wsbook.casestudy.ejb.websphere_deploy.DB2UDBNT_V8_1.EmployeeEJBBeanFunctionSet_96c219b7.FindAll(EmployeeEJBBeanFunctionSet_96c219b7.java:365)
+	at com.wsbook.casestudy.ejb.websphere_deploy.DB2UDBNT_V8_1.EmployeeEJBBeanFunctionSet_96c219b7.execute(EmployeeEJBBeanFunctionSet_96c219b7.java:544)
+	at com.ibm.ws.rsadapter.cci.WSInteractionImpl.execute(WSInteractionImpl.java:417)
+	at com.ibm.wsspi.ejbpersistence.WSEJBToRAAdapter.executeFinder(WSEJBToRAAdapter.java:149)
+	at com.ibm.ws.rsadapter.cci.WSRelationalRAAdapter.executeFinder(WSRelationalRAAdapter.java:181)
+	at com.ibm.ws.ejbpersistence.dataaccess.DataAccessRequestImpl.execute(Unknown Source)
+	at com.ibm.ws.ejbpersistence.beanextensions.ConcreteBeanStatefulInstanceExtensionImpl.executeQuery(Unknown Source)
+	at com.ibm.ws.ejbpersistence.beanextensions.ConcreteBeanStatefulInstanceExtensionImpl.executeFind(Unknown Source)
+	at com.wsbook.casestudy.ejb.ConcreteEmployeeEJB_96c219b7.ejbFindAll_Local(ConcreteEmployeeEJB_96c219b7.java:114)
+	at com.wsbook.casestudy.ejb.EJSCMPEmployeeEJBHomeBean_96c219b7.findAll_Local(EJSCMPEmployeeEJBHomeBean_96c219b7.java:66)
+	at com.wsbook.casestudy.ejb.EJSLocalCMPEmployeeEJBHome_96c219b7.findAll(EJSLocalCMPEmployeeEJBHome_96c219b7.java:119)
+	at com.wsbook.casestudy.mapping.ejb.EmployeeMapper.findAllEJBs(EmployeeMapper.java:130)
+	at com.wsbook.casestudy.mapping.ejb.DomainEJBMapper.findAll(DomainEJBMapper.java:57)
+	at com.wsbook.casestudy.ejb.TimeSheetActionProcessorFacadeBean.findAllEmployees(TimeSheetActionProcessorFacadeBean.java:274)
+	at com.wsbook.casestudy.ejb.EJSRemoteStatelessTimeSheetActionProcessorFacade_7ee0ab51.findAllEmployees(EJSRemoteStatelessTimeSheetActionProcessorFacade_7ee0ab51.java:412)
+	at com.wsbook.casestudy.ejb._TimeSheetActionProcessorFacade_Stub.findAllEmployees(_TimeSheetActionProcessorFacade_Stub.java:1018)
+	at com.wsbook.casestudy.model.ejb.TimeSheetActionProcessorImpl.findAllEmployees(TimeSheetActionProcessorImpl.java:311)
+	at com.wsbook.casestudy.action.TimeAppAction.addEmployeesBean(TimeAppAction.java:40)
+	at com.wsbook.casestudy.action.TimeSheetSearchAction.perform(TimeSheetSearchAction.java:39)
+	at org.apache.struts.action.ActionServlet.processActionPerform(ActionServlet.java:1786)
+	at org.apache.struts.action.ActionServlet.process(ActionServlet.java:1585)
+	at org.apache.struts.action.ActionServlet.doGet(ActionServlet.java:491)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:740)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:853)
+	at com.ibm.ws.webcontainer.servlet.StrictServletInstance.doService(StrictServletInstance.java:110)
+	at com.ibm.ws.webcontainer.servlet.StrictLifecycleServlet._service(StrictLifecycleServlet.java:174)
+	at com.ibm.ws.webcontainer.servlet.IdleServletState.service(StrictLifecycleServlet.java:313)
+	at com.ibm.ws.webcontainer.servlet.StrictLifecycleServlet.service(StrictLifecycleServlet.java:116)
+	at com.ibm.ws.webcontainer.servlet.ServletInstance.service(ServletInstance.java:283)
+	at com.ibm.ws.webcontainer.servlet.ValidServletReferenceState.dispatch(ValidServletReferenceState.java:42)
+	at com.ibm.ws.webcontainer.servlet.ServletInstanceReference.dispatch(ServletInstanceReference.java:40)
+	at com.ibm.ws.webcontainer.webapp.WebAppRequestDispatcher.handleWebAppDispatch(WebAppRequestDispatcher.java:983)
+	at com.ibm.ws.webcontainer.webapp.WebAppRequestDispatcher.dispatch(WebAppRequestDispatcher.java:564)
+	at com.ibm.ws.webcontainer.webapp.WebAppRequestDispatcher.forward(WebAppRequestDispatcher.java:200)
+	at com.ibm.ws.webcontainer.srt.WebAppInvoker.doForward(WebAppInvoker.java:119)
+	at com.ibm.ws.webcontainer.srt.WebAppInvoker.handleInvocationHook(WebAppInvoker.java:276)
+	at com.ibm.ws.webcontainer.cache.invocation.CachedInvocation.handleInvocation(CachedInvocation.java:71)
+	at com.ibm.ws.webcontainer.srp.ServletRequestProcessor.dispatchByURI(ServletRequestProcessor.java:182)
+	at com.ibm.ws.webcontainer.oselistener.OSEListenerDispatcher.service(OSEListener.java:334)
+	at com.ibm.ws.webcontainer.http.HttpConnection.handleRequest(HttpConnection.java:56)
+	at com.ibm.ws.http.HttpConnection.readAndHandleRequest(HttpConnection.java:618)
+	at com.ibm.ws.http.HttpConnection.run(HttpConnection.java:443)
+	at com.ibm.ws.util.ThreadPool$Worker.run(ThreadPool.java:672)
+
+Dump of callerThis = 
+Object type = com.ibm.ws.ejbpersistence.beanextensions.ConcreteBeanStatefulInstanceExtensionImpl
+com.ibm.ws.ejbpersistence.beanextensions.ConcreteBeanStatefulInstanceExtensionImpl@5f41bb85
+
+Exception = com.ibm.ws.ejbpersistence.utilpm.PersistenceManagerException
+Source = com.ibm.ws.ejbpersistence.beanextensions.ConcreteBeanInstanceExtensionImpl.executeQuery
+probeid = 380
+Dump of callerThis = 
+Object type = com.ibm.ws.ejbpersistence.beanextensions.ConcreteBeanStatefulInstanceExtensionImpl
+com.ibm.ws.ejbpersistence.beanextensions.ConcreteBeanStatefulInstanceExtensionImpl@5f41bb85
+

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-modules id="moduleCoreId">
+    <wb-module deploy-name="EmployeeManagementEJB">
+        <module-type module-type-id="jst.ejb">
+            <version>2.0</version>
+        </module-type>
+        <wb-resource deploy-path="/" source-path="/src"/>
+        <wb-resource deploy-path="/" source-path="/ejbModule"/>
+    </wb-module>
+</project-modules>

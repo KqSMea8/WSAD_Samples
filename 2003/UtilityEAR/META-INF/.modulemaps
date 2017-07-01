@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modulemap:EARProjectMap xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:modulemap="modulemap.xmi" xmlns:application="application.xmi" xmi:id="EARProjectMap_1045943735056">
+  <mappings xmi:id="ModuleMapping_1045943735056" projectName="UtilitiesGroup">
+    <module xmi:type="application:EjbModule" href="META-INF/application.xml#EjbModule_1045943735056"/>
+  </mappings>
+  <mappings xmi:id="ModuleMapping_1045963368665" projectName="IDGeneratorClient">
+    <module xmi:type="application:JavaClientModule" href="META-INF/application.xml#JavaClientModule_1045963368665"/>
+  </mappings>
+</modulemap:EARProjectMap>

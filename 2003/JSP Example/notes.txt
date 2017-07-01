@@ -1,0 +1,69 @@
+Todo:
+
+
+Notes:
+
+- Have to create a guest user and grant priviliges to the database
+GRANT  SELECT,INSERT,UPDATE,DELETE,INDEX,REFERENCES ON TABLE JAMSDEN.ADDRESS TO USER GUEST
+
+- have to create a resource-ref in the web deployment descriptor for the database.
+  The reference is to the data source and uses the JNDI name for the data source
+  as configured in the server configuration.
+  
+- The data source resource-ref has to use application authentication. Can't be
+  container because there's no EJB container involved in this case.
+
+- the JDBCMapper has to use the userid and password then getting a connection to
+  the data source. This is what application authentication means.  
+
+- All access should be through the java:comp/env/ logical context. new InitialContext()
+  provides access to this namespace in any J2EE container (inluding the client application
+  container). If the app isn't running in a container, then the initial context
+  will require properties sufficeint to configure it for the java:comp namespace
+  Need to list these properties.
+  
+  There needs to be a reference created for each of the names that is to be
+  looked up in the java:comp/env/ namespace. These are done in the web application
+  deployment descriptor for EJBs and data sources referenced by the web application.
+  EJBs that reference other EJBs and data sources have their references in the
+  ejb-jar.xml deployment descriptor.
+  
+- Consider that the domain objects might do with a mapper. could have static
+  methods that did creates and finders, and instance methods (inherited from
+  abstract DomainObject) for update. Probably should mimic EJB style for
+  consistency with the rest of the book. Would like to know what the issue
+  would be with using static create accessors in the domain object though.
+  
+- Compare Mapper pattern with Martin Fowler's
+      
+Done:
+
+- get details page in with list, not a separate browser window.
+
+- see if java:comp/env/ can be used for the data source resource uri.
+  
+  It does. The reason is the JNDI name and the resource-ref name are
+  the same.  
+
+- create a different index.html page that introduces the exmaple
+
+- fix details data, add address information to the dialog.
+
+- split employee and address mapper and use employee.getAddress() to
+  navigate the association. Only list employee data in the list.
+  Put the employee and address in the details page and update both.
+  
+- Fix banner
+
+- Use a properties bundle to get the resource name, userid and 
+  password for database access.  
+  
+
+- implement servlet to create, update, and delete employee
+
+- browseEmployees3.jsp doesnt' seem to work properly. There are no employees its collection.
+  This might be because they are being put in the request scope and the EL variables might
+  need to be in the page scope?
+  
+  The JSTL tag library wasn't imported properly.
+    

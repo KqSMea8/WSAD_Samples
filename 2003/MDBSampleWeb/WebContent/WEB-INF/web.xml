@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE web-app PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN" "http://java.sun.com/dtd/web-app_2_3.dtd">
+<web-app id="WebApp">
+	<display-name>MDBSampleWeb</display-name>
+	<servlet>
+		<servlet-name>MDBSampleServlet</servlet-name>
+		<display-name>MDBSampleServlet</display-name>
+		<servlet-class>com.wsbook.mdbsample.servlet.MDBSampleServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>MDBSampleServlet</servlet-name>
+		<url-pattern>/MDBSampleServlet</url-pattern>
+	</servlet-mapping>
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+		<welcome-file>index.htm</welcome-file>
+		<welcome-file>index.jsp</welcome-file>
+		<welcome-file>default.html</welcome-file>
+		<welcome-file>default.htm</welcome-file>
+		<welcome-file>default.jsp</welcome-file>
+	</welcome-file-list>
+	<resource-ref id="ResourceRef_1051807264748">
+		<res-ref-name>Sample/jms/SampleQCF</res-ref-name>
+		<res-type>javax.jms.QueueConnectionFactory</res-type>
+		<res-auth>Application</res-auth>
+		<res-sharing-scope>Shareable</res-sharing-scope>
+	</resource-ref>
+	<resource-ref id="ResourceRef_1051807265379">
+		<res-ref-name>Sample/jms/SampleQ</res-ref-name>
+		<res-type>javax.jms.Queue</res-type>
+		<res-auth>Application</res-auth>
+		<res-sharing-scope>Shareable</res-sharing-scope>
+	</resource-ref>
+</web-app>

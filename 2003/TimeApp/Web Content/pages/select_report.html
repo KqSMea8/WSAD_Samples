@@ -1,0 +1,128 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+<HEAD>
+<META name="GENERATOR" content="IBM WebSphere Studio">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK href="/TimeApp/theme/Master.css" rel="stylesheet" type="text/css">
+<TITLE>select_report.jsp</TITLE>
+<SCRIPT language="JavaScript">
+<!--HPB_SCRIPT_ROV_50
+//
+//  Licensed Materials - Property of IBM
+//  (C) Copyright IBM Corp. 1998, 2001 All Rights Reserved.
+//  US Government Users Restricted Rights -
+//  Use, duplication or disclosure restricted
+//  by GSA ADP Schedule Contract with IBM Corp.
+//
+
+// HpbImgPreload:
+//
+function HpbImgPreload()
+{
+  var appVer=parseInt(navigator.appVersion);
+  var isNC=false,isN6=false,isIE=false;
+  if (document.all && appVer >= 4) isIE=true; else
+    if (document.getElementById && appVer > 4) isN6=true; else
+      if (document.layers && appVer >= 4) isNC=true;
+  if (isNC||isN6||isIE)
+  {
+    if (document.images)
+    {
+      var imgName = HpbImgPreload.arguments[0];
+      var cnt;
+      swImg[imgName] = new Array;
+      for (cnt = 1; cnt < HpbImgPreload.arguments.length; cnt++)
+      {
+        swImg[imgName][HpbImgPreload.arguments[cnt]] = new Image();
+        swImg[imgName][HpbImgPreload.arguments[cnt]].src = HpbImgPreload.arguments[cnt];
+      }
+    }
+  }
+}
+// HpbImgFind:
+//
+function HpbImgFind(doc, imgName)
+{
+  for (var i=0; i < doc.layers.length; i++)
+  {
+    var img = doc.layers[i].document.images[imgName];
+    if (!img) img = HpbImgFind(doc.layers[i], imgName);
+    if (img) return img;
+  }
+  return null;
+}
+// HpbImgSwap:
+//
+function HpbImgSwap(imgName, imgSrc)
+{
+  var appVer=parseInt(navigator.appVersion);
+  var isNC=false,isN6=false,isIE=false;
+  if (document.all && appVer >= 4) isIE=true; else
+    if (document.getElementById && appVer > 4) isN6=true; else
+      if (document.layers && appVer >= 4) isNC=true;
+  if (isNC||isN6||isIE)
+  {
+    if (document.images)
+    {
+      var img = document.images[imgName];
+      if (!img) img = HpbImgFind(document, imgName);
+      if (img) img.src = imgSrc;
+    }
+  }
+}
+var swImg; swImg=new Array;
+//-->
+</SCRIPT><SCRIPT language="JavaScript">
+<!--HPB_SCRIPT_PLD_50
+HpbImgPreload('_HPB_ROLLOVER2', '/TimeApp/images/EbyP.gif', '/TimeApp/images/EbyP2.gif');
+HpbImgPreload('_HPB_ROLLOVER3', '/TimeApp/images/PbyM.gif', '/TimeApp/images/PbyM2.gif');
+HpbImgPreload('_HPB_ROLLOVER4', '/TimeApp/images/PbyE.gif', '/TimeApp/images/PbyE2.gif');
+HpbImgPreload('_HPB_ROLLOVER1', '/TimeApp/images/EbyM.gif', '/TimeApp/images/EbyM2.gif');
+//-->
+</SCRIPT></HEAD>
+<BODY>
+<%--METADATA type="DynamicData" startspan
+<FORM>
+<CENTER>
+<TABLE>
+    <TBODY>
+        <TR>
+            <TD colspan="4" align="center"><IMG src="/TimeApp/images/report_logo.gif" width="475" height="38" border="0" alt="Generate Report"></TD>
+        </TR>
+        <TR>
+            <TD colspan="4"></TD>
+        </TR>
+        <TR>
+            <TD><A href="/TimeApp/GenerateReport.do?primary=employee&secondary=month" id="_HPB_ROLLOVER1" onmouseout="HpbImgSwap('_HPB_ROLLOVER1', '../images/EbyM.gif');" onmouseover="HpbImgSwap('_HPB_ROLLOVER1', '../images/EbyM2.gif');"><IMG src="/TimeApp/images/EbyM.gif" width="189" height="96" border="0" name="_HPB_ROLLOVER1"></A></TD>
+            <TD><A href="#" id="_HPB_ROLLOVER2" onmouseout="HpbImgSwap('_HPB_ROLLOVER2', '/TimeApp/images/EbyP.gif');" onmouseover="HpbImgSwap('_HPB_ROLLOVER2', '/TimeApp/images/EbyP2.gif');"><IMG src="/TimeApp/images/EbyP.gif" width="189" height="96" border="0" name="_HPB_ROLLOVER2"></A></TD>
+            <TD><A href="#" id="_HPB_ROLLOVER3" onmouseout="HpbImgSwap('_HPB_ROLLOVER3', '/TimeApp/images/PbyM.gif');" onmouseover="HpbImgSwap('_HPB_ROLLOVER3', '/TimeApp/images/PbyM2.gif');"><IMG src="/TimeApp/images/PbyM.gif" width="189" height="96" border="0" name="_HPB_ROLLOVER3"></A></TD>
+            <TD><A href="#" id="_HPB_ROLLOVER4" onmouseout="HpbImgSwap('_HPB_ROLLOVER4', '/TimeApp/images/PbyE.gif');" onmouseover="HpbImgSwap('_HPB_ROLLOVER4', '/TimeApp/images/PbyE2.gif');"><IMG src="/TimeApp/images/PbyE.gif" width="189" height="96" border="0" name="_HPB_ROLLOVER4"></A></TD>
+        </TR>
+    </TBODY>
+</TABLE>
+</CENTER>
+</FORM>
+--%><FORM>
+
+<CENTER>
+
+  <TABLE>
+    <TBODY>
+      <TR>
+        <TD align="center" colspan="4"><IMG alt="Generate Report" border="0" height="38" src="/TimeApp/images/report_logo.gif" width="475"></TD>
+      </TR>
+      <TR>
+        <TD colspan="4"></TD>
+      </TR>
+      <TR>
+        <TD><A href="/TimeApp/GenerateReport.do?primary=employee&secondary=month" id="_HPB_ROLLOVER1" onmouseout="HpbImgSwap('_HPB_ROLLOVER1', '/TimeApp/images/EbyM.gif');" onmouseover="HpbImgSwap('_HPB_ROLLOVER1', '/TimeApp/images/EbyM2.gif');"><IMG border="0" height="96" name="_HPB_ROLLOVER1" src="/TimeApp/images/EbyM.gif" width="189"></A></TD>
+        <TD><A href="#" id="_HPB_ROLLOVER2" onmouseout="HpbImgSwap('_HPB_ROLLOVER2', '/TimeApp/images/EbyP.gif');" onmouseover="HpbImgSwap('_HPB_ROLLOVER2', '/TimeApp/images/EbyP2.gif');"><IMG border="0" height="96" name="_HPB_ROLLOVER2" src="/TimeApp/images/EbyP.gif" width="189"></A></TD>
+        <TD><A href="#" id="_HPB_ROLLOVER3" onmouseout="HpbImgSwap('_HPB_ROLLOVER3', '/TimeApp/images/PbyM.gif');" onmouseover="HpbImgSwap('_HPB_ROLLOVER3', '/TimeApp/images/PbyM2.gif');"><IMG border="0" height="96" name="_HPB_ROLLOVER3" src="/TimeApp/images/PbyM.gif" width="189"></A></TD>
+        <TD><A href="#" id="_HPB_ROLLOVER4" onmouseout="HpbImgSwap('_HPB_ROLLOVER4', '/TimeApp/images/PbyE.gif');" onmouseover="HpbImgSwap('_HPB_ROLLOVER4', '/TimeApp/images/PbyE2.gif');"><IMG border="0" height="96" name="_HPB_ROLLOVER4" src="/TimeApp/images/PbyE.gif" width="189"></A></TD>
+      </TR>
+    </TBODY>
+  </TABLE>
+</CENTER>
+</FORM><%--METADATA type="DynamicData" endspan--%>
+</BODY>
+</HTML>

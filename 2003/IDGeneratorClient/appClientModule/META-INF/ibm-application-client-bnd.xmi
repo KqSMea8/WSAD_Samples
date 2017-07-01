@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clientbnd:ApplicationClientBinding xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:clientbnd="clientbnd.xmi" xmlns:client="client.xmi" xmlns:commonbnd="commonbnd.xmi" xmlns:common="common.xmi" xmi:id="ApplicationClientBinding_1045965714288">
+  <applicationClient href="META-INF/application-client.xml#Application-client_ID"/>
+  <ejbRefs xmi:id="EjbRefBinding_1045965714288" jndiName="ejb/com/wsbook/casestudy/ejb/utilities/RandomIDGeneratorHome">
+    <bindingEjbRef href="META-INF/application-client.xml#EjbRef_1045965714288"/>
+  </ejbRefs>
+</clientbnd:ApplicationClientBinding>

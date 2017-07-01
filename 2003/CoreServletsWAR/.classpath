@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="JavaSource"/>
+	<classpathentry kind="var" path="SERVERJDK_50_PLUGINDIR/jre/lib/rt.jar" sourcepath="SERVERJDK_50_PLUGINDIR/src.jar"/>
+	<classpathentry kind="var" path="WAS_50_PLUGINDIR/lib/j2ee.jar"/>
+	<classpathentry kind="var" path="WAS_50_PLUGINDIR/lib/servletevent.jar"/>
+	<classpathentry kind="var" path="WAS_50_PLUGINDIR/lib/ivjejb35.jar"/>
+	<classpathentry kind="var" path="WAS_50_PLUGINDIR/lib/runtime.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="output" path="WebContent/WEB-INF/classes"/>
+</classpath>

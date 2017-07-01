@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-modules id="moduleCoreId">
+    <wb-module deploy-name="CoreServletsWAR">
+        <module-type module-type-id="jst.web">
+            <version>2.3</version>
+            <property name="JSPLevel" value="JSP 1.2"/>
+            <property name="FeatureID_1" value="templatefeature"/>
+            <property name="FeatureID_2" value="WebProjectCSSFileFeature"/>
+            <property name="FeatureID_3" value="com.ibm.etools.siteedit.wizards.projectfeature.WebSiteFeature"/>
+        </module-type>
+        <wb-resource deploy-path="/" source-path="/WebContent"/>
+    </wb-module>
+</project-modules>

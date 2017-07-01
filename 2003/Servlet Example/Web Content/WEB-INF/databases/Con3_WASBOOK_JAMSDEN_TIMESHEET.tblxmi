@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RDBSchema:RDBTable xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:RDBSchema="RDBSchema.xmi" xmi:id="RDBTable_1032744150459" name="TIMESHEET" primaryKey="SQLReference_1032744150459">
+  <database href="WEB-INF/databases/Con3_WASBOOK.dbxmi#RDBDatabase_1032744150429"/>
+  <schema href="WEB-INF/databases/Con3_WASBOOK_JAMSDEN.schxmi#RDBSchema_1032744150429"/>
+  <columns xmi:type="RDBSchema:RDBColumn" xmi:id="RDBColumn_1032744150459" name="TIMESHEETID" allowNull="false">
+    <type xmi:type="RDBSchema:SQLExactNumeric" xmi:id="SQLExactNumeric_1032744150459">
+      <originatingType xmi:type="RDBSchema:SQLExactNumeric" href="DB2UDBNT_V72_Primitives.xmi#SQLExactNumeric_1"/>
+    </type>
+  </columns>
+  <columns xmi:type="RDBSchema:RDBColumn" xmi:id="RDBColumn_1032744150460" name="WEEKEND" allowNull="true">
+    <type xmi:type="RDBSchema:SQLCharacterStringType" xmi:id="SQLCharacterStringType_1032744150459" characterSet="800" length="30">
+      <originatingType xmi:type="RDBSchema:SQLCharacterStringType" href="DB2UDBNT_V72_Primitives.xmi#SQLCharacterStringType_3"/>
+    </type>
+  </columns>
+  <columns xmi:type="RDBSchema:RDBColumn" xmi:id="RDBColumn_1032744150461" name="STATE" allowNull="true">
+    <type xmi:type="RDBSchema:SQLCharacterStringType" xmi:id="SQLCharacterStringType_1032744150460" characterSet="800" length="30">
+      <originatingType xmi:type="RDBSchema:SQLCharacterStringType" href="DB2UDBNT_V72_Primitives.xmi#SQLCharacterStringType_3"/>
+    </type>
+  </columns>
+  <columns xmi:type="RDBSchema:RDBColumn" xmi:id="RDBColumn_1032744150462" name="EMPID" allowNull="true">
+    <type xmi:type="RDBSchema:SQLCharacterStringType" xmi:id="SQLCharacterStringType_1032744150461" characterSet="800" length="10">
+      <originatingType xmi:type="RDBSchema:SQLCharacterStringType" href="DB2UDBNT_V72_Primitives.xmi#SQLCharacterStringType_3"/>
+    </type>
+  </columns>
+  <columns xmi:type="RDBSchema:RDBColumn" xmi:id="RDBColumn_1032744150463" name="APPROVE_EMPID" allowNull="true">
+    <type xmi:type="RDBSchema:SQLCharacterStringType" xmi:id="SQLCharacterStringType_1032744150462" characterSet="800" length="10">
+      <originatingType xmi:type="RDBSchema:SQLCharacterStringType" href="DB2UDBNT_V72_Primitives.xmi#SQLCharacterStringType_3"/>
+    </type>
+  </columns>
+  <namedGroup xmi:type="RDBSchema:SQLReference" xmi:id="SQLReference_1032744150459" name="TIMESHEETPK" members="RDBColumn_1032744150459" constraint="SQLConstraint_1032744150459">
+    <referenceByKey href="WEB-INF/databases/Con3_WASBOOK_JAMSDEN_TIMESHEETENTRY.tblxmi#RDBReferenceByKey_1032744150469"/>
+  </namedGroup>
+  <namedGroup xmi:type="RDBSchema:RDBReferenceByKey" xmi:id="RDBReferenceByKey_1032744150469" name="TSFOREMPLOYEE" onDelete="NO ACTION" onUpdate="NO ACTION" members="RDBColumn_1032744150462" constraint="SQLConstraint_1032744150469">
+    <target href="WEB-INF/databases/Con3_WASBOOK_JAMSDEN_EMPLOYEE.tblxmi#SQLReference_1032744150469"/>
+  </namedGroup>
+  <namedGroup xmi:type="RDBSchema:RDBReferenceByKey" xmi:id="RDBReferenceByKey_1032744150470" name="TSAPPROVEDBY" onDelete="NO ACTION" onUpdate="NO ACTION" members="RDBColumn_1032744150463" constraint="SQLConstraint_1032744150470">
+    <target href="WEB-INF/databases/Con3_WASBOOK_JAMSDEN_EMPLOYEE.tblxmi#SQLReference_1032744150469"/>
+  </namedGroup>
+  <constraints xmi:id="SQLConstraint_1032744150459" name="TIMESHEETPK" type="PRIMARYKEY" primaryKey="SQLReference_1032744150459"/>
+  <constraints xmi:id="SQLConstraint_1032744150469" name="TSFOREMPLOYEE" type="FOREIGNKEY" referenceByKey="RDBReferenceByKey_1032744150469"/>
+  <constraints xmi:id="SQLConstraint_1032744150470" name="TSAPPROVEDBY" type="FOREIGNKEY" referenceByKey="RDBReferenceByKey_1032744150470"/>
+</RDBSchema:RDBTable>

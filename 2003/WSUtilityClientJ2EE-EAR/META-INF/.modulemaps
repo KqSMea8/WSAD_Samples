@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modulemap:EARProjectMap xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:modulemap="modulemap.xmi" xmlns:application="application.xmi" xmi:id="EARProjectMap_1051409318360">
+  <mappings xmi:id="ModuleMapping_1051409318360" projectName="WSUtilityClientJ2EE">
+    <module xmi:type="application:JavaClientModule" href="META-INF/application.xml#JavaClientModule_1051409318360"/>
+  </mappings>
+  <utilityJARMappings xmi:id="UtilityJARMapping_1051409821824" projectName="WSUtilityClientJ2SE" uri="WSUtilityClientJ2SE.jar"/>
+</modulemap:EARProjectMap>

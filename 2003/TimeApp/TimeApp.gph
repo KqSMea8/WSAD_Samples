@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE web-diagram PUBLIC "-//IBM//DTD Web Diagram 1.0//EN"
+                             "">
+<web-diagram>
+    <nodes>
+        <node id="n0" path="/index.html" type="page">
+            <location x="76" y="118"/>
+        </node>
+        <node id="n1" path="/ListAllApproved" type="action">
+            <location x="170" y="21"/>
+        </node>
+        <node id="n2" path="/ListAllPending" type="action">
+            <location x="236" y="78"/>
+        </node>
+        <node id="n3" path="/select_report.jsp" type="page">
+            <location x="64" y="368"/>
+        </node>
+        <node id="n4" path="/SearchTimeSheets" type="action">
+            <location x="312" y="355"/>
+        </node>
+        <node id="n5" path="/error.jsp" type="page">
+            <location x="678" y="71"/>
+        </node>
+        <node id="n6" path="/display_approved.jsp" type="page">
+            <location x="438" y="11"/>
+        </node>
+        <node id="n7" path="/display_pending.jsp" type="page">
+            <location x="453" y="101"/>
+        </node>
+        <node id="n8" path="/pages/week_search.jsp" type="page">
+            <location x="333" y="663"/>
+        </node>
+        <node id="n9" path="/EmployeeTimeSheet" type="action">
+            <location x="732" y="666"/>
+        </node>
+        <node id="n10" path="/pages/select_timesheet.jsp" type="page">
+            <location x="877" y="422"/>
+        </node>
+        <node id="n11" path="/pages/approved_view.jsp" type="page">
+            <location x="643" y="786"/>
+        </node>
+        <node id="n12" path="/pages/week_search(2).jsp" type="page">
+            <location x="923" y="690"/>
+        </node>
+        <node id="n13" path="/pages/pending_view.jsp" type="page">
+            <location x="511" y="401"/>
+        </node>
+        <node id="n14" path="/TimeSheetSelect" type="action">
+            <location x="1059" y="318"/>
+        </node>
+        <node id="n15" path="/UpdateTimeSheet" type="action">
+            <location x="1175" y="85"/>
+        </node>
+        <node id="n16" path="/DisplayTimeSheetForApproval" type="action">
+            <location x="1027" y="39"/>
+        </node>
+        <node id="n17" path="/pages/display_for_approval.jsp" type="page">
+            <location x="1044" y="178"/>
+        </node>
+        <node id="n18" path="/ApproveTimeSheet" type="action">
+            <location x="1230" y="180"/>
+        </node>
+        <node id="n19" path="/week_search.jsp" type="page">
+            <location x="1249" y="598"/>
+        </node>
+        <node id="n20" path="/pending_view.jsp" type="page">
+            <location x="1086" y="516"/>
+        </node>
+        <node id="n21" path="/approved_view.jsp" type="page">
+            <location x="1027" y="429"/>
+        </node>
+        <node id="n22" path="/select_timesheet.jsp" type="page">
+            <location x="959" y="812"/>
+        </node>
+    </nodes>
+    <wires>
+        <wire identifier="Web Page Link" source="n13" target="n4"/>
+        <wire identifier="Web Page Link" source="n10" target="n0"/>
+        <wire identifier="Web Page Link" source="n0" target="n1"/>
+        <wire identifier="Web Page Link" source="n17" target="n18"/>
+        <wire identifier="tryagain" source="n14" target="n19"/>
+        <wire identifier="approved" source="n14" target="n21"/>
+        <wire identifier="select" source="n9" target="n10"/>
+        <wire identifier="Web Page Link" source="n0" target="n4"/>
+        <wire identifier="displayForApproval" source="n16" target="n17"/>
+        <wire identifier="Web Page Link" source="n0" target="n0">
+            <bendpoints>
+                <bendpoint weight="0.5">
+                    <dimension height="10" width="10"/>
+                    <dimension height="85" width="-150"/>
+                </bendpoint>
+                <bendpoint weight="0.5">
+                    <dimension height="-34" width="66"/>
+                    <dimension height="1" width="-100"/>
+                </bendpoint>
+            </bendpoints>
+        </wire>
+        <wire identifier="error" source="n9" target="n5"/>
+        <wire identifier="Web Page Link" source="n10" target="n14"/>
+        <wire identifier="Web Page Link" source="n13" target="n15"/>
+        <wire identifier="error" source="n1" target="n5"/>
+        <wire identifier="error" source="n16" target="n5"/>
+        <wire identifier="pending" source="n9" target="n20"/>
+        <wire identifier="Web Page Link" source="n13" target="n0"/>
+        <wire identifier="pending" source="n14" target="n20"/>
+        <wire identifier="Web Page Link" source="n13" target="n16"/>
+        <wire identifier="Web Page Link" source="n8" target="n9"/>
+        <wire identifier="success" source="n4" target="n8"/>
+        <wire identifier="Web Page Link" source="n0" target="n2"/>
+        <wire identifier="&quot;input&quot;" source="n9" target="n19"/>
+        <wire identifier="error" source="n14" target="n5"/>
+        <wire identifier="Web Page Link" source="n8" target="n0"/>
+        <wire identifier="Web Page Link" source="n17" target="n0"/>
+        <wire identifier="success" source="n2" target="n7"/>
+        <wire identifier="pending" source="n9" target="n13"/>
+        <wire identifier="error" source="n2" target="n5"/>
+        <wire identifier="approved" source="n9" target="n21"/>
+        <wire identifier="approved" source="n9" target="n11"/>
+        <wire identifier="Web Page Link" source="n0" target="n3"/>
+        <wire identifier="select" source="n9" target="n22"/>
+        <wire identifier="tryagain" source="n9" target="n19"/>
+        <wire identifier="error" source="n4" target="n5"/>
+        <wire identifier="tryagain" source="n9" target="n12"/>
+        <wire identifier="success" source="n1" target="n6"/>
+    </wires>
+</web-diagram>

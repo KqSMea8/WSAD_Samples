@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RLogic:RLDBConnection xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:RLogic="RLogic.xmi" xmlns:RDBSchema="RDBSchema.xmi" xmi:id="RLDBConnection_1032744150509" dbProductName="DB2/NT" dbProductVersion="07.02.0000" offline="false">
+  <rdbDb href="WEB-INF/databases/Con3_WASBOOK.dbxmi#RDBDatabase_1032744150429"/>
+  <filter xmi:id="RLFilter_1032744150509" name="SP" enabled="true" all="true">
+    <filterElement xmi:id="RLFilterElement_1032744150519" enabled="true" text=" Java SQL C OTHER" predicate="Language" operator="4"/>
+    <filterElement xmi:id="RLFilterElement_1032744150520" enabled="true" text="SYSFUN SYSPROC SYSIBM" predicate="Schema" operator="not in"/>
+  </filter>
+  <filter xmi:id="RLFilter_1032744150519" name="UDF" enabled="true" all="true">
+    <filterElement xmi:id="RLFilterElement_1032744150521" enabled="true" text="SYSFUN SYSPROC" predicate="Schema" operator="not in"/>
+    <filterElement xmi:id="RLFilterElement_1032744150522" enabled="true" text=" Java SQL C OTHER" predicate="Language" operator="4"/>
+  </filter>
+</RLogic:RLDBConnection>

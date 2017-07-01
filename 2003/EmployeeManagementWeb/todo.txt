@@ -1,0 +1,14 @@
+
+
+TODO:
+
+- employeeDetails.jsp need to provide the employee id for the update
+
+- EmployeeManagementBean needs to update the employee somehow. Could 
+  send the form data into the method but this would infect it with
+  UI information.
+  
+
+  
+DONE:
+

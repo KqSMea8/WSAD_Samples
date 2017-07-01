@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RDBSchema:RDBDatabase xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:RDBSchema="RDBSchema.xmi" xmi:id="RDBDatabase_1057633983859" name="wsbook">
+  <schemata href="META-INF/backends/DB2UDBNT_V8_1/wsbook_NULLID.schxmi#RDBSchema_1057633983909"/>
+  <tableGroup xmi:type="RDBSchema:RDBTable" href="META-INF/backends/DB2UDBNT_V8_1/wsbook_NULLID_ADDRESSEJB.tblxmi#RDBTable_1057633983829"/>
+  <tableGroup xmi:type="RDBSchema:RDBTable" href="META-INF/backends/DB2UDBNT_V8_1/wsbook_NULLID_DEPARTMENTEJB.tblxmi#RDBTable_1057633983839"/>
+  <tableGroup xmi:type="RDBSchema:RDBTable" href="META-INF/backends/DB2UDBNT_V8_1/wsbook_NULLID_TIMESHEETEJB.tblxmi#RDBTable_1057633983839"/>
+  <tableGroup xmi:type="RDBSchema:RDBTable" href="META-INF/backends/DB2UDBNT_V8_1/wsbook_NULLID_TIMESHEETENTRYEJB.tblxmi#RDBTable_1057633983849"/>
+  <tableGroup xmi:type="RDBSchema:RDBTable" href="META-INF/backends/DB2UDBNT_V8_1/wsbook_NULLID_PROJECTEJB.tblxmi#RDBTable_1057633983849"/>
+  <tableGroup xmi:type="RDBSchema:RDBTable" href="META-INF/backends/DB2UDBNT_V8_1/wsbook_NULLID_EMPLOYEEEJB.tblxmi#RDBTable_1057633983859"/>
+  <domain href="DB2UDBNT_V8_Domain.xmi#SQLVendor_1"/>
+</RDBSchema:RDBDatabase>

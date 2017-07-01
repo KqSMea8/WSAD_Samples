@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+    <classpathentry exported="true" kind="src" path="/WSUtilityClientJ2SE"/>
+    <classpathentry kind="var"
+        path="SERVERJDK_50_PLUGINDIR/jre/lib/rt.jar"
+        rootpath="SERVERJDK_SRCROOT" sourcepath="SERVERJDK_50_PLUGINDIR/src.jar"/>
+    <classpathentry kind="src" path="appClientModule"/>
+    <classpathentry kind="var" path="WAS_50_PLUGINDIR/lib/j2ee.jar"/>
+    <classpathentry kind="var" path="WAS_50_PLUGINDIR/lib/ivjejb35.jar"/>
+    <classpathentry kind="var" path="WAS_V502/lib/xerces.jar"/>
+    <classpathentry kind="var" path="WAS_V502/lib/commons-discovery.jar"/>
+    <classpathentry kind="var" path="WAS_V502/lib/j2ee.jar"/>
+    <classpathentry kind="var" path="WAS_V502/lib/jaxrpc.jar"/>
+    <classpathentry kind="var" path="WAS_V502/lib/qname.jar"/>
+    <classpathentry kind="var" path="WAS_V502/lib/saaj.jar"/>
+    <classpathentry kind="var" path="WAS_V502/lib/webservices.jar"/>
+    <classpathentry kind="var" path="WAS_V502/lib/axis.jar"/>
+    <classpathentry kind="var" path="WAS_V502/lib/ws-commons-logging.jar"/>
+    <classpathentry kind="var" path="WAS_V502/lib/wsdl4j.jar"/>
+    <classpathentry kind="output" path="appClientModule"/>
+</classpath>

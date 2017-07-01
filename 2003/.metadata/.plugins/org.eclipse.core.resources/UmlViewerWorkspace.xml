@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ASCII"?>
+<com.rational.xtools.umlvisualizer.emfnotation:Workspace xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.rational.xtools.umlvisualizer.emfnotation="http:///com/rational/xtools/umlvisualizer/emfnotation.ecore">
+  <DiagramViews Visible="true" ShapeStereotypeStyle="2" Id="56f30052-010e-e285-3e66-c0a80957aa77" Autosize="true" VisibilityStyle="2" CompartmentStereotypeStyle="2" ShowParentName="false" ViewportX="0" ViewportY="0" Zoom="100" DiagramId="emfnotation:56f2fd5a-010e-e9f9-3363-c0a80957aa77">
+    <SemanticReference Id="emfnotation:56f2fd5a-010e-e9f9-3363-c0a80957aa77" Kind="52"/>
+  </DiagramViews>
+  <DiagramViews Visible="true" ShapeStereotypeStyle="2" Id="6e9554b-0114-f469-5d79-c0a80957aa77" Autosize="true" VisibilityStyle="2" CompartmentStereotypeStyle="2" ShowParentName="false" ViewportX="0" ViewportY="0" Zoom="100" DiagramId="emfnotation:6e95175-0114-f70e-6b12-c0a80957aa77">
+    <SemanticReference Id="emfnotation:6e95175-0114-f70e-6b12-c0a80957aa77" Kind="52"/>
+  </DiagramViews>
+</com.rational.xtools.umlvisualizer.emfnotation:Workspace>

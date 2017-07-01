@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modulemap:EARProjectMap xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:application="application.xmi" xmlns:modulemap="modulemap.xmi" xmi:id="EARProjectMap_1">
+  <mappings xmi:id="ModuleMapping_1045025102411" projectName="TimeSheetGroup">
+    <module xmi:type="application:EjbModule" href="META-INF/application.xml#EjbModule_1045025102411"/>
+  </mappings>
+  <mappings xmi:id="ModuleMapping_1050674233843" projectName="TimeApp">
+    <module xmi:type="application:WebModule" href="META-INF/application.xml#WebModule_1050674233843"/>
+  </mappings>
+  <mappings xmi:id="ModuleMapping_1135706699377" projectName="OIDGenerator">
+    <module xmi:type="application:EjbModule" href="META-INF/application.xml#EjbModule_1135706699377"/>
+  </mappings>
+  <mappings xmi:id="ModuleMapping_1135706744602" projectName="TimeAppTestClient">
+    <module xmi:type="application:JavaClientModule" href="META-INF/application.xml#JavaClientModule_1135706744602"/>
+  </mappings>
+  <utilityJARMappings xmi:id="UtilityJARMapping_1034822964378" projectName="TimeSheet-AppLogic" uri="TimeSheet-AppLogic.jar"/>
+</modulemap:EARProjectMap>

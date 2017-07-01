@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RDBSchema:RDBTable xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:RDBSchema="RDBSchema.xmi" xmi:id="RDBTable_1055046203470" name="STUDENT" primaryKey="SQLReference_1055046203550">
+  <database href="META-INF/backends/DB2UDBNT_V8_1/SAMPLE.dbxmi#RDBDatabase_1055046203470"/>
+  <schema href="META-INF/backends/DB2UDBNT_V8_1/SAMPLE_TEST.schxmi#RDBSchema_1055046203510"/>
+  <columns xmi:type="RDBSchema:RDBColumn" xmi:id="RDBColumn_1055046203470" name="SSN" allowNull="false">
+    <type xmi:type="RDBSchema:SQLCharacterStringType" xmi:id="SQLCharacterStringType_1055046203550" length="250">
+      <originatingType xmi:type="RDBSchema:SQLCharacterStringType" href="JavatoDB2UDBNT_V8TypeMaps.xmi#SQLCharacterStringType_250"/>
+    </type>
+  </columns>
+  <columns xmi:type="RDBSchema:RDBColumn" xmi:id="RDBColumn_1055046203471" name="NAME" allowNull="true">
+    <type xmi:type="RDBSchema:SQLCharacterStringType" xmi:id="SQLCharacterStringType_1055046203551" length="250">
+      <originatingType xmi:type="RDBSchema:SQLCharacterStringType" href="JavatoDB2UDBNT_V8TypeMaps.xmi#SQLCharacterStringType_250"/>
+    </type>
+  </columns>
+  <columns xmi:type="RDBSchema:RDBColumn" xmi:id="RDBColumn_1055046203472" name="AGE" allowNull="false">
+    <type xmi:type="RDBSchema:SQLExactNumeric" xmi:id="SQLExactNumeric_1055046203550">
+      <originatingType xmi:type="RDBSchema:SQLExactNumeric" href="DB2UDBNT_V8_Primitives.xmi#SQLExactNumeric_1"/>
+    </type>
+  </columns>
+  <columns xmi:type="RDBSchema:RDBColumn" xmi:id="RDBColumn_1055046203473" name="GPA" allowNull="true">
+    <type xmi:type="RDBSchema:SQLApproximateNumeric" xmi:id="SQLApproximateNumeric_1055046203550">
+      <originatingType xmi:type="RDBSchema:SQLApproximateNumeric" href="DB2UDBNT_V8_Primitives.xmi#SQLApproximateNumeric_2"/>
+    </type>
+  </columns>
+  <namedGroup xmi:type="RDBSchema:SQLReference" xmi:id="SQLReference_1055046203550" name="PK_STUDENT" members="RDBColumn_1055046203470" constraint="SQLConstraint_1055046203550">
+    <referenceByKey href="META-INF/backends/DB2UDBNT_V8_1/SAMPLE_TEST_Students_Courses.tblxmi#RDBReferenceByKey_1055046203471"/>
+  </namedGroup>
+  <constraints xmi:id="SQLConstraint_1055046203550" name="PK_STUDENT" type="PRIMARYKEY" primaryKey="SQLReference_1055046203550"/>
+</RDBSchema:RDBTable>

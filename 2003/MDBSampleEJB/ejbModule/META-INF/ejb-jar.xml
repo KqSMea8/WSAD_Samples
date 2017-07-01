@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ejb-jar PUBLIC "-//Sun Microsystems, Inc.//DTD Enterprise JavaBeans 2.0//EN" "http://java.sun.com/dtd/ejb-jar_2_0.dtd">
+<ejb-jar id="ejb-jar_ID">
+	<display-name>MDBSampleEJB</display-name>
+	<enterprise-beans>
+		<message-driven id="MessageDriven_1051749594671">
+			<ejb-name>SampleMDB</ejb-name>
+			<ejb-class>com.wsbook.mdbsample.SampleMDBBean</ejb-class>
+			<transaction-type>Container</transaction-type>
+			<message-driven-destination>
+				<destination-type>javax.jms.Queue</destination-type>
+			</message-driven-destination>
+		</message-driven>
+	</enterprise-beans>
+</ejb-jar>

@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+Main-Class: com.wsbook.casestudy.utilities.wsclient.j2ee.WSRandomIDGen
+ eratorClientJ2EE
+Class-Path: WSUtilityClientJ2SE.jar
+

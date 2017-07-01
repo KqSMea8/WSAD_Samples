@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ejb-jar PUBLIC "-//Sun Microsystems, Inc.//DTD Enterprise JavaBeans 2.0//EN" "http://java.sun.com/dtd/ejb-jar_2_0.dtd">
+<ejb-jar id="ejb-jar_ID">
+	<display-name>MeetInTheMiddleExample</display-name>
+	<enterprise-beans>
+		<entity id="Employee">
+			<ejb-name>Employee</ejb-name>
+			<local-home>test.simple.EmployeeLocalHome</local-home>
+			<local>test.simple.EmployeeLocal</local>
+			<ejb-class>test.simple.EmployeeBean</ejb-class>
+			<persistence-type>Container</persistence-type>
+			<prim-key-class>java.lang.Integer</prim-key-class>
+			<reentrant>False</reentrant>
+			<cmp-version>2.x</cmp-version>
+			<abstract-schema-name>Employee</abstract-schema-name>
+			<cmp-field id="CMPAttribute_1057283056273">
+				<field-name>ssn</field-name>
+			</cmp-field>
+			<cmp-field id="CMPAttribute_1057283057515">
+				<field-name>firstName</field-name>
+			</cmp-field>
+			<cmp-field id="CMPAttribute_1057283057516">
+				<field-name>middleInit</field-name>
+			</cmp-field>
+			<cmp-field id="CMPAttribute_1057283057525">
+				<field-name>lastName</field-name>
+			</cmp-field>
+			<cmp-field id="CMPAttribute_1057283057505">
+				<field-name>phone</field-name>
+			</cmp-field>
+			<cmp-field id="CMPAttribute_1057283057506">
+				<field-name>hireDate</field-name>
+			</cmp-field>
+			<primkey-field>ssn</primkey-field>
+		</entity>
+	</enterprise-beans>
+</ejb-jar>

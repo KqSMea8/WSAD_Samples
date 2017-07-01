@@ -1,0 +1,592 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workbench progressCount="35" version="2.0">
+<workbenchAdvisor/>
+<window height="738" maximized="true" width="1024" x="0" y="0">
+<fastViewData fastViewLocation="1024"/>
+<perspectiveBar>
+<itemSize x="160"/>
+</perspectiveBar>
+<coolbarLayout locked="0">
+<coolItem id="group.file" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="98" y="22"/>
+<coolItem id="additions" itemType="typeGroupMarker"/>
+<coolItem id="com.ibm.etools.j2ee.J2eeMainActionSet4" itemType="typeToolBarContribution" x="37" y="22"/>
+<coolItem id="com.ibm.etools.j2ee.LastJ2eeMainActionSet" itemType="typeToolBarContribution" x="61" y="22"/>
+<coolItem id="com.ibm.iwt.webtools.ProjectActionSet" itemType="typeToolBarContribution" x="61" y="22"/>
+<coolItem id="com.rational.clearcase.ActionSet" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="124" y="22"/>
+<coolItem id="org.eclipse.jst.ws.consumption" itemType="typeToolBarContribution" x="37" y="22"/>
+<coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="61" y="22"/>
+<coolItem id="org.eclipse.ui.WorkingSetActionSet" itemType="typeToolBarContribution" x="50" y="22"/>
+<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="61" y="22"/>
+<coolItem id="org.eclipse.wst.server.ui.internal.webbrowser.actionSet" itemType="typeToolBarContribution" x="37" y="22"/>
+<coolItem id="group.nav" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="185" y="22"/>
+<coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="group.help" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
+</coolbarLayout>
+<page focus="true" label="Рабочая область - J2EE">
+<editors>
+<editorArea activeWorkbook="DefaultEditorWorkbook">
+<info part="DefaultEditorWorkbook">
+<folder appearance="1" expanded="2">
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+<part id="4"/>
+<part id="5"/>
+<part id="6"/>
+<part id="7"/>
+<part id="8"/>
+<part id="9"/>
+<part id="10"/>
+<part id="11"/>
+<part id="12"/>
+<part id="13"/>
+<part id="14"/>
+<part id="15"/>
+<part id="16"/>
+<part id="17"/>
+<part id="18"/>
+<part id="19"/>
+<part id="20"/>
+</presentation>
+</folder>
+</info>
+</editorArea>
+<editor id="com.ibm.etools.struts.editor.strutsdiagram" name="TimeApp.gph" path="/TimeApp/TimeApp.gph" title="TimeApp.gph" tooltip="TimeApp/TimeApp.gph Module = &lt;default module&gt;" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TimeApp/TimeApp.gph"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ApprovedState.java" path="/TimeSheet-AppLogic/source/com/wsbook/casestudy/domain/ApprovedState.java" title="ApprovedState.java" tooltip="TimeSheet-AppLogic/source/com/wsbook/casestudy/domain/ApprovedState.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TimeSheet-AppLogic/source/com/wsbook/casestudy/domain/ApprovedState.java"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TimeSheetState.java" path="/TimeSheet-AppLogic/source/com/wsbook/casestudy/domain/TimeSheetState.java" title="TimeSheetState.java" tooltip="TimeSheet-AppLogic/source/com/wsbook/casestudy/domain/TimeSheetState.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TimeSheet-AppLogic/source/com/wsbook/casestudy/domain/TimeSheetState.java"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="PendingState.java" path="/TimeSheet-AppLogic/source/com/wsbook/casestudy/domain/PendingState.java" title="PendingState.java" tooltip="TimeSheet-AppLogic/source/com/wsbook/casestudy/domain/PendingState.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TimeSheet-AppLogic/source/com/wsbook/casestudy/domain/PendingState.java"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TimeSheetMapper.java" path="/TimeSheetGroup/ejbSource/com/wsbook/casestudy/mapping/ejb/TimeSheetMapper.java" title="TimeSheetMapper.java" tooltip="TimeSheetGroup/ejbSource/com/wsbook/casestudy/mapping/ejb/TimeSheetMapper.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TimeSheetGroup/ejbSource/com/wsbook/casestudy/mapping/ejb/TimeSheetMapper.java"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TimeSheet.java" path="/TimeSheet-AppLogic/source/com/wsbook/casestudy/domain/TimeSheet.java" title="TimeSheet.java" tooltip="TimeSheet-AppLogic/source/com/wsbook/casestudy/domain/TimeSheet.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TimeSheet-AppLogic/source/com/wsbook/casestudy/domain/TimeSheet.java"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TimeSheetMapper.java" path="/TimeSheet-AppLogic/source/com/wsbook/casestudy/mapping/jdbc/TimeSheetMapper.java" title="TimeSheetMapper.java" tooltip="TimeSheet-AppLogic/source/com/wsbook/casestudy/mapping/jdbc/TimeSheetMapper.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TimeSheet-AppLogic/source/com/wsbook/casestudy/mapping/jdbc/TimeSheetMapper.java"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TimeSheetMapperTest.java" path="/TimeAppTestClient/appClientModule/com/wsbook/casestudy/mapper/jdbc/test/TimeSheetMapperTest.java" title="TimeSheetMapperTest.java" tooltip="TimeAppTestClient/appClientModule/com/wsbook/casestudy/mapper/jdbc/test/TimeSheetMapperTest.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TimeAppTestClient/appClientModule/com/wsbook/casestudy/mapper/jdbc/test/TimeSheetMapperTest.java"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TsObject.java" path="/TimeSheet-AppLogic/source/com/wsbook/casestudy/domain/TsObject.java" title="TsObject.java" tooltip="TimeSheet-AppLogic/source/com/wsbook/casestudy/domain/TsObject.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TimeSheet-AppLogic/source/com/wsbook/casestudy/domain/TsObject.java"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="UpdateTimesheetFormCommand.java" path="/TimeSheet-AppLogic/source/com/wsbook/casestudy/command/UpdateTimesheetFormCommand.java" title="UpdateTimesheetFormCommand.java" tooltip="TimeSheet-AppLogic/source/com/wsbook/casestudy/command/UpdateTimesheetFormCommand.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TimeSheet-AppLogic/source/com/wsbook/casestudy/command/UpdateTimesheetFormCommand.java"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="UpdateTimeSheetAction.java" path="/TimeApp/source/com/wsbook/casestudy/action/UpdateTimeSheetAction.java" title="UpdateTimeSheetAction.java" tooltip="TimeApp/source/com/wsbook/casestudy/action/UpdateTimeSheetAction.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TimeApp/source/com/wsbook/casestudy/action/UpdateTimeSheetAction.java"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TimeSheetActionProcessor.java" path="/TimeSheet-AppLogic/source/com/wsbook/casestudy/model/TimeSheetActionProcessor.java" title="TimeSheetActionProcessor.java" tooltip="TimeSheet-AppLogic/source/com/wsbook/casestudy/model/TimeSheetActionProcessor.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TimeSheet-AppLogic/source/com/wsbook/casestudy/model/TimeSheetActionProcessor.java"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TimeSheetActionProcessorImpl.java" path="/TimeSheetGroup/ejbSource/com/wsbook/casestudy/model/ejb/TimeSheetActionProcessorImpl.java" title="TimeSheetActionProcessorImpl.java" tooltip="TimeSheetGroup/ejbSource/com/wsbook/casestudy/model/ejb/TimeSheetActionProcessorImpl.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TimeSheetGroup/ejbSource/com/wsbook/casestudy/model/ejb/TimeSheetActionProcessorImpl.java"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TimeSheetActionProcessorFacade.java" path="/TimeSheetGroup/ejbSource/com/wsbook/casestudy/ejb/TimeSheetActionProcessorFacade.java" title="TimeSheetActionProcessorFacade.java" tooltip="TimeSheetGroup/ejbSource/com/wsbook/casestudy/ejb/TimeSheetActionProcessorFacade.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TimeSheetGroup/ejbSource/com/wsbook/casestudy/ejb/TimeSheetActionProcessorFacade.java"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TimeSheetActionProcessorFacadeBean.java" path="/TimeSheetGroup/ejbSource/com/wsbook/casestudy/ejb/TimeSheetActionProcessorFacadeBean.java" title="TimeSheetActionProcessorFacadeBean.java" tooltip="TimeSheetGroup/ejbSource/com/wsbook/casestudy/ejb/TimeSheetActionProcessorFacadeBean.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TimeSheetGroup/ejbSource/com/wsbook/casestudy/ejb/TimeSheetActionProcessorFacadeBean.java"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="OIDGeneratorHelper.java" path="/TimeSheetGroup/ejbSource/com/wsbook/casestudy/ejb/helper/OIDGeneratorHelper.java" title="OIDGeneratorHelper.java" tooltip="TimeSheetGroup/ejbSource/com/wsbook/casestudy/ejb/helper/OIDGeneratorHelper.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TimeSheetGroup/ejbSource/com/wsbook/casestudy/ejb/helper/OIDGeneratorHelper.java"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Filter.java" path="/TimeSheet-AppLogic/source/com/wsbook/casestudy/domain/Filter.java" title="Filter.java" tooltip="TimeSheet-AppLogic/source/com/wsbook/casestudy/domain/Filter.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TimeSheet-AppLogic/source/com/wsbook/casestudy/domain/Filter.java"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ProjectFilter.java" path="/TimeSheet-AppLogic/source/com/wsbook/casestudy/domain/ProjectFilter.java" title="ProjectFilter.java" tooltip="TimeSheet-AppLogic/source/com/wsbook/casestudy/domain/ProjectFilter.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TimeSheet-AppLogic/source/com/wsbook/casestudy/domain/ProjectFilter.java"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TimeSheetMapper.java" path="/TimeSheet-AppLogic/source/com/wsbook/casestudy/mapping/memory/TimeSheetMapper.java" title="TimeSheetMapper.java" tooltip="TimeSheet-AppLogic/source/com/wsbook/casestudy/mapping/memory/TimeSheetMapper.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TimeSheet-AppLogic/source/com/wsbook/casestudy/mapping/memory/TimeSheetMapper.java"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="EmployeeFilter.java" path="/TimeSheet-AppLogic/source/com/wsbook/casestudy/domain/EmployeeFilter.java" title="EmployeeFilter.java" tooltip="TimeSheet-AppLogic/source/com/wsbook/casestudy/domain/EmployeeFilter.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TimeSheet-AppLogic/source/com/wsbook/casestudy/domain/EmployeeFilter.java"/>
+</editor>
+<editor focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TimeSheetEntryMapper.java" partName="TimeSheetEntryMapper.java" path="C:/ildar/WSAD_Samples/TimeSheetGroup/ejbSource/com/wsbook/casestudy/mapping/ejb/TimeSheetEntryMapper.java" title="TimeSheetEntryMapper.java" tooltip="TimeSheetGroup/ejbSource/com/wsbook/casestudy/mapping/ejb/TimeSheetEntryMapper.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TimeSheetGroup/ejbSource/com/wsbook/casestudy/mapping/ejb/TimeSheetEntryMapper.java"/>
+</editor>
+</editors>
+<views>
+<view id="org.eclipse.wst.server.ui.ServersView" partName="Серверы">
+<viewState columnWidth0="200" columnWidth1="200" columnWidth2="200"/>
+</view>
+<view id="org.eclipse.debug.ui.VariableView" partName="Переменные">
+<viewState/>
+</view>
+<view id="org.eclipse.search.SearchResultView" partName="Классический поиск">
+<viewState>
+<defaultSorters/>
+<sorters/>
+</viewState>
+</view>
+<view id="org.eclipse.jdt.debug.ui.DisplayView" partName="Показать"/>
+<view id="org.eclipse.ui.views.TaskList" partName="Задачи">
+<viewState columnWidth0="43" columnWidth1="19" columnWidth2="253" columnWidth3="78" columnWidth4="153" columnWidth5="63" columnWidth6="0" horizontalPosition="0" verticalPosition="0">
+<columnOrder columnOrderIndex="0"/>
+<columnOrder columnOrderIndex="1"/>
+<columnOrder columnOrderIndex="2"/>
+<columnOrder columnOrderIndex="3"/>
+<columnOrder columnOrderIndex="4"/>
+<columnOrder columnOrderIndex="5"/>
+<columnOrder columnOrderIndex="6"/>
+</viewState>
+</view>
+<view id="org.eclipse.debug.ui.ExpressionView" partName="Выражения"/>
+<view id="org.eclipse.debug.ui.DebugView" partName="Отладка">
+<viewState/>
+</view>
+<view id="org.eclipse.jdt.junit.ResultView" partName="JUnit">
+<viewState/>
+</view>
+<view id="org.eclipse.jdt.ui.TypeHierarchy" partName="Иерархия">
+<viewState hidefields="false" hidelocaltypes="false" hidenonpublic="false" hidestatic="false" input="=TimeSheet-AppLogic/source&lt;com.wsbook.casestudy.domain{Filter.java[Filter" isWindowWorkingSet="false" mv_vertical_scroll="0" org.eclipse.jdt.ui.packages.linktypehierarchytoeditor="0" orientation="0" ratio="563" selection="=TimeSheet-AppLogic/source&lt;com.wsbook.casestudy.domain{Filter.java[Filter" showinherited="false" sortbydefiningtype="false" vertical_scroll="0" view="2" workingSetName=""/>
+</view>
+<view id="org.eclipse.debug.ui.BreakpointView" partName="Точки прерывания"/>
+<view id="org.eclipse.ui.views.ContentOutline" partName="Схема">
+<viewState/>
+</view>
+<view id="org.eclipse.ui.views.PropertySheet" partName="Свойства">
+<viewState/>
+</view>
+</views>
+<perspectives activePart="org.eclipse.ui.views.ContentOutline" activePerspective="com.ibm.etools.j2ee.J2EEPerspective">
+<perspective editorAreaVisible="1" fixed="0" version="0.016">
+<descriptor class="com.ibm.etools.j2ee.ui.J2EEPerspective" id="com.ibm.etools.j2ee.J2EEPerspective" label="J2EE"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.externaltools.ExternalToolsSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.update.ui.softwareUpdates"/>
+<alwaysOnActionSet id="com.ibm.etools.j2ee.LastJ2eeMainActionSet"/>
+<alwaysOnActionSet id="com.ibm.etools.j2ee.J2eeMainActionSet4"/>
+<alwaysOnActionSet id="com.ibm.iwt.webtools.ProjectActionSet"/>
+<alwaysOnActionSet id="org.eclipse.jdt.ui.JavaActionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.launchActionSet"/>
+<alwaysOnActionSet id="com.rational.clearcase.ActionSet"/>
+<alwaysOnActionSet id="com.ibm.process.actionSet"/>
+<alwaysOnActionSet id="com.ibm.rational.welcome.core.webResourcesActionSet"/>
+<alwaysOnActionSet id="org.eclipse.jst.ws.consumption"/>
+<alwaysOnActionSet id="org.eclipse.jst.servlet.ui.internal.actions.ConvertToWebModuleTypeActionSet"/>
+<alwaysOnActionSet id="com.ibm.samplegallery.sampleGalleryActionSet"/>
+<alwaysOnActionSet id="org.eclipse.wst.server.ui.internal.webbrowser.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.openExternalFile"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
+<alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
+<alwaysOnActionSet id="com.ibm.01.tutorialgallery.tutorialGalleryActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.eclipse.ui.WorkingSetActionSet"/>
+<alwaysOnActionSet id="com.ibm.cic.licensing.common.ui.actionSet"/>
+<alwaysOnActionSet id="com.ibm.rational.welcome.core.helpSearchActionSet"/>
+<alwaysOnActionSet id="com.ibm.datatools.core.ui.actionSet"/>
+<show_view_action id="org.eclipse.ui.views.ResourceNavigator"/>
+<show_view_action id="com.ibm.etools.j2ee.ui.view.J2EENavigator"/>
+<show_view_action id="org.eclipse.ui.views.ContentOutline"/>
+<show_view_action id="org.eclipse.ui.views.TaskList"/>
+<show_view_action id="com.ibm.etools.server.tools.configuration"/>
+<show_view_action id="com.ibm.etools.server.tools.control"/>
+<show_view_action id="com.ibm.etools.rsc.ui.view.DBAResourceNavigator"/>
+<show_view_action id="com.ibm.etools.rsc.ui.view.DBAExplorer"/>
+<new_wizard_action id="earProjectWizard"/>
+<new_wizard_action id="ApplicationClientProjectWizard"/>
+<new_wizard_action id="ConnectorProjectWizard"/>
+<new_wizard_action id="WebProjectCreation"/>
+<new_wizard_action id="ejbProjectWizard"/>
+<new_wizard_action id="createEJBWizard"/>
+<new_wizard_action id="com.ibm.etools.ejb.accessbean.wizards.creation.AccessBeanCreationWizard.ID"/>
+<new_wizard_action id="com.ibm.etools.jbcf.codegen.wizards.NewVisualClassCreationWizard"/>
+<new_wizard_action id="com.rational.xtools.umlvisualizer.wizard.new.file"/>
+<perspective_action id="org.eclipse.jdt.ui.JavaPerspective"/>
+<perspective_action id="org.eclipse.debug.ui.DebugPerspective"/>
+<perspective_action id="com.ibm.etools.rsc.ui.view.DBAPerspective"/>
+<perspective_action id="com.ibm.etools.server.tools.perspective"/>
+<perspective_action id="com.ibm.iwt.webtools.WebToolsPerspective"/>
+<perspective_action id="org.eclipse.vcm.ui.vcmPerspective"/>
+<perspective_action id="com.ibm.etools.trace.tracePerspective"/>
+<view id="org.eclipse.ui.views.ContentOutline"/>
+<view id="org.eclipse.ui.views.TaskList"/>
+<view id="org.eclipse.ui.views.PropertySheet"/>
+<view id="org.eclipse.search.SearchResultView"/>
+<view id="org.eclipse.jdt.ui.TypeHierarchy"/>
+<view id="org.eclipse.jdt.junit.ResultView"/>
+<view id="org.eclipse.wst.server.ui.ServersView"/>
+<layout>
+<mainWindow>
+<info folder="true" part="topLeft">
+<folder activePageID="com.ibm.etools.webtools.WebView" appearance="2" expanded="2">
+<page content="com.ibm.etools.j2ee.ui.view.J2EENavigator" label="LabelNotFound"/>
+<page content="com.ibm.etools.webtools.WebView" label="LabelNotFound"/>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.30218688" ratioLeft="304" ratioRight="702" relationship="2" relative="topLeft"/>
+<info folder="true" part="bottomRight" ratio="0.6642442" ratioLeft="457" ratioRight="231" relationship="4" relative="org.eclipse.ui.editorss">
+<folder activePageID="org.eclipse.wst.server.ui.ServersView" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.TaskList" label="Задачи"/>
+<page content="org.eclipse.ui.views.PropertySheet" label="Свойства"/>
+<page content="com.ibm.etools.server.ui.ServersView" label="LabelNotFound"/>
+<page content="org.eclipse.debug.ui.ConsoleView" label="LabelNotFound"/>
+<page content="com.ibm.etools.rsc.ui.view.DBAExplorer" label="LabelNotFound"/>
+<page content="org.eclipse.search.SearchResultView" label="Классический поиск"/>
+<page content="org.eclipse.jdt.ui.TypeHierarchy" label="Иерархия"/>
+<page content="org.eclipse.team.ui.sync.SyncView" label="LabelNotFound"/>
+<page content="com.ibm.etools.outputview.OutputView" label="LabelNotFound"/>
+<page content="org.eclipse.jdt.junit.ResultView" label="JUnit"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+<page content="org.eclipse.wst.server.ui.ServersView" label="Серверы"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+<part id="4"/>
+<part id="5"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="bottomLeft" ratio="0.7005814" ratioLeft="482" ratioRight="206" relationship="4" relative="topLeft">
+<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
+<page content="com.ibm.sed.library.libraryView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.ContentOutline" label="Схема"/>
+<page content="com.ibm.etools.jbcf.codegen.editorpart.BeansList" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+</mainWindow>
+</layout>
+</perspective>
+<perspective editorAreaVisible="1" version="0.016">
+<descriptor class="org.eclipse.debug.internal.ui.DebugPerspectiveFactory" id="org.eclipse.debug.ui.DebugPerspective" label="Debug"/>
+<actionSet id="com.ibm.debug.common.actionSet"/>
+<actionSet id="com.ibm.etools.webservice.consumption.ui.uddiActionSet"/>
+<actionSet id="org.eclipse.help.internal.ui.HelpActionSet"/>
+<actionSet id="org.eclipse.search.searchActionSet"/>
+<actionSet id="org.eclipse.ui.externaltools.ExternalToolsSet"/>
+<actionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<actionSet id="org.eclipse.update.ui.softwareUpdates"/>
+<actionSet id="org.eclipse.debug.ui.launchActionSet"/>
+<actionSet id="org.eclipse.debug.ui.debugActionSet"/>
+<actionSet id="com.ibm.debug.sqlj.SQLJDebugActionSet"/>
+<actionSet id="org.eclipse.hyades.trace.ui.internal.traceActionSet"/>
+<actionSet id="org.eclipse.jdt.debug.ui.JDTDebugActionSet"/>
+<actionSet id="org.eclipse.jdt.ui.JavaActionSet"/>
+<alwaysOnActionSet id="com.ibm.debug.common.actionSet"/>
+<alwaysOnActionSet id="com.ibm.etools.webservice.consumption.ui.uddiActionSet"/>
+<alwaysOnActionSet id="org.eclipse.help.internal.ui.HelpActionSet"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.externaltools.ExternalToolsSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.update.ui.softwareUpdates"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.launchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.debugActionSet"/>
+<alwaysOnActionSet id="com.ibm.debug.sqlj.SQLJDebugActionSet"/>
+<alwaysOnActionSet id="org.eclipse.hyades.trace.ui.internal.traceActionSet"/>
+<alwaysOnActionSet id="org.eclipse.jdt.debug.ui.JDTDebugActionSet"/>
+<alwaysOnActionSet id="org.eclipse.jdt.ui.JavaActionSet"/>
+<show_view_action id="org.eclipse.debug.ui.DebugView"/>
+<show_view_action id="org.eclipse.debug.ui.VariableView"/>
+<show_view_action id="org.eclipse.debug.ui.BreakpointView"/>
+<show_view_action id="org.eclipse.debug.ui.ExpressionView"/>
+<show_view_action id="org.eclipse.ui.views.ContentOutline"/>
+<show_view_action id="org.eclipse.debug.ui.ConsoleView"/>
+<show_view_action id="org.eclipse.ui.views.TaskList"/>
+<show_view_action id="org.eclipse.jdt.debug.ui.DisplayView"/>
+<show_view_action id="org.eclipse.jdt.debug.ui.MonitorsView"/>
+<show_view_action id="org.eclipse.ui.externaltools.AntView"/>
+<perspective_action id="org.eclipse.hyades.trace.internal.ui.tracePerspective"/>
+<perspective_action id="org.eclipse.jdt.ui.JavaPerspective"/>
+<perspective_action id="org.eclipse.jdt.ui.JavaBrowsingPerspective"/>
+<view id="org.eclipse.debug.ui.ConsoleView" removed="true"/>
+<view id="org.eclipse.ui.views.TaskList"/>
+<view id="org.eclipse.debug.ui.DebugView"/>
+<view id="com.ibm.etools.server.ui.ServersView" removed="true"/>
+<view id="org.eclipse.debug.ui.VariableView"/>
+<view id="org.eclipse.debug.ui.BreakpointView"/>
+<view id="org.eclipse.debug.ui.ExpressionView"/>
+<view id="com.ibm.debug.pdt.ui.RegisterView" removed="true"/>
+<view id="com.ibm.debug.pdt.ui.StorageView" removed="true"/>
+<view id="com.ibm.debug.pdt.ui.StorageMapView" removed="true"/>
+<view id="com.ibm.debug.pdt.ui.MonitorView" removed="true"/>
+<view id="com.ibm.debug.pdt.ui.ModulesView" removed="true"/>
+<view id="org.eclipse.jdt.debug.ui.DisplayView"/>
+<view id="org.eclipse.ui.views.ContentOutline"/>
+<layout>
+<mainWindow>
+<info folder="true" part="org.eclipse.debug.internal.ui.NavigatorFolderView">
+<folder activePageID="org.eclipse.debug.ui.DebugView">
+<page content="org.eclipse.debug.ui.DebugView" label="Debug"/>
+<page content="com.ibm.etools.server.ui.ServersView" label="Servers"/>
+<page content="org.eclipse.ui.views.ResourceNavigator" label="Navigator"/>
+<page content="org.eclipse.jdt.ui.PackageExplorer" label=""/>
+<page content="org.eclipse.jdt.ui.TypeHierarchy" label=""/>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.debug.internal.ui.ConsoleFolderView" ratio="0.75" relationship="4" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">
+<folder activePageID="org.eclipse.debug.ui.ConsoleView">
+<page content="org.eclipse.debug.ui.ConsoleView" label="Console"/>
+<page content="org.eclipse.ui.views.TaskList" label="Tasks"/>
+<page content="org.eclipse.ui.views.BookmarkNavigator" label="Bookmarks"/>
+<page content="org.eclipse.ui.views.PropertySheet" label="Properties"/>
+<page content="org.eclipse.search.SearchResultView" label=""/>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.5" relationship="4" relative="org.eclipse.debug.internal.ui.NavigatorFolderView"/>
+<info folder="true" part="org.eclipse.debug.internal.ui.OutlineFolderView" ratio="0.75" relationship="2" relative="org.eclipse.ui.editorss">
+<folder activePageID="org.eclipse.ui.views.ContentOutline">
+<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
+<page content="com.ibm.etools.jbcf.codegen.editorpart.BeansList" label=""/>
+<page content="org.eclipse.ui.externaltools.AntView" label=""/>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.debug.internal.ui.ToolsFolderView" ratio="0.5" relationship="2" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">
+<folder activePageID="org.eclipse.debug.ui.VariableView">
+<page content="org.eclipse.debug.ui.VariableView" label="Variables"/>
+<page content="org.eclipse.debug.ui.BreakpointView" label="Breakpoints"/>
+<page content="org.eclipse.debug.ui.ExpressionView" label="Expressions"/>
+<page content="com.ibm.debug.pdt.ui.RegisterView" label="Registers"/>
+<page content="com.ibm.debug.pdt.ui.StorageView" label="Storage"/>
+<page content="com.ibm.debug.pdt.ui.StorageMapView" label="Storage Mapping"/>
+<page content="com.ibm.debug.pdt.ui.MonitorView" label="Monitors"/>
+<page content="com.ibm.debug.pdt.ui.ModulesView" label="Modules"/>
+<page content="org.eclipse.jdt.debug.ui.DisplayView" label="Display"/>
+<page content="org.eclipse.jdt.debug.ui.MonitorsView" label=""/>
+</folder>
+</info>
+</mainWindow>
+</layout>
+<toolbarLayout actionSet="1">
+<itemSize x="120" y="22"/>
+<itemSize x="38" y="22"/>
+<itemSize x="123" y="22"/>
+<itemSize x="51" y="22"/>
+<itemSize x="61" y="22"/>
+<itemSize x="110" y="22"/>
+<itemSize x="84" y="22"/>
+<wrapIndex index="0"/>
+<item id="org.eclipse.ui.workbench.file"/>
+<item id="com.ibm.etools.webservice.consumption.ui.uddiActionSet"/>
+<item id="org.eclipse.debug.ui.launchActionSet"/>
+<item id="org.eclipse.hyades.trace.ui.internal.traceActionSet"/>
+<item id="org.eclipse.search.searchActionSet"/>
+<item id="org.eclipse.ui.workbench.navigate"/>
+<item id="org.eclipse.jdt.ui.CompilationUnitEditor"/>
+</toolbarLayout>
+</perspective>
+</perspectives>
+<workingSets/>
+<navigationHistory>
+<editors>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/TimeSheet-AppLogic/source/com/wsbook/casestudy/domain/TimeSheetState.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/TimeSheet-AppLogic/source/com/wsbook/casestudy/mapping/jdbc/TimeSheetMapper.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/TimeSheet-AppLogic/source/com/wsbook/casestudy/domain/TsObject.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/TimeSheet-AppLogic/source/com/wsbook/casestudy/command/UpdateTimesheetFormCommand.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/TimeApp/source/com/wsbook/casestudy/action/UpdateTimeSheetAction.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/TimeSheet-AppLogic/source/com/wsbook/casestudy/model/TimeSheetActionProcessor.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/TimeSheetGroup/ejbSource/com/wsbook/casestudy/model/ejb/TimeSheetActionProcessorImpl.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/TimeSheetGroup/ejbSource/com/wsbook/casestudy/ejb/TimeSheetActionProcessorFacade.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/TimeSheetGroup/ejbSource/com/wsbook/casestudy/ejb/TimeSheetActionProcessorFacadeBean.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/TimeSheetGroup/ejbSource/com/wsbook/casestudy/ejb/helper/OIDGeneratorHelper.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/TimeSheet-AppLogic/source/com/wsbook/casestudy/domain/Filter.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/TimeSheet-AppLogic/source/com/wsbook/casestudy/domain/ProjectFilter.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/TimeSheet-AppLogic/source/com/wsbook/casestudy/mapping/memory/TimeSheetMapper.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/TimeSheet-AppLogic/source/com/wsbook/casestudy/domain/EmployeeFilter.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/TimeSheetGroup/ejbSource/com/wsbook/casestudy/mapping/ejb/TimeSheetEntryMapper.java"/>
+</editors>
+<item historyLabel="TimeSheetMapper.java" index="1">
+<position info="not_deleted" x="13083" y="18"/>
+</item>
+<item historyLabel="TimeSheetState.java" index="0">
+<position info="not_deleted" x="1073" y="16"/>
+</item>
+<item historyLabel="TimeSheetMapper.java" index="1">
+<position info="not_deleted" x="13089" y="0"/>
+</item>
+<item historyLabel="TimeSheetState.java" index="0">
+<position info="not_deleted" x="235" y="0"/>
+</item>
+<item historyLabel="TsObject.java" index="2">
+<position info="not_deleted" x="698" y="0"/>
+</item>
+<item historyLabel="UpdateTimesheetFormCommand.java" index="3">
+<position info="not_deleted" x="8" y="28"/>
+</item>
+<item historyLabel="UpdateTimesheetFormCommand.java" index="3">
+<position info="not_deleted" x="2298" y="20"/>
+</item>
+<item historyLabel="UpdateTimesheetFormCommand.java" index="3">
+<position info="not_deleted" x="407" y="26"/>
+</item>
+<item historyLabel="UpdateTimesheetFormCommand.java" index="3">
+<position info="not_deleted" x="518" y="26"/>
+</item>
+<item historyLabel="UpdateTimesheetFormCommand.java" index="3">
+<position info="not_deleted" x="3231" y="15"/>
+</item>
+<item historyLabel="UpdateTimeSheetAction.java" index="4">
+<position info="not_deleted" x="2257" y="26"/>
+</item>
+<item historyLabel="UpdateTimeSheetAction.java" index="4">
+<position info="not_deleted" x="1263" y="7"/>
+</item>
+<item historyLabel="UpdateTimeSheetAction.java" index="4">
+<position info="not_deleted" x="1846" y="0"/>
+</item>
+<item historyLabel="TimeSheetActionProcessor.java" index="5">
+<position info="not_deleted" x="5052" y="15"/>
+</item>
+<item historyLabel="TimeSheetActionProcessor.java" index="5">
+<position info="not_deleted" x="932" y="24"/>
+</item>
+<item historyLabel="TimeSheetActionProcessor.java" index="5">
+<position info="not_deleted" x="5052" y="15"/>
+</item>
+<item historyLabel="TimeSheetActionProcessorImpl.java" index="6">
+<position info="not_deleted" x="1327" y="28"/>
+</item>
+<item historyLabel="TimeSheetActionProcessorImpl.java" index="6">
+<position info="not_deleted" x="13739" y="0"/>
+</item>
+<item historyLabel="TimeSheetActionProcessorFacade.java" index="7">
+<position info="not_deleted" x="3616" y="15"/>
+</item>
+<item historyLabel="TimeSheetActionProcessorFacadeBean.java" index="8">
+<position info="not_deleted" x="8" y="24"/>
+</item>
+<item historyLabel="TimeSheetActionProcessorFacadeBean.java" index="8">
+<position info="not_deleted" x="7958" y="15"/>
+</item>
+<item historyLabel="OIDGeneratorHelper.java" index="9">
+<position info="not_deleted" x="1358" y="9"/>
+</item>
+<item historyLabel="Filter.java" index="10">
+<position/>
+</item>
+<item historyLabel="ProjectFilter.java" index="11">
+<position info="not_deleted" x="438" y="5"/>
+</item>
+<item historyLabel="Filter.java" index="10">
+<position info="not_deleted" x="594" y="17"/>
+</item>
+<item historyLabel="TimeSheetMapper.java" index="12">
+<position info="not_deleted" x="7533" y="32"/>
+</item>
+<item historyLabel="TimeSheetMapper.java" index="12">
+<position info="not_deleted" x="7534" y="0"/>
+</item>
+<item historyLabel="Filter.java" index="10">
+<position info="not_deleted" x="428" y="5"/>
+</item>
+<item historyLabel="Filter.java" index="10">
+<position info="not_deleted" x="863" y="5"/>
+</item>
+<item historyLabel="ProjectFilter.java" index="11">
+<position info="not_deleted" x="438" y="5"/>
+</item>
+<item historyLabel="EmployeeFilter.java" index="13">
+<position/>
+</item>
+<item historyLabel="Filter.java" index="10">
+<position info="not_deleted" x="150" y="6"/>
+</item>
+<item historyLabel="TimeSheetActionProcessorImpl.java" index="6">
+<position info="not_deleted" x="13739" y="0"/>
+</item>
+<item historyLabel="TimeSheetActionProcessorImpl.java" index="6">
+<position info="not_deleted" x="1327" y="28"/>
+</item>
+<item historyLabel="Filter.java" index="10">
+<position info="not_deleted" x="150" y="6"/>
+</item>
+<item historyLabel="TimeSheetEntryMapper.java" index="14">
+<position info="not_deleted" x="8" y="32"/>
+</item>
+<item historyLabel="TimeSheetEntryMapper.java" index="14">
+<position info="not_deleted" x="5151" y="3"/>
+</item>
+<item historyLabel="TimeSheetEntryMapper.java" index="14">
+<position info="not_deleted" x="5511" y="0"/>
+</item>
+<item historyLabel="TimeSheetEntryMapper.java" index="14">
+<position info="not_deleted" x="5151" y="3"/>
+</item>
+<item historyLabel="TimeSheetEntryMapper.java" index="14">
+<position info="not_deleted" x="5715" y="0"/>
+</item>
+<item historyLabel="TimeSheetEntryMapper.java" index="14">
+<position info="not_deleted" x="4864" y="17"/>
+</item>
+<item historyLabel="TimeSheetEntryMapper.java" index="14">
+<position info="not_deleted" x="5710" y="14"/>
+</item>
+<item historyLabel="TimeSheetEntryMapper.java" index="14">
+<position info="not_deleted" x="4864" y="17"/>
+</item>
+<item historyLabel="TimeSheetEntryMapper.java" index="14">
+<position info="not_deleted" x="420" y="37"/>
+</item>
+<item historyLabel="TimeSheetEntryMapper.java" index="14">
+<position info="not_deleted" x="519" y="36"/>
+</item>
+<item historyLabel="TimeSheetEntryMapper.java" index="14">
+<position info="not_deleted" x="610" y="37"/>
+</item>
+<item historyLabel="TimeSheetEntryMapper.java" index="14">
+<position info="not_deleted" x="1040" y="40"/>
+</item>
+<item historyLabel="TimeSheetEntryMapper.java" index="14">
+<position info="not_deleted" x="1090" y="35"/>
+</item>
+<item historyLabel="TimeSheetEntryMapper.java" index="14">
+<position info="not_deleted" x="927" y="55"/>
+</item>
+<item active="true" historyLabel="TimeSheetEntryMapper.java" index="14">
+<position info="not_deleted" x="1335" y="20"/>
+</item>
+</navigationHistory>
+<stickyState/>
+<input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
+</page>
+<workbenchWindowAdvisor/>
+<actionBarAdvisor/>
+<trimLayout>
+<trimArea IMemento.internal.id="128">
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
+</trimArea>
+<trimArea IMemento.internal.id="1024">
+<trimItem IMemento.internal.id="org.eclise.ui.internal.FastViewBar"/>
+<trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
+</trimArea>
+</trimLayout>
+</window>
+<mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TimeSheetEntryMapper.java" tooltip="TimeSheetGroup/ejbSource/com/wsbook/casestudy/mapping/ejb/TimeSheetEntryMapper.java">
+<persistable path="/TimeSheetGroup/ejbSource/com/wsbook/casestudy/mapping/ejb/TimeSheetEntryMapper.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="EmployeeFilter.java" tooltip="TimeSheet-AppLogic/source/com/wsbook/casestudy/domain/EmployeeFilter.java">
+<persistable path="/TimeSheet-AppLogic/source/com/wsbook/casestudy/domain/EmployeeFilter.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TimeSheetMapper.java" tooltip="TimeSheet-AppLogic/source/com/wsbook/casestudy/mapping/memory/TimeSheetMapper.java">
+<persistable path="/TimeSheet-AppLogic/source/com/wsbook/casestudy/mapping/memory/TimeSheetMapper.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ProjectFilter.java" tooltip="TimeSheet-AppLogic/source/com/wsbook/casestudy/domain/ProjectFilter.java">
+<persistable path="/TimeSheet-AppLogic/source/com/wsbook/casestudy/domain/ProjectFilter.java"/>
+</file>
+</mruList>
+</workbench>

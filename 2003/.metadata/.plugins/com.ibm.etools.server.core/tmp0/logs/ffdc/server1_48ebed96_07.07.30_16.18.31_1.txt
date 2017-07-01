@@ -1,0 +1,84 @@
+------Start of DE processing------ = [07.07.30 16:18:31:705 MSD] , key = java.rmi.NoSuchObjectException com.ibm.ejs.container.activator.OptCEntityActivationStrategy.atActivate 124
+Exception = java.rmi.NoSuchObjectException
+Source = com.ibm.ejs.container.activator.OptCEntityActivationStrategy.atActivate
+probeid = 124
+Stack Dump = java.rmi.NoSuchObjectException: javax.ejb.NoSuchEntityException: Single object finder returned 0 objects.
+	at com.ibm.ejs.container.ContainerManaged2_0BeanO.loadForEnlist(ContainerManaged2_0BeanO.java:360)
+	at com.ibm.ejs.container.EntityBeanO.enlist(EntityBeanO.java:727)
+	at com.ibm.ejs.container.activator.OptCEntityActivationStrategy.atActivate(OptCEntityActivationStrategy.java:139)
+	at com.ibm.ejs.container.activator.Activator.activateBean(Activator.java:516)
+	at com.ibm.ejs.container.EJSHome.activateBean_Common(EJSHome.java:1316)
+	at com.ibm.ejs.container.EJSHome.activateBean_Local(EJSHome.java:1230)
+	at com.wsbook.casestudy.ejb.EJSCMPProjectEJBHomeBean_8ce694f3.findByPrimaryKey_Local(EJSCMPProjectEJBHomeBean_8ce694f3.java:45)
+	at com.wsbook.casestudy.ejb.EJSLocalCMPProjectEJBHome_8ce694f3.findByPrimaryKey(EJSLocalCMPProjectEJBHome_8ce694f3.java:119)
+	at com.wsbook.casestudy.mapping.ejb.ProjectMapper.findEJBObjectMatching(ProjectMapper.java:105)
+	at com.wsbook.casestudy.mapping.ejb.DomainEJBMapper.findByPrimaryKey(DomainEJBMapper.java:81)
+	at com.wsbook.casestudy.ejb.TimeSheetActionProcessorFacadeBean.findProjectByKey(TimeSheetActionProcessorFacadeBean.java:93)
+	at com.wsbook.casestudy.ejb.EJSRemoteStatelessTimeSheetActionProcessorFacade_7ee0ab51.findProjectByKey(EJSRemoteStatelessTimeSheetActionProcessorFacade_7ee0ab51.java:66)
+	at com.wsbook.casestudy.ejb._EJSRemoteStatelessTimeSheetActionProcessorFacade_7ee0ab51_Tie.findProjectByKey(_EJSRemoteStatelessTimeSheetActionProcessorFacade_7ee0ab51_Tie.java:254)
+	at com.wsbook.casestudy.ejb._EJSRemoteStatelessTimeSheetActionProcessorFacade_7ee0ab51_Tie._invoke(_EJSRemoteStatelessTimeSheetActionProcessorFacade_7ee0ab51_Tie.java:106)
+	at com.ibm.CORBA.iiop.ServerDelegate.dispatchInvokeHandler(ServerDelegate.java:602)
+	at com.ibm.CORBA.iiop.ServerDelegate.dispatch(ServerDelegate.java:455)
+	at com.ibm.rmi.iiop.ORB.process(ORB.java:402)
+	at com.ibm.CORBA.iiop.ORB.process(ORB.java:1685)
+	at com.ibm.rmi.iiop.Connection.doWork(Connection.java:2173)
+	at com.ibm.rmi.iiop.WorkUnitImpl.doWork(WorkUnitImpl.java:64)
+	at com.ibm.ejs.oa.pool.PooledThread.run(ThreadPool.java:95)
+	at com.ibm.ws.util.ThreadPool$Worker.run(ThreadPool.java:672)
+
+Dump of callerThis = 
+Object type = com.ibm.ejs.container.activator.OptCEntityActivationStrategy
+com.ibm.ejs.container.activator.OptCEntityActivationStrategy@59996d99
+
+==> Performing default dump from com.ibm.ejs.container.EJBContainerDiagnosticModule  = Mon Jul 30 16:18:31 MSD 2007
+Dump of EJBContainer Internals = 
+Object type = com.ibm.ejs.container.EJSContainer
+com.ibm.ejs.container.EJSContainer@59e42d9f
+
++Data for directive [default] obtained. = 
+Dump of ComponentMetaData = 
+                                 *** START ComponentMetaData fields ***
+                                 J2EEName       = wasbook#TimeSheetGroup.jar#ProjectEJB
+                                 EJB Type       = CONTAINER_MANAGED_ENTITY
+                                 TX Type        = CONTAINER_MANAGED_TX
+                                 Module Version = EJB 2.0
+                                 CMP Version    = 2.x
+                                     ******* ResRefList ******* 
+                                 ResRefList size=1
+                                     ******* Resource-Ref ******* 
+                                 Description=WebSphere CMP Resource Ref Connection Factory
+                                 Name=WebSphereCMPConnectionFactory
+                                 JNDIName=jdbc/WSBOOK
+                                 Type=javax.resource.cci.ConnectionFactory
+                                 ResAuth=APPLICATION
+                                 ResSharingScope=SHAREABLE
+                                 IsolationLevel=TRANSACTION_NONE
+                                       ****** LOCAL-TRANSACTION *******
+                                 Boundary=BEAN_METHOD
+                                 Resolver=CONTAINER_AT_BOUNDARY
+                                 UnResolvedAction=ROLLBACK
+                                 *** END ComponentMetaData fields  ***
++Data for directive [defaultcomponentmetadata] obtained. = 
+Dump of ContainerTx = 
+
+*** Start ContainerTx Dump    ---> com.ibm.ejs.container.ContainerTx@51792d98
+
+  Tx Key                  = com.ibm.ws.Transaction.JTA.TransactionImpl@51732d98#tid=15
+  State                   = Active
+  Entered beforCompletion = false
+  Marked Rollback Only    = false
+  Method Began            = false
+  Isolation Level         = TRANSACTION_NONE
+
+  --- Dump of Enlisted Beans : 0 ---------------------- 
+
+
+  --- Dump of Access Intents : 1 ---------------------- 
+
+    BeanId(wasbook#TimeSheetGroup.jar#ProjectEJB, 99)
+    AccessIntent(Pessimistic-Update, Weakest, Transaction, Inc = 25, PreFetch = 0, ReadAhead = false)
+
+*** ContainerTx Dump Complete ---> com.ibm.ejs.container.ContainerTx@51792d98
+
++Data for directive [defaultcontainertx] obtained. = 
+==> Dump complete for com.ibm.ejs.container.EJBContainerDiagnosticModule  = Mon Jul 30 16:18:31 MSD 2007

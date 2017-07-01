@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./CommonBaseEvents.xsl"?>
+<CommonBaseEvents>
+	<CommonBaseEvent creationTime="2008-10-08T13:18:43.944Z" version="1.0.1">
+		<extendedDataElements name="CommonBaseEventLogRecord:sequenceNumber" type="long">
+			<values>5</values>
+		</extendedDataElements>
+		<extendedDataElements name="CommonBaseEventLogRecord:threadID" type="int">
+			<values>12</values>
+		</extendedDataElements>
+		<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+			<children name="CommonBaseEventLogRecord:name" type="string">
+				<values>WARNING</values>
+			</children>
+			<children name="CommonBaseEventLogRecord:value" type="int">
+				<values>900</values>
+			</children>
+		</extendedDataElements>
+		<extendedDataElements name="CommonBaseEventLogRecord:loggerName" type="string">
+			<values>com.ibm.ws.util.ImplFactory</values>
+		</extendedDataElements>
+		<sourceComponentId component="Logging" componentIdType="Application" executionEnvironment="Java" location="192.168.144.41" locationType="IPV4" subComponent="Logger" componentType="Logging_Application"/>
+		<msgDataElement>
+			<msgCatalogTokens value="com.ibm.ws.security.auth.ContextManagerImpl"/>
+			<msgCatalogTokens value="com.ibm.ws.security.auth.distContextManagerImpl"/>
+			<msgCatalogId>WSVR0072W</msgCatalogId>
+			<msgCatalogType>Java</msgCatalogType>
+			<msgCatalog>com.ibm.ws.runtime.runtime</msgCatalog>
+		</msgDataElement>
+		<situation categoryName="ReportSituation">
+			<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+		</situation>
+	</CommonBaseEvent>
+	<CommonBaseEvent creationTime="2008-10-08T13:18:44.494Z" version="1.0.1">
+		<extendedDataElements name="CommonBaseEventLogRecord:sequenceNumber" type="long">
+			<values>6</values>
+		</extendedDataElements>
+		<extendedDataElements name="CommonBaseEventLogRecord:threadID" type="int">
+			<values>12</values>
+		</extendedDataElements>
+		<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+			<children name="CommonBaseEventLogRecord:name" type="string">
+				<values>AUDIT</values>
+			</children>
+			<children name="CommonBaseEventLogRecord:value" type="int">
+				<values>850</values>
+			</children>
+		</extendedDataElements>
+		<extendedDataElements name="CommonBaseEventLogRecord:loggerName" type="string">
+			<values>SASRas</values>
+		</extendedDataElements>
+		<sourceComponentId component="Logging" componentIdType="Application" executionEnvironment="Java" location="192.168.144.41" locationType="IPV4" subComponent="Logger" componentType="Logging_Application"/>
+		<msgDataElement>
+			<msgCatalogId>security.LoadSCI</msgCatalogId>
+			<msgCatalogType>Java</msgCatalogType>
+			<msgCatalog>com.ibm.ISecurityL13SupportImpl.sec</msgCatalog>
+		</msgDataElement>
+		<situation categoryName="ReportSituation">
+			<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+		</situation>
+	</CommonBaseEvent>
+	<CommonBaseEvent creationTime="2008-10-08T13:18:44.504Z" version="1.0.1">
+		<extendedDataElements name="CommonBaseEventLogRecord:sequenceNumber" type="long">
+			<values>7</values>
+		</extendedDataElements>
+		<extendedDataElements name="CommonBaseEventLogRecord:threadID" type="int">
+			<values>12</values>
+		</extendedDataElements>
+		<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+			<children name="CommonBaseEventLogRecord:name" type="string">
+				<values>AUDIT</values>
+			</children>
+			<children name="CommonBaseEventLogRecord:value" type="int">
+				<values>850</values>
+			</children>
+		</extendedDataElements>
+		<extendedDataElements name="CommonBaseEventLogRecord:loggerName" type="string">
+			<values>SASRas</values>
+		</extendedDataElements>
+		<sourceComponentId component="Logging" componentIdType="Application" executionEnvironment="Java" location="192.168.144.41" locationType="IPV4" subComponent="Logger" componentType="Logging_Application"/>
+		<msgDataElement>
+			<msgCatalogId>security.GettingConfig</msgCatalogId>
+			<msgCatalogType>Java</msgCatalogType>
+			<msgCatalog>com.ibm.ISecurityL13SupportImpl.sec</msgCatalog>
+		</msgDataElement>
+		<situation categoryName="ReportSituation">
+			<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+		</situation>
+	</CommonBaseEvent>
+	<CommonBaseEvent creationTime="2008-10-08T13:18:44.684Z" version="1.0.1">
+		<extendedDataElements name="CommonBaseEventLogRecord:sequenceNumber" type="long">
+			<values>8</values>
+		</extendedDataElements>
+		<extendedDataElements name="CommonBaseEventLogRecord:threadID" type="int">
+			<values>12</values>
+		</extendedDataElements>
+		<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+			<children name="CommonBaseEventLogRecord:name" type="string">
+				<values>WARNING</values>
+			</children>
+			<children name="CommonBaseEventLogRecord:value" type="int">
+				<values>900</values>
+			</children>
+		</extendedDataElements>
+		<extendedDataElements name="CommonBaseEventLogRecord:loggerName" type="string">
+			<values>com.ibm.ws.ssl.config.SSLConfig</values>
+		</extendedDataElements>
+		<sourceComponentId component="Logging" componentIdType="Application" executionEnvironment="Java" location="192.168.144.41" locationType="IPV4" subComponent="Logger" componentType="Logging_Application"/>
+		<msgDataElement>
+			<msgCatalogId>ssl.default.password.in.use.CWPKI0041W</msgCatalogId>
+			<msgCatalogType>Java</msgCatalogType>
+			<msgCatalog>com.ibm.ws.ssl.resources.ssl</msgCatalog>
+		</msgDataElement>
+		<situation categoryName="ReportSituation">
+			<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+		</situation>
+	</CommonBaseEvent>
+	<CommonBaseEvent creationTime="2008-10-08T13:18:44.734Z" version="1.0.1">
+		<extendedDataElements name="CommonBaseEventLogRecord:sequenceNumber" type="long">
+			<values>9</values>
+		</extendedDataElements>
+		<extendedDataElements name="CommonBaseEventLogRecord:threadID" type="int">
+			<values>12</values>
+		</extendedDataElements>
+		<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+			<children name="CommonBaseEventLogRecord:name" type="string">
+				<values>INFO</values>
+			</children>
+			<children name="CommonBaseEventLogRecord:value" type="int">
+				<values>800</values>
+			</children>
+		</extendedDataElements>
+		<extendedDataElements name="CommonBaseEventLogRecord:loggerName" type="string">
+			<values>com.ibm.ws.ssl.config.SSLConfigManager</values>
+		</extendedDataElements>
+		<sourceComponentId component="Logging" componentIdType="Application" executionEnvironment="Java" location="192.168.144.41" locationType="IPV4" subComponent="Logger" componentType="Logging_Application"/>
+		<msgDataElement>
+			<msgCatalogId>ssl.disable.url.hostname.verification.CWPKI0027I</msgCatalogId>
+			<msgCatalogType>Java</msgCatalogType>
+			<msgCatalog>com.ibm.ws.ssl.resources.ssl</msgCatalog>
+		</msgDataElement>
+		<situation categoryName="ReportSituation">
+			<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+		</situation>
+	</CommonBaseEvent>
+	<CommonBaseEvent creationTime="2008-10-08T13:18:44.744Z" version="1.0.1">
+		<extendedDataElements name="CommonBaseEventLogRecord:sequenceNumber" type="long">
+			<values>10</values>
+		</extendedDataElements>
+		<extendedDataElements name="CommonBaseEventLogRecord:threadID" type="int">
+			<values>12</values>
+		</extendedDataElements>
+		<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+			<children name="CommonBaseEventLogRecord:name" type="string">
+				<values>AUDIT</values>
+			</children>
+			<children name="CommonBaseEventLogRecord:value" type="int">
+				<values>850</values>
+			</children>
+		</extendedDataElements>
+		<extendedDataElements name="CommonBaseEventLogRecord:loggerName" type="string">
+			<values>SASRas</values>
+		</extendedDataElements>
+		<sourceComponentId component="Logging" componentIdType="Application" executionEnvironment="Java" location="192.168.144.41" locationType="IPV4" subComponent="Logger" componentType="Logging_Application"/>
+		<msgDataElement>
+			<msgCatalogTokens value="BASICAUTH"/>
+			<msgCatalogId>security.AuthTarget</msgCatalogId>
+			<msgCatalogType>Java</msgCatalogType>
+			<msgCatalog>com.ibm.ISecurityL13SupportImpl.sec</msgCatalog>
+		</msgDataElement>
+		<situation categoryName="ReportSituation">
+			<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+		</situation>
+	</CommonBaseEvent>
+	<CommonBaseEvent creationTime="2008-10-08T13:18:44.834Z" version="1.0.1">
+		<extendedDataElements name="CommonBaseEventLogRecord:sequenceNumber" type="long">
+			<values>11</values>
+		</extendedDataElements>
+		<extendedDataElements name="CommonBaseEventLogRecord:threadID" type="int">
+			<values>12</values>
+		</extendedDataElements>
+		<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+			<children name="CommonBaseEventLogRecord:name" type="string">
+				<values>AUDIT</values>
+			</children>
+			<children name="CommonBaseEventLogRecord:value" type="int">
+				<values>850</values>
+			</children>
+		</extendedDataElements>
+		<extendedDataElements name="CommonBaseEventLogRecord:loggerName" type="string">
+			<values>SASRas</values>
+		</extendedDataElements>
+		<sourceComponentId component="Logging" componentIdType="Application" executionEnvironment="Java" location="192.168.144.41" locationType="IPV4" subComponent="Logger" componentType="Logging_Application"/>
+		<msgDataElement>
+			<msgCatalogId>security.ClientCSI</msgCatalogId>
+			<msgCatalogType>Java</msgCatalogType>
+			<msgCatalog>com.ibm.ISecurityL13SupportImpl.sec</msgCatalog>
+		</msgDataElement>
+		<situation categoryName="ReportSituation">
+			<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+		</situation>
+	</CommonBaseEvent>
+</CommonBaseEvents>

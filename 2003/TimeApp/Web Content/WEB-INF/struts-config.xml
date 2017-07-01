@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE struts-config PUBLIC
+          "-//Apache Software Foundation//DTD Struts Configuration 1.0//EN"
+          "http://jakarta.apache.org/struts/dtds/struts-config_1_0.dtd">
+
+
+<struts-config>
+
+
+
+    <!-- ========== Form Bean Definitions =================================== -->
+    <form-beans>
+
+        <!-- Timesheet Form -->
+        <form-bean name="timesheetForm" type="com.wsbook.casestudy.form.TimesheetForm"/>
+        <form-bean name="approvingTimesheetForm" type="com.wsbook.casestudy.form.ApprovingTimesheetForm"/>
+        <form-bean name="updateTimesheetForm" type="com.wsbook.casestudy.form.UpdateTimesheetForm"/>
+        <form-bean name="dateFormatForm" type="com.wsbook.casestudy.form.DateFormatForm"/>
+        <form-bean name="reportForm" type="com.wsbook.casestudy.form.ReportForm"/>
+
+    </form-beans>
+
+
+    <!-- ========== Global Forward Definitions ============================== -->
+    <global-forwards>
+        <forward name="error" path="/pages/error.jsp"/>
+    </global-forwards>
+
+
+    <!-- ========== Action Mapping Definitions ============================== -->
+    <action-mappings>
+
+        <action path="/ListAllPending" type="com.wsbook.casestudy.action.ListPendingTimeSheetsAction">
+            <forward name="success" path="/pages/display_pending.jsp"/>
+        </action>
+
+        <action path="/ListAllApproved" type="com.wsbook.casestudy.action.ListApprovedTimeSheetsAction">
+            <forward name="success" path="/pages/display_approved.jsp"/>
+        </action>
+
+        <action path="/SearchTimeSheets" type="com.wsbook.casestudy.action.TimeSheetSearchAction">
+            <forward name="success" path="/pages/week_search.jsp"/>
+        </action>
+        
+        <action path="/SetDateFormat" type="com.wsbook.casestudy.action.SetDateFormatAction" scope="request" name="dateFormatForm">
+            <forward name="success" path="/index.html"/>
+        </action>
+
+        <action path="/GenerateReport" type="com.wsbook.casestudy.action.GenerateReportAction" scope="request" name="reportForm">
+            <forward name="success" path="/pages/view_report.jsp"/>
+        </action>
+
+        <action path="/TimeSheetSelect" type="com.wsbook.casestudy.action.TimeSheetSelectAction" scope="request" name="timesheetForm">
+            <forward name="pending" path="/pages/pending_view.jsp"/>
+            <forward name="approved" path="/pages/approved_view.jsp"/>
+            <forward name="tryagain" path="/pages/week_search.jsp"/>
+        </action>
+        <action path="/EmployeeTimeSheet" type="com.wsbook.casestudy.action.EmployeeTimeSheetAction" scope="request" name="timesheetForm" input="/pages/week_search.jsp">
+            <forward name="pending" path="/pages/pending_view.jsp"/>
+            <forward name="approved" path="/pages/approved_view.jsp"/>
+            <forward name="select" path="/pages/select_timesheet.jsp"/>
+            <forward name="tryagain" path="/pages/week_search.jsp"/>
+        </action>
+
+        <action path="/ApproveTimeSheet" type="com.wsbook.casestudy.action.ApproveTimeSheetAction" scope="request" name="approvingTimesheetForm">
+            <forward name="pending" path="/pages/pending_view.jsp"/>
+            <forward name="approved" path="/pages/approved_view.jsp"/>
+        </action>
+        <action path="/UpdateTimeSheet" type="com.wsbook.casestudy.action.UpdateTimeSheetAction" scope="request" name="updateTimesheetForm">
+            <forward name="pending" path="/pages/pending_view.jsp"/>
+            <forward name="approved" path="/pages/approved_view.jsp"/>
+        </action>
+        <action path="/DisplayTimeSheetForApproval" type="com.wsbook.casestudy.action.DisplayTimeSheetForApprovalAction" name="timesheetForm" scope="request">
+            <forward name="error" path="/pages/error.jsp"/>
+            <forward name="displayForApproval" path="/pages/display_for_approval.jsp"/>
+        </action>
+
+    </action-mappings>
+
+</struts-config>

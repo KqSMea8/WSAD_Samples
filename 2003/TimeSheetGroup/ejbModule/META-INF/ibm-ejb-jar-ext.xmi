@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ejbext:EJBJarExtension xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ejbext="ejbext.xmi" xmlns:ejb="ejb.xmi" xmi:id="ejb-jar_ID_Ext">
+  <ejbExtensions xmi:type="ejbext:EntityExtension" xmi:id="CustomerEJB_Ext" name="CustomerEJB">
+    <runAsSettings xmi:id="SecurityIdentity_2">
+      <methodElements xmi:id="MethodElement_4" name="*" type="Unspecified">
+        <enterpriseBean xmi:type="ejb:Entity" href="META-INF/ejb-jar.xml#CustomerEJB"/>
+      </methodElements>
+      <runAsMode xmi:type="ejbext:UseSystemIdentity" xmi:id="UseSystemIdentity_2"/>
+    </runAsSettings>
+    <enterpriseBean xmi:type="ejb:Entity" href="META-INF/ejb-jar.xml#CustomerEJB"/>
+  </ejbExtensions>
+  <ejbExtensions xmi:type="ejbext:ContainerManagedEntityExtension" xmi:id="AddressEJB_Ext">
+    <enterpriseBean xmi:type="ejb:ContainerManagedEntity" href="META-INF/ejb-jar.xml#AddressEJB"/>
+  </ejbExtensions>
+  <ejbExtensions xmi:type="ejbext:ContainerManagedEntityExtension" xmi:id="DepartmentEJB_Ext">
+    <enterpriseBean xmi:type="ejb:ContainerManagedEntity" href="META-INF/ejb-jar.xml#DepartmentEJB"/>
+  </ejbExtensions>
+  <ejbExtensions xmi:type="ejbext:ContainerManagedEntityExtension" xmi:id="TimeSheetEJB_Ext">
+    <enterpriseBean xmi:type="ejb:ContainerManagedEntity" href="META-INF/ejb-jar.xml#TimeSheetEJB"/>
+  </ejbExtensions>
+  <ejbExtensions xmi:type="ejbext:ContainerManagedEntityExtension" xmi:id="TimeSheetEntryEJB_Ext">
+    <enterpriseBean xmi:type="ejb:ContainerManagedEntity" href="META-INF/ejb-jar.xml#TimeSheetEntryEJB"/>
+  </ejbExtensions>
+  <ejbExtensions xmi:type="ejbext:ContainerManagedEntityExtension" xmi:id="ProjectEJB_Ext">
+    <enterpriseBean xmi:type="ejb:ContainerManagedEntity" href="META-INF/ejb-jar.xml#ProjectEJB"/>
+  </ejbExtensions>
+  <ejbExtensions xmi:type="ejbext:ContainerManagedEntityExtension" xmi:id="EmployeeEJB_Ext">
+    <enterpriseBean xmi:type="ejb:ContainerManagedEntity" href="META-INF/ejb-jar.xml#EmployeeEJB"/>
+  </ejbExtensions>
+  <ejbJar href="META-INF/ejb-jar.xml#ejb-jar_ID"/>
+  <appliedAccessIntents xmi:id="AppliedAccessIntent_1051145958391" name="TimeSheetEntries intent" description="" accessIntentName="wsOptimisticRead">
+    <methodElements xmi:id="MethodElement_1051145958391" name="findByPrimaryKey" parms="com.wsbook.casestudy.ejb.TimeSheetEJBKey" type="LocalHome">
+      <enterpriseBean xmi:type="ejb:ContainerManagedEntity" href="META-INF/ejb-jar.xml#TimeSheetEJB"/>
+    </methodElements>
+    <accessIntentEntries xmi:type="ejbext:ReadAheadHint" xmi:id="ReadAheadHint_1051145958391" readAheadHint="entries"/>
+  </appliedAccessIntents>
+</ejbext:EJBJarExtension>

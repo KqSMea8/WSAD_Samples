@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+Main-Class: junit.textui.TestRunner
+Class-Path: TimeSheet-AppLogic.jar 
+ TimeSheetGroup.jar 
+ junit.jar
+

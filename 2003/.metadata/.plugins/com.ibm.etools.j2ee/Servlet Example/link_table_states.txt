@@ -1,0 +1,20 @@
+/Servlet Example/Web Content/WEB-INF/com.wsbook.servletexample.UpdateEmployee
++5
+/Servlet Example/Web Content/WEB-INF/com.wsbook.servletexample.BrowseEmployees
++5
+/Servlet Example/Web Content/images/banner.jpg
++9
+/Servlet Example/Web Content/WEB-INF/com.wsbook.servletexample.CreateEmployee
++5
+/Servlet Example/Web Content/browseEmployees.html
++7
+/Servlet Example/Web Content/WEB-INF/web.xml
++4+5
+/Servlet Example/Web Content/WEB-INF/javax.sql.DataSource
++5
+/Servlet Example/Web Content/index.html
++
+/Servlet Example/Web Content/WEB-INF/com.wsbook.servletexample.EmployeeDetails
++5
+/Servlet Example/Web Content/banner.html
++4

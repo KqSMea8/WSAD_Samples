@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ejbrdbmapping:EJBConverter xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ejbrdbmapping="ejbrdbmapping.xmi" xmlns:java="java.xmi" xmi:id="EJBConverter_1043033376467">
+  <targetClass href="java:/java.lang#String"/>
+  <transformerClass href="java:/com.wsbook.casestudy.ejb#DateToStringConverter"/>
+</ejbrdbmapping:EJBConverter>

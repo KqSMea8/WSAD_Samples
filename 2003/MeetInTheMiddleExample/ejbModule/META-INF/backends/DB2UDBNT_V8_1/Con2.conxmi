@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RDBSchema:RDBConnection xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:RDBSchema="RDBSchema.xmi" xmi:id="RDBConnection_1057283219558" name="Con2" userid="" url="jdbc:db2:SAMPLE" host="" driver="COM.ibm.db2.jdbc.app.DB2Driver" otherDriver="COM.ibm.db2.jdbc.app.DB2Driver" dbName="SAMPLE">
+  <classLocation>C:\Program Files\IBM\SQLLIB\java\db2java.zip</classLocation>
+  <database href="META-INF/backends/DB2UDBNT_V8_1/SAMPLE.dbxmi#RDBDatabase_1057283219267"/>
+  <filter xmi:id="RDBConnectionFilter_1057283219878" languageType="15">
+    <filterElement xmi:id="FilterElement_1057283219878" enabled="true" target="SCHEMA" text="SYS%" predicate="NOT_LIKE" operator="AND"/>
+  </filter>
+  <jdbcDriver href="DB2UDBNT_V8_Domain.xmi#JDBCDriver_2"/>
+</RDBSchema:RDBConnection>

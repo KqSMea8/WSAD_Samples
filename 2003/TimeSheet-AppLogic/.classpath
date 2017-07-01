@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+    <classpathentry kind="src" path="source"/>
+    <classpathentry kind="var"
+        path="SERVERJDK_50_PLUGINDIR/jre/lib/rt.jar" sourcepath="SERVERJDK_50_PLUGINDIR/src.jar"/>
+    <classpathentry kind="var" path="WAS_50_PLUGINDIR/lib/j2ee.jar"/>
+    <classpathentry kind="output" path="classes"/>
+</classpath>

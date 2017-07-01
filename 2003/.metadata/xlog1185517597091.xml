@@ -1,0 +1,1050 @@
+<session>
+   <date>
+      Fri Jul 27 10:26:37 MSD 2007
+   </date>
+   <entry>
+      <date>
+         Fri Jul 27 10:26:37 MSD 2007
+      </date>
+      <status>
+         <plugin>
+            com.rational.xtools.common.core
+         </plugin>
+         <severity>
+            1
+         </severity>
+         <code>
+            0
+         </code>
+         <message>
+            IBM Rational Common Core plug-in starting up...
+         </message>
+      </status>
+   </entry>
+   <entry>
+      <date>
+         Fri Jul 27 10:26:37 MSD 2007
+      </date>
+      <status>
+         <plugin>
+            com.rational.xtools.common.ui
+         </plugin>
+         <severity>
+            1
+         </severity>
+         <code>
+            0
+         </code>
+         <message>
+            IBM Rational Common UI plug-in starting up...
+         </message>
+      </status>
+   </entry>
+   <entry>
+      <date>
+         Fri Jul 27 10:26:37 MSD 2007
+      </date>
+      <status>
+         <plugin>
+            com.rational.xtools.presentation
+         </plugin>
+         <severity>
+            1
+         </severity>
+         <code>
+            0
+         </code>
+         <message>
+            IBM Rational Presentation plug-in starting up...
+         </message>
+      </status>
+   </entry>
+   <entry>
+      <date>
+         Fri Jul 27 10:26:37 MSD 2007
+      </date>
+      <status>
+         <plugin>
+            com.rational.xtools.umlvisualizer
+         </plugin>
+         <severity>
+            1
+         </severity>
+         <code>
+            0
+         </code>
+         <message>
+            IBM Rational UML Visualizer plug-in starting up...
+         </message>
+      </status>
+   </entry>
+   <entry>
+      <date>
+         Fri Jul 27 10:26:37 MSD 2007
+      </date>
+      <status>
+         <plugin>
+            com.rational.xtools.bml.core
+         </plugin>
+         <severity>
+            1
+         </severity>
+         <code>
+            0
+         </code>
+         <message>
+            IBM Rational BML Core plug-in starting up...
+         </message>
+      </status>
+   </entry>
+   <entry>
+      <date>
+         Fri Jul 27 10:26:37 MSD 2007
+      </date>
+      <status>
+         <plugin>
+            com.rational.xtools.uml.core
+         </plugin>
+         <severity>
+            1
+         </severity>
+         <code>
+            0
+         </code>
+         <message>
+            IBM Rational UML Core plug-in starting up...
+         </message>
+      </status>
+   </entry>
+   <entry>
+      <date>
+         Fri Jul 27 13:02:07 MSD 2007
+      </date>
+      <status>
+         <plugin>
+            com.rational.xtools.umlvisualizer
+         </plugin>
+         <severity>
+            1
+         </severity>
+         <code>
+            0
+         </code>
+         <message>
+            Creating a new diagram...
+         </message>
+      </status>
+   </entry>
+   <entry>
+      <date>
+         Fri Jul 27 13:02:07 MSD 2007
+      </date>
+      <status>
+         <plugin>
+            com.rational.xtools.common.core
+         </plugin>
+         <severity>
+            1
+         </severity>
+         <code>
+            0
+         </code>
+         <message>
+            Activating provider 'com.rational.xtools.umlvisualizer.j2se.providers.J2SEClassPaletteProvider'...
+         </message>
+      </status>
+   </entry>
+   <entry>
+      <date>
+         Fri Jul 27 13:02:07 MSD 2007
+      </date>
+      <status>
+         <plugin>
+            com.rational.xtools.umlvisualizer.j2se
+         </plugin>
+         <severity>
+            1
+         </severity>
+         <code>
+            0
+         </code>
+         <message>
+            IBM Rational J2SE Visualization plug-in starting up...
+         </message>
+      </status>
+   </entry>
+   <entry>
+      <date>
+         Fri Jul 27 13:02:07 MSD 2007
+      </date>
+      <status>
+         <plugin>
+            com.rational.xtools.uml.diagrams.clazz
+         </plugin>
+         <severity>
+            1
+         </severity>
+         <code>
+            0
+         </code>
+         <message>
+            IBM Rational Class Diagram plug-in starting up...
+         </message>
+      </status>
+   </entry>
+   <entry>
+      <date>
+         Fri Jul 27 13:02:07 MSD 2007
+      </date>
+      <status>
+         <plugin>
+            com.rational.xtools.common.core
+         </plugin>
+         <severity>
+            1
+         </severity>
+         <code>
+            0
+         </code>
+         <message>
+            Activating provider 'com.rational.xtools.uml.diagram.providers.CommonPaletteProvider'...
+         </message>
+      </status>
+   </entry>
+   <entry>
+      <date>
+         Fri Jul 27 13:02:08 MSD 2007
+      </date>
+      <status>
+         <plugin>
+            com.rational.xtools.uml.diagram
+         </plugin>
+         <severity>
+            1
+         </severity>
+         <code>
+            0
+         </code>
+         <message>
+            IBM Rational Diagram Core plug-in starting up...
+         </message>
+      </status>
+   </entry>
+   <entry>
+      <date>
+         Fri Jul 27 13:02:08 MSD 2007
+      </date>
+      <status>
+         <plugin>
+            com.rational.xtools.common.core
+         </plugin>
+         <severity>
+            1
+         </severity>
+         <code>
+            0
+         </code>
+         <message>
+            Activating provider 'com.rational.xtools.umlvisualizer.ejb.providers.EJB20ClassPaletteProvider'...
+         </message>
+      </status>
+   </entry>
+   <entry>
+      <date>
+         Fri Jul 27 13:02:08 MSD 2007
+      </date>
+      <status>
+         <plugin>
+            com.rational.xtools.umlvisualizer.ejb
+         </plugin>
+         <severity>
+            1
+         </severity>
+         <code>
+            0
+         </code>
+         <message>
+            IBM Rational EJB Visualization plug-in starting up...
+         </message>
+      </status>
+   </entry>
+   <entry>
+      <date>
+         Fri Jul 27 13:02:08 MSD 2007
+      </date>
+      <status>
+         <plugin>
+            com.rational.xtools.common.core
+         </plugin>
+         <severity>
+            1
+         </severity>
+         <code>
+            0
+         </code>
+         <message>
+            Activating provider 'com.rational.xtools.umlvisualizer.ejb.providers.EjbViewProvider'...
+         </message>
+      </status>
+   </entry>
+   <entry>
+      <date>
+         Fri Jul 27 13:02:08 MSD 2007
+      </date>
+      <status>
+         <plugin>
+            com.rational.xtools.common.core
+         </plugin>
+         <severity>
+            1
+         </severity>
+         <code>
+            0
+         </code>
+         <message>
+            Activating provider 'com.rational.xtools.umlvisualizer.providers.VisualizerViewProvider'...
+         </message>
+      </status>
+   </entry>
+   <entry>
+      <date>
+         Fri Jul 27 13:02:08 MSD 2007
+      </date>
+      <status>
+         <plugin>
+            com.rational.xtools.common.core
+         </plugin>
+         <severity>
+            1
+         </severity>
+         <code>
+            0
+         </code>
+         <message>
+            Activating provider 'com.rational.xtools.uml.diagrams.clazz.providers.ClassViewProvider'...
+         </message>
+      </status>
+   </entry>
+   <entry>
+      <date>
+         Fri Jul 27 13:02:08 MSD 2007
+      </date>
+      <status>
+         <plugin>
+            com.rational.xtools.common.core
+         </plugin>
+         <severity>
+            1
+         </severity>
+         <code>
+            0
+         </code>
+         <message>
+            Activating provider 'com.rational.xtools.uml.diagram.providers.CommonViewProvider'...
+         </message>
+      </status>
+   </entry>
+   <entry>
+      <date>
+         Fri Jul 27 13:02:08 MSD 2007
+      </date>
+      <status>
+         <plugin>
+            com.rational.xtools.common.core
+         </plugin>
+         <severity>
+            1
+         </severity>
+         <code>
+            0
+         </code>
+         <message>
+            Activating provider 'com.rational.xtools.umlvisualizer.ejb.providers.EjbEditPartProvider'...
+         </message>
+      </status>
+   </entry>
+   <entry>
+      <date>
+         Fri Jul 27 13:02:08 MSD 2007
+      </date>
+      <status>
+         <plugin>
+            com.rational.xtools.common.core
+         </plugin>
+         <severity>
+            1
+         </severity>
+         <code>
+            0
+         </code>
+         <message>
+            Activating provider 'com.rational.xtools.umlvisualizer.j2se.providers.J2SEEditPartProvider'...
+         </message>
+      </status>
+   </entry>
+   <entry>
+      <date>
+         Fri Jul 27 13:02:08 MSD 2007
+      </date>
+      <status>
+         <plugin>
+            com.rational.xtools.common.core
+         </plugin>
+         <severity>
+            1
+         </severity>
+         <code>
+            0
+         </code>
+         <message>
+            Activating provider 'com.rational.xtools.umlvisualizer.ejb.providers.EjbActionProvider'...
+         </message>
+      </status>
+   </entry>
+   <entry>
+      <date>
+         Fri Jul 27 13:02:08 MSD 2007
+      </date>
+      <status>
+         <plugin>
+            com.rational.xtools.common.core
+         </plugin>
+         <severity>
+            1
+         </severity>
+         <code>
+            0
+         </code>
+         <message>
+            Activating provider 'com.rational.xtools.umlvisualizer.j2se.providers.J2SEActionProvider'...
+         </message>
+      </status>
+   </entry>
+   <entry>
+      <date>
+         Fri Jul 27 13:02:08 MSD 2007
+      </date>
+      <status>
+         <plugin>
+            com.rational.xtools.common.core
+         </plugin>
+         <severity>
+            1
+         </severity>
+         <code>
+            0
+         </code>
+         <message>
+            Activating provider 'com.rational.xtools.umlvisualizer.j2se.edit.providers.J2SEEditActionProvider'...
+         </message>
+      </status>
+   </entry>
+   <entry>
+      <date>
+         Fri Jul 27 13:02:08 MSD 2007
+      </date>
+      <status>
+         <plugin>
+            com.rational.xtools.umlvisualizer.j2se.edit
+         </plugin>
+         <severity>
+            1
+         </severity>
+         <code>
+            0
+         </code>
+         <message>
+            IBM Rational J2SE Edit plug-in starting up...
+         </message>
+      </status>
+   </entry>
+   <entry>
+      <date>
+         Fri Jul 27 13:02:09 MSD 2007
+      </date>
+      <status>
+         <plugin>
+            com.rational.xtools.common.core
+         </plugin>
+         <severity>
+            1
+         </severity>
+         <code>
+            0
+         </code>
+         <message>
+            Activating provider 'com.rational.xtools.uml.diagrams.clazz.providers.ClassActionProvider'...
+         </message>
+      </status>
+   </entry>
+   <entry>
+      <date>
+         Fri Jul 27 13:02:09 MSD 2007
+      </date>
+      <status>
+         <plugin>
+            com.rational.xtools.common.core
+         </plugin>
+         <severity>
+            1
+         </severity>
+         <code>
+            0
+         </code>
+         <message>
+            Activating provider 'com.rational.xtools.presentation.providers.PresentationActionProvider'...
+         </message>
+      </status>
+   </entry>
+   <entry>
+      <date>
+         Fri Jul 27 13:02:09 MSD 2007
+      </date>
+      <status>
+         <plugin>
+            com.rational.xtools.common.core
+         </plugin>
+         <severity>
+            1
+         </severity>
+         <code>
+            0
+         </code>
+         <message>
+            Activating provider 'com.rational.xtools.uml.diagram.providers.CommonActionProvider'...
+         </message>
+      </status>
+   </entry>
+   <entry>
+      <date>
+         Fri Jul 27 13:02:10 MSD 2007
+      </date>
+      <status>
+         <plugin>
+            com.rational.xtools.common.core
+         </plugin>
+         <severity>
+            1
+         </severity>
+         <code>
+            0
+         </code>
+         <message>
+            Activating provider 'com.rational.xtools.umlvisualizer.ejb.providers.icon.EJBIconProvider'...
+         </message>
+      </status>
+   </entry>
+   <entry>
+      <date>
+         Fri Jul 27 13:02:10 MSD 2007
+      </date>
+      <status>
+         <plugin>
+            com.rational.xtools.common.core
+         </plugin>
+         <severity>
+            1
+         </severity>
+         <code>
+            0
+         </code>
+         <message>
+            Activating provider 'com.rational.xtools.umlvisualizer.j2se.providers.icon.J2SEIconProvider'...
+         </message>
+      </status>
+   </entry>
+   <entry>
+      <date>
+         Fri Jul 27 13:02:10 MSD 2007
+      </date>
+      <status>
+         <plugin>
+            com.rational.xtools.common.core
+         </plugin>
+         <severity>
+            1
+         </severity>
+         <code>
+            0
+         </code>
+         <message>
+            Activating provider 'com.rational.xtools.uml.diagram.providers.icon.DiagramIconProvider'...
+         </message>
+      </status>
+   </entry>
+   <entry>
+      <date>
+         Fri Jul 27 13:02:10 MSD 2007
+      </date>
+      <status>
+         <plugin>
+            com.rational.xtools.common.core
+         </plugin>
+         <severity>
+            1
+         </severity>
+         <code>
+            0
+         </code>
+         <message>
+            Activating provider 'com.rational.xtools.uml.core.providers.icon.UMLIconProvider'...
+         </message>
+      </status>
+   </entry>
+   <entry>
+      <date>
+         Fri Jul 27 13:02:10 MSD 2007
+      </date>
+      <status>
+         <plugin>
+            com.rational.xtools.common.core
+         </plugin>
+         <severity>
+            1
+         </severity>
+         <code>
+            0
+         </code>
+         <message>
+            Activating provider 'com.rational.xtools.uml.core.providers.parser.ParserProvider'...
+         </message>
+      </status>
+   </entry>
+   <entry>
+      <date>
+         Fri Jul 27 13:02:37 MSD 2007
+      </date>
+      <status>
+         <plugin>
+            com.rational.xtools.common.core
+         </plugin>
+         <severity>
+            1
+         </severity>
+         <code>
+            0
+         </code>
+         <message>
+            Activating provider 'com.rational.xtools.umlvisualizer.ejb.providers.EjbSemanticProvider'...
+         </message>
+      </status>
+   </entry>
+   <entry>
+      <date>
+         Fri Jul 27 13:02:37 MSD 2007
+      </date>
+      <status>
+         <plugin>
+            com.rational.xtools.common.core
+         </plugin>
+         <severity>
+            1
+         </severity>
+         <code>
+            0
+         </code>
+         <message>
+            Activating provider 'com.rational.xtools.umlvisualizer.j2se.providers.J2SESemanticProvider'...
+         </message>
+      </status>
+   </entry>
+   <entry>
+      <date>
+         Fri Jul 27 13:02:37 MSD 2007
+      </date>
+      <status>
+         <plugin>
+            com.rational.xtools.common.core
+         </plugin>
+         <severity>
+            1
+         </severity>
+         <code>
+            0
+         </code>
+         <message>
+            Activating provider 'com.rational.xtools.umlvisualizer.providers.VisualizerSemanticProvider'...
+         </message>
+      </status>
+   </entry>
+   <entry>
+      <date>
+         Fri Jul 27 13:02:37 MSD 2007
+      </date>
+      <status>
+         <plugin>
+            com.rational.xtools.common.core
+         </plugin>
+         <severity>
+            1
+         </severity>
+         <code>
+            0
+         </code>
+         <message>
+            Activating provider 'com.rational.xtools.umlvisualizer.j2se.edit.providers.J2SEEditSemanticProvider'...
+         </message>
+      </status>
+   </entry>
+   <entry>
+      <date>
+         Fri Jul 27 13:02:55 MSD 2007
+      </date>
+      <status>
+         <plugin>
+            com.rational.xtools.common.core
+         </plugin>
+         <severity>
+            1
+         </severity>
+         <code>
+            0
+         </code>
+         <message>
+            Activating provider 'com.rational.xtools.presentation.providers.PresentationGlobalActionHandlerProvider'...
+         </message>
+      </status>
+   </entry>
+   <entry>
+      <date>
+         Fri Jul 27 13:02:59 MSD 2007
+      </date>
+      <status>
+         <plugin>
+            com.rational.xtools.common.core
+         </plugin>
+         <severity>
+            1
+         </severity>
+         <code>
+            0
+         </code>
+         <message>
+            Executing command 'Create Note'...
+         </message>
+      </status>
+   </entry>
+   <entry>
+      <date>
+         Fri Jul 27 13:02:59 MSD 2007
+      </date>
+      <status>
+         <plugin>
+            com.rational.xtools.common.core
+         </plugin>
+         <severity>
+            1
+         </severity>
+         <code>
+            0
+         </code>
+         <message>
+            Activating provider 'com.rational.xtools.uml.diagrams.clazz.providers.ClassEditPartProvider'...
+         </message>
+      </status>
+   </entry>
+   <entry>
+      <date>
+         Fri Jul 27 13:02:59 MSD 2007
+      </date>
+      <status>
+         <plugin>
+            com.rational.xtools.common.core
+         </plugin>
+         <severity>
+            1
+         </severity>
+         <code>
+            0
+         </code>
+         <message>
+            Activating provider 'com.rational.xtools.uml.diagram.providers.CommonEditPartProvider'...
+         </message>
+      </status>
+   </entry>
+   <entry>
+      <date>
+         Fri Jul 27 13:02:59 MSD 2007
+      </date>
+      <status>
+         <plugin>
+            com.rational.xtools.common.core
+         </plugin>
+         <severity>
+            1
+         </severity>
+         <code>
+            0
+         </code>
+         <message>
+            Activating provider 'com.rational.xtools.presentation.providers.PresentationPropertiesProvider'...
+         </message>
+      </status>
+   </entry>
+   <entry>
+      <date>
+         Fri Jul 27 13:03:04 MSD 2007
+      </date>
+      <status>
+         <plugin>
+            com.rational.xtools.common.core
+         </plugin>
+         <severity>
+            1
+         </severity>
+         <code>
+            0
+         </code>
+         <message>
+            Executing command 'Set Location or Size'...
+         </message>
+      </status>
+   </entry>
+   <entry>
+      <date>
+         Fri Jul 27 13:03:06 MSD 2007
+      </date>
+      <status>
+         <plugin>
+            com.rational.xtools.common.core
+         </plugin>
+         <severity>
+            1
+         </severity>
+         <code>
+            0
+         </code>
+         <message>
+            Executing command 'Create Text'...
+         </message>
+      </status>
+   </entry>
+   <entry>
+      <date>
+         Fri Jul 27 13:03:07 MSD 2007
+      </date>
+      <status>
+         <plugin>
+            com.rational.xtools.common.core
+         </plugin>
+         <severity>
+            1
+         </severity>
+         <code>
+            0
+         </code>
+         <message>
+            Executing command 'Set Location or Size'...
+         </message>
+      </status>
+   </entry>
+   <entry>
+      <date>
+         Fri Jul 27 19:32:36 MSD 2007
+      </date>
+      <status>
+         <plugin>
+            com.rational.xtools.umlvisualizer.ejb
+         </plugin>
+         <severity>
+            1
+         </severity>
+         <code>
+            0
+         </code>
+         <message>
+            IBM Rational EJB Visualization plug-in shutting down...
+         </message>
+      </status>
+   </entry>
+   <entry>
+      <date>
+         Fri Jul 27 19:32:36 MSD 2007
+      </date>
+      <status>
+         <plugin>
+            com.rational.xtools.umlvisualizer.j2se.edit
+         </plugin>
+         <severity>
+            1
+         </severity>
+         <code>
+            0
+         </code>
+         <message>
+            IBM Rational J2SE Edit plug-in shutting down...
+         </message>
+      </status>
+   </entry>
+   <entry>
+      <date>
+         Fri Jul 27 19:32:36 MSD 2007
+      </date>
+      <status>
+         <plugin>
+            com.rational.xtools.umlvisualizer.j2se
+         </plugin>
+         <severity>
+            1
+         </severity>
+         <code>
+            0
+         </code>
+         <message>
+            IBM Rational J2SE Visualization plug-in shutting down...
+         </message>
+      </status>
+   </entry>
+   <entry>
+      <date>
+         Fri Jul 27 19:32:36 MSD 2007
+      </date>
+      <status>
+         <plugin>
+            com.rational.xtools.umlvisualizer
+         </plugin>
+         <severity>
+            1
+         </severity>
+         <code>
+            0
+         </code>
+         <message>
+            IBM Rational UML Visualizer plug-in shutting down...
+         </message>
+      </status>
+   </entry>
+   <entry>
+      <date>
+         Fri Jul 27 19:32:36 MSD 2007
+      </date>
+      <status>
+         <plugin>
+            com.rational.xtools.uml.diagrams.clazz
+         </plugin>
+         <severity>
+            1
+         </severity>
+         <code>
+            0
+         </code>
+         <message>
+            IBM Rational Class Diagram plug-in shutting down...
+         </message>
+      </status>
+   </entry>
+   <entry>
+      <date>
+         Fri Jul 27 19:32:36 MSD 2007
+      </date>
+      <status>
+         <plugin>
+            com.rational.xtools.uml.diagram
+         </plugin>
+         <severity>
+            1
+         </severity>
+         <code>
+            0
+         </code>
+         <message>
+            IBM Rational Diagram Core plug-in shutting down...
+         </message>
+      </status>
+   </entry>
+   <entry>
+      <date>
+         Fri Jul 27 19:32:36 MSD 2007
+      </date>
+      <status>
+         <plugin>
+            com.rational.xtools.presentation
+         </plugin>
+         <severity>
+            1
+         </severity>
+         <code>
+            0
+         </code>
+         <message>
+            IBM Rational Presentation plug-in shutting down...
+         </message>
+      </status>
+   </entry>
+   <entry>
+      <date>
+         Fri Jul 27 19:32:36 MSD 2007
+      </date>
+      <status>
+         <plugin>
+            com.rational.xtools.uml.core
+         </plugin>
+         <severity>
+            1
+         </severity>
+         <code>
+            0
+         </code>
+         <message>
+            IBM Rational UML Core plug-in shutting down...
+         </message>
+      </status>
+   </entry>
+   <entry>
+      <date>
+         Fri Jul 27 19:32:36 MSD 2007
+      </date>
+      <status>
+         <plugin>
+            com.rational.xtools.common.ui
+         </plugin>
+         <severity>
+            1
+         </severity>
+         <code>
+            0
+         </code>
+         <message>
+            IBM Rational Common UI plug-in shutting down...
+         </message>
+      </status>
+   </entry>
+   <entry>
+      <date>
+         Fri Jul 27 19:32:36 MSD 2007
+      </date>
+      <status>
+         <plugin>
+            com.rational.xtools.bml.core
+         </plugin>
+         <severity>
+            1
+         </severity>
+         <code>
+            0
+         </code>
+         <message>
+            IBM Rational BML Core plug-in shutting down...
+         </message>
+      </status>
+   </entry>
+   <entry>
+      <date>
+         Fri Jul 27 19:32:37 MSD 2007
+      </date>
+      <status>
+         <plugin>
+            com.rational.xtools.common.core
+         </plugin>
+         <severity>
+            1
+         </severity>
+         <code>
+            0
+         </code>
+         <message>
+            IBM Rational Common Core plug-in shutting down...
+         </message>
+      </status>
+   </entry>
+</session>

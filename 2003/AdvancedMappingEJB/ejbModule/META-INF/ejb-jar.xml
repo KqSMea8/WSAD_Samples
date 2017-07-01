@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ejb-jar PUBLIC "-//Sun Microsystems, Inc.//DTD Enterprise JavaBeans 2.0//EN" "http://java.sun.com/dtd/ejb-jar_2_0.dtd">
+<ejb-jar id="ejb-jar_ID">
+	<display-name>AdvancedMappingEJB</display-name>
+	<enterprise-beans>
+		<entity id="Employee">
+			<ejb-name>Employee</ejb-name>
+			<local-home>advanced.mapping.example.EmployeeLocalHome</local-home>
+			<local>advanced.mapping.example.EmployeeLocal</local>
+			<ejb-class>advanced.mapping.example.EmployeeBean</ejb-class>
+			<persistence-type>Container</persistence-type>
+			<prim-key-class>advanced.mapping.example.EmployeeKey</prim-key-class>
+			<reentrant>False</reentrant>
+			<cmp-version>2.x</cmp-version>
+			<abstract-schema-name>Employee</abstract-schema-name>
+			<cmp-field id="CMPAttribute_1047008768948">
+				<field-name>ssn</field-name>
+			</cmp-field>
+			<cmp-field id="CMPAttribute_1047008768958">
+				<field-name>name</field-name>
+			</cmp-field>
+			<ejb-local-ref id="EJBLocalRef_1047008927906">
+				<ejb-ref-name>ejb/Address</ejb-ref-name>
+				<ejb-ref-type>Entity</ejb-ref-type>
+				<local-home>advanced.mapping.example.AddressLocalHome</local-home>
+				<local>advanced.mapping.example.AddressLocal</local>
+				<ejb-link>Address</ejb-link>
+			</ejb-local-ref>
+		</entity>
+		<entity id="Address">
+			<ejb-name>Address</ejb-name>
+			<local-home>advanced.mapping.example.AddressLocalHome</local-home>
+			<local>advanced.mapping.example.AddressLocal</local>
+			<ejb-class>advanced.mapping.example.AddressBean</ejb-class>
+			<persistence-type>Container</persistence-type>
+			<prim-key-class>advanced.mapping.example.AddressKey</prim-key-class>
+			<reentrant>False</reentrant>
+			<cmp-version>2.x</cmp-version>
+			<abstract-schema-name>Address</abstract-schema-name>
+			<cmp-field id="CMPAttribute_1047008768968">
+				<field-name>street</field-name>
+			</cmp-field>
+			<cmp-field id="CMPAttribute_1047008768969">
+				<field-name>city</field-name>
+			</cmp-field>
+			<cmp-field id="CMPAttribute_1047008768978">
+				<field-name>state</field-name>
+			</cmp-field>
+			<cmp-field id="CMPAttribute_1047008768979">
+				<field-name>zip</field-name>
+			</cmp-field>
+			<cmp-field>
+				<description>Generated to support relationships.  Do NOT delete.</description>
+				<field-name>employee_ssn</field-name>
+			</cmp-field>
+			<ejb-local-ref id="EJBLocalRef_1047008927936">
+				<ejb-ref-name>ejb/Employee</ejb-ref-name>
+				<ejb-ref-type>Entity</ejb-ref-type>
+				<local-home>advanced.mapping.example.EmployeeLocalHome</local-home>
+				<local>advanced.mapping.example.EmployeeLocal</local>
+				<ejb-link>Employee</ejb-link>
+			</ejb-local-ref>
+		</entity>
+		<entity id="Student">
+			<ejb-name>Student</ejb-name>
+			<local-home>advanced.mapping.example.StudentLocalHome</local-home>
+			<local>advanced.mapping.example.StudentLocal</local>
+			<ejb-class>advanced.mapping.example.StudentBean</ejb-class>
+			<persistence-type>Container</persistence-type>
+			<prim-key-class>java.lang.String</prim-key-class>
+			<reentrant>False</reentrant>
+			<cmp-version>2.x</cmp-version>
+			<abstract-schema-name>Student</abstract-schema-name>
+			<cmp-field id="CMPAttribute_1054694869618">
+				<field-name>ssn</field-name>
+			</cmp-field>
+			<cmp-field id="CMPAttribute_1054694869658">
+				<field-name>name</field-name>
+			</cmp-field>
+			<cmp-field id="CMPAttribute_1054694869718">
+				<field-name>age</field-name>
+			</cmp-field>
+			<cmp-field id="CMPAttribute_1054694869748">
+				<field-name>gpa</field-name>
+			</cmp-field>
+			<primkey-field>ssn</primkey-field>
+			<ejb-local-ref id="EJBLocalRef_1054694837582">
+				<ejb-ref-name>ejb/Course</ejb-ref-name>
+				<ejb-ref-type>Entity</ejb-ref-type>
+				<local-home>advanced.mapping.example.CourseLocalHome</local-home>
+				<local>advanced.mapping.example.CourseLocal</local>
+				<ejb-link>Course</ejb-link>
+			</ejb-local-ref>
+		</entity>
+		<entity id="Course">
+			<ejb-name>Course</ejb-name>
+			<local-home>advanced.mapping.example.CourseLocalHome</local-home>
+			<local>advanced.mapping.example.CourseLocal</local>
+			<ejb-class>advanced.mapping.example.CourseBean</ejb-class>
+			<persistence-type>Container</persistence-type>
+			<prim-key-class>java.lang.Integer</prim-key-class>
+			<reentrant>False</reentrant>
+			<cmp-version>2.x</cmp-version>
+			<abstract-schema-name>Course</abstract-schema-name>
+			<cmp-field id="CMPAttribute_1054694869788">
+				<field-name>number</field-name>
+			</cmp-field>
+			<cmp-field id="CMPAttribute_1054694869808">
+				<field-name>name</field-name>
+			</cmp-field>
+			<cmp-field id="CMPAttribute_1054694869829">
+				<field-name>description</field-name>
+			</cmp-field>
+			<primkey-field>number</primkey-field>
+			<ejb-local-ref id="EJBLocalRef_1054694837602">
+				<ejb-ref-name>ejb/Student</ejb-ref-name>
+				<ejb-ref-type>Entity</ejb-ref-type>
+				<local-home>advanced.mapping.example.StudentLocalHome</local-home>
+				<local>advanced.mapping.example.StudentLocal</local>
+				<ejb-link>Student</ejb-link>
+			</ejb-local-ref>
+		</entity>
+	</enterprise-beans>
+	<relationships>
+		<ejb-relation>
+			<description></description>
+			<ejb-relation-name>Employee-Address</ejb-relation-name>
+			<ejb-relationship-role id="EJBRelationshipRole_1047009859726">
+				<ejb-relationship-role-name>employee</ejb-relationship-role-name>
+				<multiplicity>One</multiplicity>
+				<relationship-role-source>
+					<ejb-name>Address</ejb-name>
+				</relationship-role-source>
+				<cmr-field>
+					<cmr-field-name>employee</cmr-field-name>
+				</cmr-field>
+			</ejb-relationship-role>
+			<ejb-relationship-role id="EJBRelationshipRole_1047009859736">
+				<ejb-relationship-role-name>address</ejb-relationship-role-name>
+				<multiplicity>One</multiplicity>
+				<relationship-role-source>
+					<ejb-name>Employee</ejb-name>
+				</relationship-role-source>
+				<cmr-field>
+					<cmr-field-name>address</cmr-field-name>
+				</cmr-field>
+			</ejb-relationship-role>
+		</ejb-relation>
+		<ejb-relation>
+			<description></description>
+			<ejb-relation-name>Course-Student</ejb-relation-name>
+			<ejb-relationship-role id="EJBRelationshipRole_1054694869839">
+				<ejb-relationship-role-name>students</ejb-relationship-role-name>
+				<multiplicity>Many</multiplicity>
+				<relationship-role-source>
+					<ejb-name>Course</ejb-name>
+				</relationship-role-source>
+				<cmr-field>
+					<cmr-field-name>students</cmr-field-name>
+					<cmr-field-type>java.util.Collection</cmr-field-type>
+				</cmr-field>
+			</ejb-relationship-role>
+			<ejb-relationship-role id="EJBRelationshipRole_1054694869778">
+				<ejb-relationship-role-name>courses</ejb-relationship-role-name>
+				<multiplicity>Many</multiplicity>
+				<relationship-role-source>
+					<ejb-name>Student</ejb-name>
+				</relationship-role-source>
+				<cmr-field>
+					<cmr-field-name>courses</cmr-field-name>
+					<cmr-field-type>java.util.Collection</cmr-field-type>
+				</cmr-field>
+			</ejb-relationship-role>
+		</ejb-relation>
+	</relationships>
+</ejb-jar>

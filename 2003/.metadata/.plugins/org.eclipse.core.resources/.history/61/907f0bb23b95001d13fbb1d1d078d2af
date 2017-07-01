@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-modules id="moduleCoreId">
+    <wb-module deploy-name="UtilityEAR">
+        <module-type module-type-id="jst.ear">
+            <version>1.3</version>
+        </module-type>
+        <wb-resource deploy-path="/" source-path="/"/>
+        <dependent-module deploy-path="/" handle="module:/resource/UtilitiesGroup/UtilitiesGroup">
+            <dependent-object>EjbModule_1045943735056</dependent-object>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module deploy-path="/" handle="module:/resource/IDGeneratorClient/IDGeneratorClient">
+            <dependent-object>JavaClientModule_1045963368665</dependent-object>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+    </wb-module>
+</project-modules>

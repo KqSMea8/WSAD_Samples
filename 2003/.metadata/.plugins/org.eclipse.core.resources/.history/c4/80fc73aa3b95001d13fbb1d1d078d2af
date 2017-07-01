@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-modules id="moduleCoreId">
+    <wb-module deploy-name="CombinedQueueAndDatabaseUpdateWeb">
+        <module-type module-type-id="jst.web">
+            <version>2.3</version>
+            <property name="JSPLevel" value="JSP 1.2"/>
+        </module-type>
+        <wb-resource deploy-path="/" source-path="/Web Content"/>
+    </wb-module>
+</project-modules>

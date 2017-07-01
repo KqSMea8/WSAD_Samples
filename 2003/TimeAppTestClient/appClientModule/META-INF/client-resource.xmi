@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:resources.mail="http://www.ibm.com/websphere/appserver/schemas/5.0/resources.mail.xmi" xmlns:resources.jms="http://www.ibm.com/websphere/appserver/schemas/5.0/resources.jms.xmi" xmlns:resources.jdbc="http://www.ibm.com/websphere/appserver/schemas/5.0/resources.jdbc.xmi" xmlns:resources="http://www.ibm.com/websphere/appserver/schemas/5.0/resources.xmi">
+  <resources.mail:MailProvider xmi:id="MailProvider_1" name="Default Mail Provider" description="IBM JavaMail Implementation">
+    <protocolProviders xmi:id="ProtocolProvider_1" protocol="smtp" type="TRANSPORT"/>
+    <protocolProviders xmi:id="ProtocolProvider_2" protocol="pop3" type="STORE"/>
+    <protocolProviders xmi:id="ProtocolProvider_3" protocol="imap" type="STORE"/>
+  </resources.mail:MailProvider>
+  <resources.jms:JMSProvider xmi:id="JMSProvider_1" name="MQ JMS Provider" description="Default - cannot be changed"/>
+  <resources.jms:JMSProvider xmi:id="JMSProvider_2" name="WebSphere JMS Provider" description="Default - cannot be changed"/>
+  <resources.jdbc:JDBCProvider xmi:id="JDBCProvider_1" name="Default DB2 JDBC Provider" description="" implementationClassName="COM.ibm.db2.jdbc.DB2ConnectionPoolDataSource">
+    <classpath>C:\EJBTwoExperiments\db2java.zip</classpath>
+    <factories xmi:type="resources.jdbc:WAS40DataSource" xmi:id="WAS40DataSource_1" name="jdbc/WSBOOK" jndiName="jdbc/WSBOOK" description="" databaseName="SAMPLE">
+      <propertySet xmi:id="J2EEResourcePropertySet_1">
+        <resourceProperties xmi:id="J2EEResourceProperty_1" name="user" value="kbrown"/>
+        <resourceProperties xmi:id="J2EEResourceProperty_2" name="password" value="kbrown"/>
+      </propertySet>
+    </factories>
+    <propertySet xmi:id="J2EEResourcePropertySet_2"/>
+  </resources.jdbc:JDBCProvider>
+</xmi:XMI>

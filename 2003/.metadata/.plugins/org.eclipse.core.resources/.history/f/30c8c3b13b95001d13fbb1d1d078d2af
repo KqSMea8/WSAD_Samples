@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-modules id="moduleCoreId">
+    <wb-module deploy-name="IDGeneratorClient">
+        <module-type module-type-id="jst.appclient">
+            <version>1.3</version>
+        </module-type>
+        <wb-resource deploy-path="/" source-path="/appClientModule"/>
+    </wb-module>
+</project-modules>

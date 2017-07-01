@@ -1,0 +1,93 @@
+------Start of DE processing------ = [06.02.23 16:27:16:230 MSK] , key = java.lang.reflect.InvocationTargetException com.ibm.ws.management.connector.soap.SOAPConnector.invoke 351
+Exception = java.lang.reflect.InvocationTargetException
+Source = com.ibm.ws.management.connector.soap.SOAPConnector.invoke
+probeid = 351
+Stack Dump = java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:79)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:41)
+	at java.lang.reflect.Method.invoke(Method.java:386)
+	at com.ibm.ws.management.connector.soap.SOAPConnector.invoke(SOAPConnector.java:306)
+	at com.ibm.ws.management.connector.soap.SOAPConnector.service(SOAPConnector.java:176)
+	at com.ibm.ws.management.connector.soap.SOAPConnection.handleRequest(SOAPConnection.java:55)
+	at com.ibm.ws.http.HttpConnection.readAndHandleRequest(HttpConnection.java:618)
+	at com.ibm.ws.http.HttpConnection.run(HttpConnection.java:439)
+	at com.ibm.ws.util.ThreadPool$Worker.run(ThreadPool.java:672)
+Caused by: javax.management.MBeanException
+	at com.tivoli.jmx.modelmbean.DynamicModelMBeanSupport.resourceExceptionHandler(DynamicModelMBeanSupport.java:668)
+	at com.tivoli.jmx.modelmbean.DynamicModelMBeanSupport.invoke(DynamicModelMBeanSupport.java:426)
+	at javax.management.modelmbean.RequiredModelMBean.invoke(RequiredModelMBean.java:323)
+	at com.tivoli.jmx.GenericMBeanSupport.invoke(GenericMBeanSupport.java:178)
+	at com.tivoli.jmx.MBeanAccess.invoke(MBeanAccess.java:113)
+	at com.tivoli.jmx.MBeanServerImpl.invoke(MBeanServerImpl.java:290)
+	at com.ibm.ws.management.AdminServiceImpl.invoke(AdminServiceImpl.java:659)
+	at com.ibm.ws.management.connector.AdminServiceDelegator.invoke(AdminServiceDelegator.java:130)
+	... 10 more
+
+Dump of callerThis = 
+Object type = com.ibm.ws.management.connector.soap.SOAPConnector
+com.ibm.ws.management.connector.soap.SOAPConnector@17d01c75
+
+==> Performing default dump from com.ibm.ws.management.dm.ConnectorDM  = Thu Feb 23 16:27:16 MSK 2006
+Dump of callerThis = 
+Object type = com.ibm.ws.management.connector.soap.SOAPConnector
+  class$com$ibm$ws$management$connector$soap$SOAPConnector = 
+    class$java$lang$Class = java.lang.Class@20355cfe
+    initted = true
+    reflectionFactory = sun.reflect.ReflectionFactory@3de6dc7d
+    serialPersistentFields = {}
+    serialVersionUID = 3206093459760846163
+    declaredPublicMethods = null
+    declaredPublicFields = null
+    publicConstructors = null
+    declaredConstructors = null
+    publicMethods = null
+    declaredMethods = null
+    publicFields = null
+    declaredFields = java.lang.ref.SoftReference@3fcf9c76
+    useCaches = true
+    allPermDomain = java.security.ProtectionDomain@4995c76
+    getPDperm = null
+    newInstanceCallerCache = null
+    cachedConstructor = null
+    have_extensions = true
+  securityEnabled = true
+  smr = 
+    class$java$lang$Number = java.lang.Class@23925cfe
+    class$java$lang$Character = java.lang.Class@23d0dcfe
+    class$java$lang$Boolean = java.lang.Class@23d95cfe
+    class$com$ibm$ws$management$connector$soap$AdminServiceSMR = java.lang.Class@2ea51c7f
+    singleton = this.smr
+    defaultSerializer = com.ibm.ws.management.connector.soap.GenericSerializer@23a11c7e
+    tc = com.ibm.ejs.ras.TraceComponent@1d401c7e
+    defaultEncodingStyle = null
+    java2XMLReg = java.util.Hashtable@23afdc7e
+    xml2JavaReg = java.util.Hashtable@23ab5c7e
+    dsReg = java.util.Hashtable@23a8dc7e
+    sReg = java.util.Hashtable@23a45c7e
+  targetObject = 
+    class$com$ibm$ws$management$connector$AdminServiceDelegator = java.lang.Class@12ff5c7f
+    _adminInstance = com.ibm.ws.management.AdminServiceImpl@2dd9dc7b
+    tc = com.ibm.ejs.ras.TraceComponent@1b605c6c
+  nls = 
+    class$com$ibm$ejs$ras$TraceNLS = java.lang.Class@5f0ddc7c
+    ivBundleName = com.ibm.ws.management.resources.connector
+    svMalformedMessage = No message text associated with key {0} in bundle {1}
+    svNullKeyMessage = Null key passed while using ResourceBundle {0}
+    svBundleNotLoaded = Unable to load ResourceBundle {0}
+    svNullBundleName = Resource Bundle name is null, key = {0}
+    nullKey = null Key
+    tc = com.ibm.ejs.ras.TraceComponent@1c8a9c78
+  tc = 
+    ivLogger = null
+    ivResourceBundleName = com.ibm.ws.management.resources.connector
+    ivDumpEnabled = false
+    defaultMessageFile = com.ibm.ejs.resources.seriousMessages
+    ivEntryEnabled = false
+    ivEventEnabled = false
+    ivDebugEnabled = false
+    ivName = com.ibm.ws.management.connector.soap.SOAPConnector
+  bundleName = com.ibm.ws.management.resources.connector
+
++Data for directive [defaultconnector] obtained. = 
+==> Dump complete for com.ibm.ws.management.dm.ConnectorDM  = Thu Feb 23 16:27:16 MSK 2006

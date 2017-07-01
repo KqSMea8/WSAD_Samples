@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RDBSchema:RDBTable xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:RDBSchema="RDBSchema.xmi" xmi:id="RDBTable_1055046203460" name="EMPLOYEE" primaryKey="SQLReference_1055046203520">
+  <database href="META-INF/backends/DB2UDBNT_V8_1/SAMPLE.dbxmi#RDBDatabase_1055046203470"/>
+  <schema href="META-INF/backends/DB2UDBNT_V8_1/SAMPLE_TEST.schxmi#RDBSchema_1055046203510"/>
+  <columns xmi:type="RDBSchema:RDBColumn" xmi:id="RDBColumn_1055046203460" name="SSN" allowNull="false">
+    <type xmi:type="RDBSchema:SQLCharacterStringType" xmi:id="SQLCharacterStringType_1055046203520" length="250">
+      <originatingType xmi:type="RDBSchema:SQLCharacterStringType" href="JavatoDB2UDBNT_V8TypeMaps.xmi#SQLCharacterStringType_250"/>
+    </type>
+  </columns>
+  <columns xmi:type="RDBSchema:RDBColumn" xmi:id="RDBColumn_1055046203461" name="NAME" allowNull="true">
+    <type xmi:type="RDBSchema:SQLCharacterStringType" xmi:id="SQLCharacterStringType_1055046203521" length="250">
+      <originatingType xmi:type="RDBSchema:SQLCharacterStringType" href="JavatoDB2UDBNT_V8TypeMaps.xmi#SQLCharacterStringType_250"/>
+    </type>
+  </columns>
+  <namedGroup xmi:type="RDBSchema:SQLReference" xmi:id="SQLReference_1055046203520" name="PK_EMPLOYEE" members="RDBColumn_1055046203460" constraint="SQLConstraint_1055046203520">
+    <referenceByKey href="META-INF/backends/DB2UDBNT_V8_1/SAMPLE_TEST_ADDRESS.tblxmi#RDBReferenceByKey_1055046203470"/>
+  </namedGroup>
+  <constraints xmi:id="SQLConstraint_1055046203520" name="PK_EMPLOYEE" type="PRIMARYKEY" primaryKey="SQLReference_1055046203520"/>
+</RDBSchema:RDBTable>

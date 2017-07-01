@@ -1,0 +1,85 @@
+------Start of DE processing------ = [05.12.27 21:35:18:578 MSK] , key = com.ibm.websphere.csi.CSITransactionRolledbackException com.ibm.ejs.container.EJSContainer.postInvoke 2326
+Exception = com.ibm.websphere.csi.CSITransactionRolledbackException
+Source = com.ibm.ejs.container.EJSContainer.postInvoke
+probeid = 2326
+Stack Dump = com.ibm.websphere.csi.CSITransactionRolledbackException
+	at com.ibm.ejs.csi.TranStrategy.handleException(TranStrategy.java:249)
+	at com.ibm.ejs.csi.TransactionControlImpl.postInvoke(TransactionControlImpl.java:567)
+	at com.ibm.ejs.container.EJSContainer.postInvoke(EJSContainer.java:3038)
+	at com.wsbook.casestudy.ejb.EJSLocalCMPEmployeeEJBHome_96c219b7.findAll(EJSLocalCMPEmployeeEJBHome_96c219b7.java:134)
+	at com.wsbook.casestudy.mapping.ejb.EmployeeMapper.findAllEJBs(EmployeeMapper.java:130)
+	at com.wsbook.casestudy.mapping.ejb.DomainEJBMapper.findAll(DomainEJBMapper.java:57)
+	at com.wsbook.casestudy.ejb.TimeSheetActionProcessorFacadeBean.findAllEmployees(TimeSheetActionProcessorFacadeBean.java:274)
+	at com.wsbook.casestudy.ejb.EJSRemoteStatelessTimeSheetActionProcessorFacade_7ee0ab51.findAllEmployees(EJSRemoteStatelessTimeSheetActionProcessorFacade_7ee0ab51.java:412)
+	at com.wsbook.casestudy.ejb._TimeSheetActionProcessorFacade_Stub.findAllEmployees(_TimeSheetActionProcessorFacade_Stub.java:1018)
+	at com.wsbook.casestudy.model.ejb.TimeSheetActionProcessorImpl.findAllEmployees(TimeSheetActionProcessorImpl.java:311)
+	at com.wsbook.casestudy.action.TimeAppAction.addEmployeesBean(TimeAppAction.java:40)
+	at com.wsbook.casestudy.action.TimeSheetSearchAction.perform(TimeSheetSearchAction.java:39)
+	at org.apache.struts.action.ActionServlet.processActionPerform(ActionServlet.java:1786)
+	at org.apache.struts.action.ActionServlet.process(ActionServlet.java:1585)
+	at org.apache.struts.action.ActionServlet.doGet(ActionServlet.java:491)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:740)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:853)
+	at com.ibm.ws.webcontainer.servlet.StrictServletInstance.doService(StrictServletInstance.java:110)
+	at com.ibm.ws.webcontainer.servlet.StrictLifecycleServlet._service(StrictLifecycleServlet.java:174)
+	at com.ibm.ws.webcontainer.servlet.IdleServletState.service(StrictLifecycleServlet.java:313)
+	at com.ibm.ws.webcontainer.servlet.StrictLifecycleServlet.service(StrictLifecycleServlet.java:116)
+	at com.ibm.ws.webcontainer.servlet.ServletInstance.service(ServletInstance.java:283)
+	at com.ibm.ws.webcontainer.servlet.ValidServletReferenceState.dispatch(ValidServletReferenceState.java:42)
+	at com.ibm.ws.webcontainer.servlet.ServletInstanceReference.dispatch(ServletInstanceReference.java:40)
+	at com.ibm.ws.webcontainer.webapp.WebAppRequestDispatcher.handleWebAppDispatch(WebAppRequestDispatcher.java:983)
+	at com.ibm.ws.webcontainer.webapp.WebAppRequestDispatcher.dispatch(WebAppRequestDispatcher.java:564)
+	at com.ibm.ws.webcontainer.webapp.WebAppRequestDispatcher.forward(WebAppRequestDispatcher.java:200)
+	at com.ibm.ws.webcontainer.srt.WebAppInvoker.doForward(WebAppInvoker.java:119)
+	at com.ibm.ws.webcontainer.srt.WebAppInvoker.handleInvocationHook(WebAppInvoker.java:276)
+	at com.ibm.ws.webcontainer.cache.invocation.CachedInvocation.handleInvocation(CachedInvocation.java:71)
+	at com.ibm.ws.webcontainer.srp.ServletRequestProcessor.dispatchByURI(ServletRequestProcessor.java:182)
+	at com.ibm.ws.webcontainer.oselistener.OSEListenerDispatcher.service(OSEListener.java:334)
+	at com.ibm.ws.webcontainer.http.HttpConnection.handleRequest(HttpConnection.java:56)
+	at com.ibm.ws.http.HttpConnection.readAndHandleRequest(HttpConnection.java:618)
+	at com.ibm.ws.http.HttpConnection.run(HttpConnection.java:439)
+	at com.ibm.ws.util.ThreadPool$Worker.run(ThreadPool.java:672)
+
+Dump of callerThis = 
+null
+
+==> Performing default dump from com.ibm.ejs.container.EJBContainerDiagnosticModule  = Tue Dec 27 21:35:18 MSK 2005
+Dump of EJBContainer Internals = 
+Object type = com.ibm.ejs.container.EJSContainer
+com.ibm.ejs.container.EJSContainer@616d07fe
+
++Data for directive [default] obtained. = 
+Dump of ComponentMetaData = 
+                                 *** START ComponentMetaData fields ***
+                                 J2EEName       = wasbook#TimeSheetGroup.jar#TimeSheetActionProcessorFacade
+                                 EJB Type       = STATELESS_SESSION
+                                 TX Type        = CONTAINER_MANAGED_TX
+                                 Module Version = EJB 2.0
+                                     ******* ResRefList ******* 
+                                 ResRefList size=0
+                                       ****** LOCAL-TRANSACTION *******
+                                 Boundary=BEAN_METHOD
+                                 Resolver=APPLICATION
+                                 UnResolvedAction=ROLLBACK
+                                 *** END ComponentMetaData fields  ***
++Data for directive [defaultcomponentmetadata] obtained. = 
+Dump of ContainerTx = 
+
+*** Start ContainerTx Dump    ---> com.ibm.ejs.container.ContainerTx@1a1b07fc
+
+  Tx Key                  = com.ibm.ws.Transaction.JTA.TransactionImpl@5610c7fc#tid=1
+  State                   = Active
+  Entered beforCompletion = false
+  Marked Rollback Only    = false
+  Method Began            = true
+  Isolation Level         = TRANSACTION_NONE
+
+  --- Dump of Enlisted Beans : 0 ---------------------- 
+
+
+  --- Dump of Access Intents : 0 ---------------------- 
+
+*** ContainerTx Dump Complete ---> com.ibm.ejs.container.ContainerTx@1a1b07fc
+
++Data for directive [defaultcontainertx] obtained. = 
+==> Dump complete for com.ibm.ejs.container.EJBContainerDiagnosticModule  = Tue Dec 27 21:35:18 MSK 2005

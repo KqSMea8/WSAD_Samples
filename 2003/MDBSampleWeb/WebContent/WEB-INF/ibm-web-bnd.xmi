@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<webappbnd:WebAppBinding xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:webappbnd="webappbnd.xmi" xmlns:webapplication="webapplication.xmi" xmlns:commonbnd="commonbnd.xmi" xmlns:common="common.xmi" xmi:id="WebAppBinding_1" virtualHostName="default_host">
+  <webapp href="WEB-INF/web.xml#WebApp"/>
+  <resRefBindings xmi:id="ResourceRefBinding_1051807264748" jndiName="jms/sampleQCF">
+    <bindingResourceRef href="WEB-INF/web.xml#ResourceRef_1051807264748"/>
+  </resRefBindings>
+  <resRefBindings xmi:id="ResourceRefBinding_1051807265379" jndiName="jms/sampleQ">
+    <bindingResourceRef href="WEB-INF/web.xml#ResourceRef_1051807265379"/>
+  </resRefBindings>
+</webappbnd:WebAppBinding>

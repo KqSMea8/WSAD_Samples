@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:resources.j2c="http://www.ibm.com/websphere/appserver/schemas/5.0/resources.j2c.xmi" xmlns:resources.jdbc="http://www.ibm.com/websphere/appserver/schemas/5.0/resources.jdbc.xmi" xmlns:resources.jms="http://www.ibm.com/websphere/appserver/schemas/5.0/resources.jms.xmi" xmlns:resources.mail="http://www.ibm.com/websphere/appserver/schemas/5.0/resources.mail.xmi" xmlns:resources.url="http://www.ibm.com/websphere/appserver/schemas/5.0/resources.url.xmi">
+  <resources.jms:JMSProvider xmi:id="builtin_jmsprovider" name="WebSphere JMS Provider" description="Built-in WebSphere JMS Provider" externalInitialContextFactory="" externalProviderURL=""/>
+  <resources.jms:JMSProvider xmi:id="builtin_mqprovider" name="WebSphere MQ JMS Provider" description="WebSphere MQ JMS Provider" externalInitialContextFactory="" externalProviderURL="">
+    <classpath>${MQJMS_LIB_ROOT}</classpath>
+    <nativepath>${MQJMS_LIB_ROOT}</nativepath>
+  </resources.jms:JMSProvider>
+  <resources.j2c:J2CResourceAdapter xmi:id="builtin_rra" name="WebSphere Relational Resource Adapter" description="Built-in Relational Resource Adapter for Container Managed Persistence" archivePath="${WAS_LIBS_DIR}/rsadapter.rar">
+    <factories xmi:type="resources.jdbc:CMPConnectorFactory" xmi:id="CMPConnectorFactory_1135703989801" name="Data source 1_CF" authMechanismPreference="BASIC_PASSWORD" authDataAlias="IShaffigulin" cmpDatasource="DataSource_1135703989801">
+      <propertySet xmi:id="J2EEResourcePropertySet_1135703989801">
+        <resourceProperties xmi:id="J2EEResourceProperty_1135703989801" name="TransactionResourceRegistration" type="java.lang.String" value="dynamic" description="Type of transaction resource registration (enlistment).  Valid values are either &quot;static&quot; (immediate) or &quot;dynamic&quot; (deferred)." required="false"/>
+        <resourceProperties xmi:id="J2EEResourceProperty_1135703989802" name="InactiveConnectionSupport" type="java.lang.Boolean" value="true" description="Specify whether connection handles support implicit reactivation. (Smart Handle support). Value may be &quot;true&quot; or &quot;false&quot;." required="false"/>
+      </propertySet>
+      <mapping xmi:id="MappingModule_1135704011993" mappingConfigAlias="DefaultPrincipalMapping" authDataAlias="IShaffigulin"/>
+    </factories>
+    <factories xmi:type="resources.jdbc:CMPConnectorFactory" xmi:id="CMPConnectorFactory_1135704648868" name="MyDataSource_CF" authMechanismPreference="BASIC_PASSWORD" authDataAlias="IShaffigulin" cmpDatasource="DataSource_1135704648868">
+      <propertySet xmi:id="J2EEResourcePropertySet_1135704648868">
+        <resourceProperties xmi:id="J2EEResourceProperty_1135704648868" name="TransactionResourceRegistration" type="java.lang.String" value="dynamic" description="Type of transaction resource registration (enlistment).  Valid values are either &quot;static&quot; (immediate) or &quot;dynamic&quot; (deferred)." required="false"/>
+        <resourceProperties xmi:id="J2EEResourceProperty_1135704648869" name="InactiveConnectionSupport" type="java.lang.Boolean" value="true" description="Specify whether connection handles support implicit reactivation. (Smart Handle support). Value may be &quot;true&quot; or &quot;false&quot;." required="false"/>
+      </propertySet>
+      <mapping xmi:id="MappingModule_1135704648868" mappingConfigAlias="DefaultPrincipalMapping" authDataAlias="IShaffigulin"/>
+    </factories>
+    <factories xmi:type="resources.jdbc:CMPConnectorFactory" xmi:id="CMPConnectorFactory_1135709022267" name="Data source jdbc/WSBOOK_CF" authMechanismPreference="BASIC_PASSWORD" authDataAlias="IShaffigulin" cmpDatasource="DataSource_1135709022267">
+      <propertySet xmi:id="J2EEResourcePropertySet_1135709022267">
+        <resourceProperties xmi:id="J2EEResourceProperty_1135709022267" name="TransactionResourceRegistration" type="java.lang.String" value="dynamic" description="Type of transaction resource registration (enlistment).  Valid values are either &quot;static&quot; (immediate) or &quot;dynamic&quot; (deferred)." required="false"/>
+        <resourceProperties xmi:id="J2EEResourceProperty_1135709022268" name="InactiveConnectionSupport" type="java.lang.Boolean" value="true" description="Specify whether connection handles support implicit reactivation. (Smart Handle support). Value may be &quot;true&quot; or &quot;false&quot;." required="false"/>
+      </propertySet>
+      <mapping xmi:id="MappingModule_1135709036608" mappingConfigAlias="DefaultPrincipalMapping" authDataAlias="IShaffigulin"/>
+    </factories>
+    <propertySet xmi:id="J2EEResourcePropertySet_8">
+      <resourceProperties xmi:id="J2EEResourceProperty_31" name="TransactionResourceRegistration" type="java.lang.String" value="dynamic" description="Type of transaction resource registration (enlistment).  Valid values are either &quot;static&quot; (immediate) or &quot;dynamic&quot; (deferred)."/>
+      <resourceProperties xmi:id="J2EEResourceProperty_32" name="InactiveConnectionSupport" type="java.lang.Boolean" value="true" description="Specify whether connection handles support implicit reactivation. (Smart Handle support). Value may be &quot;true&quot; or &quot;false&quot;."/>
+    </propertySet>
+  </resources.j2c:J2CResourceAdapter>
+  <resources.mail:MailProvider xmi:id="builtin_mailprovider" name="Built-in Mail Provider" description="The built-in mail provider">
+    <protocolProviders xmi:id="builtin_smtp" protocol="smtp" classname="com.sun.mail.smtp.SMTPTransport" type="TRANSPORT"/>
+    <protocolProviders xmi:id="builtin_pop3" protocol="pop3" classname="com.sun.mail.pop3.POP3Store" type="STORE"/>
+    <protocolProviders xmi:id="builtin_imap" protocol="imap" classname="com.sun.mail.imap.IMAPStore" type="STORE"/>
+  </resources.mail:MailProvider>
+  <resources.url:URLProvider xmi:id="URLProvider_1" name="Default URL Provider" streamHandlerClassName="unused" protocol="unused"/>
+  <resources.jdbc:JDBCProvider xmi:id="JDBCProvider_1135703577899" name="Cloudscape JDBC Driver" description="Cloudscape JDBC Provider" implementationClassName="com.ibm.db2j.jdbc.DB2jConnectionPoolDataSource"/>
+  <resources.jdbc:JDBCProvider xmi:id="JDBCProvider_1135703577900" name="Default DB2 JDBC Provider" description="DB2 JDBC Provider" implementationClassName="COM.ibm.db2.jdbc.DB2ConnectionPoolDataSource">
+    <classpath>${DB2_JDBC_DRIVER_PATH}/db2java.zip</classpath>
+    <classpath>C:\Program Files\SQLLIB\java\db2java.zip</classpath>
+    <factories xmi:type="resources.jdbc:DataSource" xmi:id="DataSource_1135703989801" name="Data source 1" jndiName="jdbc/oidGen" description="New JDBC Datasource" category="" authDataAlias="IShaffigulin" statementCacheSize="10" datasourceHelperClassname="com.ibm.websphere.rsadapter.DB2DataStoreHelper" relationalResourceAdapter="builtin_rra">
+      <propertySet xmi:id="J2EEResourcePropertySet_1135703989802">
+        <resourceProperties xmi:id="J2EEResourceProperty_1135703989803" name="databaseName" type="java.lang.String" value="sample" description="This is a required property. The database name. For example, enter sample to make your Data Source point to jdbc:db2:sample." required="true"/>
+        <resourceProperties xmi:id="J2EEResourceProperty_1135703989804" name="enableSQLJ" type="java.lang.Boolean" value="false" description="This value is used to indicate whether SQLJ operations may be performed with this data source. If enabled, this data source can be used for both JDBC and SQLJ calls. Otherwise, only JDBC usage is permitted. This flag should always be set to false for DB2 v7.2, which does not support SQLJ." required="false"/>
+        <resourceProperties xmi:id="J2EEResourceProperty_1135703989805" name="description" type="java.lang.String" value="" description="The description of this datasource." required="false"/>
+        <resourceProperties xmi:id="J2EEResourceProperty_1135703989806" name="portNumber" type="java.lang.Integer" value="" description="The TCP/IP port number where the jdbc Provider resides." required="false"/>
+        <resourceProperties xmi:id="J2EEResourceProperty_1135703989807" name="connectionAttribute" type="java.lang.String" value="cursorhold=0" description="The connection attributes. Refer to the DB2 reference for the list of connection attributes." required="false"/>
+        <resourceProperties xmi:id="J2EEResourceProperty_1135703989808" name="loginTimeout" type="java.lang.Integer" value="0" description="The maximum time to attempt to connect a database. If this value is non-zero, attempt to connect to the database will timeout when this specified value is reached." required="false"/>
+        <resourceProperties xmi:id="J2EEResourceProperty_1135703989809" name="enableMultithreadedAccessDetection" type="java.lang.Boolean" value="false" description="Indicates whether or not to detect multithreaded access to a Connection and its corresponding Statements, ResultSets, and MetaDatas." required="false"/>
+        <resourceProperties xmi:id="J2EEResourceProperty_1135703989810" name="preTestSQLString" type="java.lang.String" value="SELECT 1 FROM TABLE1" description="This SQL statement is used for pre-test connection function. For example, SELECT 1 FROM [TESTTABLE]. If pre-test connection is enabled in j2c.properties, this SQL statement will be executed to the connection to make sure the connection is good. If you leave this field blank, the default SQL statement, SELECT 1 FROM TABLE1, will be used at runtime. This will slow down the execution because of the exception handling if table TABLE1 is not defined in the database. Users are recommended to provide their own SQL statement to improve the performance." required="false"/>
+      </propertySet>
+      <connectionPool xmi:id="ConnectionPool_1135703989801" connectionTimeout="1800" maxConnections="10" minConnections="1" reapTime="180" unusedTimeout="1800" agedTimeout="0" purgePolicy="EntirePool"/>
+      <mapping xmi:id="MappingModule_1135704012003" mappingConfigAlias="DefaultPrincipalMapping" authDataAlias="IShaffigulin"/>
+    </factories>
+    <factories xmi:type="resources.jdbc:DataSource" xmi:id="DataSource_1135704648868" name="MyDataSource" jndiName="jdbc/MyDataSource" description="New JDBC Datasource" category="" authDataAlias="IShaffigulin" statementCacheSize="10" datasourceHelperClassname="com.ibm.websphere.rsadapter.DB2DataStoreHelper" relationalResourceAdapter="builtin_rra">
+      <propertySet xmi:id="J2EEResourcePropertySet_1135704648869">
+        <resourceProperties xmi:id="J2EEResourceProperty_1135704648870" name="databaseName" type="java.lang.String" value="sample" description="This is a required property. The database name. For example, enter sample to make your Data Source point to jdbc:db2:sample." required="true"/>
+        <resourceProperties xmi:id="J2EEResourceProperty_1135704648871" name="enableSQLJ" type="java.lang.Boolean" value="false" description="This value is used to indicate whether SQLJ operations may be performed with this data source. If enabled, this data source can be used for both JDBC and SQLJ calls. Otherwise, only JDBC usage is permitted. This flag should always be set to false for DB2 v7.2, which does not support SQLJ." required="false"/>
+        <resourceProperties xmi:id="J2EEResourceProperty_1135704648872" name="description" type="java.lang.String" value="" description="The description of this datasource." required="false"/>
+        <resourceProperties xmi:id="J2EEResourceProperty_1135704648873" name="portNumber" type="java.lang.Integer" value="" description="The TCP/IP port number where the jdbc Provider resides." required="false"/>
+        <resourceProperties xmi:id="J2EEResourceProperty_1135704648874" name="connectionAttribute" type="java.lang.String" value="cursorhold=0" description="The connection attributes. Refer to the DB2 reference for the list of connection attributes." required="false"/>
+        <resourceProperties xmi:id="J2EEResourceProperty_1135704648875" name="loginTimeout" type="java.lang.Integer" value="0" description="The maximum time to attempt to connect a database. If this value is non-zero, attempt to connect to the database will timeout when this specified value is reached." required="false"/>
+        <resourceProperties xmi:id="J2EEResourceProperty_1135704648876" name="enableMultithreadedAccessDetection" type="java.lang.Boolean" value="false" description="Indicates whether or not to detect multithreaded access to a Connection and its corresponding Statements, ResultSets, and MetaDatas." required="false"/>
+        <resourceProperties xmi:id="J2EEResourceProperty_1135704648877" name="preTestSQLString" type="java.lang.String" value="SELECT 1 FROM TABLE1" description="This SQL statement is used for pre-test connection function. For example, SELECT 1 FROM [TESTTABLE]. If pre-test connection is enabled in j2c.properties, this SQL statement will be executed to the connection to make sure the connection is good. If you leave this field blank, the default SQL statement, SELECT 1 FROM TABLE1, will be used at runtime. This will slow down the execution because of the exception handling if table TABLE1 is not defined in the database. Users are recommended to provide their own SQL statement to improve the performance." required="false"/>
+      </propertySet>
+      <connectionPool xmi:id="ConnectionPool_1135704648868" connectionTimeout="1800" maxConnections="10" minConnections="1" reapTime="180" unusedTimeout="1800" agedTimeout="0" purgePolicy="EntirePool"/>
+      <mapping xmi:id="MappingModule_1135704648869" mappingConfigAlias="DefaultPrincipalMapping" authDataAlias="IShaffigulin"/>
+    </factories>
+    <factories xmi:type="resources.jdbc:DataSource" xmi:id="DataSource_1135709022267" name="Data source jdbc/WSBOOK" jndiName="jdbc/WSBOOK" description="New JDBC Datasource" category="" authDataAlias="IShaffigulin" statementCacheSize="10" datasourceHelperClassname="com.ibm.websphere.rsadapter.DB2DataStoreHelper" relationalResourceAdapter="builtin_rra">
+      <propertySet xmi:id="J2EEResourcePropertySet_1135709022277">
+        <resourceProperties xmi:id="J2EEResourceProperty_1135709022277" name="databaseName" type="java.lang.String" value="SAMPLE" description="This is a required property. The database name. For example, enter sample to make your Data Source point to jdbc:db2:sample." required="true"/>
+        <resourceProperties xmi:id="J2EEResourceProperty_1135709022278" name="enableSQLJ" type="java.lang.Boolean" value="false" description="This value is used to indicate whether SQLJ operations may be performed with this data source. If enabled, this data source can be used for both JDBC and SQLJ calls. Otherwise, only JDBC usage is permitted. This flag should always be set to false for DB2 v7.2, which does not support SQLJ." required="false"/>
+        <resourceProperties xmi:id="J2EEResourceProperty_1135709022279" name="description" type="java.lang.String" value="" description="The description of this datasource." required="false"/>
+        <resourceProperties xmi:id="J2EEResourceProperty_1135709022280" name="portNumber" type="java.lang.Integer" value="" description="The TCP/IP port number where the jdbc Provider resides." required="false"/>
+        <resourceProperties xmi:id="J2EEResourceProperty_1135709022281" name="connectionAttribute" type="java.lang.String" value="cursorhold=0" description="The connection attributes. Refer to the DB2 reference for the list of connection attributes." required="false"/>
+        <resourceProperties xmi:id="J2EEResourceProperty_1135709022282" name="loginTimeout" type="java.lang.Integer" value="0" description="The maximum time to attempt to connect a database. If this value is non-zero, attempt to connect to the database will timeout when this specified value is reached." required="false"/>
+        <resourceProperties xmi:id="J2EEResourceProperty_1135709022283" name="enableMultithreadedAccessDetection" type="java.lang.Boolean" value="false" description="Indicates whether or not to detect multithreaded access to a Connection and its corresponding Statements, ResultSets, and MetaDatas." required="false"/>
+        <resourceProperties xmi:id="J2EEResourceProperty_1135709022284" name="preTestSQLString" type="java.lang.String" value="SELECT * FROM TABLE org" description="This SQL statement is used for pre-test connection function. For example, SELECT 1 FROM [TESTTABLE]. If pre-test connection is enabled in j2c.properties, this SQL statement will be executed to the connection to make sure the connection is good. If you leave this field blank, the default SQL statement, SELECT 1 FROM TABLE1, will be used at runtime. This will slow down the execution because of the exception handling if table TABLE1 is not defined in the database. Users are recommended to provide their own SQL statement to improve the performance." required="true"/>
+      </propertySet>
+      <connectionPool xmi:id="ConnectionPool_1135709022277" connectionTimeout="1800" maxConnections="10" minConnections="1" reapTime="180" unusedTimeout="1800" agedTimeout="0" purgePolicy="EntirePool"/>
+      <mapping xmi:id="MappingModule_1135709022278" mappingConfigAlias="DefaultPrincipalMapping" authDataAlias="IShaffigulin"/>
+    </factories>
+  </resources.jdbc:JDBCProvider>
+</xmi:XMI>

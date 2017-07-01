@@ -1,0 +1,56 @@
+
+TODO:
+
+- Lazy load
+
+- Test (maybe with JUnit?)
+
+- J2EE client application can't create an initial context to access the server.
+
+
+DONE:
+
+- Implement DepartmentMapper
+
+- Department needs to call a new finder method on EmployeeMapper to get the employees
+  in this department
+  
+#com.wsbook.mapping.datasource.jdbc.name=jdbc/EJPBOOK
+com.wsbook.mapping.datasource.jdbc.name=java:comp/env/jdbc/EJPBOOK
+
+- indicate no key table
+
+- Changes to the employee address don't make the employee as updated. If had
+  notification, could listen for changes in address and mark as changed. Unit
+  of work could do this too, but would have to listen for a lot of things.
+
+  Embedded value needs to know what its embedded in (1-1 navigable in both directions)
+  in order to mark its container changed when anything in it changes.
+  
+- discuss notification
+
+- Note that client applications should not use domain object references
+  across units of work. Consider flushing the read cache when the 
+  unit of work is committed.
+  
+- Note what's not being covered by the mapping:
+    Referential integrity for bi-directional relationships
+    Containment semantics
+	Reflection
+	Notification
+	Multiple inheritance
+	Type-safe collections
+	Dynamic Extensibility
+	Multiple, composite, overlapping candidate keys
+	UUIDs
+	Scalability through load balancing
+	Transactions (based on domain model semantics, not the database schema)
+	Access contol (based on domain model semantics, not the database schema)
+	Distribution (in those cases where it is needed)
+  These are the things that lead us to use EJBs
+
+- Associations
+  
+- Implement single table inheritance. Implement mappers for department subclasses.
+
+  

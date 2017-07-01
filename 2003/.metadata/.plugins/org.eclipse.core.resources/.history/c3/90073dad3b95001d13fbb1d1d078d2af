@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="EmployeeManagementWeb">
+        <module-type module-type-id="jst.web">
+            <version>2.3</version>
+        </module-type>
+        <wb-resource deploy-path="/" source-path="/Web Content"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/Java Source"/>
+        <property name="JSPLevel" value="JSP 1.2"/>
+        <property name="FeatureID_1" value="JSPStandardFeature"/>
+        <property name="FeatureID_2" value="JSPObjectsFeature"/>
+        <property name="context-root" value="EmployeeManagementWeb"/>
+        <property name="java-output-path" value="WebContent/WEB-INF/classes"/>
+    </wb-module>
+</project-modules>

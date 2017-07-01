@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ejbbnd:EJBJarBinding xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ejbbnd="ejbbnd.xmi" xmlns:ejb="ejb.xmi" xmlns:commonbnd="commonbnd.xmi" xmlns:common="common.xmi" xmi:id="EJBJarBinding_1046316349446" currentBackendId="DB2UDBNT_V8_1">
+  <ejbJar href="META-INF/ejb-jar.xml#ejb-jar_ID"/>
+  <ejbBindings xmi:id="EnterpriseBeanBinding_1047008723412" jndiName="ejb/advanced/mapping/example/EmployeeLocalHome">
+    <enterpriseBean xmi:type="ejb:ContainerManagedEntity" href="META-INF/ejb-jar.xml#Employee"/>
+    <ejbRefBindings xmi:id="EjbRefBinding_1047008927906" jndiName="ejb/advanced/mapping/example/AddressLocalHome">
+      <bindingEjbRef xmi:type="common:EJBLocalRef" href="META-INF/ejb-jar.xml#EJBLocalRef_1047008927906"/>
+    </ejbRefBindings>
+  </ejbBindings>
+  <ejbBindings xmi:id="EnterpriseBeanBinding_1047008723413" jndiName="ejb/advanced/mapping/example/AddressLocalHome">
+    <enterpriseBean xmi:type="ejb:ContainerManagedEntity" href="META-INF/ejb-jar.xml#Address"/>
+    <ejbRefBindings xmi:id="EjbRefBinding_1047008927936" jndiName="ejb/advanced/mapping/example/EmployeeLocalHome">
+      <bindingEjbRef xmi:type="common:EJBLocalRef" href="META-INF/ejb-jar.xml#EJBLocalRef_1047008927936"/>
+    </ejbRefBindings>
+  </ejbBindings>
+  <ejbBindings xmi:id="EnterpriseBeanBinding_1054694294661" jndiName="ejb/advanced/mapping/example/StudentLocalHome">
+    <enterpriseBean xmi:type="ejb:ContainerManagedEntity" href="META-INF/ejb-jar.xml#Student"/>
+    <ejbRefBindings xmi:id="EjbRefBinding_1054694837582" jndiName="ejb/advanced/mapping/example/CourseLocalHome">
+      <bindingEjbRef xmi:type="common:EJBLocalRef" href="META-INF/ejb-jar.xml#EJBLocalRef_1054694837582"/>
+    </ejbRefBindings>
+  </ejbBindings>
+  <ejbBindings xmi:id="EnterpriseBeanBinding_1054694294662" jndiName="ejb/advanced/mapping/example/CourseLocalHome">
+    <enterpriseBean xmi:type="ejb:ContainerManagedEntity" href="META-INF/ejb-jar.xml#Course"/>
+    <ejbRefBindings xmi:id="EjbRefBinding_1054694837602" jndiName="ejb/advanced/mapping/example/StudentLocalHome">
+      <bindingEjbRef xmi:type="common:EJBLocalRef" href="META-INF/ejb-jar.xml#EJBLocalRef_1054694837602"/>
+    </ejbRefBindings>
+  </ejbBindings>
+</ejbbnd:EJBJarBinding>

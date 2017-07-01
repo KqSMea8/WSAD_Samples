@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE application-client PUBLIC "-//Sun Microsystems, Inc.//DTD J2EE Application Client 1.3//EN" "http://java.sun.com/dtd/application-client_1_3.dtd">
+<application-client id="Application-client_ID">
+	<display-name>TimeAppTestClient</display-name>
+	<ejb-ref id="EjbRef_1051066552052">
+		<description></description>
+		<ejb-ref-name>ejb/TimeSheetActionProcessor</ejb-ref-name>
+		<ejb-ref-type>Session</ejb-ref-type>
+		<home>com.wsbook.casestudy.ejb.TimeSheetActionProcessorFacadeHome</home>
+		<remote>com.wsbook.casestudy.ejb.TimeSheetActionProcessorFacade</remote>
+		<ejb-link>TimeSheetGroup.jar#TimeSheetActionProcessorFacade</ejb-link>
+	</ejb-ref>
+	<ejb-ref id="EjbRef_1051666731161">
+		<description></description>
+		<ejb-ref-name>ejb/ReportActionProcessor</ejb-ref-name>
+		<ejb-ref-type>Session</ejb-ref-type>
+		<home>com.wsbook.casestudy.ejb.ReportActionProcessorFacadeHome</home>
+		<remote>com.wsbook.casestudy.ejb.ReportActionProcessorFacade</remote>
+		<ejb-link>TimeSheetGroup.jar#ReportActionProcessorFacade</ejb-link>
+	</ejb-ref>
+</application-client>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RDBSchema:RDBTable xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:RDBSchema="RDBSchema.xmi" xmi:id="RDBTable_1057633983839" name="DEPARTMENTEJB" primaryKey="SQLReference_1057633983929">
+  <database href="META-INF/backends/DB2UDBNT_V8_1/wsbook.dbxmi#RDBDatabase_1057633983859"/>
+  <schema href="META-INF/backends/DB2UDBNT_V8_1/wsbook_NULLID.schxmi#RDBSchema_1057633983909"/>
+  <columns xmi:type="RDBSchema:RDBColumn" xmi:id="RDBColumn_1057633983839" name="NAME" allowNull="true">
+    <type xmi:type="RDBSchema:SQLCharacterStringType" xmi:id="SQLCharacterStringType_1057633983929" length="250">
+      <originatingType xmi:type="RDBSchema:SQLCharacterStringType" href="JavatoDB2UDBNT_V8TypeMaps.xmi#SQLCharacterStringType_250"/>
+    </type>
+  </columns>
+  <columns xmi:type="RDBSchema:RDBColumn" xmi:id="RDBColumn_1057633983840" name="DEPTNUMBER" allowNull="false">
+    <type xmi:type="RDBSchema:SQLExactNumeric" xmi:id="SQLExactNumeric_1057633983929">
+      <originatingType xmi:type="RDBSchema:SQLExactNumeric" href="DB2UDBNT_V8_Primitives.xmi#SQLExactNumeric_1"/>
+    </type>
+  </columns>
+  <namedGroup xmi:type="RDBSchema:SQLReference" xmi:id="SQLReference_1057633983929" name="PK_DEPARTMENTEJB" members="RDBColumn_1057633983840" constraint="SQLConstraint_1057633983929"/>
+  <constraints xmi:id="SQLConstraint_1057633983929" name="PK_DEPARTMENTEJB" type="PRIMARYKEY" primaryKey="SQLReference_1057633983929"/>
+</RDBSchema:RDBTable>

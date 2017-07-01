@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TimeSheet weekEnding="4/25/2003">
+	<Employee id="257899" name="Leonard, Elouise" deptName="Programming"/>
+	<Entries>
+		<Entry>
+			<Date>4/21/2003</Date>
+			<Hours>8.5</Hours>
+			<Project id="4567" name="ACME AP"/>
+		</Entry>
+		<Entry>
+			<Date>4/22/2003</Date>
+			<Hours>5</Hours>
+			<Project id="4567" name="ACME AP"/>			
+		</Entry>
+		<Entry>
+			<Date>4/22/2003</Date>
+			<Hours>5</Hours>
+			<Project id="2345" name="ACME HR"/>			
+		</Entry>
+		<Entry>
+			<Date>4/23/2003</Date>
+			<Hours>8</Hours>
+			<Project id="4567" name="ACME AP"/>			
+		</Entry>
+		<Entry>
+			<Date>4/24/2003</Date>
+			<Hours>8</Hours>
+			<Project id="4567" name="ACME AP"/>			
+		</Entry>
+		<Entry>
+			<Date>4/24/2003</Date>
+			<Hours>3</Hours>
+			<Project id="2345" name="ACME HR"/>			
+		</Entry>
+		<Entry>
+			<Date>4/25/2003</Date>
+			<Hours>8</Hours>
+			<Project id="4567" name="ACME AP"/>			
+		</Entry>
+	</Entries>
+	<Summary totalHours="45.5" overTimeHours="5.5">
+		<ProjectTotals>
+			<Project id="4567" name="ACME AP" totalHours="37.5"/>
+			<Project id="2345" name="ACME HR" totalHours="8"/>
+		</ProjectTotals>
+	</Summary>
+	
+</TimeSheet>

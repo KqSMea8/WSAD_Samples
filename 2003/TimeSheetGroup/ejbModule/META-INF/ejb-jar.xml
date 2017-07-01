@@ -1,0 +1,522 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ejb-jar PUBLIC "-//Sun Microsystems, Inc.//DTD Enterprise JavaBeans 2.0//EN" "http://java.sun.com/dtd/ejb-jar_2_0.dtd">
+   <ejb-jar id="ejb-jar_ID">
+      <display-name>TimeSheetGroup</display-name>
+      <enterprise-beans>
+         <entity id="CustomerEJB">
+            <ejb-name>CustomerEJB</ejb-name>
+            <local-home>com.wsbook.casestudy.ejb.CustomerEJBHome</local-home>
+            <local>com.wsbook.casestudy.ejb.CustomerEJB</local>
+            <ejb-class>com.wsbook.casestudy.ejb.CustomerEJBBean</ejb-class>
+            <persistence-type>Bean</persistence-type>
+            <prim-key-class>com.wsbook.casestudy.ejb.CustomerEJBKey</prim-key-class>
+            <reentrant>False</reentrant>
+            <resource-ref id="ResourceRef_1050154529155">
+            	<description></description>
+            	<res-ref-name>jdbc/MyDataSource</res-ref-name>
+            	<res-type>javax.sql.DataSource</res-type>
+            	<res-auth>Container</res-auth>
+            	<res-sharing-scope>Shareable</res-sharing-scope>
+            </resource-ref>
+         </entity>
+         <session id="TimeSheetActionProcessorFacade">
+         	<ejb-name>TimeSheetActionProcessorFacade</ejb-name>
+         	<home>com.wsbook.casestudy.ejb.TimeSheetActionProcessorFacadeHome</home>
+         	<remote>com.wsbook.casestudy.ejb.TimeSheetActionProcessorFacade</remote>
+         	<ejb-class>com.wsbook.casestudy.ejb.TimeSheetActionProcessorFacadeBean</ejb-class>
+         	<session-type>Stateless</session-type>
+         	<transaction-type>Container</transaction-type>
+         	<ejb-local-ref id="EJBLocalRef_1051069012370">
+         		<description></description>
+         		<ejb-ref-name>ejb/EmployeeEJB</ejb-ref-name>
+         		<ejb-ref-type>Entity</ejb-ref-type>
+         		<local-home>com.wsbook.casestudy.ejb.EmployeeEJBHome</local-home>
+         		<local>com.wsbook.casestudy.ejb.EmployeeEJB</local>
+         		<ejb-link>EmployeeEJB</ejb-link>
+         	</ejb-local-ref>
+         	<ejb-local-ref id="EJBLocalRef_1051069012410">
+         		<description></description>
+         		<ejb-ref-name>ejb/ProjectEJB</ejb-ref-name>
+         		<ejb-ref-type>Entity</ejb-ref-type>
+         		<local-home>com.wsbook.casestudy.ejb.ProjectEJBHome</local-home>
+         		<local>com.wsbook.casestudy.ejb.ProjectEJB</local>
+         		<ejb-link>ProjectEJB</ejb-link>
+         	</ejb-local-ref>
+         	<ejb-local-ref id="EJBLocalRef_1051069012510">
+         		<description></description>
+         		<ejb-ref-name>ejb/AddressEJB</ejb-ref-name>
+         		<ejb-ref-type>Entity</ejb-ref-type>
+         		<local-home>com.wsbook.casestudy.ejb.AddressEJBHome</local-home>
+         		<local>com.wsbook.casestudy.ejb.AddressEJB</local>
+         		<ejb-link>AddressEJB</ejb-link>
+         	</ejb-local-ref>
+         	<ejb-local-ref id="EJBLocalRef_1051069012540">
+         		<description></description>
+         		<ejb-ref-name>ejb/TimeSheetEJB</ejb-ref-name>
+         		<ejb-ref-type>Entity</ejb-ref-type>
+         		<local-home>com.wsbook.casestudy.ejb.TimeSheetEJBHome</local-home>
+         		<local>com.wsbook.casestudy.ejb.TimeSheetEJB</local>
+         		<ejb-link>TimeSheetEJB</ejb-link>
+         	</ejb-local-ref>
+         	<ejb-local-ref id="EJBLocalRef_1051069012570">
+         		<description></description>
+         		<ejb-ref-name>ejb/TimeSheetEntryEJB</ejb-ref-name>
+         		<ejb-ref-type>Entity</ejb-ref-type>
+         		<local-home>com.wsbook.casestudy.ejb.TimeSheetEntryEJBHome</local-home>
+         		<local>com.wsbook.casestudy.ejb.TimeSheetEntryEJB</local>
+         		<ejb-link>TimeSheetEntryEJB</ejb-link>
+         	</ejb-local-ref>
+         </session>
+         <entity id="AddressEJB">
+         	<display-name>AddressEJB</display-name>
+         	<ejb-name>AddressEJB</ejb-name>
+         	<local-home>com.wsbook.casestudy.ejb.AddressEJBHome</local-home>
+         	<local>com.wsbook.casestudy.ejb.AddressEJB</local>
+         	<ejb-class>com.wsbook.casestudy.ejb.AddressEJBBean</ejb-class>
+         	<persistence-type>Container</persistence-type>
+         	<prim-key-class>com.wsbook.casestudy.ejb.AddressEJBKey</prim-key-class>
+         	<reentrant>False</reentrant>
+         	<cmp-version>2.x</cmp-version>
+         	<abstract-schema-name>AddressEJB</abstract-schema-name>
+         	<cmp-field id="CMPAttribute_7">
+         		<field-name>city</field-name>
+         	</cmp-field>
+         	<cmp-field id="CMPAttribute_8">
+         		<field-name>state</field-name>
+         	</cmp-field>
+         	<cmp-field id="CMPAttribute_9">
+         		<field-name>streetAddress</field-name>
+         	</cmp-field>
+         	<cmp-field id="CMPAttribute_10">
+         		<field-name>zipCode</field-name>
+         	</cmp-field>
+         	<cmp-field id="CMPAttribute_11">
+         		<field-name>addressKey</field-name>
+         	</cmp-field>
+         	<ejb-local-ref id="EJBLocalRef_1034823777748">
+         		<ejb-ref-name>ejb/EmployeeEJB</ejb-ref-name>
+         		<ejb-ref-type>Entity</ejb-ref-type>
+         		<local-home>com.wsbook.casestudy.ejb.EmployeeEJBHome</local-home>
+         		<local>com.wsbook.casestudy.ejb.EmployeeEJB</local>
+         		<ejb-link>EmployeeEJB</ejb-link>
+         	</ejb-local-ref>
+         </entity>
+         <entity id="DepartmentEJB">
+         	<display-name>DepartmentEJB</display-name>
+         	<ejb-name>DepartmentEJB</ejb-name>
+         	<local-home>com.wsbook.casestudy.ejb.DepartmentEJBHome</local-home>
+         	<local>com.wsbook.casestudy.ejb.DepartmentEJB</local>
+         	<ejb-class>com.wsbook.casestudy.ejb.DepartmentEJBBean</ejb-class>
+         	<persistence-type>Container</persistence-type>
+         	<prim-key-class>com.wsbook.casestudy.ejb.DepartmentEJBKey</prim-key-class>
+         	<reentrant>False</reentrant>
+         	<cmp-version>2.x</cmp-version>
+         	<abstract-schema-name>DepartmentEJB</abstract-schema-name>
+         	<cmp-field id="CMPAttribute_12">
+         		<field-name>name</field-name>
+         	</cmp-field>
+         	<cmp-field id="CMPAttribute_13">
+         		<field-name>deptNumber</field-name>
+         	</cmp-field>
+         	<query>
+         		<description>Converted from IBM version 1.1 extensions.</description>
+         		<query-method>
+         			<method-name>findAll</method-name>
+         			<method-params></method-params>
+         		</query-method>
+         		<ejb-ql>select object(o) from DepartmentEJB o</ejb-ql>
+         	</query>
+         </entity>
+         <entity id="TimeSheetEJB">
+         	<display-name>TimeSheetEJB</display-name>
+         	<ejb-name>TimeSheetEJB</ejb-name>
+         	<local-home>com.wsbook.casestudy.ejb.TimeSheetEJBHome</local-home>
+         	<local>com.wsbook.casestudy.ejb.TimeSheetEJB</local>
+         	<ejb-class>com.wsbook.casestudy.ejb.TimeSheetEJBBean</ejb-class>
+         	<persistence-type>Container</persistence-type>
+         	<prim-key-class>com.wsbook.casestudy.ejb.TimeSheetEJBKey</prim-key-class>
+         	<reentrant>False</reentrant>
+         	<cmp-version>2.x</cmp-version>
+         	<abstract-schema-name>TimeSheetEJB</abstract-schema-name>
+         	<cmp-field id="CMPAttribute_17">
+         		<field-name>weekend</field-name>
+         	</cmp-field>
+         	<cmp-field id="CMPAttribute_18">
+         		<field-name>state</field-name>
+         	</cmp-field>
+         	<cmp-field id="CMPAttribute_19">
+         		<field-name>timeSheetId</field-name>
+         	</cmp-field>
+         	<ejb-local-ref id="EJBLocalRef_1034823777758">
+         		<ejb-ref-name>ejb/TimeSheetEntryEJB</ejb-ref-name>
+         		<ejb-ref-type>Entity</ejb-ref-type>
+         		<local-home>com.wsbook.casestudy.ejb.TimeSheetEntryEJBHome</local-home>
+         		<local>com.wsbook.casestudy.ejb.TimeSheetEntryEJB</local>
+         		<ejb-link>TimeSheetEntryEJB</ejb-link>
+         	</ejb-local-ref>
+         	<ejb-local-ref id="EJBLocalRef_1034823777768">
+         		<ejb-ref-name>ejb/EmployeeEJB</ejb-ref-name>
+         		<ejb-ref-type>Entity</ejb-ref-type>
+         		<local-home>com.wsbook.casestudy.ejb.EmployeeEJBHome</local-home>
+         		<local>com.wsbook.casestudy.ejb.EmployeeEJB</local>
+         		<ejb-link>EmployeeEJB</ejb-link>
+         	</ejb-local-ref>
+         	<ejb-local-ref id="EJBLocalRef_1050680427669">
+         		<description></description>
+         		<ejb-ref-name>ejb/OIDGenerator</ejb-ref-name>
+         		<ejb-ref-type>Session</ejb-ref-type>
+         		<local-home>com.god.oidgen.OIDGeneratorSessionLocalHome</local-home>
+         		<local>com.god.oidgen.OIDGeneratorSessionLocal</local>
+         		<ejb-link>OIDGenerator.jar#OIDGeneratorSessionBean</ejb-link>
+         	</ejb-local-ref>
+         	<query>
+         		<description></description>
+         		<query-method>
+         			<method-name>findAll</method-name>
+         			<method-params></method-params>
+         		</query-method>
+         		<ejb-ql>select object(o) from TimeSheetEJB o</ejb-ql>
+         	</query>
+         	<query>
+         		<description></description>
+         		<query-method>
+         			<method-name>findTimesheetsBySubmitter</method-name>
+         			<method-params>
+         				<method-param>java.lang.String</method-param>
+         			</method-params>
+         		</query-method>
+         		<ejb-ql>select object(o) from TimeSheetEJB o where o.submitter.empId = ?1</ejb-ql>
+         	</query>
+         	<query>
+         		<description></description>
+         		<query-method>
+         			<method-name>findApprovedTimesheetsByApprover</method-name>
+         			<method-params>
+         				<method-param>java.lang.String</method-param>
+         			</method-params>
+         		</query-method>
+         		<ejb-ql>select object(o) from TimeSheetEJB o where o.approver.empId = ?1</ejb-ql>
+         	</query>
+         	<query>
+         		<description></description>
+         		<query-method>
+         			<method-name>findPendingByEmployee</method-name>
+         			<method-params>
+         				<method-param>java.lang.String</method-param>
+         			</method-params>
+         		</query-method>
+         		<ejb-ql>select object(o) from TimeSheetEJB o where (o.state = 'PENDING') AND (o.submitter.empId = ?1)</ejb-ql>
+         	</query>
+         </entity>
+         <entity id="TimeSheetEntryEJB">
+         	<display-name>TimeSheetEntryEJB</display-name>
+         	<ejb-name>TimeSheetEntryEJB</ejb-name>
+         	<local-home>com.wsbook.casestudy.ejb.TimeSheetEntryEJBHome</local-home>
+         	<local>com.wsbook.casestudy.ejb.TimeSheetEntryEJB</local>
+         	<ejb-class>com.wsbook.casestudy.ejb.TimeSheetEntryEJBBean</ejb-class>
+         	<persistence-type>Container</persistence-type>
+         	<prim-key-class>com.wsbook.casestudy.ejb.TimeSheetEntryEJBKey</prim-key-class>
+         	<reentrant>False</reentrant>
+         	<cmp-version>2.x</cmp-version>
+         	<abstract-schema-name>TimeSheetEntryEJB</abstract-schema-name>
+         	<cmp-field id="CMPAttribute_20">
+         		<field-name>date</field-name>
+         	</cmp-field>
+         	<cmp-field id="CMPAttribute_21">
+         		<field-name>hours</field-name>
+         	</cmp-field>
+         	<cmp-field id="CMPAttribute_22">
+         		<field-name>entryId</field-name>
+         	</cmp-field>
+         	<ejb-local-ref id="EJBLocalRef_1034823777788">
+         		<ejb-ref-name>ejb/TimeSheetEJB</ejb-ref-name>
+         		<ejb-ref-type>Entity</ejb-ref-type>
+         		<local-home>com.wsbook.casestudy.ejb.TimeSheetEJBHome</local-home>
+         		<local>com.wsbook.casestudy.ejb.TimeSheetEJB</local>
+         		<ejb-link>TimeSheetEJB</ejb-link>
+         	</ejb-local-ref>
+         	<ejb-local-ref id="EJBLocalRef_1034823777789">
+         		<ejb-ref-name>ejb/ProjectEJB</ejb-ref-name>
+         		<ejb-ref-type>Entity</ejb-ref-type>
+         		<local-home>com.wsbook.casestudy.ejb.ProjectEJBHome</local-home>
+         		<local>com.wsbook.casestudy.ejb.ProjectEJB</local>
+         		<ejb-link>ProjectEJB</ejb-link>
+         	</ejb-local-ref>
+         	<ejb-local-ref id="EJBLocalRef_1050680427729">
+         		<description></description>
+         		<ejb-ref-name>ejb/OIDGenerator</ejb-ref-name>
+         		<ejb-ref-type>Session</ejb-ref-type>
+         		<local-home>com.god.oidgen.OIDGeneratorSessionLocalHome</local-home>
+         		<local>com.god.oidgen.OIDGeneratorSessionLocal</local>
+         		<ejb-link>OIDGenerator.jar#OIDGeneratorSessionBean</ejb-link>
+         	</ejb-local-ref>
+         	<query>
+         		<description>Converted from IBM version 1.1 extensions.</description>
+         		<query-method>
+         			<method-name>findAll</method-name>
+         			<method-params></method-params>
+         		</query-method>
+         		<ejb-ql>select object(o) from TimeSheetEntryEJB o</ejb-ql>
+         	</query>
+         </entity>
+         <entity id="ProjectEJB">
+         	<ejb-name>ProjectEJB</ejb-name>
+         	<local-home>com.wsbook.casestudy.ejb.ProjectEJBHome</local-home>
+         	<local>com.wsbook.casestudy.ejb.ProjectEJB</local>
+         	<ejb-class>com.wsbook.casestudy.ejb.ProjectEJBBean</ejb-class>
+         	<persistence-type>Container</persistence-type>
+         	<prim-key-class>java.lang.String</prim-key-class>
+         	<reentrant>False</reentrant>
+         	<cmp-version>2.x</cmp-version>
+         	<abstract-schema-name>ProjectEJB</abstract-schema-name>
+         	<cmp-field id="CMPAttribute_16">
+         		<field-name>name</field-name>
+         	</cmp-field>
+         	<cmp-field id="CMPAttribute_5">
+         		<field-name>projNumber</field-name>
+         	</cmp-field>
+         	<primkey-field>projNumber</primkey-field>
+         	<ejb-local-ref id="EJBLocalRef_1034823777798">
+         		<ejb-ref-name>ejb/TimeSheetEntryEJB</ejb-ref-name>
+         		<ejb-ref-type>Entity</ejb-ref-type>
+         		<local-home>com.wsbook.casestudy.ejb.TimeSheetEntryEJBHome</local-home>
+         		<local>com.wsbook.casestudy.ejb.TimeSheetEntryEJB</local>
+         		<ejb-link>TimeSheetEntryEJB</ejb-link>
+         	</ejb-local-ref>
+         	<query>
+         		<description>Converted from IBM version 1.1 extensions.</description>
+         		<query-method>
+         			<method-name>findAll</method-name>
+         			<method-params></method-params>
+         		</query-method>
+         		<ejb-ql>select object(o) from ProjectEJB o</ejb-ql>
+         	</query>
+         	<query>
+         		<description></description>
+         		<query-method>
+         			<method-name>findByName</method-name>
+         			<method-params>
+         			<method-param>java.lang.String</method-param>
+         			</method-params>
+         		</query-method>
+         		<ejb-ql>select OBJECT(o) from ProjectEJB o where o.name = ?1</ejb-ql>
+         	</query>
+         </entity>
+         <entity id="EmployeeEJB">
+         	<ejb-name>EmployeeEJB</ejb-name>
+         	<local-home>com.wsbook.casestudy.ejb.EmployeeEJBHome</local-home>
+         	<local>com.wsbook.casestudy.ejb.EmployeeEJB</local>
+         	<ejb-class>com.wsbook.casestudy.ejb.EmployeeEJBBean</ejb-class>
+         	<persistence-type>Container</persistence-type>
+         	<prim-key-class>java.lang.String</prim-key-class>
+         	<reentrant>False</reentrant>
+         	<cmp-version>2.x</cmp-version>
+         	<abstract-schema-name>EmployeeEJB</abstract-schema-name>
+         	<cmp-field id="CMPAttribute_6">
+         		<field-name>empId</field-name>
+         	</cmp-field>
+         	<cmp-field id="CMPAttribute_14">
+         		<field-name>name</field-name>
+         	</cmp-field>
+         	<cmp-field id="CMPAttribute_1044593764765">
+         		<field-name>office</field-name>
+         	</cmp-field>
+         	<primkey-field>empId</primkey-field>
+         	<ejb-local-ref id="EJBLocalRef_1034823777808">
+         		<ejb-ref-name>ejb/AddressEJB</ejb-ref-name>
+         		<ejb-ref-type>Entity</ejb-ref-type>
+         		<local-home>com.wsbook.casestudy.ejb.AddressEJBHome</local-home>
+         		<local>com.wsbook.casestudy.ejb.AddressEJB</local>
+         		<ejb-link>AddressEJB</ejb-link>
+         	</ejb-local-ref>
+         	<ejb-local-ref id="EJBLocalRef_1034823777818">
+         		<ejb-ref-name>ejb/TimeSheetEJB</ejb-ref-name>
+         		<ejb-ref-type>Entity</ejb-ref-type>
+         		<local-home>com.wsbook.casestudy.ejb.TimeSheetEJBHome</local-home>
+         		<local>com.wsbook.casestudy.ejb.TimeSheetEJB</local>
+         		<ejb-link>TimeSheetEJB</ejb-link>
+         	</ejb-local-ref>
+         	<query>
+         		<description>Converted from IBM version 1.1 extensions.</description>
+         		<query-method>
+         			<method-name>findAll</method-name>
+         			<method-params></method-params>
+         		</query-method>
+         		<ejb-ql>select object(o) from EmployeeEJB o</ejb-ql>
+         	</query>
+         </entity>
+         <session id="ReportActionProcessorFacade">
+         	<ejb-name>ReportActionProcessorFacade</ejb-name>
+         	<home>com.wsbook.casestudy.ejb.ReportActionProcessorFacadeHome</home>
+         	<remote>com.wsbook.casestudy.ejb.ReportActionProcessorFacade</remote>
+         	<ejb-class>com.wsbook.casestudy.ejb.ReportActionProcessorFacadeBean</ejb-class>
+         	<session-type>Stateless</session-type>
+         	<transaction-type>Container</transaction-type>
+         	<ejb-local-ref id="EJBLocalRef_1051495843618">
+         		<description></description>
+         		<ejb-ref-name>ejb/EmployeeEJB</ejb-ref-name>
+         		<ejb-ref-type>Entity</ejb-ref-type>
+         		<local-home>com.wsbook.casestudy.ejb.EmployeeEJBHome</local-home>
+         		<local>com.wsbook.casestudy.ejb.EmployeeEJB</local>
+         		<ejb-link>EmployeeEJB</ejb-link>
+         	</ejb-local-ref>
+         	<ejb-local-ref id="EJBLocalRef_1051495843628">
+         		<description></description>
+         		<ejb-ref-name>ejb/TimeSheetEJB</ejb-ref-name>
+         		<ejb-ref-type>Entity</ejb-ref-type>
+         		<local-home>com.wsbook.casestudy.ejb.TimeSheetEJBHome</local-home>
+         		<local>com.wsbook.casestudy.ejb.TimeSheetEJB</local>
+         		<ejb-link>TimeSheetEJB</ejb-link>
+         	</ejb-local-ref>
+         	<ejb-local-ref id="EJBLocalRef_1051495843638">
+         		<description></description>
+         		<ejb-ref-name>ejb/ProjectEJB</ejb-ref-name>
+         		<ejb-ref-type>Entity</ejb-ref-type>
+         		<local-home>com.wsbook.casestudy.ejb.ProjectEJBHome</local-home>
+         		<local>com.wsbook.casestudy.ejb.ProjectEJB</local>
+         		<ejb-link>ProjectEJB</ejb-link>
+         	</ejb-local-ref>
+         	<ejb-local-ref id="EJBLocalRef_1051495843728">
+         		<description></description>
+         		<ejb-ref-name>ejb/TimeSheetEntryEJB</ejb-ref-name>
+         		<ejb-ref-type>Entity</ejb-ref-type>
+         		<local-home>com.wsbook.casestudy.ejb.TimeSheetEntryEJBHome</local-home>
+         		<local>com.wsbook.casestudy.ejb.TimeSheetEntryEJB</local>
+         		<ejb-link>TimeSheetEntryEJB</ejb-link>
+         	</ejb-local-ref>
+         	<ejb-local-ref id="EJBLocalRef_1051496078716">
+         		<description></description>
+         		<ejb-ref-name>ejb/AddressEJB</ejb-ref-name>
+         		<ejb-ref-type>Entity</ejb-ref-type>
+         		<local-home>com.wsbook.casestudy.ejb.AddressEJBHome</local-home>
+         		<local>com.wsbook.casestudy.ejb.AddressEJB</local>
+         		<ejb-link>AddressEJB</ejb-link>
+         	</ejb-local-ref>
+         </session>
+      </enterprise-beans>
+      <relationships>
+      	<ejb-relation>
+      		<ejb-relation-name>TimeSheetEntries</ejb-relation-name>
+      		<ejb-relationship-role id="EJBRelationshipRole_1034826269180">
+      			<ejb-relationship-role-name>timesheet</ejb-relationship-role-name>
+      			<multiplicity>Many</multiplicity>
+      			<relationship-role-source>
+      				<ejb-name>TimeSheetEntryEJB</ejb-name>
+      			</relationship-role-source>
+      			<cmr-field>
+      				<cmr-field-name>timesheet</cmr-field-name>
+      			</cmr-field>
+      		</ejb-relationship-role>
+      		<ejb-relationship-role id="EJBRelationshipRole_1034826301787">
+      			<ejb-relationship-role-name>entries</ejb-relationship-role-name>
+      			<multiplicity>One</multiplicity>
+      			<relationship-role-source>
+      				<ejb-name>TimeSheetEJB</ejb-name>
+      			</relationship-role-source>
+      			<cmr-field>
+      				<cmr-field-name>entries</cmr-field-name>
+      				<cmr-field-type>java.util.Collection</cmr-field-type>
+      			</cmr-field>
+      		</ejb-relationship-role>
+      	</ejb-relation>
+      	<ejb-relation>
+      		<ejb-relation-name>Entry-Project</ejb-relation-name>
+      		<ejb-relationship-role id="EJBRelationshipRole_1034826263682">
+      			<ejb-relationship-role-name>project</ejb-relationship-role-name>
+      			<multiplicity>Many</multiplicity>
+      			<relationship-role-source>
+      				<ejb-name>TimeSheetEntryEJB</ejb-name>
+      			</relationship-role-source>
+      			<cmr-field>
+      				<cmr-field-name>project</cmr-field-name>
+      			</cmr-field>
+      		</ejb-relationship-role>
+      		<ejb-relationship-role id="EJBRelationshipRole_1034826301777">
+      			<ejb-relationship-role-name>timesheetentry</ejb-relationship-role-name>
+      			<multiplicity>One</multiplicity>
+      			<relationship-role-source>
+      				<ejb-name>ProjectEJB</ejb-name>
+      			</relationship-role-source>
+      			<cmr-field>
+      				<cmr-field-name>timesheetentry</cmr-field-name>
+      				<cmr-field-type>java.util.Collection</cmr-field-type>
+      			</cmr-field>
+      		</ejb-relationship-role>
+      	</ejb-relation>
+      	<ejb-relation>
+      		<description></description>
+      		<ejb-relation-name>Employee-Address</ejb-relation-name>
+      		<ejb-relationship-role id="EJBRelationshipRole_1034826147916">
+      			<ejb-relationship-role-name>homeAddress</ejb-relationship-role-name>
+      			<multiplicity>One</multiplicity>
+      			<relationship-role-source>
+      				<ejb-name>EmployeeEJB</ejb-name>
+      			</relationship-role-source>
+      			<cmr-field>
+      				<cmr-field-name>homeAddress</cmr-field-name>
+      			</cmr-field>
+      		</ejb-relationship-role>
+      		<ejb-relationship-role id="EJBRelationshipRole_1034826301797">
+      			<ejb-relationship-role-name>employee</ejb-relationship-role-name>
+      			<multiplicity>One</multiplicity>
+      			<cascade-delete />
+      			<relationship-role-source>
+      				<ejb-name>AddressEJB</ejb-name>
+      			</relationship-role-source>
+      			<cmr-field>
+      				<cmr-field-name>employee</cmr-field-name>
+      			</cmr-field>
+      		</ejb-relationship-role>
+      	</ejb-relation>
+      	<ejb-relation>
+      		<ejb-relation-name>Timesheet-Owner</ejb-relation-name>
+      		<ejb-relationship-role id="EJBRelationshipRole_1034826229954">
+      			<ejb-relationship-role-name>submitter</ejb-relationship-role-name>
+      			<multiplicity>Many</multiplicity>
+      			<relationship-role-source>
+      				<ejb-name>TimeSheetEJB</ejb-name>
+      			</relationship-role-source>
+      			<cmr-field>
+      				<cmr-field-name>submitter</cmr-field-name>
+      			</cmr-field>
+      		</ejb-relationship-role>
+      		<ejb-relationship-role id="EJBRelationshipRole_1034826301768">
+      			<ejb-relationship-role-name>timesheets</ejb-relationship-role-name>
+      			<multiplicity>One</multiplicity>
+      			<relationship-role-source>
+      				<ejb-name>EmployeeEJB</ejb-name>
+      			</relationship-role-source>
+      			<cmr-field>
+      				<cmr-field-name>timesheets</cmr-field-name>
+      				<cmr-field-type>java.util.Collection</cmr-field-type>
+      			</cmr-field>
+      		</ejb-relationship-role>
+      	</ejb-relation>
+      	<ejb-relation>
+      		<ejb-relation-name>Timesheet-Approver</ejb-relation-name>
+      		<ejb-relationship-role id="EJBRelationshipRole_1034826219479">
+      			<ejb-relationship-role-name>approver</ejb-relationship-role-name>
+      			<multiplicity>Many</multiplicity>
+      			<relationship-role-source>
+      				<ejb-name>TimeSheetEJB</ejb-name>
+      			</relationship-role-source>
+      			<cmr-field>
+      				<cmr-field-name>approver</cmr-field-name>
+      			</cmr-field>
+      		</ejb-relationship-role>
+      		<ejb-relationship-role id="EJBRelationshipRole_1034826301767">
+      			<ejb-relationship-role-name>approvedTimesheets</ejb-relationship-role-name>
+      			<multiplicity>One</multiplicity>
+      			<relationship-role-source>
+      				<ejb-name>EmployeeEJB</ejb-name>
+      			</relationship-role-source>
+      			<cmr-field>
+      				<cmr-field-name>approvedTimesheets</cmr-field-name>
+      				<cmr-field-type>java.util.Collection</cmr-field-type>
+      			</cmr-field>
+      		</ejb-relationship-role>
+      	</ejb-relation>
+      </relationships>
+      <assembly-descriptor id="AssemblyDescriptor_ID">
+      </assembly-descriptor>
+   </ejb-jar>

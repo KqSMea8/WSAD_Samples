@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RDBSchema:RDBTable xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:RDBSchema="RDBSchema.xmi" xmi:id="RDBTable_1057633983849" name="TIMESHEETENTRYEJB" primaryKey="SQLReference_1057633983959">
+  <database href="META-INF/backends/DB2UDBNT_V8_1/wsbook.dbxmi#RDBDatabase_1057633983859"/>
+  <schema href="META-INF/backends/DB2UDBNT_V8_1/wsbook_NULLID.schxmi#RDBSchema_1057633983909"/>
+  <columns xmi:type="RDBSchema:RDBColumn" xmi:id="RDBColumn_1057633983849" name="DATE1" allowNull="true">
+    <type xmi:type="RDBSchema:SQLCharacterStringType" xmi:id="SQLCharacterStringType_1057633983959" length="250">
+      <originatingType xmi:type="RDBSchema:SQLCharacterStringType" href="JavatoDB2UDBNT_V8TypeMaps.xmi#SQLCharacterStringType_250"/>
+    </type>
+  </columns>
+  <columns xmi:type="RDBSchema:RDBColumn" xmi:id="RDBColumn_1057633983850" name="HOURS1" allowNull="false">
+    <type xmi:type="RDBSchema:SQLApproximateNumeric" xmi:id="SQLApproximateNumeric_1057633983959">
+      <originatingType xmi:type="RDBSchema:SQLApproximateNumeric" href="DB2UDBNT_V8_Primitives.xmi#SQLApproximateNumeric_2"/>
+    </type>
+  </columns>
+  <columns xmi:type="RDBSchema:RDBColumn" xmi:id="RDBColumn_1057633983851" name="ENTRYID" allowNull="false">
+    <type xmi:type="RDBSchema:SQLExactNumeric" xmi:id="SQLExactNumeric_1057633983959">
+      <originatingType xmi:type="RDBSchema:SQLExactNumeric" href="DB2UDBNT_V8_Primitives.xmi#SQLExactNumeric_1"/>
+    </type>
+  </columns>
+  <columns xmi:type="RDBSchema:RDBColumn" xmi:id="RDBColumn_1057633983959" name="TIMESHEET_TIMESHEETID" allowNull="true">
+    <type xmi:type="RDBSchema:SQLExactNumeric" xmi:id="SQLExactNumeric_1057633983960">
+      <originatingType xmi:type="RDBSchema:SQLExactNumeric" href="DB2UDBNT_V8_Primitives.xmi#SQLExactNumeric_1"/>
+    </type>
+  </columns>
+  <columns xmi:type="RDBSchema:RDBColumn" xmi:id="RDBColumn_1057633983960" name="PROJECT_PROJNUMBER" allowNull="true">
+    <type xmi:type="RDBSchema:SQLCharacterStringType" xmi:id="SQLCharacterStringType_1057633983960" length="250">
+      <originatingType xmi:type="RDBSchema:SQLCharacterStringType" href="JavatoDB2UDBNT_V8TypeMaps.xmi#SQLCharacterStringType_250"/>
+    </type>
+  </columns>
+  <namedGroup xmi:type="RDBSchema:SQLReference" xmi:id="SQLReference_1057633983959" name="PK_TIMESHEETENTRY1" members="RDBColumn_1057633983851" constraint="SQLConstraint_1057633983959"/>
+  <namedGroup xmi:type="RDBSchema:RDBReferenceByKey" xmi:id="RDBReferenceByKey_1057633983849" name="C1303368" members="RDBColumn_1057633983959" constraint="SQLConstraint_1057633983960">
+    <target href="META-INF/backends/DB2UDBNT_V8_1/wsbook_NULLID_TIMESHEETEJB.tblxmi#SQLReference_1057633983949"/>
+  </namedGroup>
+  <namedGroup xmi:type="RDBSchema:RDBReferenceByKey" xmi:id="RDBReferenceByKey_1057633983850" name="C1303378" members="RDBColumn_1057633983960" constraint="SQLConstraint_1057633983961">
+    <target href="META-INF/backends/DB2UDBNT_V8_1/wsbook_NULLID_PROJECTEJB.tblxmi#SQLReference_1057633983959"/>
+  </namedGroup>
+  <constraints xmi:id="SQLConstraint_1057633983959" name="PK_TIMESHEETENTRY1" type="PRIMARYKEY" primaryKey="SQLReference_1057633983959"/>
+  <constraints xmi:id="SQLConstraint_1057633983960" name="C1303368" type="FOREIGNKEY" referenceByKey="RDBReferenceByKey_1057633983849"/>
+  <constraints xmi:id="SQLConstraint_1057633983961" name="C1303378" type="FOREIGNKEY" referenceByKey="RDBReferenceByKey_1057633983850"/>
+</RDBSchema:RDBTable>

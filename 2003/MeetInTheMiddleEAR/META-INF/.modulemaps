@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modulemap:EARProjectMap xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:modulemap="modulemap.xmi" xmlns:application="application.xmi" xmi:id="EARProjectMap_1057282244376">
+  <mappings xmi:id="ModuleMapping_1057282244386" projectName="MeetInTheMiddleExample">
+    <module xmi:type="application:EjbModule" href="META-INF/application.xml#EjbModule_1057282244386"/>
+  </mappings>
+</modulemap:EARProjectMap>

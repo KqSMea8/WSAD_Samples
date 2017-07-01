@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wsdl:definitions targetNamespace="http://utilities.ejb.casestudy.wsbook.com" xmlns="http://schemas.xmlsoap.org/wsdl/" xmlns:apachesoap="http://xml.apache.org/xml-soap" xmlns:impl="http://utilities.ejb.casestudy.wsbook.com" xmlns:intf="http://utilities.ejb.casestudy.wsbook.com" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:wsdlsoap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+ <wsdl:types/>
+
+   <wsdl:message name="calculateIDResponse">
+
+      <wsdl:part name="calculateIDReturn" type="xsd:int"/>
+
+   </wsdl:message>
+
+   <wsdl:message name="calculateIDRequest">
+
+   </wsdl:message>
+
+   <wsdl:portType name="WSRandomIDGenerator">
+
+      <wsdl:operation name="calculateID">
+
+         <wsdl:input message="intf:calculateIDRequest" name="calculateIDRequest"/>
+
+         <wsdl:output message="intf:calculateIDResponse" name="calculateIDResponse"/>
+
+      </wsdl:operation>
+
+   </wsdl:portType>
+
+   <wsdl:binding name="WSRandomIDGeneratorSoapBinding" type="intf:WSRandomIDGenerator">
+
+      <wsdlsoap:binding style="rpc" transport="http://schemas.xmlsoap.org/soap/http"/>
+
+      <wsdl:operation name="calculateID">
+
+         <wsdlsoap:operation soapAction=""/>
+
+         <wsdl:input name="calculateIDRequest">
+
+            <wsdlsoap:body encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" namespace="http://utilities.ejb.casestudy.wsbook.com" use="encoded"/>
+
+         </wsdl:input>
+
+         <wsdl:output name="calculateIDResponse">
+
+            <wsdlsoap:body encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" namespace="http://utilities.ejb.casestudy.wsbook.com" use="encoded"/>
+
+         </wsdl:output>
+
+      </wsdl:operation>
+
+   </wsdl:binding>
+
+   <wsdl:service name="WSRandomIDGeneratorService">
+
+      <wsdl:port binding="intf:WSRandomIDGeneratorSoapBinding" name="WSRandomIDGenerator">
+
+         <wsdlsoap:address location="file:undefined_location"/>
+
+      </wsdl:port>
+
+   </wsdl:service>
+
+</wsdl:definitions>

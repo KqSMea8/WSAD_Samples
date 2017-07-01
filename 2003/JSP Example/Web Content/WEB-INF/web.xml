@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE web-app PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN" "http://java.sun.com/dtd/web-app_2_3.dtd">
+<web-app id="WebApp">
+	<display-name>jspExample</display-name>
+	<servlet>
+		<servlet-name>CreateEmployee</servlet-name>
+		<display-name>CreateEmployee</display-name>
+		<servlet-class>com.wsbook.servletexample.CreateEmployee</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>UpdateEmployee</servlet-name>
+		<display-name>UpdateEmployee</display-name>
+		<servlet-class>com.wsbook.servletexample.UpdateEmployee</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>BrowseEmployees</servlet-name>
+		<display-name>BrowseEmployees</display-name>
+		<servlet-class>com.wsbook.servletexample.BrowseEmployees</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>ShowEmployeeDetail</servlet-name>
+		<display-name>ShowEmployeeDetail</display-name>
+		<servlet-class>com.wsbook.servletexample.ShowEmployeeDetail</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UpdateEmployee</servlet-name>
+		<url-pattern>/UpdateEmployee</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>CreateEmployee</servlet-name>
+		<url-pattern>/CreateEmployee</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>BrowseEmployees</servlet-name>
+		<url-pattern>/BrowseEmployees</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ShowEmployeeDetail</servlet-name>
+		<url-pattern>/ShowEmployeeDetail</url-pattern>
+	</servlet-mapping>
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+		<welcome-file>index.htm</welcome-file>
+		<welcome-file>index.jsp</welcome-file>
+		<welcome-file>default.html</welcome-file>
+		<welcome-file>default.htm</welcome-file>
+		<welcome-file>default.jsp</welcome-file>
+	</welcome-file-list>
+	<resource-ref id="ResourceRef_1037365464028">
+		<res-ref-name>jdbc/EJPBOOK</res-ref-name>
+		<res-type>javax.sql.DataSource</res-type>
+		<res-auth>Application</res-auth>
+	</resource-ref>
+</web-app>

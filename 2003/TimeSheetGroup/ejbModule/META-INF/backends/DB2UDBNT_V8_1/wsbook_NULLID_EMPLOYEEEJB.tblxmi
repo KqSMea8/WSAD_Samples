@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RDBSchema:RDBTable xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:RDBSchema="RDBSchema.xmi" xmi:id="RDBTable_1057633983859" name="EMPLOYEEEJB" primaryKey="SQLReference_1057633983949">
+  <database href="META-INF/backends/DB2UDBNT_V8_1/wsbook.dbxmi#RDBDatabase_1057633983859"/>
+  <schema href="META-INF/backends/DB2UDBNT_V8_1/wsbook_NULLID.schxmi#RDBSchema_1057633983909"/>
+  <columns xmi:type="RDBSchema:RDBColumn" xmi:id="RDBColumn_1057633983859" name="EMPID" allowNull="false">
+    <type xmi:type="RDBSchema:SQLCharacterStringType" xmi:id="SQLCharacterStringType_1057633983979" length="250">
+      <originatingType xmi:type="RDBSchema:SQLCharacterStringType" href="JavatoDB2UDBNT_V8TypeMaps.xmi#SQLCharacterStringType_250"/>
+    </type>
+  </columns>
+  <columns xmi:type="RDBSchema:RDBColumn" xmi:id="RDBColumn_1057633983860" name="NAME" allowNull="true">
+    <type xmi:type="RDBSchema:SQLCharacterStringType" xmi:id="SQLCharacterStringType_1057633983980" length="250">
+      <originatingType xmi:type="RDBSchema:SQLCharacterStringType" href="JavatoDB2UDBNT_V8TypeMaps.xmi#SQLCharacterStringType_250"/>
+    </type>
+  </columns>
+  <columns xmi:type="RDBSchema:RDBColumn" xmi:id="RDBColumn_1057633983861" name="OFFICE" allowNull="true">
+    <type xmi:type="RDBSchema:SQLCharacterStringType" xmi:id="SQLCharacterStringType_1057634125723" length="10">
+      <originatingType xmi:type="RDBSchema:SQLCharacterStringType" href="DB2UDBNT_V8_Primitives.xmi#SQLCharacterStringType_3"/>
+    </type>
+  </columns>
+  <columns xmi:type="RDBSchema:RDBColumn" xmi:id="RDBColumn_1057633983979" name="HOMEADDRESS_ADDRESSKEY" allowNull="true">
+    <type xmi:type="RDBSchema:SQLExactNumeric" xmi:id="SQLExactNumeric_1057633983979">
+      <originatingType xmi:type="RDBSchema:SQLExactNumeric" href="DB2UDBNT_V8_Primitives.xmi#SQLExactNumeric_1"/>
+    </type>
+  </columns>
+  <columns xmi:type="RDBSchema:RDBColumn" xmi:id="RDBColumn_1057634125723" name="STATE" allowNull="true">
+    <type xmi:type="RDBSchema:SQLCharacterStringType" xmi:id="SQLCharacterStringType_1057634125724" length="2">
+      <originatingType xmi:type="RDBSchema:SQLCharacterStringType" href="DB2UDBNT_V8_Primitives.xmi#SQLCharacterStringType_1"/>
+    </type>
+  </columns>
+  <columns xmi:type="RDBSchema:RDBColumn" xmi:id="RDBColumn_1057634125733" name="CITY" allowNull="true">
+    <type xmi:type="RDBSchema:SQLCharacterStringType" xmi:id="SQLCharacterStringType_1057634125733" length="30">
+      <originatingType xmi:type="RDBSchema:SQLCharacterStringType" href="DB2UDBNT_V8_Primitives.xmi#SQLCharacterStringType_3"/>
+    </type>
+  </columns>
+  <columns xmi:type="RDBSchema:RDBColumn" xmi:id="RDBColumn_1057634125734" name="BUILDING" allowNull="true">
+    <type xmi:type="RDBSchema:SQLCharacterStringType" xmi:id="SQLCharacterStringType_1057634125734" length="20">
+      <originatingType xmi:type="RDBSchema:SQLCharacterStringType" href="DB2UDBNT_V8_Primitives.xmi#SQLCharacterStringType_3"/>
+    </type>
+  </columns>
+  <namedGroup xmi:type="RDBSchema:SQLReference" xmi:id="SQLReference_1057633983949" name="PK_EMPLOYEEEJB" members="RDBColumn_1057633983859" constraint="SQLConstraint_1057633983979">
+    <referenceByKey href="META-INF/backends/DB2UDBNT_V8_1/wsbook_NULLID_TIMESHEETEJB.tblxmi#RDBReferenceByKey_1057633983849"/>
+    <referenceByKey href="META-INF/backends/DB2UDBNT_V8_1/wsbook_NULLID_TIMESHEETEJB.tblxmi#RDBReferenceByKey_1057633983850"/>
+  </namedGroup>
+  <namedGroup xmi:type="RDBSchema:RDBReferenceByKey" xmi:id="RDBReferenceByKey_1057633983859" name="C1303708" members="RDBColumn_1057633983979" constraint="SQLConstraint_1057633983980">
+    <target href="META-INF/backends/DB2UDBNT_V8_1/wsbook_NULLID_ADDRESSEJB.tblxmi#SQLReference_1057633983919"/>
+  </namedGroup>
+  <constraints xmi:id="SQLConstraint_1057633983979" name="PK_EMPLOYEEEJB" type="PRIMARYKEY" primaryKey="SQLReference_1057633983949"/>
+  <constraints xmi:id="SQLConstraint_1057633983980" name="C1303708" type="FOREIGNKEY" referenceByKey="RDBReferenceByKey_1057633983859"/>
+</RDBSchema:RDBTable>

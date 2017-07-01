@@ -1,0 +1,40 @@
+/JSP Example/Web Content/java.util.Collection
++9
+/JSP Example/Web Content/com.wsbook.servletexample.domain.Employee
++6
+/JSP Example/Web Content/databaseError.html
++
+/JSP Example/Web Content/browseEmployees2.jsp
++
+/JSP Example/Web Content/banner.html
++19
+/JSP Example/Web Content/WEB-INF/javax.sql.DataSource
++16
+/JSP Example/Web Content/employeeDetails.jsp
++
+/JSP Example/Web Content/index.html
++
+/JSP Example/Web Content/WEB-INF/com.wsbook.servletexample.UpdateEmployee
++16
+/JSP Example/Web Content/browseEmployees.jsp
++
+/JSP Example/Web Content/newEmployee.jsp
++18+9
+/JSP Example/Web Content/java.util.ArrayList
++18+3
+/JSP Example/Web Content/WEB-INF/com.wsbook.servletexample.BrowseEmployees
++16
+/JSP Example/Web Content/WEB-INF/com.wsbook.servletexample.CreateEmployee
++16
+/JSP Example/Web Content/noSuchEmployee.jsp
++6
+/JSP Example/Web Content/images/banner.jpg
++4
+/JSP Example/Web Content/WEB-INF/web.xml
++10+6+18+3/2+9+19
+/JSP Example/Web Content/WEB-INF/com.wsbook.servletexample.ShowEmployeeDetail
++16
+/JSP Example/Web Content/browseEmployees3.jsp
++
+/JSP Example/Web Content/browseEmployees.html
++7

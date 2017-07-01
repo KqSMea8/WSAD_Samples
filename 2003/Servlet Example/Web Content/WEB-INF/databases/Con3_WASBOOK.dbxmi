@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RDBSchema:RDBDatabase xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:RDBSchema="RDBSchema.xmi" xmlns:RLogic="RLogic.xmi" xmi:id="RDBDatabase_1032744150429" name="WASBOOK">
+  <rlCon href="WEB-INF/databases/WASBOOK_Con3.rlconxmi#RLDBConnection_1032744150509"/>
+  <schemata href="WEB-INF/databases/Con3_WASBOOK_JAMSDEN.schxmi#RDBSchema_1032744150429"/>
+  <tableGroup xmi:type="RDBSchema:RDBTable" href="WEB-INF/databases/Con3_WASBOOK_JAMSDEN_ADDRESS.tblxmi#RDBTable_1032744150429"/>
+  <tableGroup xmi:type="RDBSchema:RDBTable" href="WEB-INF/databases/Con3_WASBOOK_JAMSDEN_DEPARTMENT.tblxmi#RDBTable_1032744150439"/>
+  <tableGroup xmi:type="RDBSchema:RDBTable" href="WEB-INF/databases/Con3_WASBOOK_JAMSDEN_EMPLOYEE.tblxmi#RDBTable_1032744150489"/>
+  <tableGroup xmi:type="RDBSchema:RDBTable" href="WEB-INF/databases/Con3_WASBOOK_JAMSDEN_PROJECT.tblxmi#RDBTable_1032744150449"/>
+  <tableGroup xmi:type="RDBSchema:RDBTable" href="WEB-INF/databases/Con3_WASBOOK_JAMSDEN_TIMESHEET.tblxmi#RDBTable_1032744150459"/>
+  <tableGroup xmi:type="RDBSchema:RDBTable" href="WEB-INF/databases/Con3_WASBOOK_JAMSDEN_TIMESHEETENTRY.tblxmi#RDBTable_1032744150479"/>
+  <connection href="WEB-INF/databases/Con3.conxmi#RDBConnection_1032744150509"/>
+  <domain href="DB2UDBNT_V72_Domain.xmi#SQLVendor_1"/>
+</RDBSchema:RDBDatabase>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RDBSchema:RDBDatabase xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:RDBSchema="RDBSchema.xmi" xmlns:RLogic="RLogic.xmi" xmi:id="RDBDatabase_1057283219267" name="SAMPLE">
+  <rlCon href="META-INF/backends/DB2UDBNT_V8_1/SAMPLE_Con2.rlconxmi#RLDBConnection_1057283219438"/>
+  <schemata href="META-INF/backends/DB2UDBNT_V8_1/Con2_SAMPLE_BOTTOMUP.schxmi#RDBSchema_1057283220129"/>
+  <tableGroup xmi:type="RDBSchema:RDBTable" href="META-INF/backends/DB2UDBNT_V8_1/Con2_SAMPLE_BOTTOMUP_EMPLOYEE.tblxmi#RDBTable_1057283220199"/>
+  <connection href="META-INF/backends/DB2UDBNT_V8_1/Con2.conxmi#RDBConnection_1057283219558"/>
+  <domain href="DB2UDBNT_V8_Domain.xmi#SQLVendor_1"/>
+</RDBSchema:RDBDatabase>

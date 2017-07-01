@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RDBSchema:RDBSchema xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:RDBSchema="RDBSchema.xmi" xmi:id="RDBSchema_1057283220129" name="BOTTOMUP">
+  <database href="META-INF/backends/DB2UDBNT_V8_1/SAMPLE.dbxmi#RDBDatabase_1057283219267"/>
+  <tables xmi:type="RDBSchema:RDBTable" href="META-INF/backends/DB2UDBNT_V8_1/Con2_SAMPLE_BOTTOMUP_EMPLOYEE.tblxmi#RDBTable_1057283220199"/>
+</RDBSchema:RDBSchema>

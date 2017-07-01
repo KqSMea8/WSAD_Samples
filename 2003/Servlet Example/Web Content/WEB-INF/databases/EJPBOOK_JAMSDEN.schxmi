@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RDBSchema:RDBSchema xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:RDBSchema="RDBSchema.xmi" xmi:id="RDBSchema_1038271973496" name="JAMSDEN">
+  <database href="WEB-INF/databases/EJPBOOK.dbxmi#RDBDatabase_1038271507596"/>
+  <tables xmi:type="RDBSchema:RDBTable" href="WEB-INF/databases/EJPBOOK_JAMSDEN_EMPLOYEE.tblxmi#RDBTable_1038272178030"/>
+</RDBSchema:RDBSchema>

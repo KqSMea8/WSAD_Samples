@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<websettings version="500">
+    <context-root>JSP Example</context-root>
+    <features>
+        <feature>
+            <feature-id>JSPStandardFeature</feature-id>
+        </feature>
+    </features>
+    <jsp-level>JSP 1.2</jsp-level>
+</websettings>

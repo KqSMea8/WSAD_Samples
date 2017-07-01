@@ -1,0 +1,12 @@
+/CombinedQueueAndDatabaseUpdateWeb/Web Content/WEB-INF/com.ibm.ejb.tests.OrderPlacementHome
++2
+/CombinedQueueAndDatabaseUpdateWeb/Web Content/theme/Master.css
++5
+/CombinedQueueAndDatabaseUpdateWeb/Web Content/WEB-INF/web.xml
++5
+/CombinedQueueAndDatabaseUpdateWeb/Web Content/WEB-INF/com.ibm.servlets.OrderPlacementServlet
++2
+/CombinedQueueAndDatabaseUpdateWeb/Web Content/WEB-INF/com.ibm.ejb.tests.OrderPlacement
++2
+/CombinedQueueAndDatabaseUpdateWeb/Web Content/index.html
++

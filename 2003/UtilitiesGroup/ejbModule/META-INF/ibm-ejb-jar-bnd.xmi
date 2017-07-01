@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ejbbnd:EJBJarBinding xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ejbbnd="ejbbnd.xmi" xmlns:ejb="ejb.xmi" xmi:id="EJBJarBinding_1045947313197">
+  <ejbJar href="META-INF/ejb-jar.xml#ejb-jar_ID"/>
+  <ejbBindings xmi:id="EnterpriseBeanBinding_1045947439098" jndiName="ejb/com/wsbook/casestudy/ejb/utilities/RandomIDGeneratorHome">
+    <enterpriseBean xmi:type="ejb:Session" href="META-INF/ejb-jar.xml#RandomIDGenerator"/>
+  </ejbBindings>
+</ejbbnd:EJBJarBinding>

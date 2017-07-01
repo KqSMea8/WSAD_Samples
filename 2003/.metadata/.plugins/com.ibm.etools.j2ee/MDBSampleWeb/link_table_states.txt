@@ -1,0 +1,8 @@
+/MDBSampleWeb/WebContent/WEB-INF/javax.jms.Queue
++2
+/MDBSampleWeb/WebContent/WEB-INF/com.wsbook.mdbsample.servlet.MDBSampleServlet
++2
+/MDBSampleWeb/WebContent/WEB-INF/web.xml
++
+/MDBSampleWeb/WebContent/WEB-INF/javax.jms.QueueConnectionFactory
++2

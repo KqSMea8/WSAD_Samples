@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<server>
+   <publishable memento="config" parents="">
+      <resource localPath=".repository" localTimestamp="7412"/>
+      <resource localPath="cells" localTimestamp="7413"/>
+      <resource localPath="cells/localhost" localTimestamp="7415"/>
+      <resource localPath="cells/localhost/applications" localTimestamp="7417"/>
+      <resource
+         localPath="cells/localhost/applications/CoreServletsEAR.ear" localTimestamp="24736"/>
+      <resource
+         localPath="cells/localhost/applications/CoreServletsEAR.ear/deployments" localTimestamp="24737"/>
+      <resource
+         localPath="cells/localhost/applications/CoreServletsEAR.ear/deployments/CoreServletsEAR" localTimestamp="24743"/>
+      <resource localPath="cells/localhost/applications/IBMUTC.ear" localTimestamp="7428"/>
+      <resource
+         localPath="cells/localhost/applications/IBMUTC.ear/deployments" localTimestamp="7431"/>
+      <resource
+         localPath="cells/localhost/applications/IBMUTC.ear/deployments/IBMUTC" localTimestamp="7439"/>
+      <resource localPath="cells/localhost/applications/wasbook.ear" localTimestamp="7643"/>
+      <resource
+         localPath="cells/localhost/applications/wasbook.ear/deployments" localTimestamp="7644"/>
+      <resource
+         localPath="cells/localhost/applications/wasbook.ear/deployments/wasbook" localTimestamp="7650"/>
+      <resource localPath="cells/localhost/nodes" localTimestamp="7422"/>
+      <resource localPath="cells/localhost/nodes/localhost" localTimestamp="7430"/>
+      <resource localPath="cells/localhost/nodes/localhost/servers" localTimestamp="7437"/>
+      <resource
+         localPath="cells/localhost/nodes/localhost/servers/server1" localTimestamp="7441"/>
+      <resource
+         localPath="cells/localhost/applications/wasbook.ear/deployments/wasbook/deployment.xml" localTimestamp="35181"/>
+      <resource localPath="cells/localhost/cell.xml" localTimestamp="35165"/>
+      <resource localPath="cells/localhost/multibroker.xml" localTimestamp="35166"/>
+      <resource localPath="cells/localhost/namestore.xml" localTimestamp="35167"/>
+      <resource localPath="cells/localhost/naming-authz.xml" localTimestamp="35168"/>
+      <resource
+         localPath="cells/localhost/applications/IBMUTC.ear/deployments/IBMUTC/deployment.xml" localTimestamp="35180"/>
+      <resource localPath=".repository/metadata.xml" localTimestamp="7414"/>
+      <resource
+         localPath="cells/localhost/nodes/localhost/namestore.xml" localTimestamp="35174"/>
+      <resource localPath="cells/localhost/nodes/localhost/node.xml" localTimestamp="35175"/>
+      <resource
+         localPath="cells/localhost/nodes/localhost/resources.xml" localTimestamp="35176"/>
+      <resource
+         localPath="cells/localhost/nodes/localhost/serverindex.xml" localTimestamp="35177"/>
+      <resource localPath="cells/localhost/admin-authz.xml" localTimestamp="35164"/>
+      <resource
+         localPath="cells/localhost/applications/CoreServletsEAR.ear/deployments/CoreServletsEAR/deployment.xml" localTimestamp="35179"/>
+      <resource
+         localPath="cells/localhost/nodes/localhost/servers/server1/namestore-cell.xml" localTimestamp="35182"/>
+      <resource
+         localPath="cells/localhost/nodes/localhost/servers/server1/namestore-node.xml" localTimestamp="35183"/>
+      <resource
+         localPath="cells/localhost/nodes/localhost/servers/server1/resources.xml" localTimestamp="35184"/>
+      <resource
+         localPath="cells/localhost/nodes/localhost/servers/server1/server.xml" localTimestamp="35185"/>
+      <resource
+         localPath="cells/localhost/nodes/localhost/servers/server1/variables.xml" localTimestamp="35186"/>
+      <resource
+         localPath="cells/localhost/nodes/localhost/servers/server1/ws-security.xml" localTimestamp="35187"/>
+      <resource
+         localPath="cells/localhost/nodes/localhost/variables.xml" localTimestamp="35178"/>
+      <resource localPath="cells/localhost/pmirm.xml" localTimestamp="35169"/>
+      <resource localPath="cells/localhost/resources.xml" localTimestamp="35170"/>
+      <resource localPath="cells/localhost/security.xml" localTimestamp="35171"/>
+      <resource localPath="cells/localhost/variables.xml" localTimestamp="35172"/>
+      <resource localPath="cells/localhost/virtualhosts.xml" localTimestamp="35173"/>
+   </publishable>
+</server>

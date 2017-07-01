@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ejbbnd:EJBJarBinding xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ejbbnd="ejbbnd.xmi" xmlns:ejb="ejb.xmi" xmlns:commonbnd="commonbnd.xmi" xmlns:common="common.xmi" xmi:id="ejb-jar_ID_Binding" currentBackendId="DB2UDBNT_V8_1">
+  <ejbJar href="META-INF/ejb-jar.xml#ejb-jar_ID"/>
+  <ejbBindings xmi:id="CustomerEJB_Binding" jndiName="CustomerEJB">
+    <enterpriseBean xmi:type="ejb:Entity" href="META-INF/ejb-jar.xml#CustomerEJB"/>
+    <resRefBindings xmi:id="ResourceRefBinding_1050154529155" jndiName="jdbc/WSBOOK">
+      <bindingResourceRef href="META-INF/ejb-jar.xml#ResourceRef_1050154529155"/>
+    </resRefBindings>
+  </ejbBindings>
+  <ejbBindings xmi:id="AddressEJB_Bnd" jndiName="com/wsbook/casestudy/ejb/AddressEJB">
+    <enterpriseBean xmi:type="ejb:ContainerManagedEntity" href="META-INF/ejb-jar.xml#AddressEJB"/>
+    <ejbRefBindings xmi:id="EjbRefBinding_1034823777748" jndiName="com/wsbook/casestudy/ejb/EmployeeEJB">
+      <bindingEjbRef xmi:type="common:EJBLocalRef" href="META-INF/ejb-jar.xml#EJBLocalRef_1034823777748"/>
+    </ejbRefBindings>
+  </ejbBindings>
+  <ejbBindings xmi:id="TimeSheetEJB_Bnd" jndiName="com/wsbook/casestudy/ejb/TimeSheetEJB">
+    <enterpriseBean xmi:type="ejb:ContainerManagedEntity" href="META-INF/ejb-jar.xml#TimeSheetEJB"/>
+    <ejbRefBindings xmi:id="EjbRefBinding_1034823777758" jndiName="com/wsbook/casestudy/ejb/TimeSheetEntryEJB">
+      <bindingEjbRef xmi:type="common:EJBLocalRef" href="META-INF/ejb-jar.xml#EJBLocalRef_1034823777758"/>
+    </ejbRefBindings>
+    <ejbRefBindings xmi:id="EjbRefBinding_1034823777768" jndiName="com/wsbook/casestudy/ejb/EmployeeEJB">
+      <bindingEjbRef xmi:type="common:EJBLocalRef" href="META-INF/ejb-jar.xml#EJBLocalRef_1034823777768"/>
+    </ejbRefBindings>
+    <ejbRefBindings xmi:id="EjbRefBinding_1050680427669" jndiName="ejb/com/god/oidgen/OIDGeneratorSessionBeanLocalHome">
+      <bindingEjbRef xmi:type="common:EJBLocalRef" href="META-INF/ejb-jar.xml#EJBLocalRef_1050680427669"/>
+    </ejbRefBindings>
+  </ejbBindings>
+  <ejbBindings xmi:id="TimeSheetEntryEJB_Bnd" jndiName="com/wsbook/casestudy/ejb/TimeSheetEntryEJB">
+    <enterpriseBean xmi:type="ejb:ContainerManagedEntity" href="META-INF/ejb-jar.xml#TimeSheetEntryEJB"/>
+    <ejbRefBindings xmi:id="EjbRefBinding_1034823777778" jndiName="com/wsbook/casestudy/ejb/TimeSheetEJB">
+      <bindingEjbRef xmi:type="common:EJBLocalRef" href="META-INF/ejb-jar.xml#EJBLocalRef_1034823777788"/>
+    </ejbRefBindings>
+    <ejbRefBindings xmi:id="EjbRefBinding_1034823777788" jndiName="com/wsbook/casestudy/ejb/ProjectEJB">
+      <bindingEjbRef xmi:type="common:EJBLocalRef" href="META-INF/ejb-jar.xml#EJBLocalRef_1034823777789"/>
+    </ejbRefBindings>
+    <ejbRefBindings xmi:id="EjbRefBinding_1050680427729" jndiName="ejb/com/god/oidgen/OIDGeneratorSessionBeanLocalHome">
+      <bindingEjbRef xmi:type="common:EJBLocalRef" href="META-INF/ejb-jar.xml#EJBLocalRef_1050680427729"/>
+    </ejbRefBindings>
+  </ejbBindings>
+  <ejbBindings xmi:id="TimeSheetActionProcessorFacade_Bnd" jndiName="com/wsbook/casestudy/ejb/TimeSheetActionProcessorFacade">
+    <enterpriseBean xmi:type="ejb:Session" href="META-INF/ejb-jar.xml#TimeSheetActionProcessorFacade"/>
+    <ejbRefBindings xmi:id="EjbRefBinding_1051069012370" jndiName="com/wsbook/casestudy/ejb/EmployeeEJB">
+      <bindingEjbRef xmi:type="common:EJBLocalRef" href="META-INF/ejb-jar.xml#EJBLocalRef_1051069012370"/>
+    </ejbRefBindings>
+    <ejbRefBindings xmi:id="EjbRefBinding_1051069012410" jndiName="com/wsbook/casestudy/ejb/ProjectEJB">
+      <bindingEjbRef xmi:type="common:EJBLocalRef" href="META-INF/ejb-jar.xml#EJBLocalRef_1051069012410"/>
+    </ejbRefBindings>
+    <ejbRefBindings xmi:id="EjbRefBinding_1051069012490" jndiName="com/wsbook/casestudy/ejb/DepartmentEJB">
+      <bindingEjbRef xmi:type="common:EJBLocalRef" href="META-INF/ejb-jar.xml#EJBLocalRef_1051069012490"/>
+    </ejbRefBindings>
+    <ejbRefBindings xmi:id="EjbRefBinding_1051069012510" jndiName="com/wsbook/casestudy/ejb/AddressEJB">
+      <bindingEjbRef xmi:type="common:EJBLocalRef" href="META-INF/ejb-jar.xml#EJBLocalRef_1051069012510"/>
+    </ejbRefBindings>
+    <ejbRefBindings xmi:id="EjbRefBinding_1051069012540" jndiName="com/wsbook/casestudy/ejb/TimeSheetEJB">
+      <bindingEjbRef xmi:type="common:EJBLocalRef" href="META-INF/ejb-jar.xml#EJBLocalRef_1051069012540"/>
+    </ejbRefBindings>
+    <ejbRefBindings xmi:id="EjbRefBinding_1051069012570" jndiName="com/wsbook/casestudy/ejb/TimeSheetEntryEJB">
+      <bindingEjbRef xmi:type="common:EJBLocalRef" href="META-INF/ejb-jar.xml#EJBLocalRef_1051069012570"/>
+    </ejbRefBindings>
+  </ejbBindings>
+  <ejbBindings xmi:id="DepartmentEJB_Bnd" jndiName="com/wsbook/casestudy/ejb/DepartmentEJB">
+    <enterpriseBean xmi:type="ejb:ContainerManagedEntity" href="META-INF/ejb-jar.xml#DepartmentEJB"/>
+  </ejbBindings>
+  <ejbBindings xmi:id="ProjectEJB_Bnd" jndiName="com/wsbook/casestudy/ejb/ProjectEJB">
+    <enterpriseBean xmi:type="ejb:ContainerManagedEntity" href="META-INF/ejb-jar.xml#ProjectEJB"/>
+    <ejbRefBindings xmi:id="EjbRefBinding_1034823777798" jndiName="com/wsbook/casestudy/ejb/TimeSheetEntryEJB">
+      <bindingEjbRef xmi:type="common:EJBLocalRef" href="META-INF/ejb-jar.xml#EJBLocalRef_1034823777798"/>
+    </ejbRefBindings>
+  </ejbBindings>
+  <ejbBindings xmi:id="EmployeeEJB_Bnd" jndiName="com/wsbook/casestudy/ejb/EmployeeEJB">
+    <enterpriseBean xmi:type="ejb:ContainerManagedEntity" href="META-INF/ejb-jar.xml#EmployeeEJB"/>
+    <ejbRefBindings xmi:id="EjbRefBinding_1034823777808" jndiName="com/wsbook/casestudy/ejb/AddressEJB">
+      <bindingEjbRef xmi:type="common:EJBLocalRef" href="META-INF/ejb-jar.xml#EJBLocalRef_1034823777808"/>
+    </ejbRefBindings>
+    <ejbRefBindings xmi:id="EjbRefBinding_1034823777818" jndiName="com/wsbook/casestudy/ejb/TimeSheetEJB">
+      <bindingEjbRef xmi:type="common:EJBLocalRef" href="META-INF/ejb-jar.xml#EJBLocalRef_1034823777818"/>
+    </ejbRefBindings>
+  </ejbBindings>
+  <ejbBindings xmi:id="ReportActionProcessorFacade_Bnd" jndiName="com/wsbook/casestudy/ejb/ReportActionProcessorFacade">
+    <enterpriseBean xmi:type="ejb:Session" href="META-INF/ejb-jar.xml#ReportActionProcessorFacade"/>
+    <ejbRefBindings xmi:id="EjbRefBinding_1051495843618" jndiName="com/wsbook/casestudy/ejb/EmployeeEJB">
+      <bindingEjbRef xmi:type="common:EJBLocalRef" href="META-INF/ejb-jar.xml#EJBLocalRef_1051495843618"/>
+    </ejbRefBindings>
+    <ejbRefBindings xmi:id="EjbRefBinding_1051495843628" jndiName="com/wsbook/casestudy/ejb/TimeSheetEJB">
+      <bindingEjbRef xmi:type="common:EJBLocalRef" href="META-INF/ejb-jar.xml#EJBLocalRef_1051495843628"/>
+    </ejbRefBindings>
+    <ejbRefBindings xmi:id="EjbRefBinding_1051495843638" jndiName="com/wsbook/casestudy/ejb/ProjectEJB">
+      <bindingEjbRef xmi:type="common:EJBLocalRef" href="META-INF/ejb-jar.xml#EJBLocalRef_1051495843638"/>
+    </ejbRefBindings>
+    <ejbRefBindings xmi:id="EjbRefBinding_1051495843728" jndiName="com/wsbook/casestudy/ejb/TimeSheetEntryEJB">
+      <bindingEjbRef xmi:type="common:EJBLocalRef" href="META-INF/ejb-jar.xml#EJBLocalRef_1051495843728"/>
+    </ejbRefBindings>
+    <ejbRefBindings xmi:id="EjbRefBinding_1051496078716" jndiName="com/wsbook/casestudy/ejb/AddressEJB">
+      <bindingEjbRef xmi:type="common:EJBLocalRef" href="META-INF/ejb-jar.xml#EJBLocalRef_1051496078716"/>
+    </ejbRefBindings>
+  </ejbBindings>
+  <defaultCMPConnectionFactory xmi:id="CMPConnectionFactoryBinding_1034823329994" jndiName="jdbc/WSBOOK" resAuth="Per_Connection_Factory"/>
+</ejbbnd:EJBJarBinding>

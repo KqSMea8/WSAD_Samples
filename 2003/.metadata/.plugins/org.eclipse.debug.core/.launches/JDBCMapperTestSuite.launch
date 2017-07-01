@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launchConfiguration type="org.eclipse.jdt.junit.launchconfig">
+    <listAttribute key="org.eclipse.jdt.launching.CLASSPATH">
+        <listEntry value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;runtimeClasspathEntry path=&quot;3&quot; projectName=&quot;TimeApp&quot; type=&quot;1&quot;/&gt;
+"/>
+        <listEntry value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;runtimeClasspathEntry
+    containerPath=&quot;SERVERJDK_50_PLUGINDIR/jre/lib/rt.jar&quot; path=&quot;3&quot;
+    sourceAttachmentPath=&quot;SERVERJDK_50_PLUGINDIR/src.jar&quot;
+    sourceRootPath=&quot;SERVERJDK_SRCROOT&quot; type=&quot;3&quot;/&gt;
+"/>
+        <listEntry value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;runtimeClasspathEntry containerPath=&quot;WAS_50_PLUGINDIR/lib/j2ee.jar&quot;
+    path=&quot;3&quot; type=&quot;3&quot;/&gt;
+"/>
+        <listEntry value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;runtimeClasspathEntry
+    containerPath=&quot;WAS_50_PLUGINDIR/lib/servletevent.jar&quot; path=&quot;3&quot; type=&quot;3&quot;/&gt;
+"/>
+        <listEntry value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;runtimeClasspathEntry containerPath=&quot;WAS_50_PLUGINDIR/lib/ivjejb35.jar&quot;
+    path=&quot;3&quot; type=&quot;3&quot;/&gt;
+"/>
+        <listEntry value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;runtimeClasspathEntry containerPath=&quot;WAS_50_PLUGINDIR/lib/runtime.jar&quot;
+    path=&quot;3&quot; type=&quot;3&quot;/&gt;
+"/>
+        <listEntry value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;runtimeClasspathEntry
+    internalArchive=&quot;/TimeApp/Web Content/WEB-INF/lib/httpunit.jar&quot;
+    path=&quot;3&quot; type=&quot;2&quot;/&gt;
+"/>
+        <listEntry value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;runtimeClasspathEntry
+    internalArchive=&quot;/TimeApp/Web Content/WEB-INF/lib/aspectjrt.jar&quot;
+    path=&quot;3&quot; type=&quot;2&quot;/&gt;
+"/>
+        <listEntry value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;runtimeClasspathEntry
+    internalArchive=&quot;/TimeApp/Web Content/WEB-INF/lib/cactus.jar&quot;
+    path=&quot;3&quot; type=&quot;2&quot;/&gt;
+"/>
+        <listEntry value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;runtimeClasspathEntry
+    internalArchive=&quot;/TimeApp/Web Content/WEB-INF/lib/log4j-1.2rc1.jar&quot;
+    path=&quot;3&quot; type=&quot;2&quot;/&gt;
+"/>
+        <listEntry value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;runtimeClasspathEntry
+    internalArchive=&quot;/TimeApp/Web Content/WEB-INF/lib/junitee.jar&quot;
+    path=&quot;3&quot; type=&quot;2&quot;/&gt;
+"/>
+        <listEntry value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;runtimeClasspathEntry
+    internalArchive=&quot;/TimeApp/Web Content/WEB-INF/lib/junit.jar&quot;
+    path=&quot;3&quot; type=&quot;2&quot;/&gt;
+"/>
+        <listEntry value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;runtimeClasspathEntry path=&quot;3&quot; projectName=&quot;TimeSheetGroup&quot; type=&quot;1&quot;/&gt;
+"/>
+        <listEntry value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;runtimeClasspathEntry containerPath=&quot;WAS_50_PLUGINDIR/lib/vaprt.jar&quot;
+    path=&quot;3&quot; type=&quot;3&quot;/&gt;
+"/>
+        <listEntry value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;runtimeClasspathEntry containerPath=&quot;WAS_50_PLUGINDIR/lib/ras.jar&quot;
+    path=&quot;3&quot; type=&quot;3&quot;/&gt;
+"/>
+        <listEntry value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;runtimeClasspathEntry containerPath=&quot;WAS_50_PLUGINDIR/lib/utils.jar&quot;
+    path=&quot;3&quot; type=&quot;3&quot;/&gt;
+"/>
+        <listEntry value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;runtimeClasspathEntry
+    containerPath=&quot;WAS_50_PLUGINDIR/lib/rsaexternal.jar&quot; path=&quot;3&quot; type=&quot;3&quot;/&gt;
+"/>
+        <listEntry value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;runtimeClasspathEntry containerPath=&quot;WAS_50_PLUGINDIR/lib/ecutils.jar&quot;
+    path=&quot;3&quot; type=&quot;3&quot;/&gt;
+"/>
+        <listEntry value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;runtimeClasspathEntry
+    containerPath=&quot;WAS_50_PLUGINDIR/lib/ejbcontainer.jar&quot; path=&quot;3&quot; type=&quot;3&quot;/&gt;
+"/>
+        <listEntry value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;runtimeClasspathEntry
+    containerPath=&quot;WAS_50_PLUGINDIR/lib/ejbportable.jar&quot; path=&quot;3&quot; type=&quot;3&quot;/&gt;
+"/>
+        <listEntry value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;runtimeClasspathEntry
+    containerPath=&quot;WAS_50_PLUGINDIR/lib/wsexception.jar&quot; path=&quot;3&quot; type=&quot;3&quot;/&gt;
+"/>
+        <listEntry value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;runtimeClasspathEntry
+    containerPath=&quot;WAS_50_PLUGINDIR/lib/runtimefw.jar&quot; path=&quot;3&quot; type=&quot;3&quot;/&gt;
+"/>
+        <listEntry value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;runtimeClasspathEntry containerPath=&quot;WAS_50_PLUGINDIR/lib/pmimpl.jar&quot;
+    path=&quot;3&quot; type=&quot;3&quot;/&gt;
+"/>
+        <listEntry value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;runtimeClasspathEntry containerPath=&quot;WAS_50_PLUGINDIR/lib/pm.jar&quot;
+    path=&quot;3&quot; type=&quot;3&quot;/&gt;
+"/>
+        <listEntry value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;runtimeClasspathEntry
+    containerPath=&quot;WAS_50_PLUGINDIR/lib/appprofile.jar&quot; path=&quot;3&quot; type=&quot;3&quot;/&gt;
+"/>
+        <listEntry value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;runtimeClasspathEntry
+    containerPath=&quot;WAS_50_PLUGINDIR/lib/rsadaptercci.jar&quot; path=&quot;3&quot; type=&quot;3&quot;/&gt;
+"/>
+        <listEntry value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;runtimeClasspathEntry
+    containerPath=&quot;WAS_50_PLUGINDIR/lib/rsadapterspi.jar&quot; path=&quot;3&quot; type=&quot;3&quot;/&gt;
+"/>
+        <listEntry value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;runtimeClasspathEntry containerPath=&quot;WAS_50_PLUGINDIR/lib/querymd.jar&quot;
+    path=&quot;3&quot; type=&quot;3&quot;/&gt;
+"/>
+        <listEntry value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;runtimeClasspathEntry path=&quot;3&quot; projectName=&quot;TimeSheet-AppLogic&quot; type=&quot;1&quot;/&gt;
+"/>
+        <listEntry value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;runtimeClasspathEntry
+    containerPath=&quot;SERVERJDK_50_PLUGINDIR/jre/lib/rt.jar&quot; path=&quot;3&quot;
+    sourceAttachmentPath=&quot;SERVERJDK_50_PLUGINDIR/src.jar&quot;
+    sourceRootPath=&quot;&quot; type=&quot;3&quot;/&gt;
+"/>
+        <listEntry value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;runtimeClasspathEntry path=&quot;3&quot; projectName=&quot;OIDGenerator&quot; type=&quot;1&quot;/&gt;
+"/>
+        <listEntry value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;runtimeClasspathEntry
+    internalArchive=&quot;/TimeApp/Web Content/WEB-INF/lib/struts.jar&quot;
+    path=&quot;3&quot; type=&quot;2&quot;/&gt;
+"/>
+        <listEntry value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;runtimeClasspathEntry
+    internalArchive=&quot;/TimeApp/unit_test_source/com/wsbook/casestudy/mapper/jdbc/test&quot;
+    path=&quot;3&quot; type=&quot;2&quot;/&gt;
+"/>
+    </listAttribute>
+    <stringAttribute key="org.eclipse.debug.ui.target_debug_perspective" value="perspective_default"/>
+    <stringAttribute key="org.eclipse.debug.ui.target_run_perspective" value="perspective_none"/>
+    <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="TimeApp"/>
+    <stringAttribute key="org.eclipse.debug.core.source_locator_id" value="org.eclipse.jdt.debug.ui.javaSourceLocator"/>
+    <booleanAttribute key="org.eclipse.jdt.launching.DEFAULT_CLASSPATH" value="false"/>
+    <booleanAttribute key="org.eclipse.jdt.junit.KEEPRUNNING_ATTR" value="false"/>
+    <stringAttribute key="org.eclipse.jdt.junit.CONTAINER" value="=TimeApp"/>
+    <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value=""/>
+</launchConfiguration>

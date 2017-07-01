@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<multisite-config>
+    <project-data name="CoreServletsWAR">
+        <data>
+            <item name="CoreServletsWAR" stamp="24691"/>
+        </data>
+    </project-data>
+</multisite-config>

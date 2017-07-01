@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ejb-jar PUBLIC "-//Sun Microsystems, Inc.//DTD Enterprise JavaBeans 2.0//EN" "http://java.sun.com/dtd/ejb-jar_2_0.dtd">
+<ejb-jar id="ejb-jar_ID">
+	<display-name>CombinedQueueAndDatbaseUpdate</display-name>
+	<enterprise-beans>
+		<session id="OrderPlacement">
+			<ejb-name>OrderPlacement</ejb-name>
+			<home>com.ibm.ejb.tests.OrderPlacementHome</home>
+			<remote>com.ibm.ejb.tests.OrderPlacement</remote>
+			<ejb-class>com.ibm.ejb.tests.OrderPlacementBean</ejb-class>
+			<session-type>Stateless</session-type>
+			<transaction-type>Container</transaction-type>
+			<resource-ref id="ResourceRef_1044240369997">
+				<description></description>
+				<res-ref-name>jdbc/Db2XADataSource</res-ref-name>
+				<res-type>javax.sql.DataSource</res-type>
+				<res-auth>Container</res-auth>
+				<res-sharing-scope>Shareable</res-sharing-scope>
+			</resource-ref>
+			<resource-ref id="ResourceRef_1044240356127">
+				<description></description>
+				<res-ref-name>jms/QueueConnectionFactory</res-ref-name>
+				<res-type>javax.jms.QueueConnectionFactory</res-type>
+				<res-auth>Container</res-auth>
+				<res-sharing-scope>Shareable</res-sharing-scope>
+			</resource-ref>
+			<resource-ref id="ResourceRef_1044240332724">
+				<description></description>
+				<res-ref-name>jms/OutputQueue</res-ref-name>
+				<res-type>javax.jms.Queue</res-type>
+				<res-auth>Container</res-auth>
+				<res-sharing-scope>Shareable</res-sharing-scope>
+			</resource-ref>
+		</session>
+		<message-driven id="MessageDriven_1046727937671">
+			<ejb-name>OrderQueueClearingMDB</ejb-name>
+			<ejb-class>com.ibm.ejb.tests.OrderQueueClearingMDBBean</ejb-class>
+			<transaction-type>Container</transaction-type>
+			<message-driven-destination>
+				<destination-type>javax.jms.Queue</destination-type>
+			</message-driven-destination>
+		</message-driven>
+	</enterprise-beans>
+	<assembly-descriptor>
+		<container-transaction>
+			<method>
+				<ejb-name>OrderPlacement</ejb-name>
+				<method-intf>Remote</method-intf>
+				<method-name>processOrder</method-name>
+				<method-params>
+					<method-param>com.ibm.ejb.tests.Order</method-param>
+				</method-params>
+			</method>
+			<trans-attribute>Required</trans-attribute>
+		</container-transaction>
+		<container-transaction>
+			<method>
+				<ejb-name>OrderPlacement</ejb-name>
+				<method-intf>Remote</method-intf>
+				<method-name>retrieveOrder</method-name>
+				<method-params>
+					<method-param>java.lang.String</method-param>
+				</method-params>
+			</method>
+			<trans-attribute>Supports</trans-attribute>
+		</container-transaction>
+	</assembly-descriptor>
+</ejb-jar>

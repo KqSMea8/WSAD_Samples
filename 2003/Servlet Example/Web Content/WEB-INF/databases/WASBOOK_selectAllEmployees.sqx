@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+
+<Query>
+<Schema>WEB-INF/databases/Con3_WASBOOK.dbxmi</Schema>
+
+<SelectStatement>
+<![CDATA[
+
+SELECT *
+FROM
+   JAMSDEN.EMPLOYEE
+]]>
+</SelectStatement>
+</Query>

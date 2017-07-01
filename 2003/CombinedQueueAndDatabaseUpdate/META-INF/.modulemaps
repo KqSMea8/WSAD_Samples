@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modulemap:EARProjectMap xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:modulemap="modulemap.xmi" xmlns:application="application.xmi" xmi:id="EARProjectMap_1053299279445">
+  <mappings xmi:id="ModuleMapping_1053299279445" projectName="CombinedQueueAndDatabaseUpdateWeb">
+    <module xmi:type="application:WebModule" href="META-INF/application.xml#WebModule_1046728315875"/>
+  </mappings>
+  <mappings xmi:id="ModuleMapping_1053299279455" projectName="CombinedQueueAndDatabaseUpdateEJB">
+    <module xmi:type="application:EjbModule" href="META-INF/application.xml#EjbModule_1053299065948"/>
+  </mappings>
+</modulemap:EARProjectMap>

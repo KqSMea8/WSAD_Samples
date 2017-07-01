@@ -1,0 +1,1179 @@
+!SESSION дек 24, 2005 12:40:12.142 ---------------------------------------------
+java.fullversion=J2RE 1.3.1 IBM J9 build 20031201 (JIT enabled)
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=ru_RU
+Command-line arguments: -os win32 -ws win32 -arch x86 -data C:\workspases\WSAD_Samples -install file:C:/Program Files/IBM/WebSphere Studio/eclipse/
+!ENTRY org.eclipse.core.resources 2 1 дек 24, 2005 12:40:12.142
+!MESSAGE Skipping builder com.rational.xtools.umlvisualizer.diagramUpdatePolicy for project OIDGenerator. Either the builder is missing from the install, or it belongs to a project nature that is missing or disabled.
+!SESSION дек 26, 2005 12:35:06.602 ---------------------------------------------
+java.fullversion=J2RE 1.3.1 IBM J9 build 20031201 (JIT enabled)
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=ru_RU
+Command-line arguments: -os win32 -ws win32 -arch x86 -data C:\workspases\WSAD_Samples -install file:C:/Program Files/IBM/WebSphere Studio/eclipse/
+!ENTRY org.eclipse.core.resources 2 1 дек 26, 2005 12:35:06.602
+!MESSAGE Skipping builder com.rational.xtools.umlvisualizer.diagramUpdatePolicy for project OIDGenerator. Either the builder is missing from the install, or it belongs to a project nature that is missing or disabled.
+!SESSION дек 26, 2005 12:49:37.02 ----------------------------------------------
+java.fullversion=J2RE 1.3.1 IBM J9 build 20031201 (JIT enabled)
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=ru_RU
+Command-line arguments: -os win32 -ws win32 -arch x86 -data C:\workspases\WSAD_Samples -install file:C:/Program Files/IBM/WebSphere Studio/eclipse/
+!ENTRY org.eclipse.core.resources 2 1 дек 26, 2005 12:49:37.02
+!MESSAGE Skipping builder com.rational.xtools.umlvisualizer.diagramUpdatePolicy for project OIDGenerator. Either the builder is missing from the install, or it belongs to a project nature that is missing or disabled.
+!SESSION дек 26, 2005 14:03:25.953 ---------------------------------------------
+java.fullversion=J2RE 1.3.1 IBM J9 build 20031201 (JIT enabled)
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=ru_RU
+Command-line arguments: -os win32 -ws win32 -arch x86 -data C:\workspases\WSAD_Samples -install file:C:/Program Files/IBM/WebSphere Studio/eclipse/
+!ENTRY org.eclipse.core.resources 2 1 дек 26, 2005 14:03:25.953
+!MESSAGE Skipping builder com.rational.xtools.umlvisualizer.diagramUpdatePolicy for project OIDGenerator. Either the builder is missing from the install, or it belongs to a project nature that is missing or disabled.
+!SESSION дек 27, 2005 20:03:45.24 ----------------------------------------------
+java.fullversion=J2RE 1.3.1 IBM J9 build 20031201 (JIT enabled)
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=ru_RU
+Command-line arguments: -os win32 -ws win32 -arch x86 -data C:\workspases\WSAD_Samples -install file:C:/Program Files/IBM/WebSphere Studio/eclipse/
+!ENTRY org.eclipse.core.resources 2 1 дек 27, 2005 20:03:45.34
+!MESSAGE Skipping builder com.rational.xtools.umlvisualizer.diagramUpdatePolicy for project OIDGenerator. Either the builder is missing from the install, or it belongs to a project nature that is missing or disabled.
+!SESSION дек 27, 2005 21:55:42.433 ---------------------------------------------
+java.fullversion=J2RE 1.3.1 IBM J9 build 20031201 (JIT enabled)
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=ru_RU
+Command-line arguments: -os win32 -ws win32 -arch x86 -data C:\workspases\WSAD_Samples -install file:C:/Program Files/IBM/WebSphere Studio/eclipse/
+!ENTRY org.eclipse.core.resources 2 1 дек 27, 2005 21:55:42.433
+!MESSAGE Skipping builder com.rational.xtools.umlvisualizer.diagramUpdatePolicy for project OIDGenerator. Either the builder is missing from the install, or it belongs to a project nature that is missing or disabled.
+!SESSION янв 10, 2006 13:22:10.740 ---------------------------------------------
+java.fullversion=J2RE 1.3.1 IBM J9 build 20031201 (JIT enabled)
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=ru_RU
+Command-line arguments: -os win32 -ws win32 -arch x86 -data C:\workspases\WSAD_Samples -install file:C:/Program Files/IBM/WebSphere Studio/eclipse/
+!ENTRY org.eclipse.core.resources 2 1 янв 10, 2006 13:22:10.740
+!MESSAGE Skipping builder com.rational.xtools.umlvisualizer.diagramUpdatePolicy for project OIDGenerator. Either the builder is missing from the install, or it belongs to a project nature that is missing or disabled.
+!SESSION фев 06, 2006 13:50:04.497 ---------------------------------------------
+java.fullversion=J2RE 1.3.1 IBM J9 build 20031201 (JIT enabled)
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=ru_RU
+Command-line arguments: -os win32 -ws win32 -arch x86 -data C:\workspases\WSAD_Samples -install file:C:/Program Files/IBM/WebSphere Studio/eclipse/
+!ENTRY org.eclipse.core.resources 2 1 фев 06, 2006 13:50:04.497
+!MESSAGE Skipping builder com.rational.xtools.umlvisualizer.diagramUpdatePolicy for project OIDGenerator. Either the builder is missing from the install, or it belongs to a project nature that is missing or disabled.
+!ENTRY org.eclipse.ui 4 4 фев 06, 2006 16:56:51.53
+!MESSAGE Unhandled exception caught in event loop.
+!ENTRY org.eclipse.ui 4 0 фев 06, 2006 16:56:51.63
+!MESSAGE java.lang.ArithmeticException
+!STACK 0
+java.lang.ArithmeticException
+	at java.lang.Throwable.<init>(Throwable.java)
+	at java.lang.Throwable.<init>(Throwable.java)
+	at java.lang.ArithmeticException.<init>(ArithmeticException.java:53)
+	at org.eclipse.swt.custom.CTabItem.onPaint(CTabItem.java)
+	at org.eclipse.swt.custom.CTabFolder.onPaint(CTabFolder.java)
+	at org.eclipse.swt.custom.CTabFolder.access$1(CTabFolder.java)
+	at org.eclipse.swt.custom.CTabFolder$1.handleEvent(CTabFolder.java)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java)
+	at org.eclipse.swt.widgets.Composite.WM_PAINT(Composite.java)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java)
+	at org.eclipse.swt.internal.win32.OS.RedrawWindow(Native Method)
+	at org.eclipse.swt.widgets.Control.update(Control.java)
+	at org.eclipse.swt.widgets.Control.update(Control.java)
+	at org.eclipse.ui.internal.EditorWorkbook.drawGradient(EditorWorkbook.java:503)
+	at org.eclipse.ui.internal.EditorPane.shellActivated(EditorPane.java:148)
+	at org.eclipse.ui.internal.WorkbenchWindow$12.shellActivated(WorkbenchWindow.java:1681)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java)
+	at org.eclipse.swt.widgets.Decorations.WM_ACTIVATE(Decorations.java:1250)
+	at org.eclipse.swt.widgets.Shell.WM_ACTIVATE(Shell.java:1166)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java)
+	at org.eclipse.swt.internal.win32.OS.PeekMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.PeekMessage(OS.java)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:1402)
+	at org.eclipse.ui.internal.Workbench.run(Workbench.java:1385)
+	at org.eclipse.core.internal.boot.InternalBootLoader.run(InternalBootLoader.java:858)
+	at org.eclipse.core.boot.BootLoader.run(BootLoader.java:461)
+	at java.lang.reflect.AccessibleObject.invokeL(AccessibleObject.java:207)
+	at java.lang.reflect.Method.invoke(Method.java:271)
+	at org.eclipse.core.launcher.Main.basicRun(Main.java:291)
+	at org.eclipse.core.launcher.Main.run(Main.java:747)
+	at org.eclipse.core.launcher.Main.main(Main.java:583)
+!ENTRY org.eclipse.ui 4 4 фев 06, 2006 16:56:51.133
+!MESSAGE Unhandled exception caught in event loop.
+!ENTRY org.eclipse.ui 4 0 фев 06, 2006 16:56:51.143
+!MESSAGE No more handles
+!STACK 0
+org.eclipse.swt.SWTError: No more handles
+	at java.lang.Throwable.<init>(Throwable.java)
+	at java.lang.Throwable.<init>(Throwable.java)
+	at org.eclipse.swt.SWTError.<init>(SWTError.java:82)
+	at org.eclipse.swt.SWTError.<init>(SWTError.java:71)
+	at org.eclipse.swt.SWT.error(SWT.java)
+	at org.eclipse.swt.SWT.error(SWT.java)
+	at org.eclipse.swt.widgets.Control.internal_new_GC(Control.java)
+	at org.eclipse.swt.graphics.GC.<init>(GC.java)
+	at org.eclipse.swt.graphics.GC.<init>(GC.java)
+	at org.eclipse.swt.custom.CLabel.getTotalSize(CLabel.java)
+	at org.eclipse.swt.custom.CLabel.onPaint(CLabel.java)
+	at org.eclipse.swt.custom.CLabel.access$0(CLabel.java)
+	at org.eclipse.swt.custom.CLabel$1.paintControl(CLabel.java)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java)
+	at org.eclipse.swt.widgets.Composite.WM_PAINT(Composite.java)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(OS.java)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:1402)
+	at org.eclipse.ui.internal.Workbench.run(Workbench.java:1385)
+	at org.eclipse.core.internal.boot.InternalBootLoader.run(InternalBootLoader.java:858)
+	at org.eclipse.core.boot.BootLoader.run(BootLoader.java:461)
+	at java.lang.reflect.AccessibleObject.invokeL(AccessibleObject.java:207)
+	at java.lang.reflect.Method.invoke(Method.java:271)
+	at org.eclipse.core.launcher.Main.basicRun(Main.java:291)
+	at org.eclipse.core.launcher.Main.run(Main.java:747)
+	at org.eclipse.core.launcher.Main.main(Main.java:583)
+!ENTRY org.eclipse.core.resources 4 2 фев 06, 2006 16:56:55.740
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 0
+java.lang.RuntimeException: Exception(s) unloading resources - check log files
+	at java.lang.Throwable.<init>(Throwable.java)
+	at java.lang.Throwable.<init>(Throwable.java)
+	at com.ibm.etools.emf.workbench.ProjectResourceSetImpl.removeAndUnloadAllResources(ProjectResourceSetImpl.java:179)
+	at com.ibm.etools.emf.workbench.ProjectResourceSetImpl.release(ProjectResourceSetImpl.java:155)
+	at com.ibm.etools.emf.workbench.EMFNature.dispose(EMFNature.java:24)
+	at com.ibm.etools.emf.workbench.EMFNatureFactory.removeProject(EMFNatureFactory.java:64)
+	at com.ibm.etools.emf.workbench.EMFNatureFactory$EMFNatureResourceSetWorkbenchSynchronizer.release(EMFNatureFactory.java:31)
+	at com.ibm.etools.emf.workbench.ResourceSetWorkbenchSynchronizer.resourceChanged(ResourceSetWorkbenchSynchronizer.java:68)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java)
+	at org.eclipse.core.internal.runtime.InternalPlatform.run(InternalPlatform.java)
+	at org.eclipse.core.runtime.Platform.run(Platform.java)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:152)
+	at org.eclipse.core.internal.events.NotificationManager.handleEvent(NotificationManager.java:113)
+	at org.eclipse.core.internal.resources.Workspace.broadcastEvent(Workspace.java:170)
+	at org.eclipse.core.internal.resources.Workspace.close(Workspace.java:290)
+	at org.eclipse.core.resources.ResourcesPlugin.shutdown(ResourcesPlugin.java:247)
+	at org.eclipse.core.internal.plugins.PluginRegistry$2.run(PluginRegistry.java:295)
+	at org.eclipse.core.internal.runtime.InternalPlatform.run(InternalPlatform.java)
+	at org.eclipse.core.internal.plugins.PluginRegistry$1.visit(PluginRegistry.java:308)
+	at org.eclipse.core.internal.plugins.PluginRegistry.accept(PluginRegistry.java:58)
+	at org.eclipse.core.internal.plugins.PluginRegistry.shutdownPlugins(PluginRegistry.java:311)
+	at org.eclipse.core.internal.plugins.PluginRegistry.shutdown(PluginRegistry.java:277)
+	at org.eclipse.core.internal.runtime.InternalPlatform.loaderShutdown(InternalPlatform.java:630)
+	at java.lang.reflect.AccessibleObject.invokeV(AccessibleObject.java:199)
+	at java.lang.reflect.Method.invoke(Method.java)
+	at org.eclipse.core.internal.boot.InternalBootLoader.shutdown(InternalBootLoader.java:1008)
+	at org.eclipse.core.internal.boot.InternalBootLoader.run(InternalBootLoader.java:863)
+	at org.eclipse.core.boot.BootLoader.run(BootLoader.java:461)
+	at java.lang.reflect.AccessibleObject.invokeL(AccessibleObject.java:207)
+	at java.lang.reflect.Method.invoke(Method.java:271)
+	at org.eclipse.core.launcher.Main.basicRun(Main.java:291)
+	at org.eclipse.core.launcher.Main.run(Main.java:747)
+	at org.eclipse.core.launcher.Main.main(Main.java:583)
+!SESSION фев 06, 2006 16:58:13.91 ----------------------------------------------
+java.fullversion=J2RE 1.3.1 IBM J9 build 20031201 (JIT enabled)
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=ru_RU
+Command-line arguments: -os win32 -ws win32 -arch x86 -data C:\workspases\WSAD_Samples -install file:C:/Program Files/IBM/WebSphere Studio/eclipse/
+!ENTRY org.eclipse.core.resources 2 1 фев 06, 2006 16:58:13.91
+!MESSAGE Skipping builder com.rational.xtools.umlvisualizer.diagramUpdatePolicy for project OIDGenerator. Either the builder is missing from the install, or it belongs to a project nature that is missing or disabled.
+!SESSION фев 06, 2006 18:01:23.562 ---------------------------------------------
+java.fullversion=J2RE 1.3.1 IBM J9 build 20031201 (JIT enabled)
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=ru_RU
+Command-line arguments: -os win32 -ws win32 -arch x86 -data C:\workspases\WSAD_Samples -install file:C:/Program Files/IBM/WebSphere Studio/eclipse/
+!ENTRY org.eclipse.core.resources 2 1 фев 06, 2006 18:01:23.562
+!MESSAGE Skipping builder com.rational.xtools.umlvisualizer.diagramUpdatePolicy for project OIDGenerator. Either the builder is missing from the install, or it belongs to a project nature that is missing or disabled.
+!SESSION фев 07, 2006 14:24:51.965 ---------------------------------------------
+java.fullversion=J2RE 1.3.1 IBM J9 build 20031201 (JIT enabled)
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=ru_RU
+Command-line arguments: -os win32 -ws win32 -arch x86 -data C:\workspases\WSAD_Samples -install file:C:/Program Files/IBM/WebSphere Studio/eclipse/
+!ENTRY org.eclipse.core.resources 2 1 фев 07, 2006 14:24:51.965
+!MESSAGE Skipping builder com.rational.xtools.umlvisualizer.diagramUpdatePolicy for project OIDGenerator. Either the builder is missing from the install, or it belongs to a project nature that is missing or disabled.
+!SESSION фев 08, 2006 10:56:41.983 ---------------------------------------------
+java.fullversion=J2RE 1.3.1 IBM J9 build 20031201 (JIT enabled)
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=ru_RU
+Command-line arguments: -os win32 -ws win32 -arch x86 -data C:\workspases\WSAD_Samples -install file:C:/Program Files/IBM/WebSphere Studio/eclipse/
+!ENTRY org.eclipse.core.resources 2 1 фев 08, 2006 10:56:41.983
+!MESSAGE Skipping builder com.rational.xtools.umlvisualizer.diagramUpdatePolicy for project OIDGenerator. Either the builder is missing from the install, or it belongs to a project nature that is missing or disabled.
+!SESSION фев 08, 2006 14:41:34.367 ---------------------------------------------
+java.fullversion=J2RE 1.3.1 IBM J9 build 20031201 (JIT enabled)
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=ru_RU
+Command-line arguments: -os win32 -ws win32 -arch x86 -data C:\workspases\WSAD_Samples -install file:C:/Program Files/IBM/WebSphere Studio/eclipse/
+!ENTRY org.eclipse.core.resources 2 1 фев 08, 2006 14:41:34.367
+!MESSAGE Skipping builder com.rational.xtools.umlvisualizer.diagramUpdatePolicy for project OIDGenerator. Either the builder is missing from the install, or it belongs to a project nature that is missing or disabled.
+!SESSION фев 09, 2006 10:32:41.507 ---------------------------------------------
+java.fullversion=J2RE 1.3.1 IBM J9 build 20031201 (JIT enabled)
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=ru_RU
+Command-line arguments: -os win32 -ws win32 -arch x86 -data C:\workspases\WSAD_Samples -install file:C:/Program Files/IBM/WebSphere Studio/eclipse/
+!ENTRY org.eclipse.core.resources 2 1 фев 09, 2006 10:32:41.507
+!MESSAGE Skipping builder com.rational.xtools.umlvisualizer.diagramUpdatePolicy for project OIDGenerator. Either the builder is missing from the install, or it belongs to a project nature that is missing or disabled.
+!SESSION фев 23, 2006 14:25:17.38 ----------------------------------------------
+java.fullversion=J2RE 1.3.1 IBM J9 build 20031201 (JIT enabled)
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=ru_RU
+Command-line arguments: -os win32 -ws win32 -arch x86 -data C:\workspases\WSAD_Samples -install file:C:/Program Files/IBM/WebSphere Studio/eclipse/
+!ENTRY org.eclipse.core.resources 2 1 фев 23, 2006 14:25:17.38
+!MESSAGE Skipping builder com.rational.xtools.umlvisualizer.diagramUpdatePolicy for project OIDGenerator. Either the builder is missing from the install, or it belongs to a project nature that is missing or disabled.
+!ENTRY org.eclipse.core.resources 4 2 фев 23, 2006 19:17:31.989
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 0
+java.lang.NullPointerException
+	at java.lang.Throwable.<init>(Throwable.java)
+	at java.lang.Throwable.<init>(Throwable.java)
+	at java.lang.NullPointerException.<init>(NullPointerException.java:63)
+	at com.ibm.etools.webedit.editor.page.FileSynchronizer.processResourceChanges(FileSynchronizer.java:983)
+	at com.ibm.etools.webedit.editor.page.FileSynchronizer.resourceChanged(FileSynchronizer.java:602)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java)
+	at org.eclipse.core.internal.runtime.InternalPlatform.run(InternalPlatform.java)
+	at org.eclipse.core.runtime.Platform.run(Platform.java)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:67)
+	at org.eclipse.core.internal.resources.Workspace.broadcastChanges(Workspace.java:161)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1600)
+	at org.eclipse.jdt.core.JavaCore.run(JavaCore.java:2711)
+	at org.eclipse.jdt.internal.ui.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:183)
+	at org.eclipse.jdt.internal.ui.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:145)
+	at org.eclipse.jface.operation.ModalContext.runInCurrentThread(ModalContext.java:302)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:252)
+	at org.eclipse.jface.dialogs.ProgressMonitorDialog.run(ProgressMonitorDialog.java:357)
+	at org.eclipse.jdt.internal.ui.reorg.ClipboardActionUtil.perform(ClipboardActionUtil.java:153)
+	at org.eclipse.jdt.internal.ui.reorg.ReorgDestinationAction.doReorg(ReorgDestinationAction.java:238)
+	at org.eclipse.jdt.internal.ui.reorg.ReorgDestinationAction.reorg(ReorgDestinationAction.java:234)
+	at org.eclipse.jdt.internal.ui.reorg.JdtMoveAction.reorg(JdtMoveAction.java:188)
+	at org.eclipse.jdt.internal.ui.reorg.ReorgDestinationAction.doRun(ReorgDestinationAction.java:159)
+	at org.eclipse.jdt.internal.ui.reorg.ReorgDestinationAction.run(ReorgDestinationAction.java:109)
+	at org.eclipse.jdt.internal.ui.reorg.JdtMoveAction.run(JdtMoveAction.java:82)
+	at org.eclipse.jdt.ui.actions.SelectionDispatchAction.dispatchRun(SelectionDispatchAction.java:191)
+	at org.eclipse.jdt.ui.actions.SelectionDispatchAction.run(SelectionDispatchAction.java:169)
+	at org.eclipse.jdt.internal.ui.packageview.SelectionTransferDropAdapter.handleDropMove(SelectionTransferDropAdapter.java:262)
+	at org.eclipse.jdt.internal.ui.packageview.SelectionTransferDropAdapter.drop(SelectionTransferDropAdapter.java:165)
+	at com.ibm.etools.webtools.webview.dnd.WebViewSelectionTransferDropAdapter.drop(WebViewSelectionTransferDropAdapter.java:62)
+	at org.eclipse.jdt.internal.ui.dnd.JdtViewerDropAdapter.drop(JdtViewerDropAdapter.java:112)
+	at org.eclipse.jdt.internal.ui.dnd.DelegatingDropAdapter.drop(DelegatingDropAdapter.java:79)
+	at org.eclipse.swt.dnd.DNDListener.handleEvent(DNDListener.java)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java)
+	at org.eclipse.swt.dnd.DropTarget.notifyListeners(DropTarget.java)
+	at org.eclipse.swt.dnd.DropTarget.Drop(DropTarget.java:493)
+	at org.eclipse.swt.dnd.DropTarget.access$7(DropTarget.java:421)
+	at org.eclipse.swt.dnd.DropTarget$3.method6(DropTarget.java:229)
+	at org.eclipse.swt.internal.ole.win32.COMObject.callback6(COMObject.java)
+	at org.eclipse.swt.internal.ole.win32.COM.DoDragDrop(Native Method)
+	at org.eclipse.swt.dnd.DragSource.drag(DragSource.java:275)
+	at org.eclipse.swt.dnd.DragSource.access$0(DragSource.java:257)
+	at org.eclipse.swt.dnd.DragSource$1.handleEvent(DragSource.java:155)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:1402)
+	at org.eclipse.ui.internal.Workbench.run(Workbench.java:1385)
+	at org.eclipse.core.internal.boot.InternalBootLoader.run(InternalBootLoader.java:858)
+	at org.eclipse.core.boot.BootLoader.run(BootLoader.java:461)
+	at java.lang.reflect.AccessibleObject.invokeL(AccessibleObject.java:207)
+	at java.lang.reflect.Method.invoke(Method.java:271)
+	at org.eclipse.core.launcher.Main.basicRun(Main.java:291)
+	at org.eclipse.core.launcher.Main.run(Main.java:747)
+	at org.eclipse.core.launcher.Main.main(Main.java:583)
+!ENTRY org.eclipse.core.resources 4 2 фев 23, 2006 19:17:32.129
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 0
+java.lang.NullPointerException
+	at java.lang.Throwable.<init>(Throwable.java)
+	at java.lang.Throwable.<init>(Throwable.java)
+	at java.lang.NullPointerException.<init>(NullPointerException.java:63)
+	at com.ibm.etools.webedit.editor.page.FileSynchronizer.processResourceChanges(FileSynchronizer.java:983)
+	at com.ibm.etools.webedit.editor.page.FileSynchronizer.resourceChanged(FileSynchronizer.java:602)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java)
+	at org.eclipse.core.internal.runtime.InternalPlatform.run(InternalPlatform.java)
+	at org.eclipse.core.runtime.Platform.run(Platform.java)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:67)
+	at org.eclipse.core.internal.resources.Workspace.broadcastChanges(Workspace.java:161)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1600)
+	at org.eclipse.jdt.core.JavaCore.run(JavaCore.java:2711)
+	at org.eclipse.jdt.internal.ui.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:183)
+	at org.eclipse.jdt.internal.ui.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:145)
+	at org.eclipse.jface.operation.ModalContext.runInCurrentThread(ModalContext.java:302)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:252)
+	at org.eclipse.jface.dialogs.ProgressMonitorDialog.run(ProgressMonitorDialog.java:357)
+	at org.eclipse.jdt.internal.ui.reorg.ClipboardActionUtil.perform(ClipboardActionUtil.java:153)
+	at org.eclipse.jdt.internal.ui.reorg.ReorgDestinationAction.doReorg(ReorgDestinationAction.java:238)
+	at org.eclipse.jdt.internal.ui.reorg.ReorgDestinationAction.reorg(ReorgDestinationAction.java:234)
+	at org.eclipse.jdt.internal.ui.reorg.JdtMoveAction.reorg(JdtMoveAction.java:188)
+	at org.eclipse.jdt.internal.ui.reorg.ReorgDestinationAction.doRun(ReorgDestinationAction.java:159)
+	at org.eclipse.jdt.internal.ui.reorg.ReorgDestinationAction.run(ReorgDestinationAction.java:109)
+	at org.eclipse.jdt.internal.ui.reorg.JdtMoveAction.run(JdtMoveAction.java:82)
+	at org.eclipse.jdt.ui.actions.SelectionDispatchAction.dispatchRun(SelectionDispatchAction.java:191)
+	at org.eclipse.jdt.ui.actions.SelectionDispatchAction.run(SelectionDispatchAction.java:169)
+	at org.eclipse.jdt.internal.ui.packageview.SelectionTransferDropAdapter.handleDropMove(SelectionTransferDropAdapter.java:262)
+	at org.eclipse.jdt.internal.ui.packageview.SelectionTransferDropAdapter.drop(SelectionTransferDropAdapter.java:165)
+	at com.ibm.etools.webtools.webview.dnd.WebViewSelectionTransferDropAdapter.drop(WebViewSelectionTransferDropAdapter.java:62)
+	at org.eclipse.jdt.internal.ui.dnd.JdtViewerDropAdapter.drop(JdtViewerDropAdapter.java:112)
+	at org.eclipse.jdt.internal.ui.dnd.DelegatingDropAdapter.drop(DelegatingDropAdapter.java:79)
+	at org.eclipse.swt.dnd.DNDListener.handleEvent(DNDListener.java)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java)
+	at org.eclipse.swt.dnd.DropTarget.notifyListeners(DropTarget.java)
+	at org.eclipse.swt.dnd.DropTarget.Drop(DropTarget.java:493)
+	at org.eclipse.swt.dnd.DropTarget.access$7(DropTarget.java:421)
+	at org.eclipse.swt.dnd.DropTarget$3.method6(DropTarget.java:229)
+	at org.eclipse.swt.internal.ole.win32.COMObject.callback6(COMObject.java)
+	at org.eclipse.swt.internal.ole.win32.COM.DoDragDrop(Native Method)
+	at org.eclipse.swt.dnd.DragSource.drag(DragSource.java:275)
+	at org.eclipse.swt.dnd.DragSource.access$0(DragSource.java:257)
+	at org.eclipse.swt.dnd.DragSource$1.handleEvent(DragSource.java:155)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:1402)
+	at org.eclipse.ui.internal.Workbench.run(Workbench.java:1385)
+	at org.eclipse.core.internal.boot.InternalBootLoader.run(InternalBootLoader.java:858)
+	at org.eclipse.core.boot.BootLoader.run(BootLoader.java:461)
+	at java.lang.reflect.AccessibleObject.invokeL(AccessibleObject.java:207)
+	at java.lang.reflect.Method.invoke(Method.java:271)
+	at org.eclipse.core.launcher.Main.basicRun(Main.java:291)
+	at org.eclipse.core.launcher.Main.run(Main.java:747)
+	at org.eclipse.core.launcher.Main.main(Main.java:583)
+!SESSION фев 24, 2006 15:07:41.479 ---------------------------------------------
+java.fullversion=J2RE 1.3.1 IBM J9 build 20031201 (JIT enabled)
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=ru_RU
+Command-line arguments: -os win32 -ws win32 -arch x86 -data C:\workspases\WSAD_Samples -install file:C:/Program Files/IBM/WebSphere Studio/eclipse/
+!ENTRY org.eclipse.core.resources 2 1 фев 24, 2006 15:07:41.479
+!MESSAGE Skipping builder com.rational.xtools.umlvisualizer.diagramUpdatePolicy for project OIDGenerator. Either the builder is missing from the install, or it belongs to a project nature that is missing or disabled.
+!SESSION фев 25, 2006 13:16:27.622 ---------------------------------------------
+java.fullversion=J2RE 1.3.1 IBM J9 build 20031201 (JIT enabled)
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=ru_RU
+Command-line arguments: -os win32 -ws win32 -arch x86 -data C:\workspases\WSAD_Samples -install file:C:/Program Files/IBM/WebSphere Studio/eclipse/
+!ENTRY org.eclipse.core.resources 2 1 фев 25, 2006 13:16:27.622
+!MESSAGE Skipping builder com.rational.xtools.umlvisualizer.diagramUpdatePolicy for project OIDGenerator. Either the builder is missing from the install, or it belongs to a project nature that is missing or disabled.
+!SESSION мар 20, 2006 16:21:00.387 ---------------------------------------------
+java.fullversion=J2RE 1.3.1 IBM J9 build 20031201 (JIT enabled)
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=ru_RU
+Command-line arguments: -os win32 -ws win32 -arch x86 -data C:\workspases\WSAD_Samples -install file:C:/Program Files/IBM/WebSphere Studio/eclipse/
+!ENTRY org.eclipse.core.resources 2 1 мар 20, 2006 16:21:00.387
+!MESSAGE Skipping builder com.rational.xtools.umlvisualizer.diagramUpdatePolicy for project OIDGenerator. Either the builder is missing from the install, or it belongs to a project nature that is missing or disabled.
+!SESSION апр 11, 2006 11:07:24.652 ---------------------------------------------
+java.fullversion=J2RE 1.3.1 IBM J9 build 20031201 (JIT enabled)
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=ru_RU
+Command-line arguments: -os win32 -ws win32 -arch x86 -data C:\workspases\WSAD_Samples -install file:C:/Program Files/IBM/WebSphere Studio/eclipse/
+!ENTRY org.eclipse.core.resources 2 1 апр 11, 2006 11:07:24.652
+!MESSAGE Skipping builder com.rational.xtools.umlvisualizer.diagramUpdatePolicy for project OIDGenerator. Either the builder is missing from the install, or it belongs to a project nature that is missing or disabled.
+!SESSION окт 17, 2006 19:44:03.121 ---------------------------------------------
+java.fullversion=J2RE 1.3.1 IBM J9 build 20031201 (JIT enabled)
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=ru_RU
+Command-line arguments: -os win32 -ws win32 -arch x86 -data C:\workspases\WSAD_Samples -install file:C:/Program Files/IBM/WebSphere Studio/eclipse/
+!ENTRY org.eclipse.core.resources 2 1 окт 17, 2006 19:44:03.121
+!MESSAGE Skipping builder com.rational.xtools.umlvisualizer.diagramUpdatePolicy for project OIDGenerator. Either the builder is missing from the install, or it belongs to a project nature that is missing or disabled.
+!SESSION ноя 02, 2006 14:44:06.151 ---------------------------------------------
+java.fullversion=J2RE 1.3.1 IBM J9 build 20031201 (JIT enabled)
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=ru_RU
+Command-line arguments: -os win32 -ws win32 -arch x86 -data C:\workspases\WSAD_Samples -install file:C:/Program Files/IBM/WebSphere Studio/eclipse/
+!ENTRY org.eclipse.core.resources 2 1 ноя 02, 2006 14:44:06.151
+!MESSAGE Skipping builder com.rational.xtools.umlvisualizer.diagramUpdatePolicy for project OIDGenerator. Either the builder is missing from the install, or it belongs to a project nature that is missing or disabled.
+!SESSION ноя 07, 2006 17:08:59.13 ----------------------------------------------
+java.fullversion=J2RE 1.3.1 IBM J9 build 20031201 (JIT enabled)
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=ru_RU
+Command-line arguments: -os win32 -ws win32 -arch x86 -data C:\workspases\WSAD_Samples -install file:C:/Program Files/IBM/WebSphere Studio/eclipse/
+!ENTRY org.eclipse.core.resources 2 1 ноя 07, 2006 17:08:59.13
+!MESSAGE Skipping builder com.rational.xtools.umlvisualizer.diagramUpdatePolicy for project OIDGenerator. Either the builder is missing from the install, or it belongs to a project nature that is missing or disabled.
+!SESSION ноя 09, 2006 13:02:42.579 ---------------------------------------------
+java.fullversion=J2RE 1.3.1 IBM J9 build 20031201 (JIT enabled)
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=ru_RU
+Command-line arguments: -os win32 -ws win32 -arch x86 -data C:\workspases\WSAD_Samples -install file:C:/Program Files/IBM/WebSphere Studio/eclipse/
+!ENTRY org.eclipse.core.resources 2 1 ноя 09, 2006 13:02:42.579
+!MESSAGE Skipping builder com.rational.xtools.umlvisualizer.diagramUpdatePolicy for project OIDGenerator. Either the builder is missing from the install, or it belongs to a project nature that is missing or disabled.
+!SESSION ноя 09, 2006 16:57:48.681 ---------------------------------------------
+java.fullversion=J2RE 1.3.1 IBM J9 build 20031201 (JIT enabled)
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=ru_RU
+Command-line arguments: -os win32 -ws win32 -arch x86 -data C:\workspases\WSAD_Samples -install file:C:/Program Files/IBM/WebSphere Studio/eclipse/
+!ENTRY org.eclipse.core.resources 2 1 ноя 09, 2006 16:57:48.681
+!MESSAGE Skipping builder com.rational.xtools.umlvisualizer.diagramUpdatePolicy for project OIDGenerator. Either the builder is missing from the install, or it belongs to a project nature that is missing or disabled.
+!SESSION ноя 09, 2006 18:13:38.948 ---------------------------------------------
+java.fullversion=J2RE 1.3.1 IBM J9 build 20031201 (JIT enabled)
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=ru_RU
+Command-line arguments: -os win32 -ws win32 -arch x86 -data C:\workspases\WSAD_Samples -install file:C:/Program Files/IBM/WebSphere Studio/eclipse/
+!ENTRY org.eclipse.core.resources 2 1 ноя 09, 2006 18:13:38.948
+!MESSAGE Skipping builder com.rational.xtools.umlvisualizer.diagramUpdatePolicy for project OIDGenerator. Either the builder is missing from the install, or it belongs to a project nature that is missing or disabled.
+!SESSION ноя 10, 2006 14:25:10.767 ---------------------------------------------
+java.fullversion=J2RE 1.3.1 IBM J9 build 20031201 (JIT enabled)
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=ru_RU
+Command-line arguments: -os win32 -ws win32 -arch x86 -data C:\workspases\WSAD_Samples -install file:C:/Program Files/IBM/WebSphere Studio/eclipse/
+!ENTRY org.eclipse.core.resources 2 1 ноя 10, 2006 14:25:10.767
+!MESSAGE Skipping builder com.rational.xtools.umlvisualizer.diagramUpdatePolicy for project OIDGenerator. Either the builder is missing from the install, or it belongs to a project nature that is missing or disabled.
+!SESSION ноя 14, 2006 10:56:30.731 ---------------------------------------------
+java.fullversion=J2RE 1.3.1 IBM J9 build 20031201 (JIT enabled)
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=ru_RU
+Command-line arguments: -os win32 -ws win32 -arch x86 -data C:\workspases\WSAD_Samples -install file:C:/Program Files/IBM/WebSphere Studio/eclipse/
+!ENTRY org.eclipse.core.resources 2 1 ноя 14, 2006 10:56:30.731
+!MESSAGE Skipping builder com.rational.xtools.umlvisualizer.diagramUpdatePolicy for project OIDGenerator. Either the builder is missing from the install, or it belongs to a project nature that is missing or disabled.
+!SESSION мар 27, 2007 16:49:03.218 ---------------------------------------------
+java.fullversion=J2RE 1.3.1 IBM J9 build 20031201 (JIT enabled)
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=ru_RU
+Command-line arguments: -os win32 -ws win32 -arch x86 -data C:\workspases\WSAD_Samples -install file:C:/Program Files/IBM/WebSphere Studio/eclipse/
+!ENTRY org.eclipse.core.resources 2 1 мар 27, 2007 16:49:03.218
+!MESSAGE Skipping builder com.rational.xtools.umlvisualizer.diagramUpdatePolicy for project OIDGenerator. Either the builder is missing from the install, or it belongs to a project nature that is missing or disabled.
+!SESSION июл 11, 2007 13:17:36.157 ---------------------------------------------
+java.fullversion=J2RE 1.3.1 IBM J9 build 20031201 (JIT enabled)
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=ru_RU
+Command-line arguments: -os win32 -ws win32 -arch x86 -data C:\workspases\WSAD_Samples -install file:C:/Program Files/IBM/WebSphere Studio/eclipse/
+!ENTRY org.eclipse.core.resources 2 1 июл 11, 2007 13:17:36.157
+!MESSAGE Skipping builder com.rational.xtools.umlvisualizer.diagramUpdatePolicy for project OIDGenerator. Either the builder is missing from the install, or it belongs to a project nature that is missing or disabled.
+!ENTRY org.eclipse.ui 4 4 июл 12, 2007 20:28:14.859
+!MESSAGE Unhandled exception caught in event loop.
+!ENTRY org.eclipse.ui 4 0 июл 12, 2007 20:28:14.870
+!MESSAGE Graphic is disposed
+!STACK 0
+org.eclipse.swt.SWTException: Graphic is disposed
+	at java.lang.Throwable.<init>(Throwable.java)
+	at java.lang.Throwable.<init>(Throwable.java)
+	at org.eclipse.swt.SWTException.<init>(SWTException.java:73)
+	at org.eclipse.swt.SWTException.<init>(SWTException.java:62)
+	at org.eclipse.swt.SWT.error(SWT.java)
+	at org.eclipse.swt.SWT.error(SWT.java)
+	at org.eclipse.swt.graphics.Image.getBounds(Image.java)
+	at org.eclipse.swt.custom.CLabel.getTotalSize(CLabel.java)
+	at org.eclipse.swt.custom.CLabel.computeSize(CLabel.java)
+	at org.eclipse.swt.widgets.Control.computeSize(Control.java)
+	at org.eclipse.swt.custom.ViewForm.layout(ViewForm.java)
+	at org.eclipse.swt.widgets.Composite.layout(Composite.java)
+	at org.eclipse.swt.custom.ViewForm.setFont(ViewForm.java:478)
+	at org.eclipse.swt.widgets.Control.updateFont(Control.java)
+	at org.eclipse.swt.widgets.Composite.updateFont(Composite.java)
+	at org.eclipse.swt.widgets.Composite.updateFont(Composite.java)
+	at org.eclipse.swt.widgets.Composite.updateFont(Composite.java)
+	at org.eclipse.swt.widgets.Composite.updateFont(Composite.java)
+	at org.eclipse.swt.widgets.Display.updateFont(Display.java:2516)
+	at org.eclipse.swt.widgets.Display.messageProc(Display.java)
+	at org.eclipse.swt.internal.win32.OS.PeekMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.PeekMessage(OS.java)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:1402)
+	at org.eclipse.ui.internal.Workbench.run(Workbench.java:1385)
+	at org.eclipse.core.internal.boot.InternalBootLoader.run(InternalBootLoader.java:858)
+	at org.eclipse.core.boot.BootLoader.run(BootLoader.java:461)
+	at java.lang.reflect.AccessibleObject.invokeL(AccessibleObject.java:207)
+	at java.lang.reflect.Method.invoke(Method.java:271)
+	at org.eclipse.core.launcher.Main.basicRun(Main.java:291)
+	at org.eclipse.core.launcher.Main.run(Main.java:747)
+	at org.eclipse.core.launcher.Main.main(Main.java:583)
+!ENTRY org.eclipse.ui 4 4 июл 13, 2007 12:41:27.547
+!MESSAGE Unhandled exception caught in event loop.
+!ENTRY org.eclipse.ui 4 0 июл 13, 2007 12:41:27.577
+!MESSAGE Graphic is disposed
+!STACK 0
+org.eclipse.swt.SWTException: Graphic is disposed
+	at java.lang.Throwable.<init>(Throwable.java)
+	at java.lang.Throwable.<init>(Throwable.java)
+	at org.eclipse.swt.SWTException.<init>(SWTException.java:73)
+	at org.eclipse.swt.SWTException.<init>(SWTException.java:62)
+	at org.eclipse.swt.SWT.error(SWT.java)
+	at org.eclipse.swt.SWT.error(SWT.java)
+	at org.eclipse.swt.graphics.Image.getBounds(Image.java)
+	at org.eclipse.swt.custom.CLabel.getTotalSize(CLabel.java)
+	at org.eclipse.swt.custom.CLabel.computeSize(CLabel.java)
+	at org.eclipse.swt.widgets.Control.computeSize(Control.java)
+	at org.eclipse.swt.custom.ViewForm.layout(ViewForm.java)
+	at org.eclipse.swt.widgets.Composite.layout(Composite.java)
+	at org.eclipse.swt.custom.ViewForm.setFont(ViewForm.java:478)
+	at org.eclipse.swt.widgets.Control.updateFont(Control.java)
+	at org.eclipse.swt.widgets.Composite.updateFont(Composite.java)
+	at org.eclipse.swt.widgets.Composite.updateFont(Composite.java)
+	at org.eclipse.swt.widgets.Composite.updateFont(Composite.java)
+	at org.eclipse.swt.widgets.Composite.updateFont(Composite.java)
+	at org.eclipse.swt.widgets.Display.updateFont(Display.java:2516)
+	at org.eclipse.swt.widgets.Display.messageProc(Display.java)
+	at org.eclipse.swt.internal.win32.OS.PeekMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.PeekMessage(OS.java)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:1402)
+	at org.eclipse.ui.internal.Workbench.run(Workbench.java:1385)
+	at org.eclipse.core.internal.boot.InternalBootLoader.run(InternalBootLoader.java:858)
+	at org.eclipse.core.boot.BootLoader.run(BootLoader.java:461)
+	at java.lang.reflect.AccessibleObject.invokeL(AccessibleObject.java:207)
+	at java.lang.reflect.Method.invoke(Method.java:271)
+	at org.eclipse.core.launcher.Main.basicRun(Main.java:291)
+	at org.eclipse.core.launcher.Main.run(Main.java:747)
+	at org.eclipse.core.launcher.Main.main(Main.java:583)
+!SESSION июл 16, 2007 17:18:42.439 ---------------------------------------------
+java.fullversion=J2RE 1.3.1 IBM J9 build 20031201 (JIT enabled)
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=ru_RU
+Command-line arguments: -os win32 -ws win32 -arch x86 -data C:\workspases\WSAD_Samples -install file:C:/Program Files/IBM/WebSphere Studio/eclipse/
+!ENTRY org.eclipse.core.resources 2 1 июл 16, 2007 17:18:42.439
+!MESSAGE Skipping builder com.rational.xtools.umlvisualizer.diagramUpdatePolicy for project OIDGenerator. Either the builder is missing from the install, or it belongs to a project nature that is missing or disabled.
+!SESSION июл 17, 2007 16:22:09.414 ---------------------------------------------
+java.fullversion=J2RE 1.3.1 IBM J9 build 20031201 (JIT enabled)
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=ru_RU
+Command-line arguments: -os win32 -ws win32 -arch x86 -data C:\workspases\WSAD_Samples -install file:C:/Program Files/IBM/WebSphere Studio/eclipse/
+!ENTRY org.eclipse.core.resources 2 1 июл 17, 2007 16:22:09.414
+!MESSAGE Skipping builder com.rational.xtools.umlvisualizer.diagramUpdatePolicy for project OIDGenerator. Either the builder is missing from the install, or it belongs to a project nature that is missing or disabled.
+!SESSION июл 23, 2007 11:05:45.654 ---------------------------------------------
+java.fullversion=J2RE 1.3.1 IBM J9 build 20031201 (JIT enabled)
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=ru_RU
+Command-line arguments: -os win32 -ws win32 -arch x86 -data C:\workspases\WSAD_Samples -install file:C:/Program Files/IBM/WebSphere Studio/eclipse/
+!ENTRY org.eclipse.core.resources 2 1 июл 23, 2007 11:05:45.654
+!MESSAGE Skipping builder com.rational.xtools.umlvisualizer.diagramUpdatePolicy for project OIDGenerator. Either the builder is missing from the install, or it belongs to a project nature that is missing or disabled.
+!SESSION июл 24, 2007 11:42:27.961 ---------------------------------------------
+java.fullversion=J2RE 1.3.1 IBM J9 build 20031201 (JIT enabled)
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=ru_RU
+Command-line arguments: -os win32 -ws win32 -arch x86 -data C:\workSpasesNew\WSAD_Samples -install file:C:/Program Files/IBM/WebSphere Studio/eclipse/
+!ENTRY org.eclipse.core.resources 2 1 июл 24, 2007 11:42:27.961
+!MESSAGE Skipping builder com.rational.xtools.umlvisualizer.diagramUpdatePolicy for project OIDGenerator. Either the builder is missing from the install, or it belongs to a project nature that is missing or disabled.
+!SESSION июл 25, 2007 10:00:21.735 ---------------------------------------------
+java.fullversion=J2RE 1.3.1 IBM J9 build 20031201 (JIT enabled)
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=ru_RU
+Command-line arguments: -os win32 -ws win32 -arch x86 -data C:\workSpasesNew\WSAD_Samples -install file:C:/Program Files/IBM/WebSphere Studio/eclipse/
+!ENTRY org.eclipse.core.resources 2 1 июл 25, 2007 10:00:21.745
+!MESSAGE Skipping builder com.rational.xtools.umlvisualizer.diagramUpdatePolicy for project OIDGenerator. Either the builder is missing from the install, or it belongs to a project nature that is missing or disabled.
+!SESSION июл 26, 2007 16:30:50.502 ---------------------------------------------
+java.fullversion=J2RE 1.3.1 IBM J9 build 20031201 (JIT enabled)
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=ru_RU
+Command-line arguments: -os win32 -ws win32 -arch x86 -data C:\workSpasesNew\WSAD_Samples -install file:C:/Program Files/IBM/WebSphere Studio/eclipse/
+!ENTRY org.eclipse.core.resources 2 1 июл 26, 2007 16:30:50.502
+!MESSAGE Skipping builder com.rational.xtools.umlvisualizer.diagramUpdatePolicy for project OIDGenerator. Either the builder is missing from the install, or it belongs to a project nature that is missing or disabled.
+!SESSION июл 27, 2007 10:26:36.941 ---------------------------------------------
+java.fullversion=J2RE 1.3.1 IBM J9 build 20031201 (JIT enabled)
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=ru_RU
+Command-line arguments: -os win32 -ws win32 -arch x86 -data C:\workSpasesNew\WSAD_Samples -install file:C:/Program Files/IBM/WebSphere Studio/eclipse/
+!ENTRY org.eclipse.core.resources 2 1 июл 27, 2007 10:26:36.941
+!MESSAGE Skipping builder com.rational.xtools.umlvisualizer.diagramUpdatePolicy for project OIDGenerator. Either the builder is missing from the install, or it belongs to a project nature that is missing or disabled.
+!SESSION июл 30, 2007 11:54:47.707 ---------------------------------------------
+java.fullversion=J2RE 1.3.1 IBM J9 build 20031201 (JIT enabled)
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=ru_RU
+Command-line arguments: -os win32 -ws win32 -arch x86 -data C:\workSpasesNew\WSAD_Samples -install file:C:/Program Files/IBM/WebSphere Studio/eclipse/
+!ENTRY org.eclipse.core.resources 2 1 июл 30, 2007 11:54:47.707
+!MESSAGE Skipping builder com.rational.xtools.umlvisualizer.diagramUpdatePolicy for project OIDGenerator. Either the builder is missing from the install, or it belongs to a project nature that is missing or disabled.
+!ENTRY org.eclipse.ui 4 4 июл 30, 2007 15:50:31.918
+!MESSAGE Unhandled exception caught in event loop.
+!ENTRY org.eclipse.ui 4 0 июл 30, 2007 15:50:31.918
+!MESSAGE java.lang.NullPointerException
+!STACK 0
+java.lang.NullPointerException
+	at java.lang.Throwable.<init>(Throwable.java)
+	at java.lang.Throwable.<init>(Throwable.java)
+	at java.lang.NullPointerException.<init>(NullPointerException.java:63)
+	at org.eclipse.debug.internal.ui.views.console.ConsoleViewer.paintControl(ConsoleViewer.java)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java)
+	at org.eclipse.swt.widgets.Composite.WM_PAINT(Composite.java)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(OS.java)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:1402)
+	at org.eclipse.ui.internal.Workbench.run(Workbench.java:1385)
+	at org.eclipse.core.internal.boot.InternalBootLoader.run(InternalBootLoader.java:858)
+	at org.eclipse.core.boot.BootLoader.run(BootLoader.java:461)
+	at java.lang.reflect.AccessibleObject.invokeL(AccessibleObject.java:207)
+	at java.lang.reflect.Method.invoke(Method.java:271)
+	at org.eclipse.core.launcher.Main.basicRun(Main.java:291)
+	at org.eclipse.core.launcher.Main.run(Main.java:747)
+	at org.eclipse.core.launcher.Main.main(Main.java:583)
+!ENTRY org.eclipse.ui 4 4 июл 30, 2007 15:50:31.978
+!MESSAGE Unhandled exception caught in event loop.
+!ENTRY org.eclipse.ui 4 0 июл 30, 2007 15:50:31.978
+!MESSAGE java.lang.NullPointerException
+!STACK 0
+java.lang.NullPointerException
+	at java.lang.Throwable.<init>(Throwable.java)
+	at java.lang.Throwable.<init>(Throwable.java)
+	at java.lang.NullPointerException.<init>(NullPointerException.java:63)
+	at org.eclipse.debug.internal.ui.views.console.ConsoleViewer.paintControl(ConsoleViewer.java)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java)
+	at org.eclipse.swt.widgets.Composite.WM_PAINT(Composite.java)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(OS.java)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:1402)
+	at org.eclipse.ui.internal.Workbench.run(Workbench.java:1385)
+	at org.eclipse.core.internal.boot.InternalBootLoader.run(InternalBootLoader.java:858)
+	at org.eclipse.core.boot.BootLoader.run(BootLoader.java:461)
+	at java.lang.reflect.AccessibleObject.invokeL(AccessibleObject.java:207)
+	at java.lang.reflect.Method.invoke(Method.java:271)
+	at org.eclipse.core.launcher.Main.basicRun(Main.java:291)
+	at org.eclipse.core.launcher.Main.run(Main.java:747)
+	at org.eclipse.core.launcher.Main.main(Main.java:583)
+!ENTRY org.eclipse.ui 4 4 июл 30, 2007 15:50:32.28
+!MESSAGE Unhandled exception caught in event loop.
+!ENTRY org.eclipse.ui 4 0 июл 30, 2007 15:50:32.28
+!MESSAGE java.lang.NullPointerException
+!STACK 0
+java.lang.NullPointerException
+	at java.lang.Throwable.<init>(Throwable.java)
+	at java.lang.Throwable.<init>(Throwable.java)
+	at java.lang.NullPointerException.<init>(NullPointerException.java:63)
+	at org.eclipse.debug.internal.ui.views.console.ConsoleViewer.paintControl(ConsoleViewer.java)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java)
+	at org.eclipse.swt.widgets.Composite.WM_PAINT(Composite.java)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(OS.java)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:1402)
+	at org.eclipse.ui.internal.Workbench.run(Workbench.java:1385)
+	at org.eclipse.core.internal.boot.InternalBootLoader.run(InternalBootLoader.java:858)
+	at org.eclipse.core.boot.BootLoader.run(BootLoader.java:461)
+	at java.lang.reflect.AccessibleObject.invokeL(AccessibleObject.java:207)
+	at java.lang.reflect.Method.invoke(Method.java:271)
+	at org.eclipse.core.launcher.Main.basicRun(Main.java:291)
+	at org.eclipse.core.launcher.Main.run(Main.java:747)
+	at org.eclipse.core.launcher.Main.main(Main.java:583)
+!ENTRY org.eclipse.ui 4 4 июл 30, 2007 15:50:32.78
+!MESSAGE Unhandled exception caught in event loop.
+!ENTRY org.eclipse.ui 4 0 июл 30, 2007 15:50:32.88
+!MESSAGE java.lang.NullPointerException
+!STACK 0
+java.lang.NullPointerException
+	at java.lang.Throwable.<init>(Throwable.java)
+	at java.lang.Throwable.<init>(Throwable.java)
+	at java.lang.NullPointerException.<init>(NullPointerException.java:63)
+	at org.eclipse.debug.internal.ui.views.console.ConsoleViewer.paintControl(ConsoleViewer.java)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java)
+	at org.eclipse.swt.widgets.Composite.WM_PAINT(Composite.java)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(OS.java)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:1402)
+	at org.eclipse.ui.internal.Workbench.run(Workbench.java:1385)
+	at org.eclipse.core.internal.boot.InternalBootLoader.run(InternalBootLoader.java:858)
+	at org.eclipse.core.boot.BootLoader.run(BootLoader.java:461)
+	at java.lang.reflect.AccessibleObject.invokeL(AccessibleObject.java:207)
+	at java.lang.reflect.Method.invoke(Method.java:271)
+	at org.eclipse.core.launcher.Main.basicRun(Main.java:291)
+	at org.eclipse.core.launcher.Main.run(Main.java:747)
+	at org.eclipse.core.launcher.Main.main(Main.java:583)
+!ENTRY org.eclipse.ui 4 4 июл 30, 2007 15:50:32.138
+!MESSAGE Unhandled exception caught in event loop.
+!ENTRY org.eclipse.ui 4 0 июл 30, 2007 15:50:32.138
+!MESSAGE java.lang.NullPointerException
+!STACK 0
+java.lang.NullPointerException
+	at java.lang.Throwable.<init>(Throwable.java)
+	at java.lang.Throwable.<init>(Throwable.java)
+	at java.lang.NullPointerException.<init>(NullPointerException.java:63)
+	at org.eclipse.debug.internal.ui.views.console.ConsoleViewer.paintControl(ConsoleViewer.java)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java)
+	at org.eclipse.swt.widgets.Composite.WM_PAINT(Composite.java)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(OS.java)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:1402)
+	at org.eclipse.ui.internal.Workbench.run(Workbench.java:1385)
+	at org.eclipse.core.internal.boot.InternalBootLoader.run(InternalBootLoader.java:858)
+	at org.eclipse.core.boot.BootLoader.run(BootLoader.java:461)
+	at java.lang.reflect.AccessibleObject.invokeL(AccessibleObject.java:207)
+	at java.lang.reflect.Method.invoke(Method.java:271)
+	at org.eclipse.core.launcher.Main.basicRun(Main.java:291)
+	at org.eclipse.core.launcher.Main.run(Main.java:747)
+	at org.eclipse.core.launcher.Main.main(Main.java:583)
+!ENTRY org.eclipse.ui 4 4 июл 30, 2007 15:50:43.366
+!MESSAGE Unhandled exception caught in event loop.
+!ENTRY org.eclipse.ui 4 0 июл 30, 2007 15:50:43.366
+!MESSAGE java.lang.NullPointerException
+!STACK 0
+java.lang.NullPointerException
+	at java.lang.Throwable.<init>(Throwable.java)
+	at java.lang.Throwable.<init>(Throwable.java)
+	at java.lang.NullPointerException.<init>(NullPointerException.java:63)
+	at org.eclipse.debug.internal.ui.views.console.ConsoleViewer.paintControl(ConsoleViewer.java)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java)
+	at org.eclipse.swt.widgets.Composite.WM_PAINT(Composite.java)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(OS.java)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:1402)
+	at org.eclipse.ui.internal.Workbench.run(Workbench.java:1385)
+	at org.eclipse.core.internal.boot.InternalBootLoader.run(InternalBootLoader.java:858)
+	at org.eclipse.core.boot.BootLoader.run(BootLoader.java:461)
+	at java.lang.reflect.AccessibleObject.invokeL(AccessibleObject.java:207)
+	at java.lang.reflect.Method.invoke(Method.java:271)
+	at org.eclipse.core.launcher.Main.basicRun(Main.java:291)
+	at org.eclipse.core.launcher.Main.run(Main.java:747)
+	at org.eclipse.core.launcher.Main.main(Main.java:583)
+!SESSION июл 31, 2007 14:39:50.864 ---------------------------------------------
+java.fullversion=J2RE 1.3.1 IBM J9 build 20031201 (JIT enabled)
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=ru_RU
+Command-line arguments: -os win32 -ws win32 -arch x86 -data C:\workSpasesNew\WSAD_Samples -install file:C:/Program Files/IBM/WebSphere Studio/eclipse/
+!ENTRY org.eclipse.core.resources 2 1 июл 31, 2007 14:39:50.864
+!MESSAGE Skipping builder com.rational.xtools.umlvisualizer.diagramUpdatePolicy for project OIDGenerator. Either the builder is missing from the install, or it belongs to a project nature that is missing or disabled.
+!SESSION авг 01, 2007 17:58:33.578 ---------------------------------------------
+java.fullversion=J2RE 1.3.1 IBM J9 build 20031201 (JIT enabled)
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=ru_RU
+Command-line arguments: -os win32 -ws win32 -arch x86 -data C:\workSpasesNew\WSAD_Samples -install file:C:/Program Files/IBM/WebSphere Studio/eclipse/
+!ENTRY org.eclipse.core.resources 2 1 авг 01, 2007 17:58:33.588
+!MESSAGE Skipping builder com.rational.xtools.umlvisualizer.diagramUpdatePolicy for project OIDGenerator. Either the builder is missing from the install, or it belongs to a project nature that is missing or disabled.
+!SESSION авг 06, 2007 12:53:50.228 ---------------------------------------------
+java.fullversion=J2RE 1.3.1 IBM J9 build 20031201 (JIT enabled)
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=ru_RU
+Command-line arguments: -os win32 -ws win32 -arch x86 -data C:\workSpasesNew\WSAD_Samples -install file:C:/Program Files/IBM/WebSphere Studio/eclipse/
+!ENTRY org.eclipse.core.resources 2 1 авг 06, 2007 12:53:50.238
+!MESSAGE Skipping builder com.rational.xtools.umlvisualizer.diagramUpdatePolicy for project OIDGenerator. Either the builder is missing from the install, or it belongs to a project nature that is missing or disabled.
+!SESSION авг 08, 2007 10:47:27.427 ---------------------------------------------
+java.fullversion=J2RE 1.3.1 IBM J9 build 20031201 (JIT enabled)
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=ru_RU
+Command-line arguments: -os win32 -ws win32 -arch x86 -data C:\workSpasesNew\WSAD_Samples -install file:C:/Program Files/IBM/WebSphere Studio/eclipse/
+!ENTRY org.eclipse.core.resources 2 1 авг 08, 2007 10:47:27.437
+!MESSAGE Skipping builder com.rational.xtools.umlvisualizer.diagramUpdatePolicy for project OIDGenerator. Either the builder is missing from the install, or it belongs to a project nature that is missing or disabled.
+!SESSION авг 10, 2007 12:46:32.779 ---------------------------------------------
+java.fullversion=J2RE 1.3.1 IBM J9 build 20031201 (JIT enabled)
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=ru_RU
+Command-line arguments: -os win32 -ws win32 -arch x86 -data C:\workSpasesNew\WSAD_Samples -install file:C:/Program Files/IBM/WebSphere Studio/eclipse/
+!ENTRY org.eclipse.core.resources 2 1 авг 10, 2007 12:46:32.779
+!MESSAGE Skipping builder com.rational.xtools.umlvisualizer.diagramUpdatePolicy for project OIDGenerator. Either the builder is missing from the install, or it belongs to a project nature that is missing or disabled.
+!SESSION авг 22, 2007 08:18:43.425 ---------------------------------------------
+java.fullversion=J2RE 1.3.1 IBM J9 build 20031201 (JIT enabled)
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=ru_RU
+Command-line arguments: -os win32 -ws win32 -arch x86 -data C:\workSpasesNew\WSAD_Samples -install file:C:/Program Files/IBM/WebSphere Studio/eclipse/
+!ENTRY org.eclipse.core.resources 2 1 авг 22, 2007 08:18:43.425
+!MESSAGE Skipping builder com.rational.xtools.umlvisualizer.diagramUpdatePolicy for project OIDGenerator. Either the builder is missing from the install, or it belongs to a project nature that is missing or disabled.
+!SESSION авг 23, 2007 14:03:27.64 ----------------------------------------------
+java.fullversion=J2RE 1.3.1 IBM J9 build 20031201 (JIT enabled)
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=ru_RU
+Command-line arguments: -os win32 -ws win32 -arch x86 -data C:\workSpasesNew\WSAD_Samples -install file:C:/Program Files/IBM/WebSphere Studio/eclipse/
+!ENTRY org.eclipse.core.resources 2 1 авг 23, 2007 14:03:27.64
+!MESSAGE Skipping builder com.rational.xtools.umlvisualizer.diagramUpdatePolicy for project OIDGenerator. Either the builder is missing from the install, or it belongs to a project nature that is missing or disabled.
+!SESSION сен 03, 2007 11:12:27.421 ---------------------------------------------
+java.fullversion=J2RE 1.3.1 IBM J9 build 20031201 (JIT enabled)
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=ru_RU
+Command-line arguments: -os win32 -ws win32 -arch x86 -data C:\workSpasesNew\WSAD_Samples -install file:C:/Program Files/IBM/WebSphere Studio/eclipse/
+!ENTRY org.eclipse.core.resources 2 1 сен 03, 2007 11:12:27.421
+!MESSAGE Skipping builder com.rational.xtools.umlvisualizer.diagramUpdatePolicy for project OIDGenerator. Either the builder is missing from the install, or it belongs to a project nature that is missing or disabled.
+!SESSION сен 03, 2007 15:16:43.594 ---------------------------------------------
+java.fullversion=J2RE 1.3.1 IBM J9 build 20031201 (JIT enabled)
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=ru_RU
+Command-line arguments: -os win32 -ws win32 -arch x86 -data C:\workSpasesNew\WSAD_Samples -install file:C:/Program Files/IBM/WebSphere Studio/eclipse/
+!ENTRY org.eclipse.core.resources 2 1 сен 03, 2007 15:16:43.594
+!MESSAGE Skipping builder com.rational.xtools.umlvisualizer.diagramUpdatePolicy for project OIDGenerator. Either the builder is missing from the install, or it belongs to a project nature that is missing or disabled.
+!SESSION 2008-10-08 17:17:52.955 -----------------------------------------------
+eclipse.buildId=unknown
+java.fullversion=J2RE 1.5.0 IBM J9 2.3 Windows XP x86-32 j9vmwi3223ifx-20070323 (JIT enabled)
+J9VM - 20070322_12058_lHdSMR
+JIT  - 20070109_1805ifx3_r8
+GC   - WASIFIX_2007
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=ru_RU
+Framework arguments:  -product com.ibm.rational.rad.product.ide
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.ibm.rational.rad.product.ide
+
+!ENTRY org.eclipse.core.resources 1 0 2008-10-08 17:18:06.843
+!MESSAGE Преобразование постоянных свойств выполнено успешно.
+
+!ENTRY org.eclipse.osgi 4 0 2008-10-08 17:18:17.219
+!MESSAGE While loading class "com.ibm.etools.j2ee.variable.initializers.ServerJDK50PluginDirVariableInitializer", thread "org.eclipse.jdt.internal.ui.text.JavaReconciler" timed out waiting (5000ms) for thread "main" to finish starting bundle "com.ibm.etools.j2ee.ws.ext". To avoid deadlock, thread "org.eclipse.jdt.internal.ui.text.JavaReconciler" is proceeding but "com.ibm.etools.j2ee.variable.initializers.ServerJDK50PluginDirVariableInitializer" may not be fully initialized.
+!STACK 0
+java.lang.Exception: Generated exception.
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.preFindLocalClass(Unknown Source)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(Unknown Source)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findLocalClass(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(Unknown Source)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.loadClass(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.loadClass(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.loadClass(Unknown Source)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(Unknown Source)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(Unknown Source)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(Unknown Source)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(Unknown Source)
+	at org.eclipse.jdt.core.JavaCore.getClasspathVariableInitializer(Unknown Source)
+	at org.eclipse.jdt.core.JavaCore.getClasspathVariable(Unknown Source)
+	at org.eclipse.jdt.core.JavaCore.getResolvedVariablePath(Unknown Source)
+	at org.eclipse.jdt.core.JavaCore.getResolvedClasspathEntry(Unknown Source)
+	at org.eclipse.jdt.internal.core.JavaProject.getResolvedClasspath(Unknown Source)
+	at org.eclipse.jdt.internal.core.JavaProject.getResolvedClasspath(Unknown Source)
+	at org.eclipse.jdt.internal.core.JavaProject.buildStructure(Unknown Source)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Unknown Source)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(Unknown Source)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(Unknown Source)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(Unknown Source)
+	at org.eclipse.jdt.internal.core.JavaProject.getJavaProjectElementInfo(Unknown Source)
+	at org.eclipse.jdt.internal.core.JavaProject.newNameLookup(Unknown Source)
+	at org.eclipse.jdt.internal.core.SearchableEnvironment.<init>(Unknown Source)
+	at org.eclipse.jdt.internal.core.SearchableEnvironment.<init>(Unknown Source)
+	at org.eclipse.jdt.internal.core.CancelableNameEnvironment.<init>(Unknown Source)
+	at org.eclipse.jdt.internal.core.CompilationUnitProblemFinder.process(Unknown Source)
+	at org.eclipse.jdt.internal.core.CompilationUnitProblemFinder.process(Unknown Source)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(Unknown Source)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(Unknown Source)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(Unknown Source)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(Unknown Source)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(Unknown Source)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(Unknown Source)
+	at org.eclipse.core.runtime.SafeRunner.run(Unknown Source)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(Unknown Source)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.initialReconcile(Unknown Source)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.initialReconcile(Unknown Source)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.initialReconcile(Unknown Source)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.initialProcess(Unknown Source)
+	at org.eclipse.jdt.internal.ui.text.JavaReconciler.initialProcess(Unknown Source)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(Unknown Source)
+
+!ENTRY org.eclipse.osgi 4 0 2008-10-08 17:18:22.422
+!MESSAGE While loading class "com.ibm.etools.j2ee.variable.initializers.ServerJDKPluginDirVariableInitializer", thread "org.eclipse.jdt.internal.ui.text.JavaReconciler" timed out waiting (5000ms) for thread "main" to finish starting bundle "com.ibm.etools.j2ee.ws.ext". To avoid deadlock, thread "org.eclipse.jdt.internal.ui.text.JavaReconciler" is proceeding but "com.ibm.etools.j2ee.variable.initializers.ServerJDKPluginDirVariableInitializer" may not be fully initialized.
+!STACK 0
+java.lang.Exception: Generated exception.
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.preFindLocalClass(Unknown Source)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(Unknown Source)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findLocalClass(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(Unknown Source)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.defineClassImpl(Native Method)
+	at java.lang.ClassLoader.defineClass(Unknown Source)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.defineClass(Unknown Source)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.defineClass(Unknown Source)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findClassImpl(Unknown Source)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClassImpl(Unknown Source)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(Unknown Source)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findLocalClass(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(Unknown Source)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.loadClass(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.loadClass(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.loadClass(Unknown Source)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(Unknown Source)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(Unknown Source)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(Unknown Source)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(Unknown Source)
+	at org.eclipse.jdt.core.JavaCore.getClasspathVariableInitializer(Unknown Source)
+	at org.eclipse.jdt.core.JavaCore.getClasspathVariable(Unknown Source)
+	at org.eclipse.jdt.core.JavaCore.getResolvedVariablePath(Unknown Source)
+	at org.eclipse.jdt.core.JavaCore.getResolvedClasspathEntry(Unknown Source)
+	at org.eclipse.jdt.internal.core.JavaProject.getResolvedClasspath(Unknown Source)
+	at org.eclipse.jdt.internal.core.JavaProject.getResolvedClasspath(Unknown Source)
+	at org.eclipse.jdt.internal.core.JavaProject.buildStructure(Unknown Source)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Unknown Source)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(Unknown Source)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(Unknown Source)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(Unknown Source)
+	at org.eclipse.jdt.internal.core.JavaProject.getJavaProjectElementInfo(Unknown Source)
+	at org.eclipse.jdt.internal.core.JavaProject.newNameLookup(Unknown Source)
+	at org.eclipse.jdt.internal.core.SearchableEnvironment.<init>(Unknown Source)
+	at org.eclipse.jdt.internal.core.SearchableEnvironment.<init>(Unknown Source)
+	at org.eclipse.jdt.internal.core.CancelableNameEnvironment.<init>(Unknown Source)
+	at org.eclipse.jdt.internal.core.CompilationUnitProblemFinder.process(Unknown Source)
+	at org.eclipse.jdt.internal.core.CompilationUnitProblemFinder.process(Unknown Source)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(Unknown Source)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(Unknown Source)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(Unknown Source)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(Unknown Source)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(Unknown Source)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(Unknown Source)
+	at org.eclipse.core.runtime.SafeRunner.run(Unknown Source)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(Unknown Source)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.initialReconcile(Unknown Source)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.initialReconcile(Unknown Source)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.initialReconcile(Unknown Source)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.initialProcess(Unknown Source)
+	at org.eclipse.jdt.internal.ui.text.JavaReconciler.initialProcess(Unknown Source)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(Unknown Source)
+
+!ENTRY org.eclipse.core.resources 2 1 2008-10-08 17:18:38.841
+!MESSAGE Пропуск компоновщика com.ibm.etools.validation.validationbuilder для проекта AdvancedMappingEJB. Компоновщик не установлен, либо принадлежит отсутствующему или выключенному роду проекта.
+
+!ENTRY org.eclipse.core.resources 2 1 2008-10-08 17:18:38.851
+!MESSAGE Пропуск компоновщика com.ibm.etools.ctc.serviceprojectbuilder для проекта AdvancedMappingEJB. Компоновщик не установлен, либо принадлежит отсутствующему или выключенному роду проекта.
+
+!ENTRY org.eclipse.core.resources 2 1 2008-10-08 17:18:38.851
+!MESSAGE Пропуск компоновщика com.ibm.etools.validation.validationbuilder для проекта AdvancedMappingEAR. Компоновщик не установлен, либо принадлежит отсутствующему или выключенному роду проекта.
+
+!ENTRY org.eclipse.core.resources 2 1 2008-10-08 17:18:38.891
+!MESSAGE Пропуск компоновщика com.ibm.etools.validation.validationbuilder для проекта CombinedQueueAndDatabaseUpdateEJB. Компоновщик не установлен, либо принадлежит отсутствующему или выключенному роду проекта.
+
+!ENTRY org.eclipse.core.resources 2 1 2008-10-08 17:18:38.951
+!MESSAGE Пропуск компоновщика com.ibm.etools.ctc.serviceprojectbuilder для проекта CombinedQueueAndDatabaseUpdateEJB. Компоновщик не установлен, либо принадлежит отсутствующему или выключенному роду проекта.
+
+!ENTRY org.eclipse.core.resources 2 1 2008-10-08 17:18:39.051
+!MESSAGE Пропуск компоновщика com.ibm.etools.webtools.additions.linksbuilder для проекта CombinedQueueAndDatabaseUpdateWeb. Компоновщик не установлен, либо принадлежит отсутствующему или выключенному роду проекта.
+
+!ENTRY org.eclipse.core.resources 2 1 2008-10-08 17:18:39.051
+!MESSAGE Пропуск компоновщика com.ibm.etools.validation.validationbuilder для проекта CombinedQueueAndDatabaseUpdateWeb. Компоновщик не установлен, либо принадлежит отсутствующему или выключенному роду проекта.
+
+!ENTRY org.eclipse.core.resources 2 1 2008-10-08 17:18:39.081
+!MESSAGE Пропуск компоновщика com.ibm.etools.ctc.serviceprojectbuilder для проекта CombinedQueueAndDatabaseUpdateWeb. Компоновщик не установлен, либо принадлежит отсутствующему или выключенному роду проекта.
+
+!ENTRY org.eclipse.core.resources 2 1 2008-10-08 17:18:39.081
+!MESSAGE Пропуск компоновщика com.ibm.etools.validation.validationbuilder для проекта CombinedQueueAndDatabaseUpdate. Компоновщик не установлен, либо принадлежит отсутствующему или выключенному роду проекта.
+
+!ENTRY org.eclipse.core.resources 2 1 2008-10-08 17:18:39.131
+!MESSAGE Пропуск компоновщика com.ibm.etools.webtools.additions.linksbuilder для проекта CoreServletsWAR. Компоновщик не установлен, либо принадлежит отсутствующему или выключенному роду проекта.
+
+!ENTRY org.eclipse.ui 4 4 2008-10-08 17:18:39.561
+!MESSAGE Could not create action delegate for id: com.ibm.etools.j2ee.actions.NewConnectorProject
+
+!ENTRY org.eclipse.equinox.registry 4 1 2008-10-08 17:18:39.561
+!MESSAGE Модулю com.ibm.etools.j2ee.ui не удалось загрузить класс com.ibm.wtp.jca.actions.NewConnectorProjectAction.
+!STACK 0
+java.lang.ClassNotFoundException: com.ibm.wtp.jca.actions.NewConnectorProjectAction
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(Unknown Source)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.loadClass(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.loadClass(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.loadClass(Unknown Source)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(Unknown Source)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(Unknown Source)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(Unknown Source)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(Unknown Source)
+	at org.eclipse.ui.internal.WorkbenchPlugin.createExtension(Unknown Source)
+	at org.eclipse.ui.internal.PluginAction.createDelegate(Unknown Source)
+	at org.eclipse.ui.internal.WWinPluginAction.refreshActionList(Unknown Source)
+	at org.eclipse.ui.plugin.AbstractUIPlugin$1.run(Unknown Source)
+	at org.eclipse.swt.widgets.RunnableLock.run(Unknown Source)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Unknown Source)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Unknown Source)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.runUI(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Unknown Source)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(Unknown Source)
+	at org.eclipse.ui.internal.ide.IDEApplication.run(Unknown Source)
+	at org.eclipse.core.internal.runtime.PlatformActivator$1.run(Unknown Source)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(Unknown Source)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(Unknown Source)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(Unknown Source)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.core.launcher.Main.invokeFramework(Unknown Source)
+	at org.eclipse.core.launcher.Main.basicRun(Unknown Source)
+	at org.eclipse.core.launcher.Main.run(Unknown Source)
+	at org.eclipse.core.launcher.Main.main(Unknown Source)
+
+!ENTRY org.eclipse.core.resources 2 1 2008-10-08 17:18:39.681
+!MESSAGE Пропуск компоновщика com.ibm.etools.validation.validationbuilder для проекта CoreServletsWAR. Компоновщик не установлен, либо принадлежит отсутствующему или выключенному роду проекта.
+
+!ENTRY org.eclipse.core.resources 2 1 2008-10-08 17:18:39.681
+!MESSAGE Пропуск компоновщика com.ibm.etools.webtools.additions.jspcompilationbuilder для проекта CoreServletsWAR. Компоновщик не установлен, либо принадлежит отсутствующему или выключенному роду проекта.
+
+!ENTRY org.eclipse.core.resources 2 1 2008-10-08 17:18:39.691
+!MESSAGE Пропуск компоновщика com.ibm.etools.ctc.serviceprojectbuilder для проекта CoreServletsWAR. Компоновщик не установлен, либо принадлежит отсутствующему или выключенному роду проекта.
+
+!ENTRY org.eclipse.core.resources 2 1 2008-10-08 17:18:39.691
+!MESSAGE Пропуск компоновщика com.ibm.etools.validation.validationbuilder для проекта CoreServletsEAR. Компоновщик не установлен, либо принадлежит отсутствующему или выключенному роду проекта.
+
+!ENTRY org.eclipse.core.resources 2 1 2008-10-08 17:18:39.711
+!MESSAGE Пропуск компоновщика com.ibm.etools.ctc.serviceprojectbuilder для проекта Data Mapper Example. Компоновщик не установлен, либо принадлежит отсутствующему или выключенному роду проекта.
+
+!ENTRY org.eclipse.core.resources 2 1 2008-10-08 17:18:39.711
+!MESSAGE Пропуск компоновщика com.ibm.etools.validation.validationbuilder для проекта Data Mapper Example. Компоновщик не установлен, либо принадлежит отсутствующему или выключенному роду проекта.
+
+!ENTRY org.eclipse.core.resources 2 1 2008-10-08 17:18:39.721
+!MESSAGE Пропуск компоновщика com.ibm.etools.validation.validationbuilder для проекта EmployeeManagementEJB. Компоновщик не установлен, либо принадлежит отсутствующему или выключенному роду проекта.
+
+!ENTRY org.eclipse.core.resources 2 1 2008-10-08 17:18:39.771
+!MESSAGE Пропуск компоновщика com.ibm.etools.ctc.serviceprojectbuilder для проекта EmployeeManagementEJB. Компоновщик не установлен, либо принадлежит отсутствующему или выключенному роду проекта.
+
+!ENTRY org.eclipse.core.resources 2 1 2008-10-08 17:18:39.792
+!MESSAGE Пропуск компоновщика com.ibm.etools.webtools.additions.linksbuilder для проекта EmployeeManagementWeb. Компоновщик не установлен, либо принадлежит отсутствующему или выключенному роду проекта.
+
+!ENTRY org.eclipse.core.resources 2 1 2008-10-08 17:18:39.792
+!MESSAGE Пропуск компоновщика com.ibm.etools.validation.validationbuilder для проекта EmployeeManagementWeb. Компоновщик не установлен, либо принадлежит отсутствующему или выключенному роду проекта.
+
+!ENTRY org.eclipse.core.resources 2 1 2008-10-08 17:18:39.802
+!MESSAGE Пропуск компоновщика com.ibm.etools.ctc.serviceprojectbuilder для проекта EmployeeManagementWeb. Компоновщик не установлен, либо принадлежит отсутствующему или выключенному роду проекта.
+
+!ENTRY org.eclipse.core.resources 2 1 2008-10-08 17:18:39.812
+!MESSAGE Пропуск компоновщика com.ibm.etools.validation.validationbuilder для проекта EmployeeManagement. Компоновщик не установлен, либо принадлежит отсутствующему или выключенному роду проекта.
+
+!ENTRY org.eclipse.core.resources 2 1 2008-10-08 17:18:39.822
+!MESSAGE Пропуск компоновщика com.ibm.etools.webtools.additions.linksbuilder для проекта JSP Example. Компоновщик не установлен, либо принадлежит отсутствующему или выключенному роду проекта.
+
+!ENTRY org.eclipse.core.resources 2 1 2008-10-08 17:18:39.832
+!MESSAGE Пропуск компоновщика com.ibm.etools.validation.validationbuilder для проекта JSP Example. Компоновщик не установлен, либо принадлежит отсутствующему или выключенному роду проекта.
+
+!ENTRY org.eclipse.core.resources 2 1 2008-10-08 17:18:39.842
+!MESSAGE Пропуск компоновщика com.ibm.etools.ctc.serviceprojectbuilder для проекта JSP Example. Компоновщик не установлен, либо принадлежит отсутствующему или выключенному роду проекта.
+
+!ENTRY org.eclipse.core.resources 2 1 2008-10-08 17:18:39.852
+!MESSAGE Пропуск компоновщика com.ibm.etools.validation.validationbuilder для проекта MDBSampleEJB. Компоновщик не установлен, либо принадлежит отсутствующему или выключенному роду проекта.
+
+!ENTRY org.eclipse.core.resources 2 1 2008-10-08 17:18:39.862
+!MESSAGE Пропуск компоновщика com.ibm.etools.ctc.serviceprojectbuilder для проекта MDBSampleEJB. Компоновщик не установлен, либо принадлежит отсутствующему или выключенному роду проекта.
+
+!ENTRY org.eclipse.core.resources 2 1 2008-10-08 17:18:39.882
+!MESSAGE Пропуск компоновщика com.ibm.etools.webtools.additions.linksbuilder для проекта MDBSampleWeb. Компоновщик не установлен, либо принадлежит отсутствующему или выключенному роду проекта.
+
+!ENTRY org.eclipse.core.resources 2 1 2008-10-08 17:18:39.882
+!MESSAGE Пропуск компоновщика com.ibm.etools.validation.validationbuilder для проекта MDBSampleWeb. Компоновщик не установлен, либо принадлежит отсутствующему или выключенному роду проекта.
+
+!ENTRY org.eclipse.core.resources 2 1 2008-10-08 17:18:39.892
+!MESSAGE Пропуск компоновщика com.ibm.etools.ctc.serviceprojectbuilder для проекта MDBSampleWeb. Компоновщик не установлен, либо принадлежит отсутствующему или выключенному роду проекта.
+
+!ENTRY org.eclipse.core.resources 2 1 2008-10-08 17:18:39.902
+!MESSAGE Пропуск компоновщика com.ibm.etools.validation.validationbuilder для проекта MeetInTheMiddleExample. Компоновщик не установлен, либо принадлежит отсутствующему или выключенному роду проекта.
+
+!ENTRY org.eclipse.core.resources 2 1 2008-10-08 17:18:39.902
+!MESSAGE Пропуск компоновщика com.ibm.etools.ctc.serviceprojectbuilder для проекта MeetInTheMiddleExample. Компоновщик не установлен, либо принадлежит отсутствующему или выключенному роду проекта.
+
+!ENTRY org.eclipse.core.resources 2 1 2008-10-08 17:18:39.902
+!MESSAGE Пропуск компоновщика com.ibm.etools.validation.validationbuilder для проекта MeetInTheMiddleEAR. Компоновщик не установлен, либо принадлежит отсутствующему или выключенному роду проекта.
+
+!ENTRY org.eclipse.core.resources 2 1 2008-10-08 17:18:39.912
+!MESSAGE Пропуск компоновщика com.ibm.etools.validation.validationbuilder для проекта OIDGenerator. Компоновщик не установлен, либо принадлежит отсутствующему или выключенному роду проекта.
+
+!ENTRY org.eclipse.core.resources 2 1 2008-10-08 17:18:39.972
+!MESSAGE Пропуск компоновщика com.rational.xtools.umlvisualizer.diagramUpdatePolicy для проекта OIDGenerator. Компоновщик не установлен, либо принадлежит отсутствующему или выключенному роду проекта.
+
+!ENTRY org.eclipse.core.resources 2 1 2008-10-08 17:18:39.972
+!MESSAGE Пропуск компоновщика com.ibm.etools.ctc.serviceprojectbuilder для проекта OIDGenerator. Компоновщик не установлен, либо принадлежит отсутствующему или выключенному роду проекта.
+
+!ENTRY org.eclipse.core.resources 2 1 2008-10-08 17:18:39.982
+!MESSAGE Пропуск компоновщика com.ibm.etools.webtools.additions.linksbuilder для проекта Servlet Example. Компоновщик не установлен, либо принадлежит отсутствующему или выключенному роду проекта.
+
+!ENTRY org.eclipse.core.resources 2 1 2008-10-08 17:18:40.022
+!MESSAGE Пропуск компоновщика com.ibm.etools.validation.validationbuilder для проекта Servlet Example. Компоновщик не установлен, либо принадлежит отсутствующему или выключенному роду проекта.
+
+!ENTRY org.eclipse.core.resources 2 1 2008-10-08 17:18:40.032
+!MESSAGE Пропуск компоновщика com.ibm.etools.ctc.serviceprojectbuilder для проекта Servlet Example. Компоновщик не установлен, либо принадлежит отсутствующему или выключенному роду проекта.
+
+!ENTRY org.eclipse.core.resources 2 1 2008-10-08 17:18:40.052
+!MESSAGE Пропуск компоновщика com.ibm.etools.ctc.serviceprojectbuilder для проекта TimeSheet-AppLogic. Компоновщик не установлен, либо принадлежит отсутствующему или выключенному роду проекта.
+
+!ENTRY org.eclipse.core.resources 2 1 2008-10-08 17:18:40.112
+!MESSAGE Пропуск компоновщика com.ibm.etools.validation.validationbuilder для проекта TimeSheet-AppLogic. Компоновщик не установлен, либо принадлежит отсутствующему или выключенному роду проекта.
+
+!ENTRY org.eclipse.core.resources 2 1 2008-10-08 17:18:40.132
+!MESSAGE Пропуск компоновщика com.ibm.etools.struts.StrutsBuilder для проекта TimeSheet-AppLogic. Компоновщик не установлен, либо принадлежит отсутствующему или выключенному роду проекта.
+
+!ENTRY org.eclipse.core.resources 2 1 2008-10-08 17:18:40.152
+!MESSAGE Пропуск компоновщика com.ibm.etools.validation.validationbuilder для проекта TimeSheetGroup. Компоновщик не установлен, либо принадлежит отсутствующему или выключенному роду проекта.
+
+!ENTRY org.eclipse.core.resources 2 1 2008-10-08 17:18:40.152
+!MESSAGE Пропуск компоновщика com.ibm.etools.ctc.serviceprojectbuilder для проекта TimeSheetGroup. Компоновщик не установлен, либо принадлежит отсутствующему или выключенному роду проекта.
+
+!ENTRY org.eclipse.core.resources 2 1 2008-10-08 17:18:40.172
+!MESSAGE Пропуск компоновщика com.ibm.etools.validation.validationbuilder для проекта TimeAppTestClient. Компоновщик не установлен, либо принадлежит отсутствующему или выключенному роду проекта.
+
+!ENTRY org.eclipse.core.resources 2 1 2008-10-08 17:18:40.182
+!MESSAGE Пропуск компоновщика com.ibm.etools.ctc.serviceprojectbuilder для проекта TimeAppTestClient. Компоновщик не установлен, либо принадлежит отсутствующему или выключенному роду проекта.
+
+!ENTRY org.eclipse.core.resources 2 1 2008-10-08 17:18:40.202
+!MESSAGE Пропуск компоновщика com.ibm.etools.ctc.serviceprojectbuilder для проекта TimeApp. Компоновщик не установлен, либо принадлежит отсутствующему или выключенному роду проекта.
+
+!ENTRY org.eclipse.core.resources 2 1 2008-10-08 17:18:40.202
+!MESSAGE Пропуск компоновщика com.ibm.etools.webtools.additions.linksbuilder для проекта TimeApp. Компоновщик не установлен, либо принадлежит отсутствующему или выключенному роду проекта.
+
+!ENTRY org.eclipse.core.resources 2 1 2008-10-08 17:18:40.232
+!MESSAGE Пропуск компоновщика com.ibm.etools.validation.validationbuilder для проекта TimeApp. Компоновщик не установлен, либо принадлежит отсутствующему или выключенному роду проекта.
+
+!ENTRY org.eclipse.core.resources 2 1 2008-10-08 17:18:40.232
+!MESSAGE Пропуск компоновщика com.ibm.etools.struts.StrutsBuilder для проекта TimeApp. Компоновщик не установлен, либо принадлежит отсутствующему или выключенному роду проекта.
+
+!ENTRY org.eclipse.core.resources 2 1 2008-10-08 17:18:40.252
+!MESSAGE Пропуск компоновщика com.ibm.etools.validation.validationbuilder для проекта UtilitiesGroup. Компоновщик не установлен, либо принадлежит отсутствующему или выключенному роду проекта.
+
+!ENTRY org.eclipse.core.resources 2 1 2008-10-08 17:18:40.252
+!MESSAGE Пропуск компоновщика com.ibm.etools.ctc.serviceprojectbuilder для проекта UtilitiesGroup. Компоновщик не установлен, либо принадлежит отсутствующему или выключенному роду проекта.
+
+!ENTRY org.eclipse.core.resources 2 1 2008-10-08 17:18:40.312
+!MESSAGE Пропуск компоновщика com.ibm.etools.validation.validationbuilder для проекта IDGeneratorClient. Компоновщик не установлен, либо принадлежит отсутствующему или выключенному роду проекта.
+
+!ENTRY org.eclipse.core.resources 2 1 2008-10-08 17:18:40.332
+!MESSAGE Пропуск компоновщика com.ibm.etools.ctc.serviceprojectbuilder для проекта IDGeneratorClient. Компоновщик не установлен, либо принадлежит отсутствующему или выключенному роду проекта.
+
+!ENTRY org.eclipse.core.resources 2 1 2008-10-08 17:18:40.342
+!MESSAGE Пропуск компоновщика com.ibm.etools.validation.validationbuilder для проекта UtilityEAR. Компоновщик не установлен, либо принадлежит отсутствующему или выключенному роду проекта.
+
+!ENTRY org.eclipse.core.resources 2 1 2008-10-08 17:18:40.352
+!MESSAGE Пропуск компоновщика com.ibm.etools.ctc.serviceprojectbuilder для проекта WSUtilityClientJ2SE. Компоновщик не установлен, либо принадлежит отсутствующему или выключенному роду проекта.
+
+!ENTRY org.eclipse.core.resources 2 1 2008-10-08 17:18:40.352
+!MESSAGE Пропуск компоновщика com.ibm.etools.validation.validationbuilder для проекта WSUtilityClientJ2SE. Компоновщик не установлен, либо принадлежит отсутствующему или выключенному роду проекта.
+
+!ENTRY org.eclipse.core.resources 2 1 2008-10-08 17:18:40.362
+!MESSAGE Пропуск компоновщика com.ibm.etools.validation.validationbuilder для проекта WSUtilityClientJ2EE. Компоновщик не установлен, либо принадлежит отсутствующему или выключенному роду проекта.
+
+!ENTRY org.eclipse.core.resources 2 1 2008-10-08 17:18:40.362
+!MESSAGE Пропуск компоновщика com.ibm.etools.ctc.serviceprojectbuilder для проекта WSUtilityClientJ2EE. Компоновщик не установлен, либо принадлежит отсутствующему или выключенному роду проекта.
+
+!ENTRY org.eclipse.core.resources 2 1 2008-10-08 17:18:40.372
+!MESSAGE Пропуск компоновщика com.ibm.etools.validation.validationbuilder для проекта WSUtilityClientJ2EE-EAR. Компоновщик не установлен, либо принадлежит отсутствующему или выключенному роду проекта.
+
+!ENTRY org.eclipse.core.resources 2 1 2008-10-08 17:18:40.392
+!MESSAGE Пропуск компоновщика com.ibm.etools.webtools.additions.linksbuilder для проекта XMLXSLExample. Компоновщик не установлен, либо принадлежит отсутствующему или выключенному роду проекта.
+
+!ENTRY org.eclipse.core.resources 2 1 2008-10-08 17:18:40.402
+!MESSAGE Пропуск компоновщика com.ibm.etools.validation.validationbuilder для проекта XMLXSLExample. Компоновщик не установлен, либо принадлежит отсутствующему или выключенному роду проекта.
+
+!ENTRY org.eclipse.core.resources 2 1 2008-10-08 17:18:40.402
+!MESSAGE Пропуск компоновщика com.ibm.etools.ctc.serviceprojectbuilder для проекта XMLXSLExample. Компоновщик не установлен, либо принадлежит отсутствующему или выключенному роду проекта.
+
+!ENTRY org.eclipse.core.resources 2 1 2008-10-08 17:18:40.422
+!MESSAGE Пропуск компоновщика com.ibm.etools.validation.validationbuilder для проекта wasbook. Компоновщик не установлен, либо принадлежит отсутствующему или выключенному роду проекта.
+
+!ENTRY org.eclipse.core.resources 1 0 2008-10-08 17:18:49.047
+!MESSAGE Преобразование локальной хронологии выполнено успешно.
+
+!ENTRY org.eclipse.core.resources 2 1 2008-10-08 17:19:05.376
+!MESSAGE Пропуск компоновщика com.ibm.etools.server.core.builder для проекта MDBSampleServer. Компоновщик не установлен, либо принадлежит отсутствующему или выключенному роду проекта.
+
+!ENTRY org.eclipse.core.resources 2 1 2008-10-08 17:19:05.386
+!MESSAGE Пропуск компоновщика com.ibm.etools.validation.validationbuilder для проекта MDBSampleServer. Компоновщик не установлен, либо принадлежит отсутствующему или выключенному роду проекта.
+
+!ENTRY org.eclipse.core.resources 2 1 2008-10-08 17:19:05.386
+!MESSAGE Пропуск компоновщика com.ibm.etools.server.core.builder для проекта MDBSampleServers. Компоновщик не установлен, либо принадлежит отсутствующему или выключенному роду проекта.
+
+!ENTRY org.eclipse.core.resources 2 1 2008-10-08 17:19:05.386
+!MESSAGE Пропуск компоновщика com.ibm.etools.validation.validationbuilder для проекта MDBSampleServers. Компоновщик не установлен, либо принадлежит отсутствующему или выключенному роду проекта.
+
+!ENTRY org.eclipse.core.resources 2 1 2008-10-08 17:19:13.210
+!MESSAGE Пропуск компоновщика com.ibm.etools.struts.StrutsBuilder для проекта wasbook. Компоновщик не установлен, либо принадлежит отсутствующему или выключенному роду проекта.
+
+!ENTRY org.eclipse.core.resources 2 1 2008-10-08 17:19:13.220
+!MESSAGE Пропуск компоновщика com.ibm.etools.server.core.builder для проекта wasbookServers. Компоновщик не установлен, либо принадлежит отсутствующему или выключенному роду проекта.
+
+!ENTRY org.eclipse.core.resources 2 1 2008-10-08 17:19:13.220
+!MESSAGE Пропуск компоновщика com.ibm.etools.validation.validationbuilder для проекта wasbookServers. Компоновщик не установлен, либо принадлежит отсутствующему или выключенному роду проекта.
+
+!ENTRY org.eclipse.osgi 2 1 2008-10-08 17:19:45.468
+!MESSAGE NLS unused message: ERROR_MODULE_DD_FILE_NOT_FOUND in: erefvalidation

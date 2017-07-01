@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<webappext:WebAppExtension xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:webappext="webappext.xmi" xmlns:webapplication="webapplication.xmi" xmi:id="WebAppExtension_1" reloadInterval="3" reloadingEnabled="true" additionalClassPath="" fileServingEnabled="true" directoryBrowsingEnabled="false" serveServletsByClassnameEnabled="true">
+  <webApp href="WEB-INF/web.xml#WebApp"/>
+  <servletCacheConfigs xmi:id="ServletCachingConfiguration_1047871909183" propertiesGroupName="myGroup" timeout="0" priority="1" invalidateOnly="false">
+    <cachedServlets href="WEB-INF/web.xml#Servlet_1047871909183"/>
+  </servletCacheConfigs>
+</webappext:WebAppExtension>

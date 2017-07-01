@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clientbnd:ApplicationClientBinding xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:clientbnd="clientbnd.xmi" xmlns:client="client.xmi" xmlns:commonbnd="commonbnd.xmi" xmlns:common="common.xmi" xmi:id="ApplicationClientBinding_1051066552052">
+  <applicationClient href="META-INF/application-client.xml#Application-client_ID"/>
+  <ejbRefs xmi:id="EjbRefBinding_1051066552052" jndiName="com/wsbook/casestudy/ejb/TimeSheetActionProcessorFacade">
+    <bindingEjbRef href="META-INF/application-client.xml#EjbRef_1051066552052"/>
+  </ejbRefs>
+  <ejbRefs xmi:id="EjbRefBinding_1051666731161" jndiName="com/wsbook/casestudy/ejb/ReportActionProcessorFacade">
+    <bindingEjbRef href="META-INF/application-client.xml#EjbRef_1051666731161"/>
+  </ejbRefs>
+</clientbnd:ApplicationClientBinding>

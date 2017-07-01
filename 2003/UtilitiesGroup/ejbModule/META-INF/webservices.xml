@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE webservices PUBLIC "-//IBM Corporation, Inc.//DTD J2EE Web services 1.0//EN" "http://www.ibm.com/webservices/dtd/j2ee_web_services_1_0.dtd">
+<webservices>
+  <webservice-description>
+    <webservice-description-name>WSRandomIDGeneratorService</webservice-description-name>
+    <wsdl-file>META-INF/WSRandomIDGenerator.wsdl</wsdl-file>
+    <jaxrpc-mapping-file>META-INF/WSRandomIDGenerator_mapping.xml</jaxrpc-mapping-file>
+    <port-component>
+      <port-component-name>WSRandomIDGenerator</port-component-name>
+      <wsdl-port>
+        <namespaceURI>http://utilities.ejb.casestudy.wsbook.com</namespaceURI>
+        <localpart>WSRandomIDGenerator</localpart>
+      </wsdl-port>
+      <service-endpoint-interface>com.wsbook.casestudy.ejb.utilities.WSRandomIDGenerator</service-endpoint-interface>
+      <service-impl-bean>
+        <ejb-link>RandomIDGenerator</ejb-link>
+      </service-impl-bean>
+    </port-component>
+  </webservice-description>
+</webservices>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RDBSchema:RDBSchema xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:RDBSchema="RDBSchema.xmi" xmi:id="RDBSchema_1032744150429" name="JAMSDEN">
+  <database href="WEB-INF/databases/Con3_WASBOOK.dbxmi#RDBDatabase_1032744150429"/>
+  <tables xmi:type="RDBSchema:RDBTable" href="WEB-INF/databases/Con3_WASBOOK_JAMSDEN_ADDRESS.tblxmi#RDBTable_1032744150429"/>
+  <tables xmi:type="RDBSchema:RDBTable" href="WEB-INF/databases/Con3_WASBOOK_JAMSDEN_DEPARTMENT.tblxmi#RDBTable_1032744150439"/>
+  <tables xmi:type="RDBSchema:RDBTable" href="WEB-INF/databases/Con3_WASBOOK_JAMSDEN_EMPLOYEE.tblxmi#RDBTable_1032744150489"/>
+  <tables xmi:type="RDBSchema:RDBTable" href="WEB-INF/databases/Con3_WASBOOK_JAMSDEN_PROJECT.tblxmi#RDBTable_1032744150449"/>
+  <tables xmi:type="RDBSchema:RDBTable" href="WEB-INF/databases/Con3_WASBOOK_JAMSDEN_TIMESHEET.tblxmi#RDBTable_1032744150459"/>
+  <tables xmi:type="RDBSchema:RDBTable" href="WEB-INF/databases/Con3_WASBOOK_JAMSDEN_TIMESHEETENTRY.tblxmi#RDBTable_1032744150479"/>
+</RDBSchema:RDBSchema>

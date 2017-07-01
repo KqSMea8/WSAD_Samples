@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RDBSchema:RDBSchema xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:RDBSchema="RDBSchema.xmi" xmi:id="RDBSchema_1055046203510" name="TEST">
+  <database href="META-INF/backends/DB2UDBNT_V8_1/SAMPLE.dbxmi#RDBDatabase_1055046203470"/>
+  <tables xmi:type="RDBSchema:RDBTable" href="META-INF/backends/DB2UDBNT_V8_1/SAMPLE_TEST_EMPLOYEE.tblxmi#RDBTable_1055046203460"/>
+  <tables xmi:type="RDBSchema:RDBTable" href="META-INF/backends/DB2UDBNT_V8_1/SAMPLE_TEST_ADDRESS.tblxmi#RDBTable_1055046203470"/>
+  <tables xmi:type="RDBSchema:RDBTable" href="META-INF/backends/DB2UDBNT_V8_1/SAMPLE_TEST_STUDENT.tblxmi#RDBTable_1055046203470"/>
+  <tables xmi:type="RDBSchema:RDBTable" href="META-INF/backends/DB2UDBNT_V8_1/SAMPLE_TEST_Students_Courses.tblxmi#RDBTable_1055046203510"/>
+  <tables xmi:type="RDBSchema:RDBTable" href="META-INF/backends/DB2UDBNT_V8_1/SAMPLE_TEST_COURSE.tblxmi#RDBTable_1055046203470"/>
+</RDBSchema:RDBSchema>

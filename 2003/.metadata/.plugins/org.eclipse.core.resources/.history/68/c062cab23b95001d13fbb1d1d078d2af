@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="XMLXSLExample">
+        <module-type module-type-id="jst.web">
+            <version>2.3</version>
+        </module-type>
+        <wb-resource deploy-path="/" source-path="/WebContent"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/JavaSource"/>
+        <property name="JSPLevel" value="JSP 1.2"/>
+        <property name="context-root" value="XMLXSLExample"/>
+        <property name="java-output-path" value="WebContent/WEB-INF/classes"/>
+    </wb-module>
+</project-modules>

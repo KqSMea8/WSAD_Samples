@@ -1,0 +1,1161 @@
+------Start of DE processing------ = [07.07.23 18:08:53:868 MSD] , key = COM.ibm.db2.jdbc.DB2Exception com.ibm.ws.rsadapter.jdbc.WSJdbcPreparedStatement.executeQuery 371
+Exception = COM.ibm.db2.jdbc.DB2Exception
+Source = com.ibm.ws.rsadapter.jdbc.WSJdbcPreparedStatement.executeQuery
+probeid = 371
+Stack Dump = COM.ibm.db2.jdbc.DB2Exception: [IBM][CLI Driver][DB2/NT] SQL0204N  "USERID.EMPLOYEE" is an undefined name.  SQLSTATE=42704
+
+	at COM.ibm.db2.jdbc.app.SQLExceptionGenerator.throw_SQLException(SQLExceptionGenerator.java:270)
+	at COM.ibm.db2.jdbc.app.SQLExceptionGenerator.throw_SQLException(SQLExceptionGenerator.java:207)
+	at COM.ibm.db2.jdbc.app.SQLExceptionGenerator.check_return_code(SQLExceptionGenerator.java:458)
+	at COM.ibm.db2.jdbc.app.DB2PreparedStatement.execute2(DB2PreparedStatement.java:2110)
+	at COM.ibm.db2.jdbc.app.DB2PreparedStatement.executeQuery(DB2PreparedStatement.java:1596)
+	at com.ibm.ws.rsadapter.jdbc.WSJdbcPreparedStatement.executeQuery(WSJdbcPreparedStatement.java:426)
+	at com.wsbook.casestudy.mapping.jdbc.EmployeeMapper.findAll(EmployeeMapper.java:262)
+	at com.wsbook.casestudy.ejb.TimeSheetActionProcessorFacadeBean.findAllEmployees(TimeSheetActionProcessorFacadeBean.java:274)
+	at com.wsbook.casestudy.ejb.EJSRemoteStatelessTimeSheetActionProcessorFacade_7ee0ab51.findAllEmployees(EJSRemoteStatelessTimeSheetActionProcessorFacade_7ee0ab51.java:412)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:79)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:41)
+	at java.lang.reflect.Method.invoke(Method.java:386)
+	at com.ibm.rmi.util.ProxyUtil$4.run(ProxyUtil.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at com.ibm.rmi.util.ProxyUtil.invokeWithClassLoaders(ProxyUtil.java:701)
+	at com.ibm.CORBA.iiop.ClientDelegate.invoke(ClientDelegate.java:1084)
+	at $Proxy1.findAllEmployees(Unknown Source)
+	at com.wsbook.casestudy.ejb._TimeSheetActionProcessorFacade_Stub.findAllEmployees(_TimeSheetActionProcessorFacade_Stub.java:1018)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:79)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:41)
+	at java.lang.reflect.Method.invoke(Method.java:386)
+	at com.ibm.etools.utc.model.ReflectionMethodModel.invoke(ReflectionMethodModel.java:68)
+	at com.ibm.etools.utc.servlet.InvokeServlet.invoke(InvokeServlet.java:110)
+	at com.ibm.etools.utc.servlet.InvokeServlet.doPost(InvokeServlet.java:366)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:760)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:853)
+	at com.ibm.ws.webcontainer.servlet.StrictServletInstance.doService(StrictServletInstance.java:110)
+	at com.ibm.ws.webcontainer.servlet.StrictLifecycleServlet._service(StrictLifecycleServlet.java:174)
+	at com.ibm.ws.webcontainer.servlet.IdleServletState.service(StrictLifecycleServlet.java:313)
+	at com.ibm.ws.webcontainer.servlet.StrictLifecycleServlet.service(StrictLifecycleServlet.java:116)
+	at com.ibm.ws.webcontainer.servlet.ServletInstance.service(ServletInstance.java:283)
+	at com.ibm.ws.webcontainer.servlet.ValidServletReferenceState.dispatch(ValidServletReferenceState.java:42)
+	at com.ibm.ws.webcontainer.servlet.ServletInstanceReference.dispatch(ServletInstanceReference.java:40)
+	at com.ibm.ws.webcontainer.webapp.WebAppRequestDispatcher.handleWebAppDispatch(WebAppRequestDispatcher.java:983)
+	at com.ibm.ws.webcontainer.webapp.WebAppRequestDispatcher.dispatch(WebAppRequestDispatcher.java:564)
+	at com.ibm.ws.webcontainer.webapp.WebAppRequestDispatcher.forward(WebAppRequestDispatcher.java:200)
+	at com.ibm.ws.webcontainer.srt.WebAppInvoker.doForward(WebAppInvoker.java:119)
+	at com.ibm.ws.webcontainer.srt.WebAppInvoker.handleInvocationHook(WebAppInvoker.java:276)
+	at com.ibm.ws.webcontainer.cache.invocation.CachedInvocation.handleInvocation(CachedInvocation.java:71)
+	at com.ibm.ws.webcontainer.cache.invocation.CacheableInvocationContext.invoke(CacheableInvocationContext.java:116)
+	at com.ibm.ws.webcontainer.srp.ServletRequestProcessor.dispatchByURI(ServletRequestProcessor.java:186)
+	at com.ibm.ws.webcontainer.oselistener.OSEListenerDispatcher.service(OSEListener.java:334)
+	at com.ibm.ws.webcontainer.http.HttpConnection.handleRequest(HttpConnection.java:56)
+	at com.ibm.ws.http.HttpConnection.readAndHandleRequest(HttpConnection.java:618)
+	at com.ibm.ws.http.HttpConnection.run(HttpConnection.java:443)
+	at com.ibm.ws.util.ThreadPool$Worker.run(ThreadPool.java:672)
+
+Dump of callerThis = 
+Object type = com.ibm.ws.rsadapter.jdbc.WSJdbcPreparedStatement
+  _______________________________________________________________________
+  
+      First Failure Data Capture information for
+            com.ibm.ws.rsadapter.jdbc.WSJdbcPreparedStatement@47fbde86
+  _______________________________________________________________________
+  
+  Displaying FFDC information for wrapper hierarchy,
+
+  beginning from the Connection...
+
+  _______________________________________________________________________
+  
+      First Failure Data Capture information for
+            com.ibm.ws.rsadapter.jdbc.WSJdbcConnection@6dfb1e86
+  _______________________________________________________________________
+  
+  com.ibm.ws.rsadapter.jdbc.WSJdbcConnection@6dfb1e86
+
+  Transaction Manager global transaction status is
+    STATUS ACTIVE
+
+  Underlying Connection: COM.ibm.db2.jdbc.app.DB2ReusableConnection@2eb01e87
+    
+DB2Connection
+{
+    connectionHandle = 1
+    SPConnected = false
+    source = SAMPLE
+    user = 
+    conArgs = ;cursorhold=0
+    closed = false
+    describeCached = false
+    describeParam = true
+    isReadOnly = false
+    autoClose = false
+    LONGDATA compat = false
+}
+
+
+  Key Object:
+    [B@225d1e87
+
+  DataStoreHelper:
+    com.ibm.websphere.rsadapter.DB2DataStoreHelper@72a89e93
+
+  Connection Manager:
+    [ConnectionManager]@21395e84
+JNDI Name <jdbc/WSBOOK>
+shareable <true>
+
+
+  Connection Manager Configuration Data:
+    [Resource-ref settings]
+
+	res-auth:                 1 (APPLICATION)
+	res-isolation-level:      0 (TRANSACTION_NONE)
+	res-sharing-scope:        true (SHAREABLE)
+	res-resolution-control:   999 (undefined)
+[Other attributes]
+
+isCMP1_x:                 false (not CMP1.x)
+isJMS:                 false (not JMS)
+
+
+  Handle is reserved? false
+
+  AutoCommit value tracked by handle: true
+
+  Detection of multithreaded access is:
+    DISABLED
+
+  Thread id:
+    null
+
+  Wrapper State: 
+    ACTIVE
+
+  Parent wrapper:
+    null
+
+  Child wrappers:
+
+    null
+    com.ibm.ws.rsadapter.jdbc.WSJdbcPreparedStatement@47fbde86
+  
+  Performance Monitoring Instrumentation:
+    null
+
+  ____________________________________________________________
+
+  Child Wrapper #1
+
+  com.ibm.ws.rsadapter.jdbc.WSJdbcPreparedStatement@47fbde86
+
+  Underlying Statement: COM.ibm.db2.jdbc.app.DB2PreparedStatement@2fd15e86
+    
+DB2PreparedStatement 
+{
+    DB2Statement 
+    {
+        Connection -> DB2Connection
+        Connection -> {
+        Connection ->     connectionHandle = 1
+        Connection ->     SPConnected = false
+        Connection ->     source = SAMPLE
+        Connection ->     user = 
+        Connection ->     conArgs = ;cursorhold=0
+        Connection ->     closed = false
+        Connection ->     describeCached = false
+        Connection ->     describeParam = true
+        Connection ->     isReadOnly = false
+        Connection ->     autoClose = false
+        Connection ->     LONGDATA compat = false
+        Connection -> }
+
+        ResultSet -> null
+
+        statementHandle = 1:1
+        SQL = SELECT T1.EMPID, T1.NAME, T2.STREETADDRESS, T2.CITY, T2.STATE, T2.ZIPCODE, T2.ADDRESSKEY FROM USERID.EMPLOYEE  T1, USERID.ADDRESS  T2 WHERE T1.ADDRESSKEY = T2.ADDRESSKEY
+        maxRows = 0
+        maxFieldSize = 0
+        rowCount = 0
+        colCount = 0
+        closed = false
+        internalStmt = false
+        returnCode = -1
+    }
+
+    statementType = 24
+    executed = false
+    maxNumParams = 0
+}
+
+
+  Statement properties have changed? false
+
+  key:
+    PSTMT: SELECT T1.EMPID, T1.NAME, T2.STREETADDRESS, T2.CITY, T2.STATE, T2.ZIPCODE, T2.ADDRESSKEY FROM USERID.EMPLOYEE  T1, USERID.ADDRESS  T2 WHERE T1.ADDRESSKEY = T2.ADDRESSKEY 1003 1007
+
+  Wrapper State: 
+    ACTIVE
+
+  Parent wrapper:
+    com.ibm.ws.rsadapter.jdbc.WSJdbcConnection@6dfb1e86
+
+  Child wrappers:
+
+    null
+  
+  Performance Monitoring Instrumentation:
+    null
+
+  
+  ConnectionRequestInfo:
+    null
+
+  _______________________________________________________________________
+  
+      First Failure Data Capture information for
+            com.ibm.ws.rsadapter.spi.WSManagedConnectionFactoryImpl@51b9e93
+  _______________________________________________________________________
+  
+  Detection of multithreaded access is
+    DISABLED
+
+  DataSource properties:
+    {enableMultithreadedAccessDetection=false, dataSourceClass=COM.ibm.db2.jdbc.DB2ConnectionPoolDataSource, dataStoreHelperClass=com.ibm.websphere.rsadapter.DB2DataStoreHelper, description=, portNumber=, preTestSQLString=SELECT * FROM TABLE org, connectionAttribute=cursorhold=0, databaseName=SAMPLE, loginTimeout=0, enableSQLJ=false, statementCacheSize=10}
+
+  Database Type:
+    null
+
+  DataStoreHelper:
+    com.ibm.websphere.rsadapter.DB2DataStoreHelper@72a89e93
+
+  Description:
+    null
+
+  InternalDataStoreHelper:
+    com.ibm.ws.rsadapter.spi.InternalDB2DataStoreHelper@2efa1e93
+
+  Login Timeout:
+    0
+
+  Log Writer:
+    null
+
+  Performance Monitoring Instrumentation:
+    null
+
+  Statement Cache Size (maximum):
+    10
+
+  Transaction Resource Registration:
+    dynamic
+
+  Transaction Branches are set to be Loosely Coupled: 
+    false
+
+  Connection Factory Type:
+    com.ibm.ws.rsadapter.jdbc.WSJdbcDataSource
+
+  Implicit Handle Reactivation is
+    ENABLED
+
+  Listing CCI ConnectionFactories:
+
+    [ConnectionManager]@21395e84
+JNDI Name <jdbc/WSBOOK>
+shareable <true>
+ --> com.ibm.ws.rsadapter.cci.WSRdbConnectionFactoryImpl@16b01e84
+  
+  Listing JDBC ConnectionFactories (DataSources):
+
+    com.ibm.ejs.j2c.ConnectionManager@21395e84 --> com.ibm.ws.rsadapter.jdbc.WSJdbcDataSource@46d39e9a
+    com.ibm.ejs.j2c.ConnectionManager@4d56de90 --> com.ibm.ws.rsadapter.jdbc.WSJdbcDataSource@1bc5e90
+  
+  _______________________________________________________________________
+  
+      First Failure Data Capture information for
+            com.ibm.ws.rsadapter.spi.WSRdbDataSource@22691e93
+  _______________________________________________________________________
+  
+  DataSource Implementation Class Name:
+    COM.ibm.db2.jdbc.DB2ConnectionPoolDataSource
+
+  DataSource Name:
+    null
+
+  DataStoreHelper:
+    com.ibm.websphere.rsadapter.DB2DataStoreHelper@72a89e93
+
+  DataSource properties:
+    {enableMultithreadedAccessDetection=false, dataSourceClass=COM.ibm.db2.jdbc.DB2ConnectionPoolDataSource, dataStoreHelperClass=com.ibm.websphere.rsadapter.DB2DataStoreHelper, description=, portNumber=, preTestSQLString=SELECT * FROM TABLE org, connectionAttribute=cursorhold=0, databaseName=SAMPLE, loginTimeout=0, enableSQLJ=false, statementCacheSize=10}
+
+  ONE PHASE ENABLED
+
+  Underlying DataSource Object: COM.ibm.db2.jdbc.DB2ConnectionPoolDataSource@3cb1de93
+    class               = COM.ibm.db2.jdbc.DB2ConnectionPoolDataSource
+serverName          =
+portNumber          = 6789
+databaseName        = SAMPLE
+user                =
+password            =
+connectionAttribute = cursorhold=0
+language            = Ru_RU
+
+  _______________________________________________________________________
+  
+      First Failure Data Capture information for
+            com.ibm.ws.rsadapter.spi.WSRdbManagedConnectionImpl@222e5e87
+  _______________________________________________________________________
+  
+  ONE PHASE ENABLED
+
+  Database Type:
+    null
+
+  Transaction State:
+    LOCAL_TRANSACTION_ACTIVE
+
+  Statement Cache Size (maximum):
+    10
+
+  Key:
+    [B@225d1e87
+
+  Performance Monitoring Instrumentation:
+    null
+
+  Log Writer:
+    null
+
+  Default AutoCommit:
+    true
+
+  Current AutoCommit:
+    false
+
+  Current Isolation:
+    REPEATABLE READ
+
+  Support isolation level switching: 
+    true
+
+  Current Catalog:
+    null
+
+  Current readOnly:
+    false
+
+  Current TypeMap:
+    null
+
+  Thread ID:
+    null
+
+  Already Processed Interaction Pending Event?
+    true
+
+  Underlying Connection Object: COM.ibm.db2.jdbc.app.DB2ReusableConnection@2eb01e87
+    
+DB2Connection
+{
+    connectionHandle = 1
+    SPConnected = false
+    source = SAMPLE
+    user = 
+    conArgs = ;cursorhold=0
+    closed = false
+    describeCached = false
+    describeParam = true
+    isReadOnly = false
+    autoClose = false
+    LONGDATA compat = false
+}
+
+
+  Underlying PooledConnection Object: COM.ibm.db2.jdbc.DB2PooledConnection@57f01e87
+    COM.ibm.db2.jdbc.DB2PooledConnection@57f01e87
+
+  SQLJ Default Context: null
+    null
+
+  Driver version:
+    07.02.0005
+
+  Database version:
+    07.02.0005
+
+  Connection Event Listeners:
+
+    com.ibm.ejs.j2c.ConnectionEventListener@41b75e86
+  
+  Maximum Handle List Size: 15
+
+  Handle Count: 1
+
+  Handles:
+
+    com.ibm.ws.rsadapter.jdbc.WSJdbcConnection@6dfb1e86
+    null
+    null
+    null
+    null
+    null
+    null
+    null
+    null
+    null
+    null
+    null
+    null
+    null
+    null
+  
+  State Manager:
+    com.ibm.ws.rsadapter.spi.WSStateManager@4b835e86
+
+  _______________________________________________________________________
+  
+      First Failure Data Capture information for
+            com.ibm.ws.rsadapter.spi.WSRdbOnePhaseXaResourceImpl@58f51e86
+  _______________________________________________________________________
+  
+  Database Type:
+    null
+
+  Connection:
+    COM.ibm.db2.jdbc.app.DB2ReusableConnection@2eb01e87
+
+  ManagedConnection:
+    com.ibm.ws.rsadapter.spi.WSRdbManagedConnectionImpl@222e5e87
+
+  Detection of multithreaded access is:
+    DISABLED
+
+  _______________________________________________________________________
+  
+      First Failure Data Capture information for
+            com.ibm.ws.rsadapter.spi.WSRdbSpiLocalTransactionImpl@5e245e86
+  _______________________________________________________________________
+  
+  Connection:
+    COM.ibm.db2.jdbc.app.DB2ReusableConnection@2eb01e87
+
+  ManagedConnection:
+    com.ibm.ws.rsadapter.spi.WSRdbManagedConnectionImpl@222e5e87
+
+  Detection of multithreaded access is:
+    DISABLED
+
+  ManagedConnectionMetaData:
+    null
+
+  Statement Cache:
+    
+com.ibm.ws.rsadapter.spi.CacheMap@39b51e87
+Number of entries:   0
+Maximum entries:     10
+Number of buckets:   13
+Maximum bucket size: 5
+Number of discards:  0
+
+BUCKET SIZE PREV NEXT
+  000  000  013  013
+  001  000  013  013
+  002  000  013  013
+  003  000  013  013
+  004  000  013  013
+  005  000  013  013
+  006  000  013  013
+  007  000  013  013
+  008  000  013  013
+  009  000  013  013
+  010  000  013  013
+  011  000  013  013
+  012  000  013  013
+  013  LRU       014
+  014  MRU  013
+
+
+  _______________________________________________________________________
+  
+      First Failure Data Capture information for
+            com.ibm.ws.rsadapter.spi.WSConnectionRequestInfoImpl@4
+  _______________________________________________________________________
+  
+  User Name:
+    null
+
+  Password:
+    null
+
+  Isolation Level:
+    REPEATABLE READ
+
+  Catalog:
+    null
+
+  Is Read Only?
+    null
+
+  Type Map:
+    null
+
+  Hash Code:
+    4
+
+  Support isolation switching on connection:
+    false
+
+  Handle type:
+    java.sql.Connection
+
+  _______________________________________________________________________
+  
+      First Failure Data Capture information for
+            com.ibm.ws.rsadapter.spi.WSManagedConnectionFactoryImpl@51b9e93
+  _______________________________________________________________________
+  
+  Detection of multithreaded access is
+    DISABLED
+
+  DataSource properties:
+    {enableMultithreadedAccessDetection=false, dataSourceClass=COM.ibm.db2.jdbc.DB2ConnectionPoolDataSource, dataStoreHelperClass=com.ibm.websphere.rsadapter.DB2DataStoreHelper, description=, portNumber=, preTestSQLString=SELECT * FROM TABLE org, connectionAttribute=cursorhold=0, databaseName=SAMPLE, loginTimeout=0, enableSQLJ=false, statementCacheSize=10}
+
+  Database Type:
+    null
+
+  DataStoreHelper:
+    com.ibm.websphere.rsadapter.DB2DataStoreHelper@72a89e93
+
+  Description:
+    null
+
+  InternalDataStoreHelper:
+    com.ibm.ws.rsadapter.spi.InternalDB2DataStoreHelper@2efa1e93
+
+  Login Timeout:
+    0
+
+  Log Writer:
+    null
+
+  Performance Monitoring Instrumentation:
+    null
+
+  Statement Cache Size (maximum):
+    10
+
+  Transaction Resource Registration:
+    dynamic
+
+  Transaction Branches are set to be Loosely Coupled: 
+    false
+
+  Connection Factory Type:
+    com.ibm.ws.rsadapter.jdbc.WSJdbcDataSource
+
+  Implicit Handle Reactivation is
+    ENABLED
+
+  Listing CCI ConnectionFactories:
+
+    [ConnectionManager]@21395e84
+JNDI Name <jdbc/WSBOOK>
+shareable <true>
+ --> com.ibm.ws.rsadapter.cci.WSRdbConnectionFactoryImpl@16b01e84
+  
+  Listing JDBC ConnectionFactories (DataSources):
+
+    com.ibm.ejs.j2c.ConnectionManager@21395e84 --> com.ibm.ws.rsadapter.jdbc.WSJdbcDataSource@46d39e9a
+    com.ibm.ejs.j2c.ConnectionManager@4d56de90 --> com.ibm.ws.rsadapter.jdbc.WSJdbcDataSource@1bc5e90
+  
+  _______________________________________________________________________
+  
+      First Failure Data Capture information for
+            com.ibm.ws.rsadapter.spi.WSRdbDataSource@22691e93
+  _______________________________________________________________________
+  
+  DataSource Implementation Class Name:
+    COM.ibm.db2.jdbc.DB2ConnectionPoolDataSource
+
+  DataSource Name:
+    null
+
+  DataStoreHelper:
+    com.ibm.websphere.rsadapter.DB2DataStoreHelper@72a89e93
+
+  DataSource properties:
+    {enableMultithreadedAccessDetection=false, dataSourceClass=COM.ibm.db2.jdbc.DB2ConnectionPoolDataSource, dataStoreHelperClass=com.ibm.websphere.rsadapter.DB2DataStoreHelper, description=, portNumber=, preTestSQLString=SELECT * FROM TABLE org, connectionAttribute=cursorhold=0, databaseName=SAMPLE, loginTimeout=0, enableSQLJ=false, statementCacheSize=10}
+
+  ONE PHASE ENABLED
+
+  Underlying DataSource Object: COM.ibm.db2.jdbc.DB2ConnectionPoolDataSource@3cb1de93
+    class               = COM.ibm.db2.jdbc.DB2ConnectionPoolDataSource
+serverName          =
+portNumber          = 6789
+databaseName        = SAMPLE
+user                =
+password            =
+connectionAttribute = cursorhold=0
+language            = Ru_RU
+
+
+==> Performing default dump from com.ibm.ws.rsadapter.DiagnosticModuleForAdapter  = Mon Jul 23 18:08:53 MSD 2007
+This is a FFDC log generated for the Default Resource Adapter from source = com.ibm.ws.rsadapter.jdbc.WSJdbcPreparedStatement.executeQuery
+The exception caught = COM.ibm.db2.jdbc.DB2Exception: [IBM][CLI Driver][DB2/NT] SQL0204N  "USERID.EMPLOYEE" is an undefined name.  SQLSTATE=42704
+
+Operating System = Windows 2000 5.0 x86
+Classpath = C:\Program Files\IBM\WebSphere Studio\runtimes\base_v51/properties;C:\Program Files\IBM\WebSphere Studio\runtimes\base_v51/properties;C:\Program Files\IBM\WebSphere Studio\runtimes\base_v51/lib/bootstrap.jar;C:\Program Files\IBM\WebSphere Studio\runtimes\base_v51/lib/j2ee.jar;C:\Program Files\IBM\WebSphere Studio\runtimes\base_v51/lib/lmproxy.jar;C:\Program Files\IBM\WebSphere Studio\runtimes\base_v51/lib/urlprotocols.jar;C:/Program Files/IBM/WebSphere Studio/wstools/eclipse/plugins/com.ibm.etools.websphere.tools.common_5.1.1.1/runtime/wteServers.jar;C:/Program Files/IBM/WebSphere Studio/wstools/eclipse/plugins/com.ibm.etools.websphere.tools.common_5.1.1.1/runtime/wasToolsCommon.jar
+Ext dirs = C:\Program Files\IBM\WebSphere Studio\runtimes\base_v51\java\jre\lib\ext
+Other related data. If null, nothing was passed in = 
+null
+
+The Objects' instance variables are printed below recursively 2 levels deep = 
+Object type = com.ibm.ws.rsadapter.jdbc.WSJdbcPreparedStatement
+  _______________________________________________________________________
+  
+      First Failure Data Capture information for
+            com.ibm.ws.rsadapter.jdbc.WSJdbcPreparedStatement@47fbde86
+  _______________________________________________________________________
+  
+  Displaying FFDC information for wrapper hierarchy,
+
+  beginning from the Connection...
+
+  _______________________________________________________________________
+  
+      First Failure Data Capture information for
+            com.ibm.ws.rsadapter.jdbc.WSJdbcConnection@6dfb1e86
+  _______________________________________________________________________
+  
+  com.ibm.ws.rsadapter.jdbc.WSJdbcConnection@6dfb1e86
+
+  Transaction Manager global transaction status is
+    STATUS ACTIVE
+
+  Underlying Connection: COM.ibm.db2.jdbc.app.DB2ReusableConnection@2eb01e87
+    
+DB2Connection
+{
+    connectionHandle = 1
+    SPConnected = false
+    source = SAMPLE
+    user = 
+    conArgs = ;cursorhold=0
+    closed = false
+    describeCached = false
+    describeParam = true
+    isReadOnly = false
+    autoClose = false
+    LONGDATA compat = false
+}
+
+
+  Key Object:
+    [B@225d1e87
+
+  DataStoreHelper:
+    com.ibm.websphere.rsadapter.DB2DataStoreHelper@72a89e93
+
+  Connection Manager:
+    [ConnectionManager]@21395e84
+JNDI Name <jdbc/WSBOOK>
+shareable <true>
+
+
+  Connection Manager Configuration Data:
+    [Resource-ref settings]
+
+	res-auth:                 1 (APPLICATION)
+	res-isolation-level:      0 (TRANSACTION_NONE)
+	res-sharing-scope:        true (SHAREABLE)
+	res-resolution-control:   999 (undefined)
+[Other attributes]
+
+isCMP1_x:                 false (not CMP1.x)
+isJMS:                 false (not JMS)
+
+
+  Handle is reserved? false
+
+  AutoCommit value tracked by handle: true
+
+  Detection of multithreaded access is:
+    DISABLED
+
+  Thread id:
+    null
+
+  Wrapper State: 
+    ACTIVE
+
+  Parent wrapper:
+    null
+
+  Child wrappers:
+
+    null
+    com.ibm.ws.rsadapter.jdbc.WSJdbcPreparedStatement@47fbde86
+  
+  Performance Monitoring Instrumentation:
+    null
+
+  ____________________________________________________________
+
+  Child Wrapper #1
+
+  com.ibm.ws.rsadapter.jdbc.WSJdbcPreparedStatement@47fbde86
+
+  Underlying Statement: COM.ibm.db2.jdbc.app.DB2PreparedStatement@2fd15e86
+    
+DB2PreparedStatement 
+{
+    DB2Statement 
+    {
+        Connection -> DB2Connection
+        Connection -> {
+        Connection ->     connectionHandle = 1
+        Connection ->     SPConnected = false
+        Connection ->     source = SAMPLE
+        Connection ->     user = 
+        Connection ->     conArgs = ;cursorhold=0
+        Connection ->     closed = false
+        Connection ->     describeCached = false
+        Connection ->     describeParam = true
+        Connection ->     isReadOnly = false
+        Connection ->     autoClose = false
+        Connection ->     LONGDATA compat = false
+        Connection -> }
+
+        ResultSet -> null
+
+        statementHandle = 1:1
+        SQL = SELECT T1.EMPID, T1.NAME, T2.STREETADDRESS, T2.CITY, T2.STATE, T2.ZIPCODE, T2.ADDRESSKEY FROM USERID.EMPLOYEE  T1, USERID.ADDRESS  T2 WHERE T1.ADDRESSKEY = T2.ADDRESSKEY
+        maxRows = 0
+        maxFieldSize = 0
+        rowCount = 0
+        colCount = 0
+        closed = false
+        internalStmt = false
+        returnCode = -1
+    }
+
+    statementType = 24
+    executed = false
+    maxNumParams = 0
+}
+
+
+  Statement properties have changed? false
+
+  key:
+    PSTMT: SELECT T1.EMPID, T1.NAME, T2.STREETADDRESS, T2.CITY, T2.STATE, T2.ZIPCODE, T2.ADDRESSKEY FROM USERID.EMPLOYEE  T1, USERID.ADDRESS  T2 WHERE T1.ADDRESSKEY = T2.ADDRESSKEY 1003 1007
+
+  Wrapper State: 
+    ACTIVE
+
+  Parent wrapper:
+    com.ibm.ws.rsadapter.jdbc.WSJdbcConnection@6dfb1e86
+
+  Child wrappers:
+
+    null
+  
+  Performance Monitoring Instrumentation:
+    null
+
+  
+  ConnectionRequestInfo:
+    null
+
+  _______________________________________________________________________
+  
+      First Failure Data Capture information for
+            com.ibm.ws.rsadapter.spi.WSManagedConnectionFactoryImpl@51b9e93
+  _______________________________________________________________________
+  
+  Detection of multithreaded access is
+    DISABLED
+
+  DataSource properties:
+    {enableMultithreadedAccessDetection=false, dataSourceClass=COM.ibm.db2.jdbc.DB2ConnectionPoolDataSource, dataStoreHelperClass=com.ibm.websphere.rsadapter.DB2DataStoreHelper, description=, portNumber=, preTestSQLString=SELECT * FROM TABLE org, connectionAttribute=cursorhold=0, databaseName=SAMPLE, loginTimeout=0, enableSQLJ=false, statementCacheSize=10}
+
+  Database Type:
+    null
+
+  DataStoreHelper:
+    com.ibm.websphere.rsadapter.DB2DataStoreHelper@72a89e93
+
+  Description:
+    null
+
+  InternalDataStoreHelper:
+    com.ibm.ws.rsadapter.spi.InternalDB2DataStoreHelper@2efa1e93
+
+  Login Timeout:
+    0
+
+  Log Writer:
+    null
+
+  Performance Monitoring Instrumentation:
+    null
+
+  Statement Cache Size (maximum):
+    10
+
+  Transaction Resource Registration:
+    dynamic
+
+  Transaction Branches are set to be Loosely Coupled: 
+    false
+
+  Connection Factory Type:
+    com.ibm.ws.rsadapter.jdbc.WSJdbcDataSource
+
+  Implicit Handle Reactivation is
+    ENABLED
+
+  Listing CCI ConnectionFactories:
+
+    [ConnectionManager]@21395e84
+JNDI Name <jdbc/WSBOOK>
+shareable <true>
+ --> com.ibm.ws.rsadapter.cci.WSRdbConnectionFactoryImpl@16b01e84
+  
+  Listing JDBC ConnectionFactories (DataSources):
+
+    com.ibm.ejs.j2c.ConnectionManager@21395e84 --> com.ibm.ws.rsadapter.jdbc.WSJdbcDataSource@46d39e9a
+    com.ibm.ejs.j2c.ConnectionManager@4d56de90 --> com.ibm.ws.rsadapter.jdbc.WSJdbcDataSource@1bc5e90
+  
+  _______________________________________________________________________
+  
+      First Failure Data Capture information for
+            com.ibm.ws.rsadapter.spi.WSRdbDataSource@22691e93
+  _______________________________________________________________________
+  
+  DataSource Implementation Class Name:
+    COM.ibm.db2.jdbc.DB2ConnectionPoolDataSource
+
+  DataSource Name:
+    null
+
+  DataStoreHelper:
+    com.ibm.websphere.rsadapter.DB2DataStoreHelper@72a89e93
+
+  DataSource properties:
+    {enableMultithreadedAccessDetection=false, dataSourceClass=COM.ibm.db2.jdbc.DB2ConnectionPoolDataSource, dataStoreHelperClass=com.ibm.websphere.rsadapter.DB2DataStoreHelper, description=, portNumber=, preTestSQLString=SELECT * FROM TABLE org, connectionAttribute=cursorhold=0, databaseName=SAMPLE, loginTimeout=0, enableSQLJ=false, statementCacheSize=10}
+
+  ONE PHASE ENABLED
+
+  Underlying DataSource Object: COM.ibm.db2.jdbc.DB2ConnectionPoolDataSource@3cb1de93
+    class               = COM.ibm.db2.jdbc.DB2ConnectionPoolDataSource
+serverName          =
+portNumber          = 6789
+databaseName        = SAMPLE
+user                =
+password            =
+connectionAttribute = cursorhold=0
+language            = Ru_RU
+
+  _______________________________________________________________________
+  
+      First Failure Data Capture information for
+            com.ibm.ws.rsadapter.spi.WSRdbManagedConnectionImpl@222e5e87
+  _______________________________________________________________________
+  
+  ONE PHASE ENABLED
+
+  Database Type:
+    null
+
+  Transaction State:
+    LOCAL_TRANSACTION_ACTIVE
+
+  Statement Cache Size (maximum):
+    10
+
+  Key:
+    [B@225d1e87
+
+  Performance Monitoring Instrumentation:
+    null
+
+  Log Writer:
+    null
+
+  Default AutoCommit:
+    true
+
+  Current AutoCommit:
+    false
+
+  Current Isolation:
+    REPEATABLE READ
+
+  Support isolation level switching: 
+    true
+
+  Current Catalog:
+    null
+
+  Current readOnly:
+    false
+
+  Current TypeMap:
+    null
+
+  Thread ID:
+    null
+
+  Already Processed Interaction Pending Event?
+    true
+
+  Underlying Connection Object: COM.ibm.db2.jdbc.app.DB2ReusableConnection@2eb01e87
+    
+DB2Connection
+{
+    connectionHandle = 1
+    SPConnected = false
+    source = SAMPLE
+    user = 
+    conArgs = ;cursorhold=0
+    closed = false
+    describeCached = false
+    describeParam = true
+    isReadOnly = false
+    autoClose = false
+    LONGDATA compat = false
+}
+
+
+  Underlying PooledConnection Object: COM.ibm.db2.jdbc.DB2PooledConnection@57f01e87
+    COM.ibm.db2.jdbc.DB2PooledConnection@57f01e87
+
+  SQLJ Default Context: null
+    null
+
+  Driver version:
+    07.02.0005
+
+  Database version:
+    07.02.0005
+
+  Connection Event Listeners:
+
+    com.ibm.ejs.j2c.ConnectionEventListener@41b75e86
+  
+  Maximum Handle List Size: 15
+
+  Handle Count: 1
+
+  Handles:
+
+    com.ibm.ws.rsadapter.jdbc.WSJdbcConnection@6dfb1e86
+    null
+    null
+    null
+    null
+    null
+    null
+    null
+    null
+    null
+    null
+    null
+    null
+    null
+    null
+  
+  State Manager:
+    com.ibm.ws.rsadapter.spi.WSStateManager@4b835e86
+
+  _______________________________________________________________________
+  
+      First Failure Data Capture information for
+            com.ibm.ws.rsadapter.spi.WSRdbOnePhaseXaResourceImpl@58f51e86
+  _______________________________________________________________________
+  
+  Database Type:
+    null
+
+  Connection:
+    COM.ibm.db2.jdbc.app.DB2ReusableConnection@2eb01e87
+
+  ManagedConnection:
+    com.ibm.ws.rsadapter.spi.WSRdbManagedConnectionImpl@222e5e87
+
+  Detection of multithreaded access is:
+    DISABLED
+
+  _______________________________________________________________________
+  
+      First Failure Data Capture information for
+            com.ibm.ws.rsadapter.spi.WSRdbSpiLocalTransactionImpl@5e245e86
+  _______________________________________________________________________
+  
+  Connection:
+    COM.ibm.db2.jdbc.app.DB2ReusableConnection@2eb01e87
+
+  ManagedConnection:
+    com.ibm.ws.rsadapter.spi.WSRdbManagedConnectionImpl@222e5e87
+
+  Detection of multithreaded access is:
+    DISABLED
+
+  ManagedConnectionMetaData:
+    null
+
+  Statement Cache:
+    
+com.ibm.ws.rsadapter.spi.CacheMap@39b51e87
+Number of entries:   0
+Maximum entries:     10
+Number of buckets:   13
+Maximum bucket size: 5
+Number of discards:  0
+
+BUCKET SIZE PREV NEXT
+  000  000  013  013
+  001  000  013  013
+  002  000  013  013
+  003  000  013  013
+  004  000  013  013
+  005  000  013  013
+  006  000  013  013
+  007  000  013  013
+  008  000  013  013
+  009  000  013  013
+  010  000  013  013
+  011  000  013  013
+  012  000  013  013
+  013  LRU       014
+  014  MRU  013
+
+
+  _______________________________________________________________________
+  
+      First Failure Data Capture information for
+            com.ibm.ws.rsadapter.spi.WSConnectionRequestInfoImpl@4
+  _______________________________________________________________________
+  
+  User Name:
+    null
+
+  Password:
+    null
+
+  Isolation Level:
+    REPEATABLE READ
+
+  Catalog:
+    null
+
+  Is Read Only?
+    null
+
+  Type Map:
+    null
+
+  Hash Code:
+    4
+
+  Support isolation switching on connection:
+    false
+
+  Handle type:
+    java.sql.Connection
+
+  _______________________________________________________________________
+  
+      First Failure Data Capture information for
+            com.ibm.ws.rsadapter.spi.WSManagedConnectionFactoryImpl@51b9e93
+  _______________________________________________________________________
+  
+  Detection of multithreaded access is
+    DISABLED
+
+  DataSource properties:
+    {enableMultithreadedAccessDetection=false, dataSourceClass=COM.ibm.db2.jdbc.DB2ConnectionPoolDataSource, dataStoreHelperClass=com.ibm.websphere.rsadapter.DB2DataStoreHelper, description=, portNumber=, preTestSQLString=SELECT * FROM TABLE org, connectionAttribute=cursorhold=0, databaseName=SAMPLE, loginTimeout=0, enableSQLJ=false, statementCacheSize=10}
+
+  Database Type:
+    null
+
+  DataStoreHelper:
+    com.ibm.websphere.rsadapter.DB2DataStoreHelper@72a89e93
+
+  Description:
+    null
+
+  InternalDataStoreHelper:
+    com.ibm.ws.rsadapter.spi.InternalDB2DataStoreHelper@2efa1e93
+
+  Login Timeout:
+    0
+
+  Log Writer:
+    null
+
+  Performance Monitoring Instrumentation:
+    null
+
+  Statement Cache Size (maximum):
+    10
+
+  Transaction Resource Registration:
+    dynamic
+
+  Transaction Branches are set to be Loosely Coupled: 
+    false
+
+  Connection Factory Type:
+    com.ibm.ws.rsadapter.jdbc.WSJdbcDataSource
+
+  Implicit Handle Reactivation is
+    ENABLED
+
+  Listing CCI ConnectionFactories:
+
+    [ConnectionManager]@21395e84
+JNDI Name <jdbc/WSBOOK>
+shareable <true>
+ --> com.ibm.ws.rsadapter.cci.WSRdbConnectionFactoryImpl@16b01e84
+  
+  Listing JDBC ConnectionFactories (DataSources):
+
+    com.ibm.ejs.j2c.ConnectionManager@21395e84 --> com.ibm.ws.rsadapter.jdbc.WSJdbcDataSource@46d39e9a
+    com.ibm.ejs.j2c.ConnectionManager@4d56de90 --> com.ibm.ws.rsadapter.jdbc.WSJdbcDataSource@1bc5e90
+  
+  _______________________________________________________________________
+  
+      First Failure Data Capture information for
+            com.ibm.ws.rsadapter.spi.WSRdbDataSource@22691e93
+  _______________________________________________________________________
+  
+  DataSource Implementation Class Name:
+    COM.ibm.db2.jdbc.DB2ConnectionPoolDataSource
+
+  DataSource Name:
+    null
+
+  DataStoreHelper:
+    com.ibm.websphere.rsadapter.DB2DataStoreHelper@72a89e93
+
+  DataSource properties:
+    {enableMultithreadedAccessDetection=false, dataSourceClass=COM.ibm.db2.jdbc.DB2ConnectionPoolDataSource, dataStoreHelperClass=com.ibm.websphere.rsadapter.DB2DataStoreHelper, description=, portNumber=, preTestSQLString=SELECT * FROM TABLE org, connectionAttribute=cursorhold=0, databaseName=SAMPLE, loginTimeout=0, enableSQLJ=false, statementCacheSize=10}
+
+  ONE PHASE ENABLED
+
+  Underlying DataSource Object: COM.ibm.db2.jdbc.DB2ConnectionPoolDataSource@3cb1de93
+    class               = COM.ibm.db2.jdbc.DB2ConnectionPoolDataSource
+serverName          =
+portNumber          = 6789
+databaseName        = SAMPLE
+user                =
+password            =
+connectionAttribute = cursorhold=0
+language            = Ru_RU
+
+
++Data for directive [defaultadapter] obtained. = 
+==> Dump complete for com.ibm.ws.rsadapter.DiagnosticModuleForAdapter  = Mon Jul 23 18:08:54 MSD 2007

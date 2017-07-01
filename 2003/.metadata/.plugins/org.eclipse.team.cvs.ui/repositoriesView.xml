@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<repositories-view>
+	<repository id=":pserver:IShaffigulin@172.21.9.181:/cvs/repository">
+		<module lastAcessTime="1223471924204" path="TimeSheetGroup">
+			<tag name="TimeSheet_v1" type="version"/>
+		</module>
+		<module lastAcessTime="1223471924204" path="OIDGenerator">
+			<tag name="TimeSheet_v1" type="version"/>
+		</module>
+		<module lastAcessTime="1223471924204" path="TimeSheet-AppLogic">
+			<tag name="TimeSheet_v1" type="version"/>
+		</module>
+		<module lastAcessTime="1223471924204" path="NRI-AppLogic">
+			<tag name="Root_ChangeOrgToVendor_2" type="version"/>
+			<tag name="Root_ChangeOrgToVendor_1" type="version"/>
+			<tag name="Root_ChangeOrgToVendor" type="version"/>
+			<tag name="nriAppLogic_v1" type="version"/>
+			<tag name="ChangeOrgToVendor" type="branch"/>
+			<tag name="vers2" type="version"/>
+			<tag name="vers1" type="version"/>
+		</module>
+		<module lastAcessTime="1223471924204" path="TimeApp">
+			<tag name="TimeSheet_v1" type="version"/>
+		</module>
+		<module lastAcessTime="1223471924204" path="wasbook">
+			<tag name="TimeSheet_v1" type="version"/>
+		</module>
+		<module lastAcessTime="1223471924204" path="TimeAppTestClient">
+			<tag name="TimeSheet_v1" type="version"/>
+		</module>
+	</repository>
+</repositories-view>

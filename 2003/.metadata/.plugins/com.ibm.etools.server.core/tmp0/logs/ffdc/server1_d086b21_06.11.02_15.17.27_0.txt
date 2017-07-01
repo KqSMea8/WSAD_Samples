@@ -1,0 +1,141 @@
+------Start of DE processing------ = [06.11.02 15:17:27:639 MSK] , key = COM.ibm.db2.jdbc.DB2Exception com.ibm.ws.rsadapter.spi.WSRdbDataSource.getConnection 260
+Exception = COM.ibm.db2.jdbc.DB2Exception
+Source = com.ibm.ws.rsadapter.spi.WSRdbDataSource.getConnection
+probeid = 260
+Stack Dump = COM.ibm.db2.jdbc.DB2Exception: [IBM][CLI Driver] SQL1032N  No start database manager command was issued.  SQLSTATE=57019
+
+	at COM.ibm.db2.jdbc.app.SQLExceptionGenerator.throw_SQLException(SQLExceptionGenerator.java:184)
+	at COM.ibm.db2.jdbc.app.SQLExceptionGenerator.check_return_code(SQLExceptionGenerator.java:441)
+	at COM.ibm.db2.jdbc.app.DB2Connection.connect(DB2Connection.java:493)
+	at COM.ibm.db2.jdbc.app.DB2Connection.<init>(DB2Connection.java:398)
+	at COM.ibm.db2.jdbc.app.DB2ReusableConnection.<init>(DB2ReusableConnection.java:69)
+	at COM.ibm.db2.jdbc.DB2PooledConnection.getConnection(DB2PooledConnection.java:188)
+	at com.ibm.ws.rsadapter.spi.WSRdbDataSource.getConnection(WSRdbDataSource.java:670)
+	at com.ibm.ws.rsadapter.spi.WSManagedConnectionFactoryImpl.createManagedConnection(WSManagedConnectionFactoryImpl.java:727)
+	at com.ibm.ejs.j2c.poolmanager.FreePool.createManagedConnectionWithMCWrapper(FreePool.java:1281)
+	at com.ibm.ejs.j2c.poolmanager.FreePool.createOrWaitForConnection(FreePool.java:1065)
+	at com.ibm.ejs.j2c.poolmanager.PoolManager.reserve(PoolManager.java:1603)
+	at com.ibm.ejs.j2c.ConnectionManager.allocateMCWrapper(ConnectionManager.java:677)
+	at com.ibm.ejs.j2c.ConnectionManager.allocateConnection(ConnectionManager.java:461)
+	at com.ibm.ws.rsadapter.cci.WSRdbConnectionFactoryImpl.getConnection(WSRdbConnectionFactoryImpl.java:160)
+	at com.ibm.ws.rsadapter.cci.WSRelationalRAAdapter.getLockType(WSRelationalRAAdapter.java:412)
+	at com.ibm.ws.ejbpersistence.beanextensions.ConcreteBeanClassExtensionImpl.getLockType(Unknown Source)
+	at com.ibm.ws.ejbpersistence.beanextensions.DataAccessSpecGroup.getBeanFinder(Unknown Source)
+	at com.ibm.ws.ejbpersistence.beanextensions.DataAccessSpecManager.getDataAccessSpec(Unknown Source)
+	at com.ibm.ws.ejbpersistence.beanextensions.ConcreteBeanClassExtensionImpl.getDataAccessSpec(Unknown Source)
+	at com.ibm.ws.ejbpersistence.beanextensions.ConcreteBeanStatefulInstanceExtensionImpl.getDataAccessSpec(Unknown Source)
+	at com.ibm.ws.ejbpersistence.beanextensions.ConcreteBeanStatefulInstanceExtensionImpl.executeFind(Unknown Source)
+	at com.wsbook.casestudy.ejb.ConcreteTimeSheetEJB_9e979f5e.ejbFindAll_Local(ConcreteTimeSheetEJB_9e979f5e.java:116)
+	at com.wsbook.casestudy.ejb.EJSCMPTimeSheetEJBHomeBean_9e979f5e.findAll_Local(EJSCMPTimeSheetEJBHomeBean_9e979f5e.java:180)
+	at com.wsbook.casestudy.ejb.EJSLocalCMPTimeSheetEJBHome_9e979f5e.findAll(EJSLocalCMPTimeSheetEJBHome_9e979f5e.java:151)
+	at com.wsbook.casestudy.mapping.ejb.TimeSheetMapper.findAllEJBs(TimeSheetMapper.java:101)
+	at com.wsbook.casestudy.mapping.ejb.DomainEJBMapper.findAll(DomainEJBMapper.java:57)
+	at com.wsbook.casestudy.mapping.ejb.TimeSheetMapper.findAllPending(TimeSheetMapper.java:284)
+	at com.wsbook.casestudy.ejb.TimeSheetActionProcessorFacadeBean.getPendingTimeSheets(TimeSheetActionProcessorFacadeBean.java:205)
+	at com.wsbook.casestudy.ejb.EJSRemoteStatelessTimeSheetActionProcessorFacade_7ee0ab51.getPendingTimeSheets(EJSRemoteStatelessTimeSheetActionProcessorFacade_7ee0ab51.java:346)
+	at com.wsbook.casestudy.ejb._TimeSheetActionProcessorFacade_Stub.getPendingTimeSheets(_TimeSheetActionProcessorFacade_Stub.java:727)
+	at com.wsbook.casestudy.model.ejb.TimeSheetActionProcessorImpl.getPendingTimeSheets(TimeSheetActionProcessorImpl.java:374)
+	at com.wsbook.casestudy.action.ListPendingTimeSheetsAction.perform(ListPendingTimeSheetsAction.java:48)
+	at org.apache.struts.action.ActionServlet.processActionPerform(ActionServlet.java:1786)
+	at org.apache.struts.action.ActionServlet.process(ActionServlet.java:1585)
+	at org.apache.struts.action.ActionServlet.doGet(ActionServlet.java:491)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:740)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:853)
+	at com.ibm.ws.webcontainer.servlet.StrictServletInstance.doService(StrictServletInstance.java:110)
+	at com.ibm.ws.webcontainer.servlet.StrictLifecycleServlet._service(StrictLifecycleServlet.java:174)
+	at com.ibm.ws.webcontainer.servlet.IdleServletState.service(StrictLifecycleServlet.java:313)
+	at com.ibm.ws.webcontainer.servlet.StrictLifecycleServlet.service(StrictLifecycleServlet.java:116)
+	at com.ibm.ws.webcontainer.servlet.ServletInstance.service(ServletInstance.java:283)
+	at com.ibm.ws.webcontainer.servlet.ValidServletReferenceState.dispatch(ValidServletReferenceState.java:42)
+	at com.ibm.ws.webcontainer.servlet.ServletInstanceReference.dispatch(ServletInstanceReference.java:40)
+	at com.ibm.ws.webcontainer.webapp.WebAppRequestDispatcher.handleWebAppDispatch(WebAppRequestDispatcher.java:983)
+	at com.ibm.ws.webcontainer.webapp.WebAppRequestDispatcher.dispatch(WebAppRequestDispatcher.java:564)
+	at com.ibm.ws.webcontainer.webapp.WebAppRequestDispatcher.forward(WebAppRequestDispatcher.java:200)
+	at com.ibm.ws.webcontainer.srt.WebAppInvoker.doForward(WebAppInvoker.java:119)
+	at com.ibm.ws.webcontainer.srt.WebAppInvoker.handleInvocationHook(WebAppInvoker.java:276)
+	at com.ibm.ws.webcontainer.cache.invocation.CachedInvocation.handleInvocation(CachedInvocation.java:71)
+	at com.ibm.ws.webcontainer.srp.ServletRequestProcessor.dispatchByURI(ServletRequestProcessor.java:182)
+	at com.ibm.ws.webcontainer.oselistener.OSEListenerDispatcher.service(OSEListener.java:334)
+	at com.ibm.ws.webcontainer.http.HttpConnection.handleRequest(HttpConnection.java:56)
+	at com.ibm.ws.http.HttpConnection.readAndHandleRequest(HttpConnection.java:618)
+	at com.ibm.ws.http.HttpConnection.run(HttpConnection.java:443)
+	at com.ibm.ws.util.ThreadPool$Worker.run(ThreadPool.java:672)
+
+Dump of callerThis = 
+Object type = com.ibm.ws.rsadapter.spi.WSRdbDataSource
+  _______________________________________________________________________
+  
+      First Failure Data Capture information for
+            com.ibm.ws.rsadapter.spi.WSRdbDataSource@2966ab2d
+  _______________________________________________________________________
+  
+  DataSource Implementation Class Name:
+    COM.ibm.db2.jdbc.DB2ConnectionPoolDataSource
+
+  DataSource Name:
+    null
+
+  DataStoreHelper:
+    com.ibm.websphere.rsadapter.DB2DataStoreHelper@73c62b2c
+
+  DataSource properties:
+    {enableMultithreadedAccessDetection=false, dataSourceClass=COM.ibm.db2.jdbc.DB2ConnectionPoolDataSource, dataStoreHelperClass=com.ibm.websphere.rsadapter.DB2DataStoreHelper, description=, portNumber=, preTestSQLString=SELECT * FROM TABLE org, connectionAttribute=cursorhold=0, databaseName=SAMPLE, loginTimeout=0, enableSQLJ=false, statementCacheSize=10}
+
+  ONE PHASE ENABLED
+
+  Underlying DataSource Object: COM.ibm.db2.jdbc.DB2ConnectionPoolDataSource@53f46b33
+    class               = COM.ibm.db2.jdbc.DB2ConnectionPoolDataSource
+serverName          =
+portNumber          = 6789
+databaseName        = SAMPLE
+user                =
+password            =
+connectionAttribute = cursorhold=0
+language            = Ru_RU
+
+
+==> Performing default dump from com.ibm.ws.rsadapter.DiagnosticModuleForAdapter  = Thu Nov 02 15:17:27 MSK 2006
+This is a FFDC log generated for the Default Resource Adapter from source = com.ibm.ws.rsadapter.spi.WSRdbDataSource.getConnection
+The exception caught = COM.ibm.db2.jdbc.DB2Exception: [IBM][CLI Driver] SQL1032N  No start database manager command was issued.  SQLSTATE=57019
+
+Operating System = Windows 2000 5.0 x86
+Classpath = C:\Program Files\IBM\WebSphere Studio\runtimes\base_v51/properties;C:\Program Files\IBM\WebSphere Studio\runtimes\base_v51/properties;C:\Program Files\IBM\WebSphere Studio\runtimes\base_v51/lib/bootstrap.jar;C:\Program Files\IBM\WebSphere Studio\runtimes\base_v51/lib/j2ee.jar;C:\Program Files\IBM\WebSphere Studio\runtimes\base_v51/lib/lmproxy.jar;C:\Program Files\IBM\WebSphere Studio\runtimes\base_v51/lib/urlprotocols.jar;C:/Program Files/IBM/WebSphere Studio/wstools/eclipse/plugins/com.ibm.etools.websphere.tools.common_5.1.1.1/runtime/wteServers.jar;C:/Program Files/IBM/WebSphere Studio/wstools/eclipse/plugins/com.ibm.etools.websphere.tools.common_5.1.1.1/runtime/wasToolsCommon.jar
+Ext dirs = C:\Program Files\IBM\WebSphere Studio\runtimes\base_v51\java\jre\lib\ext
+Other related data. If null, nothing was passed in = 
+null
+
+The Objects' instance variables are printed below recursively 2 levels deep = 
+Object type = com.ibm.ws.rsadapter.spi.WSRdbDataSource
+  _______________________________________________________________________
+  
+      First Failure Data Capture information for
+            com.ibm.ws.rsadapter.spi.WSRdbDataSource@2966ab2d
+  _______________________________________________________________________
+  
+  DataSource Implementation Class Name:
+    COM.ibm.db2.jdbc.DB2ConnectionPoolDataSource
+
+  DataSource Name:
+    null
+
+  DataStoreHelper:
+    com.ibm.websphere.rsadapter.DB2DataStoreHelper@73c62b2c
+
+  DataSource properties:
+    {enableMultithreadedAccessDetection=false, dataSourceClass=COM.ibm.db2.jdbc.DB2ConnectionPoolDataSource, dataStoreHelperClass=com.ibm.websphere.rsadapter.DB2DataStoreHelper, description=, portNumber=, preTestSQLString=SELECT * FROM TABLE org, connectionAttribute=cursorhold=0, databaseName=SAMPLE, loginTimeout=0, enableSQLJ=false, statementCacheSize=10}
+
+  ONE PHASE ENABLED
+
+  Underlying DataSource Object: COM.ibm.db2.jdbc.DB2ConnectionPoolDataSource@53f46b33
+    class               = COM.ibm.db2.jdbc.DB2ConnectionPoolDataSource
+serverName          =
+portNumber          = 6789
+databaseName        = SAMPLE
+user                =
+password            =
+connectionAttribute = cursorhold=0
+language            = Ru_RU
+
+
++Data for directive [defaultadapter] obtained. = 
+==> Dump complete for com.ibm.ws.rsadapter.DiagnosticModuleForAdapter  = Thu Nov 02 15:17:27 MSK 2006

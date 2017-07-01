@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RDBSchema:RDBTable xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:RDBSchema="RDBSchema.xmi" xmi:id="RDBTable_1032744150489" name="EMPLOYEE" primaryKey="SQLReference_1032744150469">
+  <database href="WEB-INF/databases/Con3_WASBOOK.dbxmi#RDBDatabase_1032744150429"/>
+  <schema href="WEB-INF/databases/Con3_WASBOOK_JAMSDEN.schxmi#RDBSchema_1032744150429"/>
+  <columns xmi:type="RDBSchema:RDBColumn" xmi:id="RDBColumn_1032744150489" name="EMPID" allowNull="false">
+    <type xmi:type="RDBSchema:SQLCharacterStringType" xmi:id="SQLCharacterStringType_1032744150489" characterSet="800" length="10">
+      <originatingType xmi:type="RDBSchema:SQLCharacterStringType" href="DB2UDBNT_V72_Primitives.xmi#SQLCharacterStringType_3"/>
+    </type>
+  </columns>
+  <columns xmi:type="RDBSchema:RDBColumn" xmi:id="RDBColumn_1032744150490" name="NAME" allowNull="false">
+    <type xmi:type="RDBSchema:SQLCharacterStringType" xmi:id="SQLCharacterStringType_1032744150490" characterSet="800" length="30">
+      <originatingType xmi:type="RDBSchema:SQLCharacterStringType" href="DB2UDBNT_V72_Primitives.xmi#SQLCharacterStringType_3"/>
+    </type>
+  </columns>
+  <columns xmi:type="RDBSchema:RDBColumn" xmi:id="RDBColumn_1032744150491" name="ADDRESSKEY" allowNull="true">
+    <type xmi:type="RDBSchema:SQLExactNumeric" xmi:id="SQLExactNumeric_1032744150489">
+      <originatingType xmi:type="RDBSchema:SQLExactNumeric" href="DB2UDBNT_V72_Primitives.xmi#SQLExactNumeric_1"/>
+    </type>
+  </columns>
+  <columns xmi:type="RDBSchema:RDBColumn" xmi:id="RDBColumn_1032744150492" name="DEPTNO" allowNull="true">
+    <type xmi:type="RDBSchema:SQLExactNumeric" xmi:id="SQLExactNumeric_1032744150490">
+      <originatingType xmi:type="RDBSchema:SQLExactNumeric" href="DB2UDBNT_V72_Primitives.xmi#SQLExactNumeric_1"/>
+    </type>
+  </columns>
+  <namedGroup xmi:type="RDBSchema:SQLReference" xmi:id="SQLReference_1032744150469" name="EMPLOYEEPK" members="RDBColumn_1032744150489" constraint="SQLConstraint_1032744150489">
+    <referenceByKey href="WEB-INF/databases/Con3_WASBOOK_JAMSDEN_TIMESHEET.tblxmi#RDBReferenceByKey_1032744150469"/>
+    <referenceByKey href="WEB-INF/databases/Con3_WASBOOK_JAMSDEN_TIMESHEET.tblxmi#RDBReferenceByKey_1032744150470"/>
+  </namedGroup>
+  <namedGroup xmi:type="RDBSchema:RDBReferenceByKey" xmi:id="RDBReferenceByKey_1032744150429" name="EMPTOHOMEADDRESS" onDelete="NO ACTION" onUpdate="NO ACTION" members="RDBColumn_1032744150491" constraint="SQLConstraint_1032744150490">
+    <target href="WEB-INF/databases/Con3_WASBOOK_JAMSDEN_ADDRESS.tblxmi#SQLReference_1032744150429"/>
+  </namedGroup>
+  <namedGroup xmi:type="RDBSchema:RDBReferenceByKey" xmi:id="RDBReferenceByKey_1032744150439" name="DEPARTMENTFK" onDelete="NO ACTION" onUpdate="NO ACTION" members="RDBColumn_1032744150492" constraint="SQLConstraint_1032744150491">
+    <target href="WEB-INF/databases/Con3_WASBOOK_JAMSDEN_DEPARTMENT.tblxmi#SQLReference_1032744150439"/>
+  </namedGroup>
+  <constraints xmi:id="SQLConstraint_1032744150489" name="EMPLOYEEPK" type="PRIMARYKEY" primaryKey="SQLReference_1032744150469"/>
+  <constraints xmi:id="SQLConstraint_1032744150490" name="EMPTOHOMEADDRESS" type="FOREIGNKEY" referenceByKey="RDBReferenceByKey_1032744150429"/>
+  <constraints xmi:id="SQLConstraint_1032744150491" name="DEPARTMENTFK" type="FOREIGNKEY" referenceByKey="RDBReferenceByKey_1032744150439"/>
+</RDBSchema:RDBTable>

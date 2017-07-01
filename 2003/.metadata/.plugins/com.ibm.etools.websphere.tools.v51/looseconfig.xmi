@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.etools.commonarchive.looseconfig:LooseConfiguration xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.ibm.etools.commonarchive.looseconfig="commonarchive.looseconfig.xmi">
+  <applications uri="C:\workSpasesNew\WSAD_Samples\wasbook" binariesPath="C:\workSpasesNew\WSAD_Samples\wasbook" resourcesPath="C:\workSpasesNew\WSAD_Samples\wasbook">
+    <looseArchives xsi:type="com.ibm.etools.commonarchive.looseconfig:LooseWARFile" uri="TimeApp.war" binariesPath="C:\workSpasesNew\WSAD_Samples\TimeApp\Web Content" resourcesPath="C:\workSpasesNew\WSAD_Samples\TimeApp\Web Content"/>
+    <looseArchives xsi:type="com.ibm.etools.commonarchive.looseconfig:LooseModule" uri="OIDGenerator.jar" binariesPath="C:\workSpasesNew\WSAD_Samples\OIDGenerator\ejbModule" resourcesPath="C:\workSpasesNew\WSAD_Samples\OIDGenerator\ejbModule"/>
+    <looseArchives xsi:type="com.ibm.etools.commonarchive.looseconfig:LooseModule" uri="TimeAppTestClient.jar" binariesPath="C:\workSpasesNew\WSAD_Samples\TimeAppTestClient\appClientModule" resourcesPath="C:\workSpasesNew\WSAD_Samples\TimeAppTestClient\appClientModule"/>
+    <looseArchives xsi:type="com.ibm.etools.commonarchive.looseconfig:LooseModule" uri="TimeSheetGroup.jar" binariesPath="C:\workSpasesNew\WSAD_Samples\TimeSheetGroup\ejbModule" resourcesPath="C:\workSpasesNew\WSAD_Samples\TimeSheetGroup\ejbModule"/>
+    <looseArchives xsi:type="com.ibm.etools.commonarchive.looseconfig:LooseLibrary" uri="TimeSheet-AppLogic.jar" binariesPath="C:\workSpasesNew\WSAD_Samples\TimeSheet-AppLogic\classes" resourcesPath="C:\workSpasesNew\WSAD_Samples\TimeSheet-AppLogic\classes"/>
+  </applications>
+</com.ibm.etools.commonarchive.looseconfig:LooseConfiguration>

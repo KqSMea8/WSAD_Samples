@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<webSphere-memento-map
+   CONFIG_MEMENTO_MAP_FILE_KEY_ID="WebSphere V5 Configuration Memento Map File"
+   CONFIG_NAME_KEY_ID="MDBSampleSvr" server-type="3">
+   <memento-map>
+      <memento-map-entry key="MDBSampleWeb.war" value="com.ibm.etools.webtools.server:MDBSampleWeb"/>
+      <memento-map-entry key="MDBSampleEJB.jar" value="com.ibm.etools.server.j2ee.ejb20:MDBSampleEJB"/>
+      <memento-map-entry key="MDBSample" value="com.ibm.etools.server.j2ee.ear13:MDBSample"/>
+   </memento-map>
+</webSphere-memento-map>

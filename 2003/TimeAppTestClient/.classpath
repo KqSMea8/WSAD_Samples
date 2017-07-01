@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+    <classpathentry kind="var"
+        path="SERVERJDK_50_PLUGINDIR/jre/lib/rt.jar"
+        rootpath="SERVERJDK_SRCROOT" sourcepath="SERVERJDK_50_PLUGINDIR/src.jar"/>
+    <classpathentry kind="src" path="appClientModule"/>
+    <classpathentry kind="var" path="WAS_50_PLUGINDIR/lib/j2ee.jar"/>
+    <classpathentry kind="var" path="WAS_50_PLUGINDIR/lib/ivjejb35.jar"/>
+    <classpathentry exported="true" kind="src" path="/TimeSheet-AppLogic"/>
+    <classpathentry exported="true" kind="src" path="/TimeSheetGroup"/>
+    <classpathentry exported="true" kind="lib" path="/wasbook/junit.jar"/>
+    <classpathentry kind="output" path="appClientModule"/>
+</classpath>

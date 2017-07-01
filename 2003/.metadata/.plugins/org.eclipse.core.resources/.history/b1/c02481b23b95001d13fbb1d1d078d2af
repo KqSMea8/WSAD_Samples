@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-modules id="moduleCoreId">
+    <wb-module deploy-name="WSUtilityClientJ2EE-EAR">
+        <module-type module-type-id="jst.ear">
+            <version>1.3</version>
+        </module-type>
+        <wb-resource deploy-path="/" source-path="/"/>
+        <dependent-module deploy-path="/" handle="module:/resource/WSUtilityClientJ2EE/WSUtilityClientJ2EE">
+            <dependent-object>JavaClientModule_1051409318360</dependent-object>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="WSUtilityClientJ2SE.jar" deploy-path="/" handle="module:/resource/WSUtilityClientJ2SE/WSUtilityClientJ2SE">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+    </wb-module>
+</project-modules>

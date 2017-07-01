@@ -1,0 +1,128 @@
+------Start of DE processing------ = [07.07.30 14:59:57:572 MSD] , key = com.ibm.ws.rsadapter.exceptions.DataStoreAdapterException com.ibm.ws.rsadapter.cci.WSInteractionImpl.execute 139
+Exception = com.ibm.ws.rsadapter.exceptions.DataStoreAdapterException
+Source = com.ibm.ws.rsadapter.cci.WSInteractionImpl.execute
+probeid = 139
+Stack Dump = com.ibm.ws.exception.WsException: DSRA0080E: An exception was received by the Data Store Adapter. See original exception message: [IBM][CLI Driver][DB2/NT] SQL0803N  One or more values in the INSERT statement, UPDATE statement, or foreign key update caused by a DELETE statement are not valid because the primary key, unique constraint or unique index identified by "1" constrains table "ISHAFFIGULIN.EMPLOYEEEJB" from having duplicate rows for those columns.  SQLSTATE=23505
+.
+	at com.ibm.ws.rsadapter.exceptions.DataStoreAdapterException.<init>(DataStoreAdapterException.java:244)
+	at com.ibm.ws.rsadapter.exceptions.DataStoreAdapterException.<init>(DataStoreAdapterException.java:171)
+	at com.ibm.ws.rsadapter.exceptions.DataStoreAdapterException.<init>(DataStoreAdapterException.java:124)
+	at com.wsbook.casestudy.ejb.websphere_deploy.DB2UDBNT_V8_1.EmployeeEJBBeanFunctionSet_96c219b7.Create(EmployeeEJBBeanFunctionSet_96c219b7.java:104)
+	at com.wsbook.casestudy.ejb.websphere_deploy.DB2UDBNT_V8_1.EmployeeEJBBeanFunctionSet_96c219b7.execute(EmployeeEJBBeanFunctionSet_96c219b7.java:532)
+	at com.ibm.ws.rsadapter.cci.WSInteractionImpl.execute(WSInteractionImpl.java:417)
+	at com.ibm.ws.rsadapter.cci.WSRelationalRAAdapter.executeCreate(WSRelationalRAAdapter.java:130)
+	at com.ibm.ws.ejbpersistence.dataaccess.DataAccessRequestImpl.execute(Unknown Source)
+	at com.ibm.ws.ejbpersistence.beanextensions.ConcreteBeanStatefulInstanceExtensionImpl.executeCreate(Unknown Source)
+	at com.ibm.ws.ejbpersistence.beanextensions.CBNotExistState.ejbCreate(Unknown Source)
+	at com.ibm.ws.ejbpersistence.beanextensions.ConcreteBeanStatefulInstanceExtensionImpl.ejbPostCreate(Unknown Source)
+	at com.wsbook.casestudy.ejb.ConcreteEmployeeEJB_96c219b7.ejbPostCreate(ConcreteEmployeeEJB_96c219b7.java:156)
+	at com.wsbook.casestudy.ejb.EJSCMPEmployeeEJBHomeBean_96c219b7.create_Local(EJSCMPEmployeeEJBHomeBean_96c219b7.java:35)
+	at com.wsbook.casestudy.ejb.EJSLocalCMPEmployeeEJBHome_96c219b7.create(EJSLocalCMPEmployeeEJBHome_96c219b7.java:55)
+	at com.wsbook.casestudy.mapping.ejb.EmployeeMapper.insert(EmployeeMapper.java:52)
+	at com.wsbook.casestudy.ejb.TimeSheetActionProcessorFacadeBean.addEmployee(TimeSheetActionProcessorFacadeBean.java:303)
+	at com.wsbook.casestudy.ejb.EJSRemoteStatelessTimeSheetActionProcessorFacade_7ee0ab51.addEmployee(EJSRemoteStatelessTimeSheetActionProcessorFacade_7ee0ab51.java:544)
+	at com.wsbook.casestudy.ejb._EJSRemoteStatelessTimeSheetActionProcessorFacade_7ee0ab51_Tie.addEmployee(_EJSRemoteStatelessTimeSheetActionProcessorFacade_7ee0ab51_Tie.java:560)
+	at com.wsbook.casestudy.ejb._EJSRemoteStatelessTimeSheetActionProcessorFacade_7ee0ab51_Tie._invoke(_EJSRemoteStatelessTimeSheetActionProcessorFacade_7ee0ab51_Tie.java:132)
+	at com.ibm.CORBA.iiop.ServerDelegate.dispatchInvokeHandler(ServerDelegate.java:602)
+	at com.ibm.CORBA.iiop.ServerDelegate.dispatch(ServerDelegate.java:455)
+	at com.ibm.rmi.iiop.ORB.process(ORB.java:402)
+	at com.ibm.CORBA.iiop.ORB.process(ORB.java:1685)
+	at com.ibm.rmi.iiop.Connection.doWork(Connection.java:2173)
+	at com.ibm.rmi.iiop.WorkUnitImpl.doWork(WorkUnitImpl.java:64)
+	at com.ibm.ejs.oa.pool.PooledThread.run(ThreadPool.java:95)
+	at com.ibm.ws.util.ThreadPool$Worker.run(ThreadPool.java:672)
+Caused by: COM.ibm.db2.jdbc.DB2Exception: [IBM][CLI Driver][DB2/NT] SQL0803N  One or more values in the INSERT statement, UPDATE statement, or foreign key update caused by a DELETE statement are not valid because the primary key, unique constraint or unique index identified by "1" constrains table "ISHAFFIGULIN.EMPLOYEEEJB" from having duplicate rows for those columns.  SQLSTATE=23505
+
+	at COM.ibm.db2.jdbc.app.SQLExceptionGenerator.throw_SQLException(SQLExceptionGenerator.java:270)
+	at COM.ibm.db2.jdbc.app.SQLExceptionGenerator.throw_SQLException(SQLExceptionGenerator.java:207)
+	at COM.ibm.db2.jdbc.app.SQLExceptionGenerator.check_return_code(SQLExceptionGenerator.java:458)
+	at COM.ibm.db2.jdbc.app.DB2PreparedStatement.execute2(DB2PreparedStatement.java:2110)
+	at COM.ibm.db2.jdbc.app.DB2PreparedStatement.executeUpdate(DB2PreparedStatement.java:1642)
+	at com.wsbook.casestudy.ejb.websphere_deploy.DB2UDBNT_V8_1.EmployeeEJBBeanFunctionSet_96c219b7.Create(EmployeeEJBBeanFunctionSet_96c219b7.java:99)
+	... 23 more
+---- Begin backtrace for nested exception
+COM.ibm.db2.jdbc.DB2Exception: [IBM][CLI Driver][DB2/NT] SQL0803N  One or more values in the INSERT statement, UPDATE statement, or foreign key update caused by a DELETE statement are not valid because the primary key, unique constraint or unique index identified by "1" constrains table "ISHAFFIGULIN.EMPLOYEEEJB" from having duplicate rows for those columns.  SQLSTATE=23505
+
+	at COM.ibm.db2.jdbc.app.SQLExceptionGenerator.throw_SQLException(SQLExceptionGenerator.java:270)
+	at COM.ibm.db2.jdbc.app.SQLExceptionGenerator.throw_SQLException(SQLExceptionGenerator.java:207)
+	at COM.ibm.db2.jdbc.app.SQLExceptionGenerator.check_return_code(SQLExceptionGenerator.java:458)
+	at COM.ibm.db2.jdbc.app.DB2PreparedStatement.execute2(DB2PreparedStatement.java:2110)
+	at COM.ibm.db2.jdbc.app.DB2PreparedStatement.executeUpdate(DB2PreparedStatement.java:1642)
+	at com.wsbook.casestudy.ejb.websphere_deploy.DB2UDBNT_V8_1.EmployeeEJBBeanFunctionSet_96c219b7.Create(EmployeeEJBBeanFunctionSet_96c219b7.java:99)
+	at com.wsbook.casestudy.ejb.websphere_deploy.DB2UDBNT_V8_1.EmployeeEJBBeanFunctionSet_96c219b7.execute(EmployeeEJBBeanFunctionSet_96c219b7.java:532)
+	at com.ibm.ws.rsadapter.cci.WSInteractionImpl.execute(WSInteractionImpl.java:417)
+	at com.ibm.ws.rsadapter.cci.WSRelationalRAAdapter.executeCreate(WSRelationalRAAdapter.java:130)
+	at com.ibm.ws.ejbpersistence.dataaccess.DataAccessRequestImpl.execute(Unknown Source)
+	at com.ibm.ws.ejbpersistence.beanextensions.ConcreteBeanStatefulInstanceExtensionImpl.executeCreate(Unknown Source)
+	at com.ibm.ws.ejbpersistence.beanextensions.CBNotExistState.ejbCreate(Unknown Source)
+	at com.ibm.ws.ejbpersistence.beanextensions.ConcreteBeanStatefulInstanceExtensionImpl.ejbPostCreate(Unknown Source)
+	at com.wsbook.casestudy.ejb.ConcreteEmployeeEJB_96c219b7.ejbPostCreate(ConcreteEmployeeEJB_96c219b7.java:156)
+	at com.wsbook.casestudy.ejb.EJSCMPEmployeeEJBHomeBean_96c219b7.create_Local(EJSCMPEmployeeEJBHomeBean_96c219b7.java:35)
+	at com.wsbook.casestudy.ejb.EJSLocalCMPEmployeeEJBHome_96c219b7.create(EJSLocalCMPEmployeeEJBHome_96c219b7.java:55)
+	at com.wsbook.casestudy.mapping.ejb.EmployeeMapper.insert(EmployeeMapper.java:52)
+	at com.wsbook.casestudy.ejb.TimeSheetActionProcessorFacadeBean.addEmployee(TimeSheetActionProcessorFacadeBean.java:303)
+	at com.wsbook.casestudy.ejb.EJSRemoteStatelessTimeSheetActionProcessorFacade_7ee0ab51.addEmployee(EJSRemoteStatelessTimeSheetActionProcessorFacade_7ee0ab51.java:544)
+	at com.wsbook.casestudy.ejb._EJSRemoteStatelessTimeSheetActionProcessorFacade_7ee0ab51_Tie.addEmployee(_EJSRemoteStatelessTimeSheetActionProcessorFacade_7ee0ab51_Tie.java:560)
+	at com.wsbook.casestudy.ejb._EJSRemoteStatelessTimeSheetActionProcessorFacade_7ee0ab51_Tie._invoke(_EJSRemoteStatelessTimeSheetActionProcessorFacade_7ee0ab51_Tie.java:132)
+	at com.ibm.CORBA.iiop.ServerDelegate.dispatchInvokeHandler(ServerDelegate.java:602)
+	at com.ibm.CORBA.iiop.ServerDelegate.dispatch(ServerDelegate.java:455)
+	at com.ibm.rmi.iiop.ORB.process(ORB.java:402)
+	at com.ibm.CORBA.iiop.ORB.process(ORB.java:1685)
+	at com.ibm.rmi.iiop.Connection.doWork(Connection.java:2173)
+	at com.ibm.rmi.iiop.WorkUnitImpl.doWork(WorkUnitImpl.java:64)
+	at com.ibm.ejs.oa.pool.PooledThread.run(ThreadPool.java:95)
+	at com.ibm.ws.util.ThreadPool$Worker.run(ThreadPool.java:672)
+
+Dump of callerThis = 
+Object type = com.ibm.ws.rsadapter.cci.WSInteractionImpl
+com.ibm.ws.rsadapter.cci.WSInteractionImpl@3d7e990a
+
+==> Performing default dump from com.ibm.ws.rsadapter.DiagnosticModuleForAdapter  = Mon Jul 30 14:59:57 MSD 2007
+This is a FFDC log generated for the Default Resource Adapter from source = com.ibm.ws.rsadapter.cci.WSInteractionImpl.execute
+The exception caught = com.ibm.ws.rsadapter.exceptions.DataStoreAdapterException: DSRA0080E: An exception was received by the Data Store Adapter. See original exception message: [IBM][CLI Driver][DB2/NT] SQL0803N  One or more values in the INSERT statement, UPDATE statement, or foreign key update caused by a DELETE statement are not valid because the primary key, unique constraint or unique index identified by "1" constrains table "ISHAFFIGULIN.EMPLOYEEEJB" from having duplicate rows for those columns.  SQLSTATE=23505
+.
+Operating System = Windows 2000 5.0 x86
+Classpath = C:\Program Files\IBM\WebSphere Studio\runtimes\base_v51/properties;C:\Program Files\IBM\WebSphere Studio\runtimes\base_v51/properties;C:\Program Files\IBM\WebSphere Studio\runtimes\base_v51/lib/bootstrap.jar;C:\Program Files\IBM\WebSphere Studio\runtimes\base_v51/lib/j2ee.jar;C:\Program Files\IBM\WebSphere Studio\runtimes\base_v51/lib/lmproxy.jar;C:\Program Files\IBM\WebSphere Studio\runtimes\base_v51/lib/urlprotocols.jar;C:/Program Files/IBM/WebSphere Studio/wstools/eclipse/plugins/com.ibm.etools.websphere.tools.common_5.1.1.1/runtime/wteServers.jar;C:/Program Files/IBM/WebSphere Studio/wstools/eclipse/plugins/com.ibm.etools.websphere.tools.common_5.1.1.1/runtime/wasToolsCommon.jar
+Ext dirs = C:\Program Files\IBM\WebSphere Studio\runtimes\base_v51\java\jre\lib\ext
+Other related data. If null, nothing was passed in = 
+null
+
+The Objects' instance variables are printed below recursively 2 levels deep = 
+Object type = com.ibm.ws.rsadapter.cci.WSInteractionImpl
+  class$javax$resource$cci$IndexedRecord = null
+  class$com$ibm$websphere$rsadapter$WSInteractionSpec = null
+  class$com$ibm$ws$rsadapter$cci$WSInteractionImpl = 
+    class$java$lang$Class = java.lang.Class@2297d99b
+    initted = true
+    reflectionFactory = sun.reflect.ReflectionFactory@3f445918
+    serialPersistentFields = {}
+    serialVersionUID = 3206093459760846163
+    declaredPublicMethods = null
+    declaredPublicFields = null
+    publicConstructors = null
+    declaredConstructors = null
+    publicMethods = null
+    declaredMethods = null
+    publicFields = null
+    declaredFields = java.lang.ref.SoftReference@3610190e
+    useCaches = true
+    allPermDomain = java.security.ProtectionDomain@16d0190d
+    getPDperm = null
+    newInstanceCallerCache = null
+    cachedConstructor = null
+    have_extensions = true
+  batchRead = false
+  isClosed = false
+  cciConn = com.ibm.ws.rsadapter.cci.WSRdbConnectionImpl@3ea6190a
+  tc = 
+    ivLogger = null
+    ivResourceBundleName = IBMDataStoreAdapterNLS
+    ivDumpEnabled = false
+    defaultMessageFile = com.ibm.ejs.resources.seriousMessages
+    ivEntryEnabled = false
+    ivEventEnabled = false
+    ivDebugEnabled = false
+    ivName = com.ibm.ws.rsadapter.cci.WSInteractionImpl
+
++Data for directive [defaultadapter] obtained. = 
+==> Dump complete for com.ibm.ws.rsadapter.DiagnosticModuleForAdapter  = Mon Jul 30 14:59:57 MSD 2007

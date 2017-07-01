@@ -1,0 +1,10 @@
+<webappext:WebAppExtension xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:webappext="webappext.xmi" xmlns:webapplication="webapplication.xmi" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmi:id="WebAppExtension_1"
+  reloadInterval="3"
+  reloadingEnabled="false"
+  defaultErrorPage="error.jsp"
+  additionalClassPath="C:\workSpasesNew\WSAD_Samples\wasbook\junit.jar;C:\workSpasesNew\WSAD_Samples\TimeSheet-AppLogic\classes;C:/workSpasesNew/WSAD_Samples/CoreServletsWAR/WebContent/WEB-INF/classes;C:/workSpasesNew/WSAD_Samples/TimeApp/Web Content/WEB-INF/classes;C:/workSpasesNew/WSAD_Samples/TimeApp/Web Content/WEB-INF/lib/aspectjrt.jar;C:/workSpasesNew/WSAD_Samples/TimeApp/Web Content/WEB-INF/lib/cactus.jar;C:/workSpasesNew/WSAD_Samples/TimeApp/Web Content/WEB-INF/lib/httpunit.jar;C:/workSpasesNew/WSAD_Samples/TimeApp/Web Content/WEB-INF/lib/junit.jar;C:/workSpasesNew/WSAD_Samples/TimeApp/Web Content/WEB-INF/lib/junitee.jar;C:/workSpasesNew/WSAD_Samples/TimeApp/Web Content/WEB-INF/lib/log4j-1.2rc1.jar;C:/workSpasesNew/WSAD_Samples/TimeApp/Web Content/WEB-INF/lib/struts.jar;C:/workSpasesNew/WSAD_Samples/OIDGenerator/ejbModule;C:\workSpasesNew\WSAD_Samples\TimeAppTestClient\appClientModule;C:/workSpasesNew/WSAD_Samples/TimeSheetGroup/ejbModule"
+  fileServingEnabled="true"
+  directoryBrowsingEnabled="false"
+  serveServletsByClassnameEnabled="false">
+	<webApp href="WEB-INF/web.xml#WebApp"/>
+</webappext:WebAppExtension>
